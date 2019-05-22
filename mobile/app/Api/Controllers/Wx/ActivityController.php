@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace App\Api\Controllers\Wx;
 
 class ActivityController extends \App\Api\Controllers\Controller

@@ -1,5 +1,4 @@
 <?php
-//websc 
 class smtp
 {
 	public $connection;

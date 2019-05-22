@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 function get_list_download($goods_sn = '', $warehouse_info = array(), $attr_info, $attr_num, $model = 0)
 {
 	$goods_date = array('model_attr');

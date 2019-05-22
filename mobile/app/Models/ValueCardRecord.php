@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace App\Models;
 
 class ValueCardRecord extends \Illuminate\Database\Eloquent\Model

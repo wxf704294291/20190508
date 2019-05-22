@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function sub_str($str, $length = 0, $append = true, $start = 0)
 {
 	$str = trim($str);

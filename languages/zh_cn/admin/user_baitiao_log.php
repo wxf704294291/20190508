@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 $_LANG['bt_ur_here'] = '设置会员白条额度';
 $_LANG['bt_list'] = '白条列表';
 $_LANG['bt_details'] = '白条详情';

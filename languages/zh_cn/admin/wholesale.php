@@ -58,7 +58,7 @@ $_LANG['pls_set_user_rank'] = '请设置会员等级';
 $_LANG['user_rank_exist'] = '已经存在该商品针对您选择的会员等级的批发方案了';
 
 
-//ecmoban模板堂 --zhuo start
+        start
 $_LANG['warehouse_spec_price'] = '仓库属性价格'; 
 $_LANG['area_spec_price'] = '地区属性价格'; 
 $_LANG['add_attr_img'] = '添加属性图片'; 
@@ -66,6 +66,6 @@ $_LANG['confirm_drop_img'] = '你确认要删除该图标吗？';
 $_LANG['drop_attr_img'] = '删除图标';
 $_LANG['drop_attr_img_success'] = '删除属性图片成功';
 $_LANG['exist_same_product_sn'] = '货品货号重复';
-//ecmoban模板堂 --zhuo end
+        end
 
 ?>

@@ -1,5 +1,5 @@
 <?php
- //websc
+        
 function getfiles($path, &$files = array())
 {
 	if (!is_dir($path)) {

@@ -1,5 +1,5 @@
 <?php
-//websc独家更新版 Q群541247070
+    
 define('IN_ECS', true);
 define('INIT_NO_SMARTY', true);
 require dirname(__FILE__) . '/includes/init.php';

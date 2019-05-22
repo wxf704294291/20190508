@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC商城资源  禁止倒卖 一经发现停止任何服务
+//zend WEBSC商城资源         
 define('IN_ECS', true);
 define('INIT_NO_SMARTY', true);
 require dirname(__FILE__) . '/includes/init.php';

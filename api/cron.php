@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 function get_next_time($cron)
 {
 	$y = local_date('Y', $GLOBALS['timestamp']);

@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC商城资源  禁止倒卖 一经发现停止任何服务
+//zend WEBSC商城资源         
 namespace App\Modules\Chat\Controllers;
 
 class LoginController extends \App\Modules\Base\Controllers\FrontendController

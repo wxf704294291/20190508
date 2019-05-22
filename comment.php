@@ -1,5 +1,5 @@
 <?php
-//WEBSC商城资源  禁止倒卖 一经发现停止任何服务
+//WEBSC商城资源         
 function add_comment($cmt)
 {
 	$status = 1 - $GLOBALS['_CFG']['comment_check'];

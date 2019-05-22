@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function get_data_list($type = 0)
 {
 	if ($type != 0) {

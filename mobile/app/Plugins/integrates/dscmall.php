@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 class dscmall extends \App\Libraries\Integrate
 {
 	private $is_ecshop = 1;

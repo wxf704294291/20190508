@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC商城资源  禁止倒卖 一经发现停止任何服务
+//zend WEBSC商城资源         
 $_LANG['add_psi_warehouse'] = '新增仓库';
 $_LANG['select_warehouse'] = '选择仓库';
 $_LANG['select_supplier'] = '选择供应商';

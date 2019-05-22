@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function get_ip_area_name($ip = '', $api = 0)
 {
 	if ($ip == '') {

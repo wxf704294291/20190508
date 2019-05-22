@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function move_temporary_files($ids = '', $dir = '')
 {
 	if (empty($ids) || empty($dir)) {

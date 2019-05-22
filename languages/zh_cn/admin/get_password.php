@@ -1,5 +1,5 @@
 <?php
-//websc独家更新版 Q群541247070
+    
 $_LANG['user_name'] = '管理员用户名';
 $_LANG['email'] = 'Email地址';
 $_LANG['enter_admin_pwd'] = '管理员新密码';

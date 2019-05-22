@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace app\model;
 
 abstract class regionModel extends \app\func\common

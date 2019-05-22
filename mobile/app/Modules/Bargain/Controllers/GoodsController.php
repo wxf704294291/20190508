@@ -403,7 +403,7 @@ class GoodsController extends FrontendController
             } else {
                 $res['qty'] = $number;
             }
-            //ecmoban模板堂 --zhuo start
+                    start
             $products = get_warehouse_id_attr_number($goods['goods_id'], $_REQUEST['attr'], $goods['user_id'], $warehouse_id, $area_id);
             $attr_number = $products['product_number'];
             if ($goods['model_attr'] == 1) {
@@ -440,7 +440,7 @@ class GoodsController extends FrontendController
             //限制用户购买的数量 bywanglu
             if($attr_id){
                 $shop_price = get_final_price($goods['goods_id'], $number, true, $attr_id, $warehouse_id, $area_id);
-                //ecmoban模板堂 --zhuo end
+                        end
                 $res['shop_price'] = price_format($shop_price);
                 $res['market_price'] = $goods['market_price'];
 
@@ -606,7 +606,7 @@ class GoodsController extends FrontendController
         /* 更新：清空购物车中所有团购商品 */
         clear_cart(CART_BARGAIN_GOODS);
 
-        //ecmoban模板堂 --zhuo start
+                start
 
         $area_info = get_area_info($this->province_id);
         $this->area_id = $area_info['region_id'];
@@ -638,12 +638,12 @@ class GoodsController extends FrontendController
             'goods_number' => $number,
             'goods_attr' => addslashes($goods_attr),
             'goods_attr_id' => $specs,
-            //ecmoban模板堂 --zhuo start
+                    start
             'ru_id' => $goods['user_id'],
             'warehouse_id' => $this->region_id,
             'area_id' => $this->area_id,
             'add_time' => gmtime(),
-            //ecmoban模板堂 --zhuo end
+                    end
             'is_real' => $goods['is_real'],
             'extension_code' => addslashes($goods['extension_code']),
             'parent_id' => 0,

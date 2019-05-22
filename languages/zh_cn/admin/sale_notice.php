@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
+    
 $_LANG['comment_id'] = '编号';
 $_LANG['user_name'] = '用户名';
 $_LANG['from'] = '于';

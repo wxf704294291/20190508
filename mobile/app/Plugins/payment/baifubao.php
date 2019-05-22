@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 class baifubao
 {}
 

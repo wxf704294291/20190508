@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 function utf82u2($str)
 {
 	$len = strlen($str);

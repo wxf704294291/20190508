@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function flow_available_points($cart_value, $warehouse_id = 0, $area_id = 0, $area_city = 0)
 {
 	if (!empty($_SESSION['user_id'])) {

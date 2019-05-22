@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 class integrate
 {
 	public $db_host = '';

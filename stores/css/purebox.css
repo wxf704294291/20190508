@@ -8,8 +8,8 @@
 .pb-bd .pb-ct:after,.pb-bd .pb-ct:before{ content: ".";display: block;height: 0;clear: both;visibility: hidden;}
 .pb-ft{ overflow:hidden; position:relative; text-align:center; padding:20px 0;}
 .pb-ft .pb-btn{ border:1px solid #ccc; height:28px; line-height:28px; display:inline-block; padding:0 15px; color:#707070; border-radius:3px; cursor:pointer; font-size:14px;}
-.pb-ft .pb-ok{ margin-right:15px; border-color:#ec5151; background-color:#ec5051; color:#fff;}
-.pb-ft .pb-cl{ border-color:#ec5151; color:#ec5151;}
+.pb-ft .pb-ok{ margin-right:15px; border-color:#2D3947; background-color:#2D3947; color:#fff;}
+.pb-ft .pb-cl{ border-color:#2D3947; color:#2D3947;}
 .cboxContent .org{ color:#fce208;}
 
 #pick_goods .pb-hd .pb-title{ background-position:-1px 0;}
@@ -43,7 +43,7 @@
 .dialog_content .bg_yuan2{ position:absolute; background:url(../images/yuan2.png) no-repeat; width:59px; height:19px; display:block; right:20px; top:-30px;}
 .dialog_foot{ text-align:center; padding:18px 0; background:#fff; border-radius:0 0 5px 5px;}
 .dialog_foot a{ margin-right:30px; display:inline-block; padding-left:20px; background:url(../images/jit.png) 0 2px no-repeat; color:#000;}
-.dialog_foot a:hover{ color:#ec5151;}
+.dialog_foot a:hover{ color:#2D3947;}
 .dialog_foot a:last-child{ margin-right:0;}
 .dialog_buttons_bar{ color:#fff; position:absolute; top:119px; left:195px;}
 
@@ -63,7 +63,7 @@
 .tip-box h3{ font-family: 'microsoft yahei';font-size: 16px;line-height: 30px;padding:0;}
 .tip-box h3.rem{ line-height:48px;}
 .tip-box .op-btns{ margin-top: 20px;}
-.ftx-01{ color:#f42424;}
+.ftx-01{ color:#0AADCC;}
 .ftx-04{ color:#f68a00;}
 .ftx-16{ color:#7abd54;}
 #pbDialog .pb-hd{ position: relative;padding: 0 16px;height: 35px;line-height: 35px;background: #f3f3f3; text-align: left;}

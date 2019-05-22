@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 $_LANG['sender_id'] = '留言者';
 $_LANG['receiver_id'] = '接收者';
 $_LANG['send_date'] = '发送日期';

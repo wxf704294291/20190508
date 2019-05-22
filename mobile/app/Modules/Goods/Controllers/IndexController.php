@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace App\Modules\Goods\Controllers;
 
 class IndexController extends \App\Modules\Base\Controllers\FrontendController

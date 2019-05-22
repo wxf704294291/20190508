@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace App\Modules\Base\Controllers;
 
 abstract class FoundationController extends \Think\Controller\RestController

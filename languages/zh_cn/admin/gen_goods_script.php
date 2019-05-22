@@ -1,5 +1,5 @@
 <?php
-//websc独家更新版 Q群541247070
+    
 $_LANG['label_category'] = '选择商品分类：';
 $_LANG['label_brand'] = '选择商品品牌：';
 $_LANG['label_intro_type'] = '选择推荐类型：';

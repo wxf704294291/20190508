@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 $user_id = isset($_REQUEST['user_id']) ? $base->get_intval($_REQUEST['user_id']) : -1;
 $open_id = isset($_REQUEST['open_id']) ? $base->get_addslashes($_REQUEST['open_id']) : -1;
 $val = array('user_id' => $user_id, 'open_id' => $open_id, 'connect_select' => $data, 'page_size' => $page_size, 'page' => $page, 'sort_by' => $sort_by, 'sort_order' => $sort_order, 'format' => $format);

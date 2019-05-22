@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 function cut_str($string, $sublen, $start = 0, $code = 'gbk')
 {
 	if ($code == 'utf-8') {

@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function upload_article_file($upload, $file = '')
 {
 	if (!make_dir('../' . DATA_DIR . '/gallery_album')) {

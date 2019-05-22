@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 function patch_list($patch_url, $current_version)
 {
 	$metadata_str = Http::doGet($patch_url);

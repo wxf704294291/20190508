@@ -17,8 +17,8 @@
 .pb-bd .pb-ct:after,.pb-bd .pb-ct:before{ content: ".";display: block;height: 0;clear: both;visibility: hidden;}
 .pb-ft{ overflow:hidden; position:relative; text-align:center; padding:20px 0;}
 .pb-ft .pb-btn{ border:1px solid #ccc; height:28px; line-height:28px; display:inline-block; padding:0 15px; color:#707070; border-radius:3px; cursor:pointer; font-size:14px;}
-.pb-ft .pb-ok{ margin-right:15px; border-color:#ec5151; background-color:#ec5051; color:#fff;}
-.pb-ft .pb-cl{ border-color:#ec5151; color:#ec5151;}
+.pb-ft .pb-ok{ margin-right:15px; border-color:#2D3947; background-color:#2D3947; color:#fff;}
+.pb-ft .pb-cl{ border-color:#2D3947; color:#2D3947;}
 
 .prompt{ margin-bottom:10px;}
 .prompt h4{ margin-top:15px;}
@@ -123,7 +123,7 @@
 #goodsMobile .albumContent li .img-container{ width: 98px;height: 98px;display: table-cell;vertical-align: middle;text-align: center;}
 #goodsMobile .albumContent li .img-container img { max-height: 100%;max-width: 100%;height: auto;vertical-align: middle;border: 0;-ms-interpolation-mode: bicubic;}
 #goodsMobile .albumContent li .checked{ display:none; position:absolute; width:15px; height:15px; top:0; right:0; background:url(../images/admin-icon.png) -403px -429px no-repeat;}
-#goodsMobile .albumContent li.current{ border-color:#ec5151;}
+#goodsMobile .albumContent li.current{ border-color:#2D3947;}
 #goodsMobile .albumContent li.current .checked{ display:block;}
 
 #goodsMobile .albumContent .dialogTextarea{ border:1px solid #dedede; width:743px; height:250px; resize:none; padding:10px;}

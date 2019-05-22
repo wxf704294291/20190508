@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
+    
 $_LANG['homepage_changefreq'] = '首页更新频率';
 $_LANG['category_changefreq'] = '分类页更新频率';
 $_LANG['content_changefreq'] = '内容页更新频率';

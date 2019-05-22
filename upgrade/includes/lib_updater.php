@@ -1,5 +1,5 @@
 <?php
-//websc 禁止倒卖 一经发现停止任何服务
+               
 function get_needup_version_list($old_version, $new_version)
 {
 	$old_version = explode(' ', $old_version);

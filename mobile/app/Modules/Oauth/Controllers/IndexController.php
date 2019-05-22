@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace App\Modules\Oauth\Controllers;
 
 class IndexController extends \App\Modules\Base\Controllers\FrontendController

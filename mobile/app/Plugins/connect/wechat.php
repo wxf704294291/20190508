@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 class wechat
 {
 	private $wechat = '';
@@ -68,7 +68,7 @@ if (isset($set_modules) && $set_modules == true) {
 	$modules[$i]['className'] = 'wechat';
 	$modules[$i]['author'] = 'ECTouch';
 	$modules[$i]['qq'] = '800007167';
-	$modules[$i]['email'] = 'support@ecmoban.com';
+	$modules[$i]['email'] = 'support@flyobd.com';
 	$modules[$i]['website'] = 'http://open.weixin.qq.com';
 	$modules[$i]['version'] = '2.0';
 	$modules[$i]['date'] = '2017-03-22';

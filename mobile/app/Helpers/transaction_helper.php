@@ -1,5 +1,5 @@
 <?php
- //websc 
+         
 function edit_profile($profile)
 {
 	if (empty($profile['user_id'])) {

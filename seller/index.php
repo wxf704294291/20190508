@@ -1,5 +1,5 @@
 <?php
-//websc 禁止倒卖 一经发现停止任何服务
+               
 function get_sales($day_num)
 {
 	$adminru = get_admin_ru_id();

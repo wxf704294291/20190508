@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace App\Models;
 
 class Cart extends \Illuminate\Database\Eloquent\Model

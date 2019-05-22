@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function return_url($code)
 {
 	$url = $GLOBALS['ecs']->url();

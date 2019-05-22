@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 function warehouse_product_list($goods_id = 0)
 {
 	$result = get_filter();

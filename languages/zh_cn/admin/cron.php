@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 $_LANG['cron_name'] = '计划任务名称';
 $_LANG['cron_code'] = '此计划任务';
 $_LANG['if_open'] = '开启';

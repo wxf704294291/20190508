@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function get_consignee_list_p($user_id, $id = 0, $num = 10, $start = 0)
 {
 	if ($id) {

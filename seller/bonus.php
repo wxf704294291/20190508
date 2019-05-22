@@ -1,5 +1,5 @@
 <?php
-//websc独家更新版 Q群541247070
+    
 function get_type_list($ru_id)
 {
 	$sql = 'SELECT bonus_type_id, COUNT(*) AS sent_count' . ' FROM ' . $GLOBALS['ecs']->table('user_bonus') . ' GROUP BY bonus_type_id';

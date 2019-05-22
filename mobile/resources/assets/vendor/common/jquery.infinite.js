@@ -1,7 +1,7 @@
 /** 
  @Name：ECTouch infinite js v0.1
  $Author：carson
- $Site：http://www.ectouch.cn
+ $Site：http://www.flyobd.com
  @Date：2016-01-16
  @License：MIT
  $('.aa').infinite({url:'', params:'a=b&c=d'})

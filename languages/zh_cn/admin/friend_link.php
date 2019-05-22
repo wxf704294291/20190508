@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 $_LANG['link_id'] = '编号';
 $_LANG['link_name'] = '链接名称';
 $_LANG['link_url'] = '链接地址';

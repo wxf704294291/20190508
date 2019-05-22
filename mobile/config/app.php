@@ -47,7 +47,7 @@ return [
     'fallback_locale' => 'en-us',
 
     // 商城URL
-    'SHOP_URL' => 'http://shop.ectouch.cn/b2c/',
+    'SHOP_URL' => 'http://shop.flyobd.com/b2c/',
 
     // 微信小程序
     'WX_MINI_APPID' => '',

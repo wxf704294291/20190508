@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 function bargain_get_product_info_by_attr($bargain_id = 0, $goods_id = 0, $attr_arr = array(), $goods_model = 0, $region_id = 0)
 {
 	if (!empty($attr_arr)) {

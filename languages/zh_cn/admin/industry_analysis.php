@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 $_LANG['integrate_name'] = '名称';
 $_LANG['integrate_stats'] = '行业分析概况';
 $_LANG['order_total'] = '订单金额';

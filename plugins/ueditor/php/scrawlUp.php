@@ -1,5 +1,5 @@
 <?php
- //websc
+        
 function delDir($dir)
 {
 	$dh = opendir($dir);

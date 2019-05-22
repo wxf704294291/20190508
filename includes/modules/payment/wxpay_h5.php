@@ -26,9 +26,9 @@ if (isset($set_modules) && $set_modules == TRUE) {
     /* 是否支持在线支付 */
     $modules[$i]['is_online'] = '1';
     /* 作者 */
-    $modules[$i]['author'] = 'www.websc.la';
+    $modules[$i]['author'] = 'www.flyobd.com';
     /* 网址 */
-    $modules[$i]['website'] = 'http://www.websc.la/';
+    $modules[$i]['website'] = 'http://www.flyobd.com/';
     /* 版本号 */
     $modules[$i]['version'] = '3.3';
     /* 配置信息 */

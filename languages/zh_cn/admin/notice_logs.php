@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC商城资源  禁止倒卖 一经发现停止任何服务
+//zend WEBSC商城资源         
 $_LANG['log_id'] = '编号';
 $_LANG['log_time'] = '操作日期';
 $_LANG['user_id'] = '操作者';

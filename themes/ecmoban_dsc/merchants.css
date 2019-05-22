@@ -185,13 +185,13 @@ a.d-offline {background: url(images/im20131028.png) no-repeat scroll 0 0 rgba(0,
 .merContent .left .mt h2{ background:#393939; height:52px; line-height:52px; font-size:24px; color:#fff; padding-left:25px;}
 .merContent .left .mc dt{ padding-left:25px; height:40px; line-height:40px; font-size:14px; color:#717171; font-weight:bold; border-bottom:1px solid #efefef;}
 .merContent .left .mc dd{ height:35px; line-height:35px; font-size:14px; padding-left:50px; border-bottom:1px solid #efefef;}
-.merContent .left .mc dd.curr a{ color:#ec5051;}
+.merContent .left .mc dd.curr a{ color:#2D3947;}
 .merContent .right{ width:905px; float:right;}
 .merContent .right .help-main{ overflow:hidden; position:relative;}
 .merContent .right .help-main img{ max-width:905px;}
 .help-main .temp{ margin-bottom:40px;}
 .help-main .mt{ background:url(images/mer_mtbg.jpg) center center no-repeat; margin-bottom:25px;}
-.help-main .mt h3{ width:150px; background:#fff; font-size:18px; line-height:20px; text-align:center; margin:0 auto; color:#ec5051;}
+.help-main .mt h3{ width:150px; background:#fff; font-size:18px; line-height:20px; text-align:center; margin:0 auto; color:#2D3947;}
 .help-main .title{ color:#333; font-size:18px; font-weight:bold;height: 24px;line-height: 24px;}
 .help-main .content{ font-size:14px; margin-top:10px;}
 .help-main .content p{ line-height:28px;}
@@ -207,7 +207,7 @@ a.d-offline {background: url(images/im20131028.png) no-repeat scroll 0 0 rgba(0,
 .help-main dl dt{ float:left; color:#333; font-weight:bold;}
 .help-main dl dd{ float:left; width:830px;}
 
-.merSteps{ width:100%; margin-top:20px; border-top:1px solid #ec5051; font-family:"microsoft yahei";}
+.merSteps{ width:100%; margin-top:20px; border-top:1px solid #2D3947; font-family:"microsoft yahei";}
 .merSteps .panel{ overflow:hidden; margin-top:15px;}
 .panel .panel-nav{ width:100%; float:left; background:#dcdcdc;}
 .panel .panel-nav .progress-item{ position:relative; display:block; text-align:center; float:left; font-size:16px; height:40px; line-height:40px; width:300px;}
@@ -215,9 +215,9 @@ a.d-offline {background: url(images/im20131028.png) no-repeat scroll 0 0 rgba(0,
 .panel .panel-nav .progress-item .progress-desc{ position:absolute; color:#fff; font-size:16px; left:130px;}
 .panel .panel-nav .progress-item .arrow-background,.panel .panel-nav .progress-item .arrow-foreground{ position: absolute;top: 0;right: -15px;width: 0;height: 0;border-width: 20px 0 20px 15px;border-style: dashed dashed dashed solid;border-color: transparent transparent transparent #dcdcdc;font-size: 0;line-height: 0;z-index: 1;}
 .panel .panel-nav .progress-item .arrow-background{ right: -17px;top: -2px;border-left-color: #FFF;border-width: 22px 0 22px 17px;}
-.panel .panel-nav .ongoing{ background:#ec5051;}
-.panel .panel-nav .ongoing .number{ color:#ec5051;}
-.panel .panel-nav .ongoing .arrow-foreground{ border-left-color:#ec5051;}
+.panel .panel-nav .ongoing{ background:#2D3947;}
+.panel .panel-nav .ongoing .number{ color:#2D3947;}
+.panel .panel-nav .ongoing .arrow-foreground{ border-left-color:#2D3947;}
 .panel .panel-nav .passed { background:#f5a7a8;}
 .panel .panel-nav .passed .number{ color:#f5a7a8;}
 .panel .panel-nav .passed .arrow-foreground{ border-left-color: #f5a7a8;}
@@ -234,20 +234,20 @@ a.d-offline {background: url(images/im20131028.png) no-repeat scroll 0 0 rgba(0,
 .panel .panel-content .agreement .item p{ line-height:28px; font-size:14px;}
 
 .panel .panel-body{ margin-bottom:25px;}
-.panel-body .cue{ color:#ec5051; width:100%; margin-top:10px;}
+.panel-body .cue{ color:#2D3947; width:100%; margin-top:10px;}
 .panel-body .panel-tit{ font-size:14px; font-weight:bold; color:#666; margin:0px 0 0 0;}
 .panel-body .list{ margin-top:20px;}
 .merSteps .panel:after,.panel .panel-body:after,.panel-body .list:after{ content: '';display: block;clear: both;height: 0;overflow: hidden;visibility: hidden;}
 .panel-body .item{ float:left; width:100%; margin-bottom:10px;}
 .panel-body .item .label{ float:left; width:180px; text-align:right; height:30px; line-height:30px;}
-.panel-body .item .label em,.value .value_warp .value_label em{ color:#ec5051;}
+.panel-body .item .label em,.value .value_warp .value_label em{ color:#2D3947;}
 .panel-body .item .value{ line-height:30px; float:left; margin-left:10px;}
 .panel-body .item .value font{ margin-left:10px;}
 .panel-body .item .value .value-item{ line-height:28px;}
 .panel-body .item .value .text{ width: 330px;height: 22px;border: 1px solid #d2d2d2;outline: 0;padding: 3px 0 3px 5px; float:left;}
 .panel-body .item .value .text-2{ width:151px; cursor:pointer; float:none;}
 .panel-body .item .value .text-3{ width:151px; padding-top:0; padding-bottom:0;}
-.panel-body .item .value .chakan{ color:#ec5051;}
+.panel-body .item .value .chakan{ color:#2D3947;}
 .panel-body .item .value .chakan:hover{ text-decoration:underline;}
 .panel-body .item .value select{ height:30px; line-height:30px; margin-right:16px; border: 1px solid #d2d2d2; width: 102px; float:left;}
 .panel-body .item .value select.select2{ width:130px;}
@@ -261,7 +261,7 @@ a.d-offline {background: url(images/im20131028.png) no-repeat scroll 0 0 rgba(0,
 .shopType{ overflow:hidden; width:100%;}
 .shopType .item-item{ float:left; width:100%; clear:both;}
 .item-item .item-warp{ overflow:hidden; margin-top:10px;}
-.item-item .item-warp a{ color:#ec5051;}
+.item-item .item-warp a{ color:#2D3947;}
 .item-item .item-warp .word{ float:left;text-align: right;width: 100px; margin-right:5px;}
 .item-item .item-warp label{ margin-left:10px; cursor:pointer;}
 .item-item .item-warp label input{ vertical-align:middle;}
@@ -269,9 +269,9 @@ a.d-offline {background: url(images/im20131028.png) no-repeat scroll 0 0 rgba(0,
 .item-item .item-warp .item-con input{ margin-top:5px;}
 
 .btn-group { margin-top: 70px;overflow:hidden;}
-.btn-group .btn{ border:0; padding:0 15px; height:34px; line-height:32px;*line-height:30px; cursor:pointer; border:1px solid #ec5051; outline:0;filter:chroma(color=#000000);
+.btn-group .btn{ border:0; padding:0 15px; height:34px; line-height:32px;*line-height:30px; cursor:pointer; border:1px solid #2D3947; outline:0;filter:chroma(color=#000000);
 }
-.btn-group .btn-w{ background:#fff; color:#ec5051; margin-right:20px;}
+.btn-group .btn-w{ background:#fff; color:#2D3947; margin-right:20px;}
 .btns{ border:0; height:30px; line-height:30px; padding:0 15px; background:#f68a00; width:auto; color:#fff; border-radius:4px; cursor:pointer;}
 .error{ color:#999;}
 .yel-tip{ margin:10px 0; line-height:25px;}
@@ -280,7 +280,7 @@ a.d-offline {background: url(images/im20131028.png) no-repeat scroll 0 0 rgba(0,
 .orange {color: #f7a750;}
 .orange2{ color:#f68a00;}
 .item .value-checkbox .value-item .ui-radio-label{ background-position: 10px 6px;}
-.verify{ float:left; margin-left:10px; color:#ec5051;}
+.verify{ float:left; margin-left:10px; color:#2D3947;}
 
 .table{ width:915px; margin:15px 0;}
 .table tbody { border: 1px solid #e5e5e5;}
@@ -306,7 +306,7 @@ a.d-offline {background: url(images/im20131028.png) no-repeat scroll 0 0 rgba(0,
 
 .panel .panel-content .pannel_end{ padding-bottom:20px; overflow:hidden;}
 .pannel_end .settled-state{ width:100%; height:40px; line-height:40px; text-align:center; border-bottom:1px solid #eeeeee; padding-bottom:10px;}
-.pannel_end .settled-state span{ font-size:24px; color:#ec5051;}
+.pannel_end .settled-state span{ font-size:24px; color:#2D3947;}
 .pannel_end h3.ordertitle{ font-size:14px; font-weight:bold; color:#666; margin:25px 0 15px;}
 .pannel_end .item{ width:100%; float:left; margin-bottom:8px;}
 .pannel_end .item .label{ float:left; width:182px; text-align:right;}
@@ -314,12 +314,12 @@ a.d-offline {background: url(images/im20131028.png) no-repeat scroll 0 0 rgba(0,
 
 .pannel_end .setted-footer{ text-align:center; padding-top:30px; float:left; width:100%; border-top:1px solid #eeeeee; margin-top:15px;}
 .pannel_end .setted-footer a{ color:#197de4; margin-right:10px;}
-.pannel_end .setted-footer a:hover{ color:#ec5051;}
+.pannel_end .setted-footer a:hover{ color:#2D3947;}
 
 
 
 /*弹出框*/
-#divSCA{ position: absolute;width: 560px;font-size: 12px;background: #fff;border: 2px solid #ec5051;z-index: 10001;display: none;}
+#divSCA{ position: absolute;width: 560px;font-size: 12px;background: #fff;border: 2px solid #2D3947;z-index: 10001;display: none;}
 #divSCA .divTitle{ width:100%; height:35px; line-height:35px; background:#f4f4f4; position:relative;}
 #divSCA .divTitle .tit{ float:left; margin-left:20px; color:#666;}
 #divSCA .divTitle .setps_closeDivA{cursor: pointer;display: block;position: absolute;z-index: 100000;top: 10px;right: 16px;overflow: hidden;width: 13px;height: 13px;background: url(images/dialog.png) no-repeat;font-size: 0;text-indent: -99999px;}

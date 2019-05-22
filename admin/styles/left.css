@@ -61,7 +61,7 @@ body {background: #075d85;}
 .ico2_09_crowdfunding{ background:url(../images/menu/menu1_09.png) 9px 0px no-repeat;} /*众筹 by wu*/
 .menu-item {font-size: 12px;height: 30px;line-height: 30px;display: block;font-weight: normal; background:#efefef}
 .menu-item a{font-size: 12px;height: 30px;line-height: 30px;display: block; color:#666;}
-.menu-item a:hover,.menu-item a.on{ background-color:#fff; text-decoration:none; color:#ec5051;}
+.menu-item a:hover,.menu-item a.on{ background-color:#fff; text-decoration:none; color:#2D3947;}
 #help-title {font-size: 14px;color: #000080;margin: 5px 0;padding: 0px;}
 #help-content {margin: 0;padding: 0;}
 .tips {color: #CC0000;}

@@ -1,5 +1,5 @@
 <?php
-//websc独家更新版 Q群541247070
+    
 $_LANG['list_all'] = '全部缺货登记信息';
 $_LANG['booking'] = '订购信息';
 $_LANG['id'] = '序号';

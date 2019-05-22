@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function wholesale_order_list()
 {
 	$adminru = get_admin_ru_id();

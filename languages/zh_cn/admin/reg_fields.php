@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC商城资源  禁止倒卖 一经发现停止任何服务
+//zend WEBSC商城资源         
 $_LANG['field_name'] = '会员注册项名称';
 $_LANG['field_order'] = '排序权值';
 $_LANG['field_display'] = '是否显示';

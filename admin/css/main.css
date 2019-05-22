@@ -8,7 +8,7 @@ body, ul, ol, li, dl, dt, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset { margin
 ul, ol, li { list-style-image: none; list-style-type: none; }
 h1, h2, h3, h4, h5, h6 { font-size: 12px; }
 a { color: #31b4e1; text-decoration: none; blr:expression(this.onFocus=this.blur()) }
-a:hover { color: #ec5051; text-decoration: none; }
+a:hover { color: #2D3947; text-decoration: none; }
 a img { border: none; }
 em, cite, th { font-style: normal; font-weight: normal; }
 table { border-collapse: collapse; border-spacing:0;}
@@ -22,7 +22,7 @@ input[type='submit']{ outline:0 none;}
 .fontweight{ font-weight:bold;}
 .overflow_view{ overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
 .fl_label{ display:inline-block; width:100px; text-align:right; float:left;}
-.li_color{ color:#ec5051}
+.li_color{ color:#2D3947}
 .input_select{ border-color: #dbdbdb; height: 30px; line-height: 30px; padding: 0 10px; }
 
 .iframe_body{ background-color:#f7f7f7;}
@@ -38,12 +38,12 @@ input[type='submit']{ outline:0 none;}
 .lie{ width:100%; float:left;}
 .hide{ display:none;}
 .show{ display:block;}
-.require-field{ color:#ec5151; margin-right:3px;}
+.require-field{ color:#2D3947; margin-right:3px;}
 .notic{ color:#909090; float:left; font-size:12px;}
 .fn_notic{/* padding-left:335px; float:none; */margin-left:0px; color:#909090;}
 .shop_special .notic{ padding-left:0px; float:left; margin-left:0px; color:#909090;}
 .blue_notic{ color:#62b3ff;}
-.red_notic{ color:#ec5151;}
+.red_notic{ color:#2D3947;}
 .bor-right-not{ border-right:0 !important;}
 .bf100{ width:100%;} 
 .bolang{ float:left;}
@@ -68,8 +68,8 @@ input[type='submit']{ outline:0 none;}
 .btn32{ height:30px; line-height:30px; padding:0 17px;}
 .btn35{ height:33px; line-height:33px; font-size:14px;}
 
-.btn_red{ border-color:#ec5151; color:#ec5151;}
-.red_btn{ background-color:#ec5151; color:#fff;border-color:#ec5151;}
+.btn_red{ border-color:#2D3947; color:#2D3947;}
+.red_btn{ background-color:#2D3947; color:#fff;border-color:#2D3947;}
 .red_btn_2{ background-color:#d43d3d; color:#fff;}
 
 .btn_blue{ border:1px solid #31b4e1; color:#31b4e1;}
@@ -106,7 +106,7 @@ input.btn35{ height:35px;}
 .textpadd{ padding:0 5px; min-width:80px; margin-right:0;}
 .textarea{ float:left; border:1px solid #dbdbdb; border-radius:2px; height:100px; padding:5px 10px; width:300px; resize:none; line-height:20px; margin-right:10px;}
 .button{ height:30px; border:0; line-height:28px; color:#fff; background:#62b3ff; padding:0 17px; border-radius:3px; cursor:pointer; outline:none;}
-.red_button{ background-color:#ec5151; border-color:#ec5151;}
+.red_button{ background-color:#2D3947; border-color:#2D3947;}
 
 .text_readonly{ background:#f7f7f7; box-shadow:none; text-shadow:none;}
 .text_readonly:focus{ border-color:#dbdbdb; color:#858586;}
@@ -339,7 +339,7 @@ input.btn35{ height:35px;}
 .ftx-03{ color:#62b3ff;}
 
 .org{ color:#f3a43d;}
-.red{ color:#ec5151 !important;}
+.red{ color:#2D3947 !important;}
 .blue3{ color:#31b4e1;}
 
 .green_bg{ background-color:#0C0}
@@ -378,7 +378,7 @@ input.btn35{ height:35px;}
 
 /*表单提示*/
 .form_prompt{ line-height:28px; float:left; font-size:12px;}
-.form_prompt .error,.form_prompt .label_error{/* margin-left:10px;*/ color:#ec5151;}
+.form_prompt .error,.form_prompt .label_error{/* margin-left:10px;*/ color:#2D3947;}
 .form_prompt .error .icon,.form_prompt .label_error .icon{ font-size:14px; margin-right:5px; float:none !important;}
 .form_prompt_block .error{ display:block;}
 input.error,textarea.error{ background-color: #FFF0F0;background-repeat: repeat;border: 1px dashed #E84C3D; border-radius:3px;}
@@ -430,7 +430,7 @@ input.error,textarea.error{ background-color: #FFF0F0;background-repeat: repeat;
 .admin-header-right .operate li .clear{ background-position:-234px 2px;}
 .admin-header-right .operate li .prompt{ background-position:-332px 1px;}
 .admin-header-right .operate i{ width:1px; height:20px; display:block; float:left; background-position:-19px -62px; margin:15px 5px 0;}
-.admin-header-right .operate s{text-decoration: inherit; width:18px; height:18px; border-radius:50%; background-color:#ec5051; color:#fff; position:absolute; top:4px; right:6px; text-align:center; z-index:999;}
+.admin-header-right .operate s{text-decoration: inherit; width:18px; height:18px; border-radius:50%; background-color:#2D3947; color:#fff; position:absolute; top:4px; right:6px; text-align:center; z-index:999;}
 
 .manager-menu{ display:none; position:absolute; width:204px; padding:10px 20px; top:50px; left:-118px; background:#fff; border-radius:0px 0px 5px 5px; box-shadow:0 0 4px rgba(0,0,0, 0.25);}
 .manager-menu .title{ width:100%; height:25px; line-height:25px; overflow:hidden; border-bottom:1px solid #e4eaec;}
@@ -442,7 +442,7 @@ input.error,textarea.error{ background-color: #FFF0F0;background-repeat: repeat;
 .manager-menu .quick_link{ margin-top:5px; overflow:hidden;}
 .manager-menu .quick_link li{ float:left; width:102px; height:25px; line-height:25px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
 .manager-menu .quick_link li a{ color:#666; display:block;}
-.manager-menu .quick_link li a:hover{ color:#ec5051;}
+.manager-menu .quick_link li a:hover{ color:#2D3947;}
 
 .start_home .admin-main-left,.start_home .admin-main-left .admincj_nav{ width:64px;}
 .start_home .admin-main-left .top-border .sub-side{ display:none;}
@@ -606,7 +606,7 @@ input.error,textarea.error{ background-color: #FFF0F0;background-repeat: repeat;
 
 .contentWarp .explanation{ margin-bottom:20px; padding:15px 13px;}
 .contentWarp .explanation .ex_tit{ margin-bottom:5px;}
-.contentWarp .explanation .ex_tit h4{ padding-left:0; color:#f42424;}
+.contentWarp .explanation .ex_tit h4{ padding-left:0; color:#0AADCC;}
 .contentWarp .explanation .ex_con span{ margin-right:20px;}
 
 .contentWarp_item{ float: left;margin-right: 32px;}
@@ -649,7 +649,7 @@ input.error,textarea.error{ background-color: #FFF0F0;background-repeat: repeat;
 .contentWarp_item .sc_warp .goods_item .number{ font-size:14px; color:#858585; margin-top:30px; padding-bottom:55px;}
 .contentWarp_item .sc_warp .goods_item .number .st{ margin-left:55px; float:left;}
 .contentWarp_item .sc_warp .goods_item .number .xn{ margin-right:55px; float:right;}
-.contentWarp_item .sc_warp .goods_item .number a{ color:#ec5051;}
+.contentWarp_item .sc_warp .goods_item .number a{ color:#2D3947;}
 .contentWarp_item .sc_warp .goods_item .number a:hover{ text-decoration:underline;}
 
 .contentWarp_item .section_select .item{ float:left; border-radius:5px; padding:38px 0 38px 38px; width:calc(50% - 8px); margin-bottom:12px;-webkit-box-shadow: 0 0 8px rgba(0,0,0,0.1);box-shadow: 0 0 8px rgba(0,0,0,.1);}
@@ -687,9 +687,9 @@ i.ice_q{ background-position:-280px -214px;}
 i.ice_b{ background-position:-336px -214px;}
 
 .contentWarp_item .section_order_select li a{ color:#707070; display:block;padding:24px 0 20px;}
-.contentWarp_item .section_order_select li a:hover{ color:#ec5051;}
+.contentWarp_item .section_order_select li a:hover{ color:#2D3947;}
 .contentWarp_item .section_order_select li .t{ font-size:14px; margin-top:18px; line-height:18px;}
-.contentWarp_item .section_order_select li .number{ font-size:18px; color:#ec5151; margin-top:8px; display:block;}
+.contentWarp_item .section_order_select li .number{ font-size:18px; color:#2D3947; margin-top:8px; display:block;}
 .contentWarp_item .section_order_select li:hover{transition: all .1s ease-out;text-decoration: none;-webkit-box-shadow: 0 0 8px rgba(0,0,0,0.3);box-shadow: 0 0 8px rgba(0,0,0,.3);}
 
 .contentWarp .system_section { float:left; width:190px; padding:0 20px; margin-bottom:20px;}
@@ -715,7 +715,7 @@ i.ice_b{ background-position:-336px -214px;}
 .explanation ul{ overflow:hidden; padding-left:35px;}
 .explanation ul li{ line-height:20px; background:url(../images/arrow.png) 0 8px no-repeat; padding-left:10px; margin-bottom:5px; text-shadow: 1px 1px 0 rgba(255,255,255,0.5);}
 .explanation ul li:last-child{ margin-bottom:0;}
-.explanation ul li em{ color:#ec5151;}
+.explanation ul li em{ color:#2D3947;}
 /*操作提示结束*/
 
 /*查看教程*/
@@ -724,7 +724,7 @@ i.ice_b{ background-position:-336px -214px;}
 .view-case .view-case-tit i{ background:url(../images/shu.png) no-repeat; width:12px; height:12px; display:block; position:absolute; left:13px; top:7px;}
 .view-case .view-case-info{ position:absolute; top:15px; min-width:300px; background-color:#fff; border:1px solid #288eee; border-radius:3px; padding:15px 0 10px; z-index:8; display:none;}
 .view-case .view-case-info a{ padding:0 30px; line-height:30px; color:#555; display:block;}
-.view-case .view-case-info a:hover{ background-color:#f5faff; color:#ec5051;}
+.view-case .view-case-info a:hover{ background-color:#f5faff; color:#2D3947;}
 /*查看教程end*/
 
 .col_section .sc_warp{ margin:30px 0 0 0; overflow:hidden; padding-bottom:30px;}
@@ -746,9 +746,9 @@ i.ice_b{ background-position:-336px -214px;}
 .fbutton{ vertical-align: top;letter-spacing: normal;display: inline-block;margin-left: 8px;margin-right: -1px;cursor: pointer; margin-right:5px;}
 .fbutton:first-child{ margin-left:0px;}
 /*.fbutton:last-child{ margin-right:0;}*/
-.fbutton div{ font-size: 12px;line-height: 20px;color: #ec5051;background-color: #FFFFFF;height: 20px;padding: 2px 7px;border: solid 1px #ec5051;border-radius: 4px; margin:0;}
+.fbutton div{ font-size: 12px;line-height: 20px;color: #2D3947;background-color: #FFFFFF;height: 20px;padding: 2px 7px;border: solid 1px #2D3947;border-radius: 4px; margin:0;}
 .fbutton div:hover{ background:#ffe7e7;}
-.fbutton div a{ color:#ec5051;}
+.fbutton div a{ color:#2D3947;}
 .fbutton div i{ margin-right:5px;}
 .fbutton div i.icon-edit{ font-size:13px;}
 
@@ -828,7 +828,7 @@ i.ice_b{ background-position:-336px -214px;}
 .list-div .handle i.sc_icon_inst{ width:14px; height:12px; display:inline-block; background-position:-195px -526px;}
 .list-div .handle i.icon-map-marker{ margin-top:-3px;}
 .list-div .handle a.btn_edit:hover { color:#31b4e1; border-color:#31b4e1;}
-.list-div .handle a.btn_trash:hover,a.btn_trash:hover{ color:#ec5151; border-color:#ec5151;}
+.list-div .handle a.btn_trash:hover,a.btn_trash:hover{ color:#2D3947; border-color:#2D3947;}
 .list-div .handle a.btn_region:hover{ color:#fb7e40; border-color:#fb7e40;}
 .list-div .handle a.btn_see:hover{ color:#29c25f; border-color:#29c25f;}
 .list-div .handle a.btn_see:hover i.sc_icon_see{ background-position:-195px -502px;}
@@ -968,8 +968,8 @@ i.ice_b{ background-position:-336px -214px;}
 .divselect li a{ color:#7c7c7c; display:block;}
 
 .bot_btn{ position:absolute; bottom:120px;}
-.bot_btn .btn{ height:28px; line-height:26px; color:#ec5151; border-radius:3px; padding:0 13px; border:1px solid #ec5151; background:#fff; cursor:pointer;}
-.bot_btn .red_btn{ background:#ec5151; color:#fff; padding:0 16px; margin-right:10px;}
+.bot_btn .btn{ height:28px; line-height:26px; color:#2D3947; border-radius:3px; padding:0 13px; border:1px solid #2D3947; background:#fff; cursor:pointer;}
+.bot_btn .red_btn{ background:#2D3947; color:#fff; padding:0 16px; margin-right:10px;}
 
 /*高级搜索end*/
 
@@ -1000,9 +1000,9 @@ i.ice_b{ background-position:-336px -214px;}
 
 /*.user_basic,.user_address,.user_order,.user_set_baitiao,.user_account_details{ display:none;}*/
 
-.info_btn .button{ border:1px solid #ec5151; background:#ec5151; height:30px; line-height:30px; color:#fff; font-size:14px; padding:0 20px; border-radius:3px; cursor:pointer; float:left; margin-right:15px;}
+.info_btn .button{ border:1px solid #2D3947; background:#2D3947; height:30px; line-height:30px; color:#fff; font-size:14px; padding:0 20px; border-radius:3px; cursor:pointer; float:left; margin-right:15px;}
 .info_btn input.button{ height:35px; line-height:33px;}
-.info_btn .button_reset{ background-color:#fff; color:#ec5151;}
+.info_btn .button_reset{ background-color:#fff; color:#2D3947;}
 
 .switch{ width:41px; height:16px; background-position:-9px -477px; cursor:pointer; position:relative; float:left;}
 .switch.active{ background-position:-9px -452px;}
@@ -1192,7 +1192,7 @@ i.sc_icon_dsz{ position:absolute; width:48px; height:56px; background-position:-
 .select_list ul li:last-child{ border-bottom:0;}
 .select_list ul li a{ display:block; color:#333;}
 .select_list ul li:hover{ background-color: #f4fafe;}
-.select_list ul li a:hover{ color:#ec5051;}
+.select_list ul li a:hover{ color:#2D3947;}
 
 .sort_info{ width:100%; position:relative; overflow:hidden;}
 .sort_info .sort_list{ box-shadow:1px 1px 6px #999 inset; border-radius:5px; float:left; width:30%; position:relative;}
@@ -1202,7 +1202,7 @@ i.sc_icon_dsz{ position:absolute; width:48px; height:56px; background-position:-
 .sort_info .sort_list .sort_list_warp li:last-child{ border-bottom:0;}
 .sort_info .sort_list .sort_list_warp li a{ display:block; color:#707070;}
 .sort_info .sort_list .sort_list_warp li.current{ background:#ffefec;}
-.sort_info .sort_list .sort_list_warp li.current a{ color:#ec5151;}
+.sort_info .sort_list .sort_list_warp li.current a{ color:#2D3947;}
 .sort_info .sort_list .sort_list_warp li i{ width:5px; height:8px; background-position:-120px -431px; display:none; position:absolute; top:14px; right:18px;}
 .sort_info .sort_list .sort_list_warp li.current i{ display:block;}
 
@@ -1419,7 +1419,7 @@ i.sc_icon_dsz{ position:absolute; width:48px; height:56px; background-position:-
 .step_item_right .item_right_li .value .checkbox_item{ position:relative; padding-right:15px; line-height:30px;}
 .step_item_right .item_right_li .value .icon-cha{ font-size: 12px;vertical-align: middle; position:absolute; top:9px; right:-2px; color:#62b3ff; display:none; cursor:pointer;}
 .step_item_right .item_right_li .value .checkbox_item:hover .icon-cha{ display:block;}
-.step_item_right .item_right_li .value .icon-cha:hover{ color:#F42424;}
+.step_item_right .item_right_li .value .icon-cha:hover{ color:#0AADCC;}
 
 .step_item_right .goods_attr_type{ width:auto; min-width:200px;}
 .step_item_right .goods_attr_type .label{ line-height:30px;}
@@ -1462,7 +1462,7 @@ i.sc_icon_dsz{ position:absolute; width:48px; height:56px; background-position:-
 .goods_search_div{ float:left; width:100%;}
 .goods_search_div .search_select{ /*margin-right:10px;*/ float:left;}
 .goods_search_div .btn{ background-color:#62b3ff; color:#fff; border-color:#62b3ff;}
-.goods_search_div .red_btn{ background-color:#ec5151; color:#fff; border-color:#ec5151;}
+.goods_search_div .red_btn{ background-color:#2D3947; color:#fff; border-color:#2D3947;}
 .btn .icon-search{ font-size:14px; /*vertical-align:middle;*/ margin:-3px 5px 0 0;}
 .btn .icon-plus{ margin:-2px 5px 0 0;}
 
@@ -1688,7 +1688,7 @@ i.sc_icon_dsz{ position:absolute; width:48px; height:56px; background-position:-
 .total_items{ overflow:hidden;float:left; line-height:normal; margin:3px 0 4px 30px;}
 .total_items li{ float:left; font-size:14px; font-family:"Microsoft Yahei"; border-right:1px solid #a9a9a9; margin-right:30px; color:#333;}
 .total_items li:last-child{ margin-right:0; border:0;}
-.total_items li b{ color:#ec5151; display:inline-block; margin-right:30px; font-weight:normal;}
+.total_items li b{ color:#2D3947; display:inline-block; margin-right:30px; font-weight:normal;}
 
 .query_result{ float:left; width:100%;}
 .stat_order_search{ float:left; width:100%;}
@@ -1716,7 +1716,7 @@ i.sc_icon_dsz{ position:absolute; width:48px; height:56px; background-position:-
 .stat_user_rate .stat_rate_item .ral{ display:inline-block; text-align:center; font-size:14px; padding:10px 0 20px; color:#989898;}
 .stat_user_rate .stat_rate_item .ral span{ display:block;  margin-top:10px;}
 .stat_user_rate .stat_rate_item .ral01{ color:#272727;}
-.stat_user_rate .stat_rate_item .fore{ color:#ec5151; font-weight:bold;}
+.stat_user_rate .stat_rate_item .fore{ color:#2D3947; font-weight:bold;}
 
 .region_info{ overflow:hidden; width:100%;}
 .region_info .region_items{ border-radius:5px; box-shadow: 1px 1px 6px #999 inset; padding:5px 18px 0px 25px; overflow:hidden; min-height:50px;}
@@ -1733,8 +1733,8 @@ i.sc_icon_dsz{ position:absolute; width:48px; height:56px; background-position:-
 .costInfo .item{ margin-bottom:15px;}
 
 .addWinput{ font-size:0; position:relative; margin:20px auto 30px; overflow:hidden; width:255px;}
-.addWinput .text{ padding:5px 10px; border-radius:5px 0 0 5px; border:1px solid #ec5151;}
-.addWinput .addWbtn{ display:inline-block; font-size:14px; line-height:40px; padding:0 22px; background-color:#ec5151; color:#fff; border-radius:0 5px 5px 0; float:left;}
+.addWinput .text{ padding:5px 10px; border-radius:5px 0 0 5px; border:1px solid #2D3947;}
+.addWinput .addWbtn{ display:inline-block; font-size:14px; line-height:40px; padding:0 22px; background-color:#2D3947; color:#fff; border-radius:0 5px 5px 0; float:left;}
 
 .WM_items{ width:1368px; margin:0 auto; overflow:hidden;}
 .WM_item{ min-width:320px; margin:0 20px 25px 0; border-radius:5px; float:left; background:#fff;box-shadow: 0 0 8px rgba(0,0,0,.1); border:1px solid #dcdcdc;}
@@ -1983,7 +1983,7 @@ i.sc_icon_jian{ width:19px; height:19px; display:inline-block; background-positi
     border-top-color: #7f7e80;
 }
 .ui-dropdown.alien .options .liv:hover {
-    color: #ec5051;
+    color: #2D3947;
     background: 0 0;
 }
 /*省市县三级联动end*/
@@ -2038,7 +2038,7 @@ i.sc_icon_jian{ width:19px; height:19px; display:inline-block; background-positi
 .templet .templet-info .template_tit{ font-size:14px; font-weight:bold; color:#343434; margin-top:30px;}
 .templet .templet-info .template_name{ margin-top:10px; display:block;}
 .templet .templet-info .template_desc{ line-height:20px; margin-top:5px; height:40px; overflow:hidden;white-space: nowrap;text-overflow: ellipsis;}
-.templet .templet-info .button{ border:0; background:#ec5151; border-radius:3px; color:#fff;  height:35px; line-height:33px; width:120px; font-size:14px; cursor:pointer; margin-top:10px; padding:0;}
+.templet .templet-info .button{ border:0; background:#2D3947; border-radius:3px; color:#fff;  height:35px; line-height:33px; width:120px; font-size:14px; cursor:pointer; margin-top:10px; padding:0;}
 
 .template-list{ margin-top:30px; overflow:hidden;}
 .template-list ul{ overflow:hidden; width:calc(100% + 10px);}
@@ -2048,7 +2048,7 @@ i.sc_icon_jian{ width:19px; height:19px; display:inline-block; background-positi
 .template-list li .img{ border:2px solid #dcdcdc; margin-top:12px; width:263px; height:338px; position:relative;}
 .template-list li .img .bg{ width:267px; height:342px; background:#000; position:absolute; top:-2px; left:-2px; opacity:0;}
 .template-list li .nyroModal{ display:block; margin-top:10px; font-size:12px; color:#31b4e1;}
-.template-list li .nyroModal:hover{ color:#f42424;}
+.template-list li .nyroModal:hover{ color:#0AADCC;}
 .template-list li .zx{ display:block; margin-top:5px;}
 
 .template-list li .box{ width:80px; height:80px; position:absolute; text-align:center; top:208px; left:-200px; transition: all 0.4s ease;overflow: hidden;}
@@ -2063,16 +2063,16 @@ i.sc_icon_jian{ width:19px; height:19px; display:inline-block; background-positi
 .template-list li .icon-remove{ position:absolute; font-size:16px; top:10px; right:10px; display:none;}
 .template-list li .checkbox_item{ position:absolute; top:16px; left:22px;}
 
-.template-list li:hover,.template-list li.curr{ border-color:#ec5151;}
+.template-list li:hover,.template-list li.curr{ border-color:#2D3947;}
 .template-list li:hover .img{ background-color:#000;}
 .template-list li:hover .box{ left:120px;}
 .template-list li:hover .img .bg{ opacity:0.6;}
 .template-list li:hover .icon-remove{ display:block;}
-.template-list li .icon-remove:hover{ color:#ec5051;}
+.template-list li .icon-remove:hover{ color:#2D3947;}
 .template-list li .ing{ width:42px; height:42px; background:url(../images/ing.png) no-repeat; display:block; position:absolute; top:0; right:0; display:none;}
 .template-list li.curr .ing{ display:block;}
 
-.template-list li.notic{ min-height:400px; line-height:400px; color:#ec5051; font-size:14px;}
+.template-list li.notic{ min-height:400px; line-height:400px; color:#2D3947; font-size:14px;}
 
 .template-page{ background-color:#fff; overflow:hidden;}
 
@@ -2111,7 +2111,7 @@ i.sc_icon_jian{ width:19px; height:19px; display:inline-block; background-positi
 
 /*后台商品保存设置*/
 .save_config a{position:fixed; top:25%; right:20px; width:16px; background:#62b3ff; color:#fff; font-weight:bold; font-size:16px; border-radius:10px 0 0 10px; padding:15px; z-index:999;}
-.save_config a:hover{background:#ec5151;}
+.save_config a:hover{background:#2D3947;}
 .brandSelect{ position:relative;}
 
 /*调整 20160826 09:24:00*/
@@ -2197,7 +2197,7 @@ div.bgSelector div#bgColorSelector #bscParent #bscDrop td span { display: block;
 .hh_desc .item .label{ float:left; height:30px; line-height:30px;}
 .hh_desc strong{ margin-right:10px; float:left; height:30px; line-height:30px;}
 .hh_desc a{ display:block; float:left; line-height:30px;}
-.hh_desc .price{ font-size:18px; color:#ec5051;}
+.hh_desc .price{ font-size:18px; color:#2D3947;}
 .hh_items{ padding:10px; overflow:hidden;}
 .hh_items a{ float:left; margin-right:10px;}
 
@@ -2328,18 +2328,18 @@ div.bgSelector div#bgColorSelector #bscParent #bscDrop td span { display: block;
 }
 .msg_content p:last-child{ border-bottom:0;}
 .msg_content p a{ color:#909090}
-.msg_content p a:hover{ color:#f42424;}
+.msg_content p a:hover{ color:#0AADCC;}
 #msg_Container .no_msg{ text-align:center; padding:20px 0; color:#777;}
 .tiptool{ float:right;}
-.tiptool em{ color:#f42424;}
-/*.tiptool{border-radius:50%;height:18px;width:18px;line-height:18px;float: right; background-color:#ec5051; color:#fff; text-align:center; margin-top:7px;}*/
+.tiptool em{ color:#0AADCC;}
+/*.tiptool{border-radius:50%;height:18px;width:18px;line-height:18px;float: right; background-color:#2D3947; color:#fff; text-align:center; margin-top:7px;}*/
 /* 消息通知 end bylu */
 
 .tfoot_btninfo .imitate_select ul{bottom:28px; top:auto;}
 .tfoot_btninfo .categorySelect .select-container{ bottom:30px; top:auto; border-radius:5px 5px 0 0;}
 .tfoot_btninfo .selection .w250.valid{ box-shadow:none;}
 
-.step_content .item .step_value .m_price{ font-size:20px; color:#ec5051;}
+.step_content .item .step_value .m_price{ font-size:20px; color:#2D3947;}
 .step_content .item .step_value .m_price em{ float:none;}
 .addadr{ float:left; margin:5px 10px 0 0; }
 
@@ -2377,7 +2377,7 @@ div.bgSelector div#bgColorSelector #bscParent #bscDrop td span { display: block;
 .success_img{ float: left;}
 .fr_content{ min-width:500px;position:absolute; top:50%;left:50%; margin-left:-250px; margin-top:-150px;}
 .fr_content .title{ font-size: 16px;margin-bottom:10px;}
-.fr_content #spanSeconds{ color: #ec5151;font-weight: bold;}
+.fr_content #spanSeconds{ color: #2D3947;font-weight: bold;}
 .fr_content .ts{ margin-bottom: 10px;display: inline-block;}
 .success_right{ float:left;}
 .msg-link li{ line-height:20px;}
@@ -2410,7 +2410,7 @@ div.bgSelector div#bgColorSelector #bscParent #bscDrop td span { display: block;
 /*众筹*/
 .zc_dimg{ float:left;}
 .zc_dimg .img_item{ position:relative; width:60px; height:60px; float:left; margin-right:10px;}
-.zc_dimg .img_item .icon{ position:absolute; top:3px; right:3px; display:none; cursor:pointer; color:#ec5151; font-size:14px;}
+.zc_dimg .img_item .icon{ position:absolute; top:3px; right:3px; display:none; cursor:pointer; color:#2D3947; font-size:14px;}
 .zc_dimg .img_item:hover .icon{ display:block;}
 
 .xds_up,.xds_down{ background: url(../images/icon_updown.png) no-repeat;display: inline-block;width: 13px;height: 13px;margin-right: 5px;text-indent: 99999px;vertical-align: middle;}
@@ -2566,7 +2566,7 @@ div.bgSelector div#bgColorSelector #bscParent #bscDrop td span { display: block;
 }
 .pic-container .pic-items .item:hover{ border-color:#d1d1d1;}
 .pic-container .pic-items .item:hover .icon{ display:block;}
-.pic-container .pic-items .item .icon:hover{ color:#ec5051;}
+.pic-container .pic-items .item .icon:hover{ color:#2D3947;}
 .pic-container .pic-items .item:hover .i-img{ display:none;}
 
 .icon-camera-retro:before{
@@ -2586,7 +2586,7 @@ font-size: 40px;
 .area-city li{ float:left; margin-left:10px; width:auto; min-width:60px;}
 
 .attr-turn-page .pagination{ padding:30px 0 0;}
-.goods_attr_04_explain{ color:#f42424; border:0; font-size:12px; display:block; text-align:center; padding:15px 0;}
+.goods_attr_04_explain{ color:#0AADCC; border:0; font-size:12px; display:block; text-align:center; padding:15px 0;}
 .goods_attr_04_batch{ font-size:0; text-align:center;}
 
 /*顶级分类页图标*/
@@ -2600,7 +2600,7 @@ font-size: 40px;
 
 /*图片上传进度条*/
 .Percent_pic{background-color: green; display:block; width:0%; height:28px; float:left;}
-.Percent{ float:left; margin-left:10px; line-height:30px; color:#f42424;}
+.Percent{ float:left; margin-left:10px; line-height:30px; color:#0AADCC;}
 
 /*批量打印快递单*/
 .print_body{ overflow:hidden; text-align:center;}
@@ -2631,7 +2631,7 @@ font-size: 40px;
 .goods_gallery .table_list .ga-images-ul li img{ max-width:100%; max-height:100%;}
 .goods_gallery .table_list .ga-images-ul li .pixel{ position: absolute;background: rgba(0,0,0,0.5);filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#4cffffff', endColorstr='#4cffffff');width: 100%;padding: 2px 0;color: #fff;left: 0;bottom: 0;-webkit-transition: all .3s ease-out;-moz-transition: all .3s ease-out;-ms-transition: all .3s ease-out;-o-transition: all .3s ease-out;transition: all .3s ease-out;}
 .goods_gallery .table_list .ga-images-ul li:hover .pixel{ bottom:-30px;}
-.goods_gallery .table_list .ga-images-ul li.notic{ width:100%; height:140px; line-height:140px; border:0; text-align:center; font-size:16px; color:#f42424; margin:0;}
+.goods_gallery .table_list .ga-images-ul li.notic{ width:100%; height:140px; line-height:140px; border:0; text-align:center; font-size:16px; color:#0AADCC; margin:0;}
 
 /* 模块设置盒子 start */
 .modal-footer .btn-default{ background-color: #4d9de4; border-color: #4d9de4; color:#fff; outline:0;}
@@ -2667,8 +2667,8 @@ font-size: 40px;
 .floor_info .table_list .ga-goods-ul li .img{ width:158px; height:158px;}
 .floor_info .table_list .ga-goods-ul li .img img{ width:158px; height:158px;}
 .floor_info .table_list .ga-goods-ul li .name{ height:20px; line-height:20px; color:#31b4e1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; margin-top:5px;}
-.floor_info .table_list .ga-goods-ul li .price{ font-size:14px; color:#ec5051; margin-top:5px}
-.floor_info .table_list .ga-goods-ul li.notic{ border:0; text-align:center; font-size:14px; width:auto; height:320px; line-height:300px; color:#ec5051; float:none; margin:0; padding:0;}
+.floor_info .table_list .ga-goods-ul li .price{ font-size:14px; color:#2D3947; margin-top:5px}
+.floor_info .table_list .ga-goods-ul li.notic{ border:0; text-align:center; font-size:14px; width:auto; height:320px; line-height:300px; color:#2D3947; float:none; margin:0; padding:0;}
 
 .choose{ margin-top:5px;}
 .choose a{ height:20px; line-height:20px; display:inline-block; padding:0 10px; border-radius:2px; color:#fff; background: #5cb85c;border: 1px solid #5cb85c;}
@@ -2802,7 +2802,7 @@ dl.attrPrice dd{ margin-bottom:10px;}
 .mkc_content .mkc_dd li .desc_info .handle .iconfont{ font-size:12px;}
 .mkc_content .mkc_dd li .desc_info .handle .edit:hover{ color:#31b4e1;}
 .mkc_content .mkc_dd li .desc_info .handle .view:hover{ color:#29c25f;}
-.mkc_content .mkc_dd li .desc_info .handle .remove:hover{ color:#f42424;}
+.mkc_content .mkc_dd li .desc_info .handle .remove:hover{ color:#0AADCC;}
 
 .mkc_content .mck_four .mkc_dd li{ padding-bottom:8px;}
 
@@ -2872,8 +2872,8 @@ dl.attrPrice dd{ margin-bottom:10px;}
 .mian_guide_content .guide_four .a_bot{ top:518px;}
 
 /*新增地区*/
-.add_area .text{ margin:0; text-shadow:none; box-shadow:none; border-right:0; border-radius:3px 0 0 3px; border-color:#f42424;}
-.add_area .text:focus{ border:1px solid #f42424; border-right:0;}
+.add_area .text{ margin:0; text-shadow:none; box-shadow:none; border-right:0; border-radius:3px 0 0 3px; border-color:#0AADCC;}
+.add_area .text:focus{ border:1px solid #0AADCC; border-right:0;}
 .add_area .btn { float:left; border-radius:0 3px 3px 0;}
 
 /*礼包发货单*/
@@ -2884,7 +2884,7 @@ dl.attrPrice dd{ margin-bottom:10px;}
 .package_goods li .goodsName{ float:left; width:230px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
 .package_goods li .goodsNumber{ float:left; width:18px; margin-left:10px; font-size:12px;}
 .package_goods li a{ color:#888;}
-.package_goods li a:hover{ color:#f42424;}
+.package_goods li a:hover{ color:#0AADCC;}
 
 /* sec */
 .sco-mian-info .step_content{ position:static;}
@@ -2903,7 +2903,7 @@ dl.attrPrice dd{ margin-bottom:10px;}
 .section-module .tit{ overflow: hidden; }
 .section-module .tit h1{ font-size: 16px; color: #333; float: left; font-weight: normal; float: left;}
 .section-module .tit em{ font-size: 24px; float: left; margin-right:5px;}
-.section-module .tit em.red{ color: #ec5051; }
+.section-module .tit em.red{ color: #2D3947; }
 .section-module .title_head{ height: 40px; line-height: 40px; background-color: #f2f2f2; border-top:2px solid #dbdbdb; }
 .section-module .title_head h3{ float: left; font-weight: normal; font-size: 18px; color: #333; margin-left: 20px;}
 .section-module .title_head .time{ float: left; margin-left:10px; }
@@ -2921,7 +2921,7 @@ dl.attrPrice dd{ margin-bottom:10px;}
 .module-content .module_ss_ul li .iconfont{ position: absolute; font-size: 20px; top: 24px; left: 14px; color: #e2e2e2;}
 .module-content .module_ss_ul li .desc-tc{ padding: 20px; text-align:center;}
 .module-content .module_ss_ul li .desc-tc h2{ font-size: 14px; font-weight:normal; }
-.module-content .module_ss_ul li .desc-tc .price{ font-size: 24px; color: #ec5051; margin-top: 10px;}
+.module-content .module_ss_ul li .desc-tc .price{ font-size: 24px; color: #2D3947; margin-top: 10px;}
 .module-content .module_ss_ul li .desc-tc .price span{ font-size: 14px; margin-left: 5px; color: #333;}
 
 .module-content-bor{ border: 1px solid #dcdcdc; }
@@ -2934,7 +2934,7 @@ dl.attrPrice dd{ margin-bottom:10px;}
 .section_filter{ background-color: #fff; border-top:2px solid #dbdbdb; border-bottom:2px solid #dbdbdb; margin: 0 0 20px; overflow: hidden;}
 .section_filter li{ float: left; width: 25%; padding:20px 0; box-sizing: border-box; text-align:center; font-size: 16px; line-height: 1.6;}
 .section_filter li .price{ font-size: 12px; }
-.section_filter li .price em{ font-size: 20px; color: #f42424; margin-right: 5px;}
+.section_filter li .price em{ font-size: 20px; color: #0AADCC; margin-right: 5px;}
 
 .common-h3-title{ font-size: 16px; font-weight: normal; color: #333; float: left; margin-right: 10px;}
 .head_record{ float: left; color: #999; font-size:12px;}

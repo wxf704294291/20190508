@@ -1,22 +1,11 @@
 <?php
 
-/**
- * DSC 批发前台文件
- * ============================================================================
- * 版权所有 2005-2016 上海商创网络科技有限公司，并保留所有权利。
- * 网站地址: www.flyobd.com；
- * ----------------------------------------------------------------------------
- * 这不是一个自由软件！您只能在不用于商业目的的前提下对程序代码进行修改和
- * 使用；不允许对程序代码以任何形式任何目的的再发布。
- * ============================================================================
- * $Author: Zhuo $
- * $Id: common.php 2016-01-04 Zhuo $
- */
+       
 define('IN_ECS', true);
 
 require(dirname(__FILE__) . '/includes/init.php');
 
-require(ROOT_PATH . '/includes/lib_area.php');  //ecmoban模板堂 --zhuo
+require(ROOT_PATH . '/includes/lib_area.php');         
 require(ROOT_PATH . '/includes/lib_wholesale.php');
 require(ROOT_PATH . '/includes/lib_publicfunc.php');
 
@@ -171,13 +160,13 @@ $basic_info['city'] = get_table_date('region', "region_id= '" . $basic_info['cit
 
 $smarty->assign('basic_info', $basic_info);
 
-//ecmoban模板堂 --zhuo start
+        start
 $shop_info = get_merchants_shop_info('merchants_steps_fields', $goods['user_id']);
 $adress = get_license_comp_adress($shop_info['license_comp_adress']);
 
 $smarty->assign('shop_info', $shop_info);
 $smarty->assign('adress', $adress);
-//ecmoban模板堂 --zhuo end	
+        end	
 
 $goods_price = " IF(w.price_model=0, w.goods_price, (SELECT MIN(vp.volume_price) FROM " . $GLOBALS['ecs']->table('wholesale_volume_price') . " AS vp WHERE vp.goods_id = '$goods_id')) AS price ";
 $sql = " SELECT g.goods_thumb, g.goods_name, w.act_id, $goods_price FROM " . $ecs->table('wholesale') . " AS w LEFT JOIN " .

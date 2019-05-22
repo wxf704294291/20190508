@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
+    
 if (!defined('IN_ECS')) {
 	exit('Hacking attempt');
 }
@@ -188,7 +188,7 @@ $purview['12_seller_account'] = 'seller_account';
 $purview['16_seller_users_real'] = 'seller_users_real';
 $purview['04_create_seller_grade'] = 'create_seller_grade';
 $purview['01_cloud_services'] = 'cloud_services';
-$purview['02_platform_recommend'] = 'cloud_services';
+$purview['02_software_download'] = 'cloud_services';
 $purview['03_best_recommend'] = 'cloud_services';
 $purview['01_merchants_basic_info'] = 'seller_store_informa';
 $purview['08_merchants_template'] = 'seller_store_other';

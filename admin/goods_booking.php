@@ -1,5 +1,5 @@
 <?php
-//websc独家更新版 Q群541247070
+    
 function get_bookinglist()
 {
 	$adminru = get_admin_ru_id();

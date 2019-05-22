@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
+    
 if (!defined('IN_ECS')) {
 	exit('Hacking attempt');
 }
@@ -22,7 +22,7 @@ $modules['20_ectouch']['03_touch_ads'] = 'touch_ads.php?act=list';
 $modules['20_ectouch']['04_touch_ad_position'] = 'touch_ad_position.php?act=list';
 $modules['20_ectouch']['05_touch_dashboard'] = '../mobile/index.php?r=admin/editor';
 $modules['21_cloud']['01_cloud_services'] = 'index.php?act=cloud_services';
-$modules['21_cloud']['02_platform_recommend'] = 'index.php?act=platform_recommend';
+$modules['21_cloud']['02_software_download'] = 'software_download.php?act=list';
 $modules['21_cloud']['03_best_recommend'] = 'index.php?act=best_recommend';
 $modules['02_cat_and_goods']['001_goods_setting'] = 'goods.php?act=step_up';
 $modules['02_cat_and_goods']['01_goods_list'] = 'goods.php?act=list';

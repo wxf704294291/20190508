@@ -92,7 +92,7 @@ caption, th {text-align: left;}
 .textarea{ float: left;border: 1px solid #dbdbdb;border-radius: 2px;height: 80px;padding: 5px 10px;width: 300px;resize: none;line-height: 20px;margin-right: 10px;}
 input[type='text'].error:focus{ border:1px dashed #E84C3D;}
 .form_prompt{ line-height:30px; margin-left:10px; float:left;}
-.form_prompt .error,.form_prompt .label_error{/* margin-left:10px;*/ color:#ec5151;}
+.form_prompt .error,.form_prompt .label_error{/* margin-left:10px;*/ color:#2D3947;}
 .form_prompt .error .icon,.form_prompt .label_error .icon{ font-size:14px; margin-right:5px; float:none !important;}
 input.error,textarea.error{ background-color: #FFF0F0;background-repeat: repeat;border: 1px dashed #E84C3D; border-radius:3px;}
 input.textpadd{ padding:0 5px; text-align:center; min-width:30px; float:none;}

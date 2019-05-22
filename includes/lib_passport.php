@@ -1,5 +1,5 @@
 <?php
-//websc 禁止倒卖 一经发现停止任何服务
+               
 function register($username, $password, $email, $other = array(), $register_mode = 0)
 {
 	if (!empty($GLOBALS['_CFG']['shop_reg_closed'])) {

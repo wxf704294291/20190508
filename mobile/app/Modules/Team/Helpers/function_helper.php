@@ -500,7 +500,7 @@ function tean_get_final_price($goods_id, $goods_num = '1', $is_spec_price = fals
         }
     }
     $final_price = '0'; //商品最终购买价格
-    //ecmoban模板堂 --zhuo end
+            end
     //取得商品促销价格列表
     /* 取得商品信息 */
     $sql = "SELECT mp.user_price, mp.user_price, " .
@@ -693,13 +693,13 @@ function get_cart_value($flow_type = 0)
  */
 function flow_available_points($cart_value)
 {
-    //ecmoban模板堂 --zhuo start
+            start
     if (!empty($_SESSION['user_id'])) {
         $c_sess = " c.user_id = '" . $_SESSION['user_id'] . "' ";
     } else {
         $c_sess = " c.session_id = '" . real_cart_mac_ip() . "' ";
     }
-    //ecmoban模板堂 --zhuo end
+            end
     $where = "";
     if (!empty($cart_value)) {
         $where = " AND c.rec_id " . db_create_in($cart_value);
@@ -850,7 +850,7 @@ function search_brand_list($goods_id = 0)
     $keyword = empty($_REQUEST['keyword']) ? "" : trim($_REQUEST['keyword']);
 
     $where = "";
-    //ecmoban模板堂 --zhuo
+           
     //$adminru = get_admin_ru_id();
 
     if ($goods_id > 0) {
@@ -1066,13 +1066,13 @@ function team_get_tree($tree_id = 0)
  */
 function flow_cart_stock($arr, $store_id = 0)
 {
-    //ecmoban模板堂 --zhuo start
+            start
     if (!empty($_SESSION['user_id'])) {
         $sess_id = " user_id = '" . $_SESSION['user_id'] . "' ";
     } else {
         $sess_id = " session_id = '" . real_cart_mac_ip() . "' ";
     }
-    //ecmoban模板堂 --zhuo end
+            end
 
     foreach ($arr as $key => $val) {
         $val = intval(make_semiangle($val));
@@ -1090,7 +1090,7 @@ function flow_cart_stock($arr, $store_id = 0)
             "WHERE g.goods_id = c.goods_id AND c.rec_id = '$key'";
         $row = $GLOBALS['db']->getRow($sql);
 
-        //ecmoban模板堂 --zhuo start
+                start
         $sql = "select IF(g.model_inventory < 1, g.goods_number, IF(g.model_inventory < 2, wg.region_number, wag.region_number)) AS goods_number " .
             " from " . $GLOBALS['ecs']->table('goods') . " as g " .
             " left join " . $GLOBALS['ecs']->table('warehouse_goods') . " as wg on g.goods_id = wg.goods_id" .
@@ -1099,15 +1099,15 @@ function flow_cart_stock($arr, $store_id = 0)
         $goods_number = $GLOBALS['db']->getOne($sql);
 
         $row['goods_number'] = $goods_number;
-        //ecmoban模板堂 --zhuo end
+                end
 
         //系统启用了库存，检查输入的商品数量是否有效
         if (intval($GLOBALS['_CFG']['use_storage']) > 0 && $goods['extension_code'] != 'package_buy' && $store_id == 0) {
-            //ecmoban模板堂 --zhuo start
+                    start
             /* 是货品 */
             $row['product_id'] = trim($row['product_id']);
             if (!empty($row['product_id'])) {
-                //ecmoban模板堂 --zhuo start
+                        start
                 if ($row['model_attr'] == 1) {
                     $table_products = "products_warehouse";
                 } elseif ($row['model_attr'] == 2) {
@@ -1115,7 +1115,7 @@ function flow_cart_stock($arr, $store_id = 0)
                 } else {
                     $table_products = "products";
                 }
-                //ecmoban模板堂 --zhuo end
+                        end
 
                 $sql = "SELECT product_number FROM " . $GLOBALS['ecs']->table($table_products) . " WHERE goods_id = '" . $row['goods_id'] . "' and product_id = '" . $row['product_id'] . "'";
                 $product_number = $GLOBALS['db']->getOne($sql);
@@ -1139,7 +1139,7 @@ function flow_cart_stock($arr, $store_id = 0)
                     exit;
                 }
             }
-            //ecmoban模板堂 --zhuo end
+                    end
         } elseif (intval($GLOBALS['_CFG']['use_storage']) > 0 && $store_id > 0) {
             $sql = "SELECT goods_number,ru_id FROM" . $GLOBALS['ecs']->table("store_goods") . " WHERE store_id = '$store_id' AND goods_id = '" . $row['goods_id'] . "' ";
             $goodsInfo = $GLOBALS['db']->getRow($sql);

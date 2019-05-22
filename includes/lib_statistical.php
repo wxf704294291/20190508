@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function statistical_field_shop_num()
 {
 	return 'COUNT(DISTINCT spi.ru_id)';

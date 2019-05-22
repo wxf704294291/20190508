@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 function get_type_list($ru_id)
 {
 	$sql = 'SELECT bonus_type_id, COUNT(*) AS sent_count' . ' FROM ' . $GLOBALS['ecs']->table('user_bonus') . ' GROUP BY bonus_type_id';

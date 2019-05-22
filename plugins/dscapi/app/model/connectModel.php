@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace app\model;
 
 abstract class connectModel extends \app\func\common

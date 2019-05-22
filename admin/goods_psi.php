@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 function psi_suppliers_list()
 {
 	$sql = "SELECT suppliers_id, suppliers_name, suppliers_desc, is_check\r\n\t\t\tFROM " . $GLOBALS['ecs']->table('suppliers');

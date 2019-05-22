@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace app\model;
 
 abstract class productModel extends \app\func\common

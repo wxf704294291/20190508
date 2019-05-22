@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 function get_site_root_url()
 {
 	return 'http://' . $_SERVER['HTTP_HOST'] . str_replace('/' . SELLER_PATH . '/shipping.php', '', PHP_SELF);

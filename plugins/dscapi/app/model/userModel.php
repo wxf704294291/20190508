@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace app\model;
 
 abstract class userModel extends \app\func\common

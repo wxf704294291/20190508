@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
+    
 function cat_list_one_new($cat_id = 0, $cat_level = 0)
 {
 	if (0 < $cat_id) {

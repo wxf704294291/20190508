@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace App\Api\Controllers\Wx;
 
 class IndexController extends \App\Api\Controllers\Controller

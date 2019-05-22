@@ -279,7 +279,7 @@ img{ font-size:0;}
 .floor_info .table_list li .choose a i{ margin-right:5px;}
 .floor_info .table_list li .choose a.on{ background:#f0ad4e; border:1px solid #eea236;}
 
-.floor_info .table_list li.notic{ border:0; text-align:center; font-size:14px; line-height:300px; color:#ec5051;}
+.floor_info .table_list li.notic{ border:0; text-align:center; font-size:14px; line-height:300px; color:#2D3947;}
 /* 模块设置盒子 E */
 
 .main-wrapper{ width:100%; height:100%; margin:0; padding:0;}
@@ -342,7 +342,7 @@ img{ font-size:0;}
 .toolbar .page-head-slide .page-head-bgimg .action .action-btn .delete,.toolbar .page-content-slide .page-head-bgimg .action .action-btn .delete{ position: absolute;top: 0;left: 80px;margin-left: 5px;color: #999;cursor: pointer;}
 .toolbar .page-head-slide .page-head-bgimg .action .content,.toolbar .page-content-slide .page-head-bgimg .action .content{ padding-top: 10px;margin-top: -5px;color: #999;padding-bottom: 0;font-size: 12px;}
 
-.toolbar .page-head-slide .page-head-bgimg .action .action-btn .delete:hover,.toolbar .page-content-slide .page-head-bgimg .action .action-btn .delete:hover{ color:#ec5051;}
+.toolbar .page-head-slide .page-head-bgimg .action .action-btn .delete:hover,.toolbar .page-content-slide .page-head-bgimg .action .action-btn .delete:hover{ color:#2D3947;}
 
 .toolbar .bg-show,.toolbar .bg-align{ margin-top:17px;}
 .toolbar .bg-show-nr,.toolbar .bg-align-nr{ margin-top:5px;}
@@ -532,7 +532,7 @@ img{ font-size:0;}
 .templet .templet-info .template_tit{ font-size:14px; font-weight:bold; color:#343434; margin-top:30px;}
 .templet .templet-info .template_name{ margin-top:10px; display:block;}
 .templet .templet-info .template_desc{ line-height:20px; margin-top:5px; height:40px; overflow:hidden;white-space: nowrap;text-overflow: ellipsis;}
-.templet .templet-info .button{ border:0; background:#ec5151; border-radius:3px; color:#fff;  height:35px; line-height:33px; width:120px; font-size:14px; cursor:pointer; margin-top:10px; padding:0;}
+.templet .templet-info .button{ border:0; background:#2D3947; border-radius:3px; color:#fff;  height:35px; line-height:33px; width:120px; font-size:14px; cursor:pointer; margin-top:10px; padding:0;}
 
 .template-list{ margin-top:20px; overflow:hidden;}
 .template-list ul{ overflow:hidden; width:calc(100% + 10px);}
@@ -548,11 +548,11 @@ img{ font-size:0;}
 .template-list li .box span{ display:block; font-size:14px; color:#fff; margin-top:8px;}
 
 
-.template-list li:hover,.template-list li.curr{ border-color:#ec5151;}
+.template-list li:hover,.template-list li.curr{ border-color:#2D3947;}
 .template-list li:hover .img{ background-color:#000;}
 .template-list li:hover .box{ left:120px;}
 .template-list li:hover .img .bg{ opacity:0.6;}
-.template-list li a:hover{ color:#ec5051;}
+.template-list li a:hover{ color:#2D3947;}
 .template-list li .ing{ width:42px; height:42px; background:url(../images/ing.png) no-repeat; display:block; position:absolute; top:0; right:0; display:none;}
 .template-list li.curr .ing{ display:block;}
 

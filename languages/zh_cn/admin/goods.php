@@ -1,5 +1,5 @@
 <?php
-//websc 禁止倒卖 一经发现停止任何服务
+               
 $_LANG['del_goods_fail'] = '无法删除该商品，商品已产生订单数据，您可以选择下架商品！';
 $_LANG['lab_goods_desc'] = '商品统一描述';
 $_LANG['lab_add_desc'] = '添加关联描述';
@@ -563,7 +563,7 @@ $_LANG['virtual_goods'] = '虚拟商品';
 $_LANG['shelves_goods'] = '上架商品';
 $_LANG['off_the_shelf_goods'] = '下架商品';
 $_LANG['sync_oss_img'] = '一键同步OSS图片';
-$_LANG['sync_import_goods'] = '一键导入商品';
+
 $_LANG['search_keyword_placeholder'] = '商品名称/货号/条形码';
 $_LANG['free_shipping_alt'] = '免邮';
 $_LANG['promote_date'] = '特卖';

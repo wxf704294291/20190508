@@ -8,7 +8,7 @@ body, ul, ol, li, dl, dt, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset { margin
 ul, ol, li { list-style-image: none; list-style-type: none; }
 h1, h2, h3, h4, h5, h6 { font-size: 12px; }
 a { color: #31b4e1; text-decoration: none; blr:expression(this.onFocus=this.blur()) }
-a:hover { color: #ec5051; text-decoration: none; }
+a:hover { color: #2D3947; text-decoration: none; }
 a img { border: none; }
 em, cite, th { font-style: normal; font-weight: normal; }
 table { border-collapse: collapse; }
@@ -33,10 +33,10 @@ input[type='submit']{ outline:0 none;}
 .lie{ width:100%; float:left;}
 .hide{ display:none;}
 .show{ display:block;}
-.require-field{ color:#ec5151; margin-right:3px;}
+.require-field{ color:#2D3947; margin-right:3px;}
 .notic{ color:#909090; float:left; margin-left:10px;}
 .blue_notic{ color:#62b3ff;}
-.red_notic{ color:#ec5151;}
+.red_notic{ color:#2D3947;}
 .bor-right-not{ border-right:0 !important;}
 .bf100{ width:100%;} 
 .bolang{ float:left;}
@@ -52,8 +52,8 @@ input[type='submit']{ outline:0 none;}
 .btn30{ height:28px; line-height:28px; padding:0 17px;}
 .btn35{ height:33px; line-height:33px; font-size:14px;}
 
-.btn_red{ border-color:#ec5151; color:#ec5151;}
-.red_btn{ background-color:#ec5151; color:#fff;border-color:#ec5151;}
+.btn_red{ border-color:#2D3947; color:#2D3947;}
+.red_btn{ background-color:#2D3947; color:#fff;border-color:#2D3947;}
 .red_btn_2{ background-color:#d43d3d; color:#fff;}
 
 .btn_blue{ border-color:#31b4e1; color:#31b4e1;}
@@ -254,7 +254,7 @@ input.btn35{ height:35px;}
 .ftx-03{ color:#62b3ff;}
 
 .org{ color:#f3a43d;}
-.red{ color:#ec5151 !important;}
+.red{ color:#2D3947 !important;}
 .blue3{ color:#31b4e1;}
 
 .green_bg{ background-color:#0C0}
@@ -268,7 +268,7 @@ input.btn35{ height:35px;}
 .bor_top_das{ border-top:1px dashed #dcdcdc;}
 
 /*表单提示*/
-.form_prompt .error{ margin-left:10px; color:#ec5151; line-height:30px;}
+.form_prompt .error{ margin-left:10px; color:#2D3947; line-height:30px;}
 .form_prompt .error .icon{ font-size:14px; margin-right:5px;}
 input.error{ background-color: #FFF0F0;background-repeat: repeat;border: 1px dashed #E84C3D; border-radius:3px;}
 
@@ -309,7 +309,7 @@ input.error{ background-color: #FFF0F0;background-repeat: repeat;border: 1px das
 .explanation ul{ overflow:hidden; padding-left:28px;}
 .explanation ul li{ line-height:20px; background:url(../images/arrow.png) 0 8px no-repeat; padding-left:10px; margin-bottom:5px; text-shadow: 1px 1px 0 rgba(255,255,255,0.5);}
 .explanation ul li:last-child{ margin-bottom:0;}
-.explanation ul li em{ color:#ec5151;}
+.explanation ul li em{ color:#2D3947;}
 
 .content{ width:1200px; margin:0 auto; padding:20px 0 70px; min-height:740px;}
 .content .title{ font-size:18px; color:#000; margin:0 0 20px;}
@@ -403,11 +403,11 @@ input.error{ background-color: #FFF0F0;background-repeat: repeat;border: 1px das
 .store_order_section{ margin-bottom:20px; overflow:hidden;}
 .store_order_title{ font-weight:bold; color:#454545; font-family:"Microsoft Yahei"; font-size:14px;}
 .store_order_note{ color:#999;}
-.store_order_note .price{ color:#ec5151;}
+.store_order_note .price{ color:#2D3947;}
 .store_order_input{ overflow:hidden; margin-top:10px;}
 .store_order_input .input{ width:100%; display:block; height:30px;}
 .store_order_input .input .text{ margin-right:10px; width:102px; padding-right:5px;}
-.store_order_input .input #notic{ color:#ec5151; line-height:30px;}
+.store_order_input .input #notic{ color:#2D3947; line-height:30px;}
 .store_order_section p{ line-height:20px; color:#454545; width:500px;}
 .store_order_product{ overflow:hidden; margin-top:10px;}
 .store_order_product .img{ float:left; width:50px; height:50px; border:1px solid #dcdcdc;}
@@ -425,7 +425,7 @@ input.error{ background-color: #FFF0F0;background-repeat: repeat;border: 1px das
 .order_product .img{ width:50px; height:50px; float:left; border:1px solid #dcdcdc;}
 .order_product .name{ float:left; margin:0 23px 0 15px; width:340px; text-align:left; line-height:22px; min-height: 44px;}
 .order_product .name a{ color:#268ff2;}
-.order_product .name a:hover{ color:#ec5151;}
+.order_product .name a:hover{ color:#2D3947;}
 .border-left{ border-left:1px solid #dcdcdc;}
 
 .mian-info{ width:100%; overflow:hidden;}
@@ -594,7 +594,7 @@ input.error{ background-color: #FFF0F0;background-repeat: repeat;border: 1px das
     border-top-color: #7f7e80;
 }
 .ui-dropdown.alien .options .liv:hover {
-    color: #ec5051;
+    color: #2D3947;
     background: 0 0;
 }
 /*省市县三级联动end*/

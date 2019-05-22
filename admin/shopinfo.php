@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function shopinfo_article_list()
 {
 	$list = array();

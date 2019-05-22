@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 function favourable_goods_list($user_rank, $favourable_id, $sort = '', $order = '', $size, $page, $warehouse_id = 0, $area_id = 0, $area_city = 0)
 {
 	if ($sort) {

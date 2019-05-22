@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace App\Models;
 
 class KdniaoCustomerAccount extends \Illuminate\Database\Eloquent\Model

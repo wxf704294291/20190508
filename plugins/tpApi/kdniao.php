@@ -1,5 +1,5 @@
 <?php
-//WEBSC
+//STIC
 function submitEOrder($requestData)
 {
 	$datas = array('EBusinessID' => EBusinessID, 'RequestType' => '1007', 'RequestData' => urlencode($requestData), 'DataType' => '2');

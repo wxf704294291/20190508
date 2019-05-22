@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function package_sended($package_id, $goods_id, $order_id, $extension_code, $product_id = 0)
 {
 	if (empty($package_id) || empty($goods_id) || empty($order_id) || empty($extension_code)) {

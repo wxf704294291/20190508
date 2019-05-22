@@ -1,5 +1,5 @@
 <?php
-//WEBSC商城资源  禁止倒卖 一经发现停止任何服务
+//WEBSC商城资源         
 namespace App\Channels\Sms\Driver;
 
 class Dscsms

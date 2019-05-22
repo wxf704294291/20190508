@@ -267,7 +267,7 @@
                                 </dl>
                                 <dl>
                                 	<dt><?php echo $this->_var['lang']['community']; ?>：</dt>
-                                    <dd><a href="http://wenda.ecmoban.com" target="_blank">http://wenda.ecmoban.com</a></dd>
+                                    <dd><a href="http://wenda.flyobd.com" target="_blank">http://wenda.flyobd.com</a></dd>
                                 </dl>
                                 <dl>
                                 	<dt><?php echo $this->_var['lang']['dscmall']; ?>：</dt>

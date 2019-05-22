@@ -5,7 +5,7 @@
 .message_list .item_r{ padding-top:3px; width:910px}
 .message_list .item_r .m_user b{ color:#4f71c6}
 .message_list .item_r .message_content p{ line-height:25px;}
-.admin_content p{ line-height:25px; color:#ec5151; clear:both}
+.admin_content p{ line-height:25px; color:#2D3947; clear:both}
 .page_list{ width:930px;height:25px; text-align:center; display:inline-block; margin-top:20px;}
 .page_list ul li{ width:25px; height:25px; border:1px solid #ebebeb; text-align:center; line-height:25px; font-size:12px; margin-right:8px; display:inline-block; color:#006fb0;}
 .page_list ul li.next{ width:45px; height:25px;}

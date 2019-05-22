@@ -1,5 +1,5 @@
 <?php
-//zend by WEBSC商城  禁止倒卖 一经发现停止任何服务
+//zend by WEBSC商城         
 function get_bonus_list($num = 10, $page = 1, $status = 4)
 {
 	$time = gmtime();

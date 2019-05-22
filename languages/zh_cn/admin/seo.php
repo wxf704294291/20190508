@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
+    
 $_LANG['seo_setting'] = 'SEO设置';
 $_LANG['seo_index'] = '首页';
 $_LANG['seo_group'] = '团购';

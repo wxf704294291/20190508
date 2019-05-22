@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function get_topic_list()
 {
 	$adminru = get_admin_ru_id();

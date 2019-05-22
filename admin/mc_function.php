@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC商城资源  禁止倒卖 一经发现停止任何服务
+//zend WEBSC商城资源         
 function mc_explode_str($str, $exp = ',', $chk = '')
 {
 	$str_arr = explode($exp, $str);

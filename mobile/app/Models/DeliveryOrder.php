@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace App\Models;
 
 class DeliveryOrder extends \Illuminate\Database\Eloquent\Model

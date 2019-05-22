@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function get_orderinfo($start_date, $end_date, $type = 0)
 {
 	$order_info = array();

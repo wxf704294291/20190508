@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 function sale_notice_list($ru_id)
 {
 	$filter['keywords'] = empty($_REQUEST['keywords']) ? 0 : trim($_REQUEST['keywords']);

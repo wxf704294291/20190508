@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace App\Models;
 
 class Topic extends \Illuminate\Database\Eloquent\Model

@@ -1,5 +1,5 @@
 <?php
-//websc 禁止倒卖 一经发现停止任何服务
+               
 function cause_info($c_id)
 {
 	$sql = 'SELECT * FROM ' . $GLOBALS['ecs']->table('return_cause') . ' WHERE cause_id = ' . $c_id;

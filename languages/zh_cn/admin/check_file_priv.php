@@ -1,5 +1,5 @@
 <?php
-//websc独家更新版 Q群541247070
+    
 $_LANG['item'] = '项目';
 $_LANG['read'] = '可读权限';
 $_LANG['write'] = '可写权限';

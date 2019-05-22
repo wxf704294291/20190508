@@ -16,7 +16,7 @@ i,em{ font-style:normal;}
 .clear {clear: both;float: none;font-size: 0px;margin: 0;padding: 0;display:block;}
 .nowrap {white-space:nowrap;}
 .muneFG {height: 13px;width: 0px;border-right: 1px solid #15aae3;border-left: 1px solid #08679f;display: inline-block;position:relative;top:15px;float:left;}
-.num { min-width: 22px; *min-width: 32px; padding:0 5px;height: 16px; background:#ec5051; border-radius:8px; *background: url(../images/menu/index-11_22.png) no-repeat scroll;display: inline-block;line-height: 15px;vertical-align: middle;text-align: center;}
+.num { min-width: 22px; *min-width: 32px; padding:0 5px;height: 16px; background:#2D3947; border-radius:8px; *background: url(../images/menu/index-11_22.png) no-repeat scroll;display: inline-block;line-height: 15px;vertical-align: middle;text-align: center;}
 .fl{ float:left;}
 .fr{ float:right;}
 .org{color:#F60;}

@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 function cat_update($cat_id, $args)
 {
 	if (empty($args) || empty($cat_id)) {

@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 $brand_id = isset($_REQUEST['brand_id']) ? $base->get_intval($_REQUEST['brand_id']) : -1;
 $brand_name = isset($_REQUEST['brand_name']) ? $base->get_addslashes($_REQUEST['brand_name']) : -1;
 $val = array('brand_id' => $brand_id, 'brand_name' => $brand_name, 'brand_select' => $data, 'page_size' => $page_size, 'page' => $page, 'sort_by' => $sort_by, 'sort_order' => $sort_order, 'format' => $format);

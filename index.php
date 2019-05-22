@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 define('IN_ECS', true);
 require dirname(__FILE__) . '/includes/init.php';
 if (isset($_GET['code']) && !empty($_GET['code'])) {

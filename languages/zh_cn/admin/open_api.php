@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC商城资源  禁止倒卖 一经发现停止任何服务
+//zend WEBSC商城资源         
 $_LANG['01_openapi_list'] = '对外接口列表';
 $_LANG['02_openapi_add'] = '添加对外接口';
 $_LANG['is_open'] = '是否开启';

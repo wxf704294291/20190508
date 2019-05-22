@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function read_modules($directory = '.')
 {
 	global $_LANG;

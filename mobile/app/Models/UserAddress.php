@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace App\Models;
 
 class UserAddress extends \Illuminate\Database\Eloquent\Model

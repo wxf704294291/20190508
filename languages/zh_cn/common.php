@@ -1,17 +1,6 @@
 <?php
 
-/**
- * DSC 前台语言文件
- * ============================================================================
- * * 版权所有 2005-2017 上海商创网络科技有限公司，并保留所有权利。
- * 网站地址: www.flyobd.com；
- * ----------------------------------------------------------------------------
- * 这不是一个自由软件！您只能在不用于商业目的的前提下对程序代码进行修改和
- * 使用；不允许对程序代码以任何形式任何目的的再发布。
- * ============================================================================
- * $Author: Zhuo $
- * $Id: common.php 2016-01-04 Zhuo $
- */
+
 
 $_LANG['through'] = "通过";
 $_LANG['surplus_type_0'] = "充值";
@@ -67,7 +56,7 @@ $_LANG['dwt_shop_name'] = "";
 
 $_LANG['order_payed_sms'] = '订单 %s 付款了，收货人：%s 电话：%s'; //wang
 
-//ecmoban模板堂 --zhuo start 审核收货人地址
+        //start 审核收货人地址
 $_LANG['order_address_stay'] = "无法提交订单<br/>收货地址已被修改，待审核中...";
 $_LANG['order_address_no'] = "无法提交订单<br/>收货地址已被修改，审核未通过...";
 $_LANG['index_lnk'] = "返回首页，继续购物！";
@@ -77,11 +66,11 @@ $_LANG['address_list_lnk'] = '返回地址列表';
 
 $_LANG['signin_failed_user'] = '收货地址为空，请您添加收货地址';
 $_LANG['lnk_user'] = "去添加收货地址";
-//ecmoban模板堂 --zhuo end 审核收货人地址
+        //end 审核收货人地址
 
-$_LANG['single_user'] = '用户晒单'; //by zhang
-$_LANG['discuss_user'] = '网友讨论圈'; //by zhang
-$_LANG['allcount'] = '全部帖子'; //by zhang
+$_LANG['single_user'] = '用户晒单';        
+$_LANG['discuss_user'] = '网友讨论圈';        
+$_LANG['allcount'] = '全部帖子';        
 $_LANG['s_count'] = '晒单帖';
 $_LANG['t_count'] = '讨论帖';
 $_LANG['w_count'] = '问答帖';
@@ -91,9 +80,9 @@ $_LANG['click_count'] = '点击数';
 $_LANG['sort'] = [];
 $_LANG['sort']['single_sort'] = '排序';
 
-$_LANG['set_gcolor'] = '设置商品颜色'; //by zhang
+$_LANG['set_gcolor'] = '设置商品颜色';        
 
-//ecmoban模板堂 --zhuo start
+        //start
 $_LANG['ff'][FF_NOMAINTENANCE] = '未维修';
 $_LANG['ff'][FF_MAINTENANCE] = '已维修';
 $_LANG['ff'][FF_NOEXCHANGE] = '未换货';
@@ -122,7 +111,7 @@ $_LANG['had_use'] = '已使用';
 $_LANG['expired'] = '已失效';
 $_LANG['completed'] = '已完成';
 $_LANG['has_been_snatched'] = '已抢完';
-//ecmoban模板堂 --zhuo end
+       // end
 
 /* 用户登录语言项 */
 $_LANG['empty_username_password'] = '对不起，您必须完整填写用户名和密码。';
@@ -1456,7 +1445,7 @@ $_LANG['not_set_shipping'] = "未设置配送方式";
 
 $_LANG['new_arrivals'] = '新品推荐';
 $_LANG['new_first_start'] = '新品首发';
-$_LANG['sett_title'] = '马上入驻 开向未来';
+$_LANG['sett_title'] = '携手合作 共享未来';
 $_LANG['mobile_mall'] = '手机商城';
 $_LANG['bid_ci_number'] = '出价次数';
 $_LANG['rz_shopName'] = "送拍机构";

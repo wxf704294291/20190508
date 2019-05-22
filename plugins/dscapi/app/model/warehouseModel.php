@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace app\model;
 
 abstract class warehouseModel extends \app\func\common

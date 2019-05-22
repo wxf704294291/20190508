@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 $_LANG['is_best'] = '精品';
 $_LANG['isbest'] = '精品';
 $_LANG['isnotbest'] = '非精品';

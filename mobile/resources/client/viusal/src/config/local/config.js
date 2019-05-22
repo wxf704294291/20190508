@@ -194,7 +194,7 @@ const pageInfo = {
             text: "手机扫描二维码，即可在手机进行观看页面效果",
             http: {
                 text: "链接名称",
-                link: "https://www.ectouch.cn"
+                link: "https://www.flyobd.com"
             }
         }
     }

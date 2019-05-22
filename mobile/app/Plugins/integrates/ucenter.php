@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 class ucenter extends \App\Libraries\Integrate
 {
 	public function __construct($cfg)

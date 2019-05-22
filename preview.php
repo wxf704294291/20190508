@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 require ROOT_PATH . '/includes/lib_area.php';
 $warehouse_other = array('province_id' => $province_id, 'city_id' => $city_id);
 $warehouse_area_info = get_warehouse_area_info($warehouse_other);

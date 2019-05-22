@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 namespace App\Libraries;
 
 class Integrate

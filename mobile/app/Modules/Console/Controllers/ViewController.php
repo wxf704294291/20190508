@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace App\Modules\Console\Controllers;
 
 class ViewController extends \App\Modules\Base\Controllers\FrontendController

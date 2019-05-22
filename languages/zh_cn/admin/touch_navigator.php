@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 $_LANG['add_new'] = '添加导航';
 $_LANG['system_main'] = '系统内容';
 $_LANG['item_name'] = '名称';

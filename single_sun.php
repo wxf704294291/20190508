@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 function get_reply_discuss_circle($dis_id, $size = 5, $reply_page = 1)
 {
 	require_once 'includes/cls_pager.php';

@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC商城资源  禁止倒卖 一经发现停止任何服务
+//zend WEBSC商城资源         
 $_LANG['cat_id'] = '编号';
 $_LANG['cat_name'] = '分类名称';
 $_LANG['isleaf'] = '不允许';

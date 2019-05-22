@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 class alipay
 {
 	public function get_code($order, $payment)

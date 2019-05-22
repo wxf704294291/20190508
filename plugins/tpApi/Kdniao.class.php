@@ -1,5 +1,5 @@
 <?php
-//WEBSC
+//STIC
 class Kdniao
 {
 	private $client_id;

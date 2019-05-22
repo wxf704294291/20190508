@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 function get_size_attr_goods($rec_id)
 {
 	$sql = 'select size_attr from ' . $GLOBALS['ecs']->table('order_goods') . (' where rec_id = \'' . $rec_id . '\'');

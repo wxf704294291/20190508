@@ -1,5 +1,4 @@
-<?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+<?php      
 function get_discuss_list($ru_id)
 {
 	$filter['keywords'] = empty($_REQUEST['keywords']) ? 0 : trim($_REQUEST['keywords']);

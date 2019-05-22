@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function get_affiliate_ck()
 {
 	$result = get_filter();

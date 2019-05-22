@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 class balance
 {
 	public function get_code($order, $payment)

@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 function mc_new_order($str = '', $goods, $goods_number, $comment_num, $start_time = 0, $end_time = 0, $order_status = 0, $shipping_status = 0, $pay_status = 0)
 {
 	if (!$str) {

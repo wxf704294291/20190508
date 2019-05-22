@@ -979,7 +979,7 @@ label{ cursor:pointer;}
 .warehouse_info .w_item_warp:hover .edit_icon{ display:inline-block;}
 .warehouse_info .item .delete{ position:absolute; right:10px; top:10px; color:#1b9ad5; display:none;}
 .warehouse_info .item:hover .delete{ display:block;}
-.warehouse_info .item .delete:hover{ color:#ec5051;}
+.warehouse_info .item .delete:hover{ color:#2D3947;}
 .addinfo_items .item_but{ line-height:100px; text-align:center; width:90px; background:#F6F5F5; cursor:pointer;}
 
 .warehouse_warpper{ overflow:hidden;}

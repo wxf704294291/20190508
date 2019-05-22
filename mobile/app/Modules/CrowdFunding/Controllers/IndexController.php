@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace App\Modules\CrowdFunding\Controllers;
 
 class IndexController extends \App\Modules\Base\Controllers\FrontendController

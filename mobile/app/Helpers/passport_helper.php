@@ -1,5 +1,5 @@
 <?php
- //websc
+        
 function register($username, $password, $email, $other = array())
 {
 	if (!empty($GLOBALS['_CFG']['shop_reg_closed'])) {

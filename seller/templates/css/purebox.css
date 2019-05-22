@@ -119,7 +119,7 @@
 #goodsMobile .albumContent li .img-container{ width: 98px;height: 98px;display: table-cell;vertical-align: middle;text-align: center;}
 #goodsMobile .albumContent li .img-container img { max-height: 100%;max-width: 100%;height: auto;vertical-align: middle;border: 0;-ms-interpolation-mode: bicubic;}
 #goodsMobile .albumContent li .checked{ display:none; position:absolute; width:15px; height:15px; top:0; right:0; background:url(../images/admin-icon.png) -403px -429px no-repeat;}
-#goodsMobile .albumContent li.current{ border-color:#ec5151;}
+#goodsMobile .albumContent li.current{ border-color:#2D3947;}
 #goodsMobile .albumContent li.current .checked{ display:block;}
 
 #goodsMobile .albumContent .dialogTextarea{ border:1px solid #dedede; width:743px; height:250px; resize:none; padding:10px;}

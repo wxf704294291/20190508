@@ -1,5 +1,5 @@
 <?php
-//zend by WEBSC 禁止倒卖 一经发现停止任何服务
+
 function brand_recommend_goods($type, $brand, $cat = 0, $warehouse_id = 0, $area_id = 0, $area_city = 0, $act = '', $type_rand = '')
 {
 	if (!in_array($type, array('best', 'new', 'hot'))) {

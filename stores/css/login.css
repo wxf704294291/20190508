@@ -13,7 +13,7 @@ ul,
 li { margin: 0; padding: 0; border: 0; list-style-image: none; list-style-type: none; }
 
 a { color: #31b4e1; text-decoration: none;}
-a:hover { color: #ec5051; text-decoration: none; }
+a:hover { color: #2D3947; text-decoration: none; }
 
 .mb10{ margin-bottom:10px !important;}
 .ui-checkbox,.ui-radio,.ui-radio-16x16{ display:none;}
@@ -108,7 +108,7 @@ input[type='text']:focus::-webkit-input-placeholder{ color:#fff;}
 
 .submitDiv .sub:hover{ box-shadow: 2px 3px 6px 0 rgba(0,0,0,0.3) inset;}
 .formText .not_pwd{ font-size:12px; float:right; color:#1576e4;}
-.formText .not_pwd:hover{ color:#ec5151;}
+.formText .not_pwd:hover{ color:#2D3947;}
 .pb .dialog_buttons_bar{ top:151px;}
 
 /*忘记密码*/

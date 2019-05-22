@@ -113,7 +113,7 @@ a:visited { text-decoration: none;}
 .font18{ font-size:18px;}
 .font20{ font-size:20px;}
 /*字体颜色*/
-.color-red{color: #ec5151;}
+.color-red{color: #2D3947;}
 .color-whie{color: #fff;}
 /*深灰色*/
 .color-dark{color: #4f4f4f;}
@@ -217,13 +217,13 @@ td .tDiv {padding: 10px 0 10px 20px;}
 .list-div .handle .tDiv a {padding: 5px;border-radius: 3px;color: #999;}
 .list-div .handle a.btn_inst:hover {color: #29c25f;border-color: #29C25F;}
 .list-div .handle a.btn_edit:hover {color: #31b4e1;border-color: #31B4E1;}
-.list-div .handle a.btn_trash:hover {color: #ec5151;border-color: #ec5151;}
+.list-div .handle a.btn_trash:hover {color: #2D3947;border-color: #2D3947;}
 .list-div .handle i.sc_icon_see { width: 13px;height: 12px;display: inline-block;background-position: -195px -484px;}
 .list-div .handle a.btn_see:hover { color: #29c25f;border-color: #29c25f;}
 .list-div .handle a.btn_see:hover i.sc_icon_see {background-position: -195px -502px;}
 .list-div .handle i, .btn_trash i {font-size: 14px;margin: -2px 4px 0 4px;vertical-align: middle;}
 .list-div .handle a.btn_inst:hover i.sc_icon_inst {background-position: -195px -546px;}
-.list-div .handle a.btn_region:hover {color: #ec5151;border-color: #ec5151;}
+.list-div .handle a.btn_region:hover {color: #2D3947;border-color: #2D3947;}
 
 /*粉丝管理*/
 .search-info {float: right;padding: 0;}

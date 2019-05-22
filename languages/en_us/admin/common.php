@@ -1,5 +1,5 @@
 <?php
-//websc独家更新版 Q群541247070
+    
 $_LANG['app_name'] = 'ECSHOP';
 $_LANG['cp_home'] = 'ECSHOP Management';
 $_LANG['copyright'] = ' &copy; 2005-2017 ECSHOP Copyright, <br> All Right Reserved.';

@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 $_LANG['cat_name'] = '文章分类名称';
 $_LANG['type'] = '分类类型';
 $_LANG['type_name'][COMMON_CAT] = '普通分类';

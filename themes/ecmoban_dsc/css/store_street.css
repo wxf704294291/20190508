@@ -51,10 +51,10 @@
 	display:inline-block;
 }
 .select_box a:hover {
-	color:#ec5151
+	color:#2D3947
 }
 .select_box a.sel {
-	color:#ec5151
+	color:#2D3947
 }
 /*属性筛选 End*/
 
@@ -88,7 +88,7 @@
 	margin:0;
 }
 .goods_list ul.goods_ul li ul.goods_content li h1{
-	color:#ec5151;
+	color:#2D3947;
 }
 .goods_list ul.goods_ul li ul.goods_content li:nth-child(1) {
 width:30%;
@@ -192,7 +192,7 @@ overflow:hidden;
 }
 
 .hotsale .hot_goods .hot_goods_bg dl dd a.d_u{
-	color:#ec5051;
+	color:#2D3947;
 	text-decoration:none;
 }
 .hotsale .hot_goods .hot_goods_bg dl dd a.d_u:hover{
@@ -216,7 +216,7 @@ overflow:hidden;
 .nch-sortbar-array li.current,
 .nch-sortbar-array li:hover { background-color: #FFF;}
 .nch-sortbar-array li.current a,
-.nch-sortbar-array li:hover a { color: #ec5151;}
+.nch-sortbar-array li:hover a { color: #2D3947;}
 .nch-sortbar-array li a:hover { text-decoration: none;}
 .nch-sortbar-array li.current a.asc i { background-position: -14px -11px;}
 .nch-sortbar-array li.current a.desc i,

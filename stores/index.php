@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 define('IN_ECS', true);
 require dirname(__FILE__) . '/includes/init.php';
 if ($_REQUEST['act'] == 'merchants_first' || $_REQUEST['act'] == 'shop_top' || $_REQUEST['act'] == 'merchants_second') {

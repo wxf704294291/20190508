@@ -19,7 +19,7 @@ Template Type: type_0
 .usBox{background:#f2f2f2;padding:15px;width:1180px;}
 .usBox_1{background:#fff;text-align:left;width:553px;height:208px;padding:43px 0 60px 134px}
 .usBox .img{ float:left; margin-left:10px;}
-.usBox .us_Submit{ border: 1px solid #ec5051;display: block;width: 100px;background: #ec5051;height: 35px;line-height: 20px;color: #fff;font-size: 16px;font-family: '\5fae\8f6f\96c5\9ed1';cursor: pointer; margin-top:10px;}
+.usBox .us_Submit{ border: 1px solid #2D3947;display: block;width: 100px;background: #2D3947;height: 35px;line-height: 20px;color: #fff;font-size: 16px;font-family: '\5fae\8f6f\96c5\9ed1';cursor: pointer; margin-top:10px;}
 .usTxt { width: auto;height: auto;padding: 40px 40px 0px 93px;background: url(../../images/ur_bg1.gif) no-repeat 0 60%;float: right;text-align: left;line-height: 23px;}
 
 .AreaL { float: left;width: 202px;border: 1px solid #dcdcdc;margin: -1px 0 0 -1px;}
@@ -68,14 +68,14 @@ Template Type: type_0
 .logistics{ float:left; position:absolute; padding-top:10px; display:none; top:30px;}
 .logistics-content{ border:1px solid #dcdcdc; padding:10px; width:203px;background:#fff;}
 .logistics-content li{ float: left;height: 28px;line-height: 28px;cursor: pointer; width:100px; text-align:center; padding:0; margin:0; border:0;}
-.logistics-content li.item-selected{ padding:0; border:0; color:#ec5051;}
+.logistics-content li.item-selected{ padding:0; border:0; color:#2D3947;}
 
 .btn {
     font-family: "microsoft yahei";
     float: right;
     font-size: 14px;
     color: #fff;
-    background: #ec5151;
+    background: #2D3947;
     padding: 5px 12px;
     border-radius: 5px;
 }
@@ -85,9 +85,9 @@ Template Type: type_0
 .search_history .p-img{ width:178px; height:178px; display:block;}
 .search_history .p-name{ overflow:hidden; height:36px; margin-top:5px; margin-bottom:10px;}
 .search_history .p-name a{ display:block;}
-.search_history .p-price{ float:left; font-size:14px; color:#ec5051; padding-top:7px;}
+.search_history .p-price{ float:left; font-size:14px; color:#2D3947; padding-top:7px;}
 .search_history .btn{ background: #fff;color: #666;border: 1px solid #a0a0a0;}
-.search_history .btn:hover{ background: #fff;color: #ec5051;border: 1px solid #ec5051;}
+.search_history .btn:hover{ background: #fff;color: #2D3947;border: 1px solid #2D3947;}
 
 /*修改*/
 .usBox_1 .items{ overflow:hidden; margin-top:20px;}

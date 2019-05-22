@@ -276,7 +276,7 @@ function search_brand_list($goods_id = 0)
     $keyword = empty($_REQUEST['keyword']) ? "" : trim($_REQUEST['keyword']);
 
     $where = "";
-    //ecmoban模板堂 --zhuo
+           
     //$adminru = get_admin_ru_id();
 
     if ($goods_id > 0) {

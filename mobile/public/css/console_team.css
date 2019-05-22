@@ -8,7 +8,7 @@ body, ul, ol, li, dl, dt, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset { margin
 ul, ol, li { list-style-image: none; list-style-type: none; }
 h1, h2, h3, h4, h5, h6 { font-size: 12px; }
 a { color: #31b4e1; text-decoration: none; blr:expression(this.onFocus=this.blur()) }
-a:hover { color: #ec5051; text-decoration: none; }
+a:hover { color: #2D3947; text-decoration: none; }
 a img { border: none; }
 em, cite, th { font-style: normal; font-weight: normal; }
 table { border-collapse: collapse; border-spacing:0;}
@@ -22,7 +22,7 @@ input[type='submit']{ outline:0 none;}
 .fontweight{ font-weight:bold;}
 .overflow_view{ overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
 .fl_label{ display:inline-block; width:100px; text-align:right; float:left;}
-.li_color{ color:#ec5051}
+.li_color{ color:#2D3947}
 
 h4{margin:0;line-height:inherit;}
 td {background:#ffffff}
@@ -246,7 +246,7 @@ i.sc_icon, .explanation .ex_tit span, .search .input .btn, .switch, .switch .cir
 .explanation .ex_tit span.shopUp { background-position: -40px -359px;}
 .explanation ul {overflow: hidden;padding-left: 35px;}
 .explanation ul li {line-height: 20px;background: url(../img/console/arrow.png) 0 8px no-repeat;padding-left: 10px;margin-bottom: 5px;text-shadow: 1px 1px 0 rgba(255,255,255,0.5);}
-.explanation ul li em {color: #ec5151;}
+.explanation ul li em {color: #2D3947;}
 
 .no-padding {padding: 0px;}
 /*====
@@ -263,11 +263,11 @@ i.sc_icon, .explanation .ex_tit span, .search .input .btn, .switch, .switch .cir
 .refresh .refresh_span {margin-left: 3px;float: left;}
 .refresh .icon, .setup .icon { font-size: 14px;}
 a {color: #31b4e1;text-decoration: none;blr: expression(this.onFocus=this.blur());}
-a:hover {color: #ec5051;text-decoration: none;}
+a:hover {color: #2D3947;text-decoration: none;}
 .fbutton {vertical-align: top;letter-spacing: normal;display: inline-block;margin-left: 8px;margin-right: -1px;cursor: pointer;margin-right: 5px;}
 .fbutton:last-child {margin-right: 0;}
 .fbutton:first-child { margin-left: 0px;}
-.fbutton div {font-size: 12px;color: #ec5051;background-color: #FFFFFF; padding: 2px 7px;border: solid 1px #ec5051;border-radius: 4px;margin: 0;}
+.fbutton div {font-size: 12px;color: #2D3947;background-color: #FFFFFF; padding: 2px 7px;border: solid 1px #2D3947;border-radius: 4px;margin: 0;}
 .fbutton div:hover {background: #ffe7e7;}
 .fbutton div i {margin-right: 5px;}
 
@@ -297,7 +297,7 @@ i.sc_icon{background:url(../img/console/admin-icon.png);}
 .list-div .handle i, .btn_trash i {font-size: 13px;margin: -2px 4px 0 4px;vertical-align: middle;}
 .tDiv:before{    content: ".";display: block; height: 0;clear: both;visibility: hidden;}
 .tDiv:after{content: ".";display: block;height: 0; clear: both;visibility: hidden;    }
-.list-div .handle a.btn_trash:hover{color:#ec5151;border-color:#ec5151;}
+.list-div .handle a.btn_trash:hover{color:#2D3947;border-color:#2D3947;}
 
 .list-div .handle a.btn_region:hover{ color:#fb7e40; border-color:#fb7e40;}
 .list-div .handle a.btn_see:hover{ color:#29c25f; border-color:#29c25f;}
@@ -387,8 +387,8 @@ label {cursor: pointer;font-weight:normal;}
 /*按钮*/
 .info_btn a.button {height: 35px;line-height: 33px;}
 .info_btn input.button {height: 35px;line-height: 33px;}
-.info_btn .button {border: 1px solid #ec5151;background: #ec5151;height: 30px;line-height: 30px;color: #fff;font-size: 14px;padding: 0 20px;border-radius: 3px;cursor: pointer;float: left;margin-right: 15px;}
-.info_btn .button_reset {background-color: #fff;color: #ec5151;}
+.info_btn .button {border: 1px solid #2D3947;background: #2D3947;height: 30px;line-height: 30px;color: #fff;font-size: 14px;padding: 0 20px;border-radius: 3px;cursor: pointer;float: left;margin-right: 15px;}
+.info_btn .button_reset {background-color: #fff;color: #2D3947;}
 .button {height: 30px;border: 0;line-height: 28px;color: #fff;background: #62b3ff;padding: 0 17px;border-radius: 3px;cursor: pointer;outline: none;}
 .btn {display: inline-block;padding: 6px 12px;margin-bottom: 0; font-size: 12px; font-weight: 400;line-height: 1.42857143;text-align: center;white-space: nowrap; vertical-align: middle;-ms-touch-action: manipulation;touch-action: manipulation;cursor: pointer;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;background-image: none;border: 1px solid transparent;border-radius: 4px;}
 .btn:link,.btn:visited,.btn:hover{color:#fff;}
@@ -827,7 +827,7 @@ label {cursor: pointer;font-weight:normal;}
 .goods_list_info .desc{ float:left; margin-left:10px; max-width:230px;}
 .goods_list_info .desc .name{ float:left;width:190px; line-height:25px;}
 .goods_list_info .desc .name span{ color:#333;display:block; float:left;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;width:100%; cursor:pointer;}
-.red{ color:#ec5151 !important;}
+.red{ color:#2D3947 !important;}
 .list-div th .tDiv{ min-width:60px; overflow:hidden;white-space: nowrap;text-overflow: ellipsis;}
 .ht_goods_list table .handle .ht_tdiv a{ margin:0 5px 5px 0; float:left;}
 .list-div .handle {

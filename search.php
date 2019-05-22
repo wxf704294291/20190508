@@ -1,5 +1,5 @@
 <?php
- //websc
+        
 function is_not_null($value)
 {
 	if (is_array($value)) {

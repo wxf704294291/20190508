@@ -3,7 +3,7 @@ html,body{ font-family: "Microsoft Yahei", "Lucida Grande", Verdana, Lucida, Hel
 
 .body{ background-image:url(../images/body_bg.png),url(../images/footer_bg.png); background-repeat:no-repeat; background-position:top,bottom; background-color:#ecf0f1; color:#838382;}
 a{ color:#31b4e1; text-decoration:none;}
-a:hover{ color:#ec5051;}
+a:hover{ color:#2D3947;}
 select{ border:1px solid #cdcdcd; border-radius:3px; color:#838382; height:30px; line-height:30px; outline:0 none; padding:0 5px; cursor:pointer;}
 ul,ol,li{ list-style-image: none; list-style-type: none;}
 button { font-size: 12px; font-family: "Microsoft Yahei", "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif; }

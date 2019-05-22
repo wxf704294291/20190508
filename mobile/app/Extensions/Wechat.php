@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace App\Extensions;
 
 class Wechat extends Wechat\SDK

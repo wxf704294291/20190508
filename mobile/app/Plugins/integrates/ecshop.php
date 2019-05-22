@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 class ecshop extends \App\Libraries\Integrate
 {
 	private $is_ecshop = 1;

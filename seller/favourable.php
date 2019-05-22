@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 function favourable_list($ru_id)
 {
 	$result = get_filter();

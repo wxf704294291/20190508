@@ -7,10 +7,12 @@
             <h3>{$lang.sett_title}</h3>
             <div class="s-b-line"></div>
         </div>
+		<!---
         <div class="s-b-btn">
             <a href="javascript:void(0);" data-url="{$url_merchants_steps}" class="im-sett" ectype="url_merchants_steps">{$lang.settled_down}</a>
             <a href="javascript:void(0);" data-url="{$url_merchants_steps_site}" class="view-prog" ectype="url_merchants_steps">{$lang.settled_down_schedule}</a>
         </div>
+		--->
     </div>
 </div>
 <!--{/foreach}-->

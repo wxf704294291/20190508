@@ -1,20 +1,20 @@
 <?php
-//websc 禁止倒卖 一经发现停止任何服务
+               
 $_LANG['prev_step'] = '上一步：';
 $_LANG['next_step'] = '下一步：';
 $_LANG['select_language_title'] = '大商创升级程序 第1步/共3步 选择语言编码';
 $_LANG['readme_title'] = '大商创升级程序 第2步/共3步 说明页';
 $_LANG['checking_title'] = '大商创升级程序 第3步/共3步 环境检测';
 $_LANG['check_system_environment'] = '检测系统环境';
-$_LANG['copyright'] = '&copy; 2005-2016 <a href="http://www.大商创.com" target="_blank">上海商创网络科技有限公司</a>。保留所有权利。';
+$_LANG['copyright'] = '&copy; 2005-2016 <a href="http://www.     .com" target="_blank">上海商创网络科技有限公司</a>。保留所有权利。';
 $_LANG['is_last_version'] = '您的大商创已是最新版本，无需升级。';
 $_LANG['readme_page'] = '说明页';
-$_LANG['notice'] = '本程序用于将 大商创 升级到 <strong>%s</strong>。请勿必按照以下的升级方法进行升级，否则可能产生无法恢复的后果。如果你已经整合了论坛软件，本次升级将取消整合，以后会员整合请到ucenrer中进行整合。';
+$_LANG['notice'] = '本程序用于将       升级到 <strong>%s</strong>。请勿必按照以下的升级方法进行升级，否则可能产生无法恢复的后果。如果你已经整合了论坛软件，本次升级将取消整合，以后会员整合请到ucenrer中进行整合。';
 $_LANG['usage1'] = '请确认已经安装了 UCenter，否则，请到 <a href="http://www.discuz.com" target="_blank">Comsenz 产品中心</a> 下载并且安装，然后再继续。<br />';
 $_LANG['usage2'] = '登录后台，备份数据库资料；';
-$_LANG['usage3'] = '关闭现有的 大商创 %s 系统；';
-$_LANG['usage4'] = '覆盖性上传 大商创 %s 的全部文件到服务器；';
-$_LANG['usage5'] = '上传本程序到 大商创 所在的目录中；';
+$_LANG['usage3'] = '关闭现有的       %s 系统；';
+$_LANG['usage4'] = '覆盖性上传       %s 的全部文件到服务器；';
+$_LANG['usage5'] = '上传本程序到       所在的目录中；';
 $_LANG['usage6'] = '运行本程序，直到出现升级完成的提示。';
 $_LANG['method'] = '升级方法';
 $_LANG['charset'] = '编码确认';
@@ -42,8 +42,8 @@ $_LANG['update_now'] = '立即升级';
 $_LANG['done'] = '恭喜，您已经成功升级到大商创 <strong>%s</strong>';
 $_LANG['upgrade_error_title'] = '大商创升级程序 升级失败';
 $_LANG['upgrade_done_title'] = '大商创升级程序 升级成功';
-$_LANG['go_to_view_my_ecshop'] = '> 前往 大商创 首页';
-$_LANG['go_to_view_control_panel'] = '> 前往 大商创 后台管理中心 ';
+$_LANG['go_to_view_my_ecshop'] = '> 前往       首页';
+$_LANG['go_to_view_control_panel'] = '> 前往       后台管理中心 ';
 $_LANG['dir_readonly'] = '%s 文件不可写，请检查您的服务器设置。';
 $_LANG['monitor_title'] = '升级程序监视器';
 $_LANG['wait_please'] = '正在升级中，请稍候…………';
@@ -79,7 +79,7 @@ $_LANG['ucip'] = 'UCenter 的 IP：';
 $_LANG['ucenter'] = '请填写 UCenter 相关信息：';
 $_LANG['ucfounderpw'] = 'UCenter 创始人密码：';
 $_LANG['uc_intro'] = 'UCenter 是 Comsenz 公司产品的核心服务程序，Discuz! Board 的安装和运行依赖此程序。如果您已经安装了 UCenter，请填写以下信息。否则，请到 <a href="http://www.discuz.com" target="_blank">Comsenz 产品中心</a> 下载并且安装，然后再继续。<br /><br />';
-$_LANG['ucip_intro'] = '连接的过程中出了点问题，请您填写服务器 IP 地址，如果您的 UC 与 大商创 装在同一服务器上，我们建议您尝试填写 127.0.0.1';
+$_LANG['ucip_intro'] = '连接的过程中出了点问题，请您填写服务器 IP 地址，如果您的 UC 与       装在同一服务器上，我们建议您尝试填写 127.0.0.1';
 $_LANG['users_importto_ucenter'] = '会员数据导入到 UCenter';
 $_LANG['user_startid'] = '会员 ID 起始值：';
 $_LANG['user_startid_intro'] = '<p>此起始会员ID为%s。如原 ID 为 888 的会员将变为 %s+888 的值。</p><br /><p><span style="color:#F00;font-size:1.2em;font-weight:bold;">提醒：导入会员数据前请暂停各个应用(如Discuz!, SupeSite等)</span></p><br />';

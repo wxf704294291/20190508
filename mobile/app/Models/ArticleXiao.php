@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 namespace App\Models;
 
 class ArticleXiao extends \Illuminate\Database\Eloquent\Model

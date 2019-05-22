@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 $_LANG['is_hot'] = '是否热销';
 $_LANG['ishot'] = '热销';
 $_LANG['isnothot'] = '非热销';

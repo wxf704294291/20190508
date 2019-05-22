@@ -54,7 +54,7 @@ caption, th {text-align: left;}
 .user-womens-445312 .inputSmall{width:80px; margin:0 10px;}
 .user-womens-445312 button{border:none; width:32px; outline:0; *filter:chroma(color=#000000); *border:0 none; height:27px;font-size:12px; letter-spacing:4px; cursor:pointer; color:#000; line-height:37px; overflow:hidden; float:right; background:url(../images/rBEhWFNDWA0IAAAAAAABBHk8JhsAALXYgP__mwAAAGU990.gif) no-repeat top right; text-indent:-9999px; display:block; border:1px solid #DBDBDB; margin-left:-1px;}
 .userjNav_bwomen-445313 .mc{height:43px; line-height:40px; position:relative;}
-.userjNav_bwomen-445313 .jFirst a:hover{color:#fff; background:#ec5151;}
+.userjNav_bwomen-445313 .jFirst a:hover{color:#fff; background:#2D3947;}
 .userjNav_bwomen-445313 li{float:left;padding:6px 15px; background:url(../images/rBEhWVNDWBAIAAAAAAAAO6NWQa8AALXbQLk8kgAAABT268.gif) no-repeat 0px 15px;}
 .userjNav_bwomen-445313 li a{display:block; font-size:14px; color:#545454; font-family:"微软雅黑";line-height:16px; display: block; padding: 3px 8px; margin: 5px 0px;}
 .userjNav_bwomen-445313 li a:hover{color:#fff; background:#545454;}
@@ -215,7 +215,7 @@ caption, th {text-align: left;}
 .mc_right .item-warp .sider li{ margin-right:1px;}
 .mc_right .item-warp .p-name{ overflow: hidden;height: 40px;line-height: 20px;margin-bottom: 10px;}
 .mc_right .item-warp .extra{ overflow:hidden;}
-.mc_right .item-warp .p-price{ color:#ec5151; float:left; font-size:14px; font-weight:bold; padding:0;}
+.mc_right .item-warp .p-price{ color:#2D3947; float:left; font-size:14px; font-weight:bold; padding:0;}
 .mc_right .item-warp .p-price em{ font-size:14px;}
 .mc_right .item-warp .p-commit{ float:right; color:#f2901c;}
 .mc_right .split-line{ border-bottom:1px dashed #ebebeb; width:100%; height:1px; float:left;}
@@ -263,7 +263,7 @@ caption, th {text-align: left;}
 .hover .s_box_body{ display:block}
 .s_box_body b{font-size: 0px; line-height: 0; width: 0px; height: 0px; border-width: 5px; border-color: #ccc transparent transparent transparent; border-style: solid dashed dashed dashed;transform:rotate(180deg);-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg); text-align:center; display:inline-block; position:absolute; top:-10px; left:45px}
 .s_box_body p{ line-height:30px; border-bottom:1px #eee solid; text-align:center; cursor:pointer;}
-.userjNav_bwomen-445313 li a.p_bj:hover{ background:#eee; color:#ec5151;}
+.userjNav_bwomen-445313 li a.p_bj:hover{ background:#eee; color:#2D3947;}
 .userjNav_bwomen-445313 li p a{ font-weight:normal; font-size:12px;}
 
 #sp-category a.store_a{ color:#f60;}
@@ -293,7 +293,7 @@ caption, th {text-align: left;}
 .filter li .label{ float:left; width:100px; text-align:right;}
 .filter li .value{ float:left; width:calc(100% - 100px);}
 .filter li .value a{ float:right; color:#48acfd; float:left; margin-left:25px;}
-.filter li .value a:hover{ color:#ec5151; text-decoration:underline;}
+.filter li .value a:hover{ color:#2D3947; text-decoration:underline;}
 
 .click_more {
     text-align: center;
@@ -345,13 +345,13 @@ caption, th {text-align: left;}
 	background-position: -278px -292px;
 }
 .click_more:hover{
-	border-color:#ec5051;
+	border-color:#2D3947;
 }
 .click_more:hover span{
 	border-color: #FFF #e4393c #e4393c;
 }
 .click_more:hover strong{
-	color:#ec5051;
+	color:#2D3947;
 }
 .click_more:hover i{
 	background-position: -542px -201px;

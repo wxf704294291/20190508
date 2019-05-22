@@ -5,7 +5,7 @@
 	*分页显示需要修改
 	*string($safe_code) 
 	*return int($res)
-	*输出页面至 check_safe_code.dwt
+	*输出页面至 anti_fake.dwt
 	*/
 	define('IN_ECS', true);
 	require dirname(__FILE__) . '/includes/init.php';

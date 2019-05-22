@@ -1,5 +1,5 @@
 <?php
-//websc 禁止倒卖 一经发现停止任何服务
+               
 function check_dirs_priv($checking_dirs)
 {
 	include_once ROOT_PATH . 'includes/lib_common.php';

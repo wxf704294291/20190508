@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function get_merchants_seller_account()
 {
 	$adminru = get_admin_ru_id();

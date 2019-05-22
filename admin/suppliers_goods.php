@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function list_link($is_add = true, $extension_code = '')
 {
 	$href = 'goods.php?act=list';

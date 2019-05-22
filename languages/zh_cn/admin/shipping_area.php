@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 $_LANG['shipping_area_name'] = '配送区域名称';
 $_LANG['shipping_area_districts'] = '地区列表';
 $_LANG['shipping_area_regions'] = '所辖地区';

@@ -1,5 +1,5 @@
 <?php
-///WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
+///WEBSC在线更新版         
 function get_cat_articles($cat_id, $page = 1, $size = 20, $requirement = '')
 {
 	if ($cat_id == '-1') {

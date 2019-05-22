@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 $_LANG['team_goods'] = '拼团商品';
 $_LANG['team_goods_list'] = '拼团商品列表';
 $_LANG['add_team_goods'] = '添加拼团商品';

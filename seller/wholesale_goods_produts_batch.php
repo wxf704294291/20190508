@@ -1,5 +1,5 @@
 <?php
-//zend by QQ:97908527  websc网络  禁止倒卖 一经发现停止任何服务
+//zend by QQ:97908527  websc网络         
 define('IN_ECS', true);
 require dirname(__FILE__) . '/includes/init.php';
 require 'includes/lib_goods.php';

@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 class paypal
 {
 	private $API_UserName = '';

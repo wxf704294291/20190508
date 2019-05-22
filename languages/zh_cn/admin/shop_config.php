@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 $_LANG['cfg_name']['header_region'] = '商城头部推荐地区';
 $_LANG['cfg_desc']['header_region'] = '用于商城头部地区便于用户快速进入相应热门地区（格式：英文逗号）';
 $_LANG['cfg_name']['area_pricetype'] = '商品设置地区模式时';
@@ -749,7 +749,7 @@ $_LANG['btnSubmit_notice'] = '商店设置 -> 购物流程 -> 发票税率重复
 $_LANG['type_already_exists'] = '类型已存在';
 $_LANG['type_taxrate_not_notic'] = '类型和税率不能为空';
 $_LANG['taxrate_number'] = '税率必须为数字';
-$_LANG['tutorials_bonus_list_one'] = "<a href=\"http://help.ecmoban.com/article-6273.html\" target=\"_blank\">商店设置---平台基本信息设置</a>\r\n                            <a href=\"http://help.ecmoban.com/article-6274.html\" target=\"_blank\">商店设置---客服设置</a>\r\n                            <a href=\"http://help.ecmoban.com/article-6268.html\" target=\"_blank\">商店设置---市场价格比例及积分比例设置</a>\r\n                            <a href=\"http://help.ecmoban.com/article-6271.html\" target=\"_blank\">商店设置---设置区分地区商品</a>\r\n                            <a href=\"http://help.ecmoban.com/article-6266.html\" target=\"_blank\">商店设置---短信设置</a>\r\n                            <a href=\"http://help.ecmoban.com/article-6267.html\" target=\"_blank\">商店设置---WAP设置</a>\r\n                            <a href=\"http://help.ecmoban.com/article-6265.html\" target=\"_blank\">商店设置---商品属性价格模式设置</a>";
+$_LANG['tutorials_bonus_list_one'] = "<a href=\"http://help.flyobd.com/article-6273.html\" target=\"_blank\">商店设置---平台基本信息设置</a>\r\n                            <a href=\"http://help.flyobd.com/article-6274.html\" target=\"_blank\">商店设置---客服设置</a>\r\n                            <a href=\"http://help.flyobd.com/article-6268.html\" target=\"_blank\">商店设置---市场价格比例及积分比例设置</a>\r\n                            <a href=\"http://help.flyobd.com/article-6271.html\" target=\"_blank\">商店设置---设置区分地区商品</a>\r\n                            <a href=\"http://help.flyobd.com/article-6266.html\" target=\"_blank\">商店设置---短信设置</a>\r\n                            <a href=\"http://help.flyobd.com/article-6267.html\" target=\"_blank\">商店设置---WAP设置</a>\r\n                            <a href=\"http://help.flyobd.com/article-6265.html\" target=\"_blank\">商店设置---商品属性价格模式设置</a>";
 $_LANG['tutorials_bonus_list_two'] = '商城邮件服务器设置';
 $_LANG['operation_prompt_content']['shop_config'][0] = '商店相关信息设置，请谨慎填写信息。';
 

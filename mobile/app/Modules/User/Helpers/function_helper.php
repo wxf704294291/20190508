@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function not_pay($user_id)
 {
 	$where = 'and pay_status = ' . PS_UNPAYED . ' and order_status not in(' . OS_CANCELED . ',' . OS_INVALID . ',' . OS_RETURNED . ')';

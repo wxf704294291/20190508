@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace App\Providers;
 
 class AuthServiceProvider extends \Illuminate\Support\ServiceProvider

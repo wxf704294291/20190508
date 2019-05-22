@@ -1,5 +1,5 @@
 <?php
-//websc 禁止倒卖 一经发现停止任何服务
+               
 $_LANG['order_vcard_return'] = '【订单退款】储值卡退款金额：%s';
 $_LANG['01_email_manage'] = '邮件群发管理';
 $_LANG['mail'] = '邮件';
@@ -307,7 +307,7 @@ $_LANG['04_touch_ad_position'] = '广告位管理';
 $_LANG['05_touch_dashboard'] = '可视化装修';
 $_LANG['21_cloud'] = '云服务中心';
 $_LANG['01_cloud_services'] = '在线升级';
-$_LANG['02_platform_recommend'] = '平台推荐';
+$_LANG['02_software_download'] = '软件下载';
 $_LANG['03_best_recommend'] = '好货推荐';
 $_LANG['01_goods_list'] = '商品列表';
 $_LANG['02_goods_add'] = '添加新商品';
@@ -1593,5 +1593,17 @@ $_LANG['upgrade_tip_5'] = '操作商家商品品牌统一使用平台品牌ID：
 $_LANG['add_group_goods_notic'] = '一组配件只能添加五个商品，如需添加则删除该组其它配件商品';
 $_LANG['accord_input_height_default'] = '根据实际需求自行填写高度，默认为';
 $_LANG['is_return_order_goods'] = '(已申请退换货服务)';
+
+
+$_LANG['software_list_title']="软件列表";
+$_LANG['software_name']="软件名称";
+$_LANG['software_version']="软件版本号";
+$_LANG['create_time']="创建时间";
+$_LANG['software_url'] = '下载链接';
+$_LANG['software_description'] = '';
+$_LANG['edit_software'] = '编辑软件';
+
+
+
 
 ?>

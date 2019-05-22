@@ -1,5 +1,5 @@
 <?php
-//websc独家更新版 Q群541247070
+    
 if (!defined('IN_ECS')) {
 	exit('Hacking attempt');
 }

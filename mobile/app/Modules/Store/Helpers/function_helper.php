@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 function get_cat_store_list($cat_id)
 {
 	$sql = 'SELECT user_shopMain_category AS user_cat, user_id FROM {pre}merchants_shop_information  WHERE 1 AND user_shopMain_category <> \'\' AND merchants_audit = 1';

@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 function ecjia_config($code)
 {
 	$sql = 'SELECT value FROM ' . $GLOBALS['ecs']->table('shop_config') . (' WHERE code = \'' . $code . '\' ');

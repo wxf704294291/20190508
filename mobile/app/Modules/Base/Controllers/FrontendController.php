@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace App\Modules\Base\Controllers;
 
 abstract class FrontendController extends FoundationController

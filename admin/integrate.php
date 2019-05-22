@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function conflict_userlist()
 {
 	$filter['flag'] = empty($_REQUEST['flag']) ? 0 : intval($_REQUEST['flag']);

@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace app\controller;
 
 class product extends \app\model\productModel

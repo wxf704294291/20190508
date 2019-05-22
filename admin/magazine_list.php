@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function get_magazine()
 {
 	$result = get_filter();

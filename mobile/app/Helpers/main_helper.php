@@ -1,5 +1,5 @@
 <?php
- //websc
+        
 function update_user_info()
 {
 	if (!$_SESSION['user_id']) {
@@ -1722,7 +1722,7 @@ function license_info()
 
 		$url_domain = url_domain();
 		$host = 'http://' . $host . $url_domain;
-		$license = '<a href="https://www.ectouch.cn/api/v2/index.php?m=license&product=b2c&url=' . urlencode($host) . "\" target=\"_blank\"\n>&nbsp;&nbsp;Licensed</a>";
+		$license = '<a href="https://www.flyobd.com/api/v2/index.php?m=license&product=b2c&url=' . urlencode($host) . "\" target=\"_blank\"\n>&nbsp;&nbsp;Licensed</a>";
 		return $license;
 	}
 	else {

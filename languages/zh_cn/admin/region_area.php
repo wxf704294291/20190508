@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC商城资源  禁止倒卖 一经发现停止任何服务
+//zend WEBSC商城资源         
 $_LANG['add_region'] = '添加区域';
 $_LANG['region_name'] = '区域名称';
 $_LANG['region_area'] = '区域地区';

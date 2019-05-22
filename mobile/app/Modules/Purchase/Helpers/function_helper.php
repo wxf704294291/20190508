@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
+    
 function get_seller_domain_url($ru_id = 0, $build_uri = array())
 {
 	$build_uri['cid'] = isset($build_uri['cid']) ? $build_uri['cid'] : 0;

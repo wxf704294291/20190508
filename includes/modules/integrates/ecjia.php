@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 if (!defined('IN_ECS')) {
 	exit('Hacking attempt');
 }

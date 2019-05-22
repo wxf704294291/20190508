@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace App\Modules\Onlinepay\Controllers;
 
 class IndexController extends \App\Modules\Base\Controllers\FrontendController

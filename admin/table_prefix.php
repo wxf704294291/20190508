@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
+    
 function write_static_cache($cache_name, $caches, $cache_file_path = '', $type = 0, $url_data = array())
 {
 	if ((DEBUG_MODE & 2) == 2) {

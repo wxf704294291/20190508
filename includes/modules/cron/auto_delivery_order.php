@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 function auto_delivery_order_logResult($word = '', $type = 'auto')
 {
 	$word = is_array($word) ? var_export($word, true) : $word;

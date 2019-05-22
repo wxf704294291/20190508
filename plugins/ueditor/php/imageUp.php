@@ -1,5 +1,5 @@
 <?php
- //websc
+        
 require 'config.php';
 
 if (!$enable) {

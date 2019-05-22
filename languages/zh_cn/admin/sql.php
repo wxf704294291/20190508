@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
+    
 $_LANG['title'] = '运行 SQL 查询';
 $_LANG['error'] = '出错了';
 $_LANG['succeed'] = 'SQL 语句已成功运行';

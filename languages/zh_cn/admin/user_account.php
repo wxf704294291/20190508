@@ -1,5 +1,5 @@
 <?php
- //websc
+        
 $_LANG['please_take_handle'] = '请选择操作项';
 $_LANG['through'] = '通过';
 $_LANG['user_name'] = '会员';

@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
+    
 $_LANG['apply_export'] = '导出';
 $_LANG['shop_name'] = '商家名称';
 $_LANG['grade_name'] = '等级';

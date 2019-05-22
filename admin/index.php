@@ -1,5 +1,5 @@
 <?php
-//websc 禁止倒卖 一经发现停止任何服务
+               
 function license_check()
 {
 	$return_array = array();
@@ -2520,15 +2520,15 @@ else if ($_REQUEST['act'] == 'cloud_services') {
 ');
 	exit();
 }
-else if ($_REQUEST['act'] == 'platform_recommend') {
+else if ($_REQUEST['act'] == 'software_download') {
 	admin_priv('cloud_services');
 	$http = $ecs->http();
 
 	if (strpos($http, 'https://') === false) {
-		$Loaction = 'http://www.flyobd.com/cloud/platform_rec.html';
+		$Loaction = 'http://www.flyobd.com/';
 	}
 	else {
-		$Loaction = 'https://www.flyobd.com/cloud/platform_rec.html';
+		$Loaction = 'http://www.flyobd.com/';
 	}
 
 	ecs_header('Location: ' . $Loaction . '
@@ -2540,10 +2540,10 @@ else if ($_REQUEST['act'] == 'best_recommend') {
 	$http = $ecs->http();
 
 	if (strpos($http, 'https://') === false) {
-		$Loaction = 'http://www.flyobd.com/cloud/best_rec.html';
+		$Loaction = 'http://www.flyobd.com/';
 	}
 	else {
-		$Loaction = 'https://www.flyobd.com/cloud/best_rec.html';
+		$Loaction = 'https://www.flyobd.com/';
 	}
 
 	ecs_header('Location: ' . $Loaction . '

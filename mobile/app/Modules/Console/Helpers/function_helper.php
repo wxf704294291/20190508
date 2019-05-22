@@ -1,5 +1,5 @@
 <?php
- //websc
+        
 function replace_img_view($data)
 {
 	$data = strstr($data, 'data');

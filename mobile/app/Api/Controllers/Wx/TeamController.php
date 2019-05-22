@@ -1,5 +1,5 @@
 <?php
- //websc
+        
 namespace App\Api\Controllers\Wx;
 
 class TeamController extends \App\Api\Controllers\Controller

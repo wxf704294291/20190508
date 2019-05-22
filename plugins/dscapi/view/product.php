@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 $product_id = isset($_REQUEST['product_id']) ? $base->get_intval($_REQUEST['product_id']) : -1;
 $goods_id = isset($_REQUEST['goods_id']) ? $base->get_intval($_REQUEST['goods_id']) : -1;
 $product_sn = isset($_REQUEST['product_sn']) ? $base->get_addslashes($_REQUEST['product_sn']) : -1;

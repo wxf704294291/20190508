@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 $_LANG['add_agency'] = '添加办事处';
 $_LANG['edit_agency'] = '编辑办事处';
 $_LANG['agency_list'] = '办事处列表';

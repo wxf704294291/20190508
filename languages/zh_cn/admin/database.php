@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
+    
 $_LANG['db_manage'] = '数据库管理';
 $_LANG['start_backup'] = '开始备份';
 $_LANG['backup_name'] = '备份名称';
@@ -53,7 +53,7 @@ $_LANG['unrecognize_mysql_version'] = '不能识别备份sql的mysql版本';
 $_LANG['mysql_version_error'] = '当前mysql版本%s与备份数据的mysql版本%s不同，你确认要导入该备份文件吗?';
 $_LANG['confirm_ver'] = '是，确认导入';
 $_LANG['unconfirm_ver'] = '否，取消导入';
-$_LANG['version_error'] = '大商创 当前版本%s与备份数据版本%s不同，备份恢复失败';
+$_LANG['version_error'] = '      当前版本%s与备份数据版本%s不同，备份恢复失败';
 $_LANG['not_sql_file'] = '你上传的好象不是sql文件，如果文件确实是sql文件，请将文件扩展名改为.sql';
 $_LANG['sqlfile_error'] = '你上传的sql文件执行出错，备份恢复失败';
 $_LANG['restore_success'] = '恢复成功';

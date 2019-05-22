@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function get_site_root_url()
 {
 	return 'http://' . $_SERVER['HTTP_HOST'] . str_replace('/' . ADMIN_PATH . '/order.php', '', PHP_SELF);

@@ -1,5 +1,4 @@
-<?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+<?php         
 function getgallery_child($album_id = 0, $type = 0)
 {
 	$child_arr = '';

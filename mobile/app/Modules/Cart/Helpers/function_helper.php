@@ -1,5 +1,5 @@
 <?php
- //websc
+        
 function sess()
 {
 	if (!empty($_SESSION['user_id'])) {

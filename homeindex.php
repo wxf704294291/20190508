@@ -1,5 +1,5 @@
 <?php
- //websc
+        
 if (!$smarty->is_cached('homeindex.dwt', $cache_id) || $preview == 1) {
 	assign_template();
 	$position = assign_ur_here();

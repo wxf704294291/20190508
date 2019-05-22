@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function update_configure($key, $val = '')
 {
 	if (!empty($key)) {

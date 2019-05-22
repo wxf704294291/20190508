@@ -20,7 +20,7 @@
             <!-- {/if} -->
             <!--{if $navigator_list.top}-->
             <li class="li_dorpdown" data-ectype="dorpdown">
-                <div class="dt dsc-cm">{$lang.Site_navigation}<i class="iconfont icon-down"></i></div>
+                <!---<div class="dt dsc-cm">{$lang.Site_navigation}<i class="iconfont icon-down"></i></div>--->
                 <div class="dd dorpdown-layer">
                     <dl class="fore1">
                         <dt>{$lang.characteristic_theme}</dt>
@@ -62,7 +62,7 @@
                 <li><a href="javascript:void(0);" ectype="merchants_article">{$lang.settled_help}</a></li>
                 <li><a href="javascript:void(0);" ectype="merchants_article">{$lang.understand_more}</a></li>
             </ul>
-            <div class="tel">{$service_phone}</div>
+            <!-----<div class="tel">{$service_phone}</div>----->
         </div>
     </div>
 </div>

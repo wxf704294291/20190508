@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
+    
 namespace App\Modules\Api\Controllers\V3;
 
 class CategoryController extends \App\Modules\Api\Foundation\Controller

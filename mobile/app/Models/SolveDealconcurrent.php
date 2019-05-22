@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace App\Models;
 
 class SolveDealconcurrent extends \Illuminate\Database\Eloquent\Model

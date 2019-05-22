@@ -1,5 +1,5 @@
 <?php
-//websc独家更新版 Q群541247070
+    
 function note_list()
 {
 	$result = get_filter();

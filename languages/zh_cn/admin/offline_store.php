@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 $_LANG['add_stores'] = '添加门店';
 $_LANG['stores_user'] = '登陆名';
 $_LANG['stores_pwd'] = '登陆密码';

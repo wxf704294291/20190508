@@ -29,7 +29,7 @@ class FlowController extends FrontendController
         );
         $this->load_helper($files);
         $this->check_login();
-        //ecmoban模板堂 --zhuo start
+                start
         if (!empty($_SESSION['user_id'])) {
             $this->sess_id = " user_id = '" . $_SESSION['user_id'] . "' ";
 
@@ -57,7 +57,7 @@ class FlowController extends FrontendController
         if (isset($_COOKIE['region_id']) && !empty($_COOKIE['region_id'])) {
             $this->region_id = $_COOKIE['region_id'];
         }
-        //ecmoban模板堂 --zhuo end
+                end
     }
 
     /**
@@ -105,7 +105,7 @@ class FlowController extends FrontendController
         $_SESSION['shipping_type'] = 0;
         $_SESSION['shipping_type_ru_id'] = array();
         $_SESSION['flow_consignee']['point_id'] = array();
-        //ecmoban模板堂 --zhuo
+               
         $direct_shopping = isset($_REQUEST['direct_shopping']) ? intval($_REQUEST['direct_shopping']) : $_SESSION['direct_shopping'];
         $cart_value = isset($_REQUEST['cart_value']) ? htmlspecialchars($_REQUEST['cart_value']) : $_SESSION['cart_value'];
         $store_id = isset($_REQUEST['store_id']) ? intval($_REQUEST['store_id']) : 0;  // 门店id
@@ -157,7 +157,7 @@ class FlowController extends FrontendController
             ecs_header("Location: " . url('address_list'));
             exit;
         }
-        //ecmoban模板堂 --zhuo start 审核收货人地址
+                start 审核收货人地址
         $user_address = get_order_user_address_list($_SESSION['user_id']);
 
         if ($direct_shopping != 1 && !empty($_SESSION['user_id'])) {
@@ -892,7 +892,7 @@ class FlowController extends FrontendController
 
         $order['order_amount'] = number_format($total['amount'], 2, '.', '');
 
-        //ecmoban模板堂 --zhuo
+               
         if (isset($_SESSION['direct_shopping']) && !empty($_SESSION['direct_shopping'])) {
             $where_flow = "&direct_shopping=" . $_SESSION['direct_shopping'];
         }
@@ -904,7 +904,7 @@ class FlowController extends FrontendController
                 $order['surplus'] = 0;
             }
             if ($order['order_amount'] > ($user_info['user_money'] + $user_info['credit_line'])) {
-                //ecmoban模板堂 --zhuo
+                       
                 show_message(L('balance_not_enough'), L('back_up_page'), url('team/flow/index') . $where_flow);
             } else {
                 if ($_SESSION['flow_type'] == CART_PRESALE_GOODS) {
@@ -1261,13 +1261,13 @@ class FlowController extends FrontendController
             /* 对商品信息赋值 */
             $cart_goods = cart_goods($flow_type, $_SESSION['cart_value']); // 取得商品列表，计算合计
             if (empty($cart_goods) || (!check_consignee_info($consignee, $flow_type) && $_SESSION['store_id'] <= 0)) {
-                //ecmoban模板堂 --zhuo start
+                        start
                 if (empty($cart_goods)) {
                     $result['error'] = 1;
                 } elseif (!check_consignee_info($consignee, $flow_type)) {
                     $result['error'] = 2;
                 }
-                //ecmoban模板堂 --zhuo end
+                        end
             } else {
                 /* 取得购物流程设置 */
                 $this->assign('config', C('shop'));
@@ -1289,7 +1289,7 @@ class FlowController extends FrontendController
                     }
                 }
 
-                //ecmoban模板堂 --zhuo start
+                        start
                 $cart_goods_number = get_buy_cart_goods_number($flow_type, $_SESSION['cart_value']);
                 $this->assign('cart_goods_number', $cart_goods_number);
 
@@ -1316,7 +1316,7 @@ class FlowController extends FrontendController
                 $total = order_fee($order, $cart_goods, $consignee, 0, $_SESSION['cart_value'], 0, $cart_goods_list);
                 $this->assign('order', $order);
                 $this->assign('total', $total);
-                //ecmoban模板堂 --zhuo end
+                        end
 
                 /* 团购标志 */
                 if ($flow_type == CART_GROUP_BUY_GOODS) {
@@ -1348,13 +1348,13 @@ class FlowController extends FrontendController
             $cart_goods = cart_goods($flow_type, $_SESSION['cart_value']); // 取得商品列表，计算合计
 
             if (empty($cart_goods) || (!check_consignee_info($consignee, $flow_type) && $_SESSION['store_id'] <= 0)) {
-                //ecmoban模板堂 --zhuo start
+                        start
                 if (empty($cart_goods)) {
                     $result['error'] = 1;
                 } elseif (!check_consignee_info($consignee, $flow_type)) {
                     $result['error'] = 2;
                 }
-                //ecmoban模板堂 --zhuo end
+                        end
             } else {
                 /* 取得购物流程设置 */
                 $this->assign('config', C('shop'));
@@ -1373,7 +1373,7 @@ class FlowController extends FrontendController
                 /* 保存 session */
                 $_SESSION['flow_order'] = $order;
 
-                //ecmoban模板堂 --zhuo start
+                        start
                 $cart_goods_number = get_buy_cart_goods_number($flow_type, $_SESSION['cart_value']);
                 $this->assign('cart_goods_number', $cart_goods_number);
 
@@ -1397,7 +1397,7 @@ class FlowController extends FrontendController
                 /* 计算订单的费用 */
                 $total = order_fee($order, $cart_goods, $consignee, 0, $_SESSION['cart_value'], 0, $cart_goods_list);
                 $this->assign('total', $total);
-                //ecmoban模板堂 --zhuo end
+                        end
 
                 /* 取得可以得到的积分和红包 */
                 /* $this->assign('total_integral', cart_amount(false, $flow_type) - $total['bonus'] - $total['integral_money']);
@@ -1444,7 +1444,7 @@ class FlowController extends FrontendController
                 /* 保存 session */
                 $_SESSION['flow_order'] = $order;
 
-                //ecmoban模板堂 --zhuo start
+                        start
                 $cart_goods_number = get_buy_cart_goods_number($flow_type, $_SESSION['cart_value']);
                 $this->assign('cart_goods_number', $cart_goods_number);
 
@@ -1461,7 +1461,7 @@ class FlowController extends FrontendController
                 /* 计算订单的费用 */
                 $total = order_fee($order, $cart_goods, $consignee, 0, $_SESSION['cart_value'], 0, $cart_goods_list);
                 $this->assign('total', $total);
-                //ecmoban模板堂 --zhuo end
+                        end
 
                 /* 取得可以得到的积分和红包 */
                 $this->assign('total_integral', cart_amount(false, $flow_type) - $total['bonus'] - $total['integral_money']);
@@ -1522,7 +1522,7 @@ class FlowController extends FrontendController
             $total = order_fee($order, $cart_goods, $consignee, 0, $_SESSION['cart_value'], 0, $cart_goods_list);
             $this->assign('total', $total);
             $this->assign('order', $order);
-            //ecmoban模板堂 --zhuo end
+                    end
             /* 团购标志 */
             if ($flow_type == CART_GROUP_BUY_GOODS) {
                 $this->assign('is_group_buy', 1);
@@ -1565,7 +1565,7 @@ class FlowController extends FrontendController
             } else {
                 $order['cou_id'] = $order['uc_id'] = 0;
             }
-            //ecmoban模板堂 --zhuo start
+                    start
             $cart_goods_number = get_buy_cart_goods_number($flow_type, $_SESSION['cart_value']);
             $this->assign('cart_goods_number', $cart_goods_number);
             $consignee['province_name'] = get_goods_region_name($consignee['province']);
@@ -1584,7 +1584,7 @@ class FlowController extends FrontendController
             $this->assign('total', $total);
             $_SESSION['flow_order']['cou_id'] = 0;
             $_SESSION['flow_order']['uc_id'] = 0;
-            //ecmoban模板堂 --zhuo end
+                    end
 
             /* 团购标志 */
             if ($flow_type == CART_GROUP_BUY_GOODS) {
@@ -1633,7 +1633,7 @@ class FlowController extends FrontendController
             if (empty($cart_goods) || (!check_consignee_info($consignee, $flow_type) && $_SESSION['store_id'] <= 0)) {
                 $result['error'] = L('no_goods_in_cart');
             } else {
-                //ecmoban模板堂 --zhuo start
+                        start
                 $cart_goods_number = get_buy_cart_goods_number($flow_type, $_SESSION['cart_value']);
                 $this->assign('cart_goods_number', $cart_goods_number);
 
@@ -1660,7 +1660,7 @@ class FlowController extends FrontendController
                 /* 计算订单的费用 */
                 $total = order_fee($order, $cart_goods, $consignee, 0, $_SESSION['cart_value'], 0, $cart_goods_list);
                 $this->assign('total', $total);
-                //ecmoban模板堂 --zhuo end
+                        end
                 $this->assign('config', C('shop'));
 
                 /* 团购标志 */
@@ -1817,7 +1817,7 @@ class FlowController extends FrontendController
                 $sql = "UPDATE {pre}order_invoice SET tax_id='$order[tax_id]' WHERE invoice_id='$invoice_id'and user_id=$_SESSION[user_id]";
                 $this->db->query($sql);
             }
-            //ecmoban模板堂 --zhuo start
+                    start
             //$cart_goods_number = get_buy_cart_goods_number($flow_type, $_SESSION['cart_value']);
             //$this->assign('cart_goods_number', $cart_goods_number);
 
@@ -1841,7 +1841,7 @@ class FlowController extends FrontendController
             $total = order_fee($order, $cart_goods, $consignee, 0, $_SESSION['cart_value'], 0, $cart_goods_list, 0, 0, $store_id);
             $this->assign('total', $total);
 
-            //ecmoban模板堂 --zhuo end
+                    end
 
             /* 团购标志 */
             if ($flow_type == CART_GROUP_BUY_GOODS) {

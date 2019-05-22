@@ -13,7 +13,7 @@ ul,
 li { margin: 0; padding: 0; border: 0; list-style-image: none; list-style-type: none; }
 
 a { color: #31b4e1; text-decoration: none;}
-a:hover { color: #ec5051; text-decoration: none; }
+a:hover { color: #2D3947; text-decoration: none; }
 
 input[type='text'],input[type='password']{ 
 	font-size: 14px; 
@@ -109,9 +109,9 @@ input[type='text']:focus::-webkit-input-placeholder{ color:#fff;}
 .btn_div .sub:hover,.btn_div .cancel:hover{box-shadow: 2px 3px 6px 0 rgba(0,0,0,0.3) inset;}
 
 .formText .return{ font-size:12px; color:#999; float:right; margin-right:10px;}
-.formText .return:hover{ color:#ec5151;}
+.formText .return:hover{ color:#2D3947;}
 .backPwd_form .formText .input-text{ padding-left:20px; width:200px;}
-.error{display: inline-block;padding-top: 5px;font-size: 12px;color: #ec5051;width:418px;}
+.error{display: inline-block;padding-top: 5px;font-size: 12px;color: #2D3947;width:418px;}
 
 #notIe{ position:fixed; border-radius:0; box-shadow:inherit; border:0;}
 #notIe .pb-bd{ padding:0;}

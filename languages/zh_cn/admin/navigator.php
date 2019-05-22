@@ -1,5 +1,5 @@
 <?php
-//WEBSC商城资源  禁止倒卖 一经发现停止任何服务
+//WEBSC商城资源         
 $_LANG['add_new'] = '添加导航';
 $_LANG['system_main'] = '系统内容';
 $_LANG['item_name'] = '名称';

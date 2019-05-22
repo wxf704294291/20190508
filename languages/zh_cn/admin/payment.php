@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC商城资源  禁止倒卖 一经发现停止任何服务
+//zend WEBSC商城资源         
 $_LANG['payment'] = '支付方式';
 $_LANG['payment_name'] = '支付方式名称';
 $_LANG['version'] = '插件版本';

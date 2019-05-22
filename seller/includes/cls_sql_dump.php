@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 class cls_sql_dump
 {
 	public $max_size = 2097152;

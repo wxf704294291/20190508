@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC商城资源  禁止倒卖 一经发现停止任何服务
+//zend WEBSC商城资源         
 $_LANG['title'] = 'CMS新闻';
 $_LANG['confirmation_release'] = '确认发布';
 $_LANG['preview'] = '预览';

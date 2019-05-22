@@ -1,5 +1,5 @@
 <?php
- //websc
+        
 function get_intro_list()
 {
 	return array('store_best' => $GLOBALS['_LANG']['store_best'], 'store_new' => $GLOBALS['_LANG']['store_new'], 'store_hot' => $GLOBALS['_LANG']['store_hot'], 'is_promote' => $GLOBALS['_LANG']['is_promote'], 'all_type' => $GLOBALS['_LANG']['all_type']);

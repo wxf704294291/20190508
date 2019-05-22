@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 function get_user_log()
 {
 	$result = get_filter();

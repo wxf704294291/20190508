@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 class exchange
 {
 	public $table;

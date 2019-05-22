@@ -1,5 +1,5 @@
 <?php
-//websc独家更新版 Q群541247070
+    
 if (!isset($_COOKIE['province'])) {
 	$area_array = get_ip_area_name();
 

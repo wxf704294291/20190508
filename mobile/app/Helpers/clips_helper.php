@@ -1,5 +1,5 @@
 <?php
- //websc
+        
 function get_collection_goods($user_id, $size = 10, $page = 1)
 {
 	if (!isset($_COOKIE['province'])) {

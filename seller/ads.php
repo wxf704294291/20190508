@@ -1,5 +1,5 @@
 <?php
- //websc
+        
 function get_adslist($ru_id)
 {
 	$filter = array();

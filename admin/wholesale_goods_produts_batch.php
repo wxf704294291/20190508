@@ -81,7 +81,7 @@ elseif ($_REQUEST['act'] == 'upload') {
     
     $smarty->assign('menu_select', array('action' => '02_cat_and_goods', 'current' => 'produts_area_batch'));
 
-    //ecmoban模板堂 --zhuo start 仓库
+            start 仓库
     if ($_FILES['file']['name']) {
 
         //获得属性的个数 bylu;

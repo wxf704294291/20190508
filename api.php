@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 define('IN_ECS', true);
 require dirname(__FILE__) . '/includes/init_api.php';
 require dirname(__FILE__) . '/plugins/dscapi/autoload.php';

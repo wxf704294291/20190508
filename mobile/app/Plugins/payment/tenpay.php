@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 class tenpay
 {
 	public function get_code($order, $payment)

@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
+    
 $_LANG['admin'] = '管理员';
 $_LANG['privilege'] = '权限';
 $_LANG['belongs_seller'] = '所属商家';

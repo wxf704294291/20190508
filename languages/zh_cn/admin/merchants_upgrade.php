@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 $_LANG['grade_name'] = '等级名称';
 $_LANG['goods_sun'] = '发布商品数量';
 $_LANG['seller_temp'] = '模板数量';

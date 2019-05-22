@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 $_LANG['shipping_transport'] = '运费管理';
 $_LANG['shipping_name'] = '配送方式名称';
 $_LANG['shipping_version'] = '插件版本';

@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
+    
 function upload_article_file($upload)
 {
 	if (!make_dir('../' . DATA_DIR . '/offline_store')) {

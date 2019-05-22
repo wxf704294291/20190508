@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function arr_foreach($arr)
 {
 	$tmp = array();

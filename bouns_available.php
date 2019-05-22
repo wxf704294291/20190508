@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 define('IN_ECS', true);
 require dirname(__FILE__) . '/includes/init.php';
 require ROOT_PATH . 'includes/cls_json.php';

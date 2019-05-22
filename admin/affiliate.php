@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function get_affiliate()
 {
 	$config = unserialize($GLOBALS['_CFG']['affiliate']);

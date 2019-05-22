@@ -17,7 +17,7 @@ define('IN_ECS', true);
 
 require(dirname(__FILE__) . '/includes/init.php');
 
-require(ROOT_PATH . '/includes/lib_area.php');  //ecmoban模板堂 --zhuo
+require(ROOT_PATH . '/includes/lib_area.php');         
 require(ROOT_PATH . '/includes/lib_wholesale.php');
 
 if($GLOBALS['_CFG']['wholesale_user_rank'] == 0){

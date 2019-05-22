@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
+    
 class cls_sql_dump
 {
 	public $max_size = 2097152;

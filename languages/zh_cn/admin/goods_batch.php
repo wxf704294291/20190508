@@ -1,5 +1,5 @@
 <?php
-//websc独家更新版 Q群541247070
+    
 $_LANG['select_method'] = '选择商品的方式：';
 $_LANG['by_cat'] = '根据商品分类、品牌';
 $_LANG['by_sn'] = '根据商品货号';

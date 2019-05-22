@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 $_LANG['is_show'] = '是否显示';
 $_LANG['view_order'] = '查看';
 $_LANG['button_remove'] = '删除流程';

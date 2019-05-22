@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 namespace App\Modules\Chat\Models;
 
 class Kefu extends \Think\Model

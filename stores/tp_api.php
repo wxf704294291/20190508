@@ -1,5 +1,5 @@
 <?php
-//zend websc在线更新版  禁止倒卖 一经发现停止任何服务
+//zend websc在线更新版         
 function get_order_print_setting($ru_id)
 {
 	$filter = array();

@@ -45,14 +45,14 @@ if ($_REQUEST['act'] == 'list') {
     }
     /* 获取分类列表 */
 
-    //ecmoban模板堂 --zhuo start
+            start
     $adminru = get_admin_ru_id();
     $smarty->assign('ru_id', $adminru['ru_id']);
 
     if ($adminru['ru_id'] == 0) {
         $smarty->assign('action_link', array('href' => 'wholesale_cat.php?act=add', 'text' => $_LANG['add_wholesale_cat']));
     }
-    //ecmoban模板堂 --zhuo end
+            end
 
     /* 模板赋值 */
     $smarty->assign('ur_here', $_LANG['wholesale_cat']);
@@ -76,10 +76,10 @@ elseif ($_REQUEST['act'] == 'query')
     $cat_list = wholesale_cat_list(0, 0, false);
     $smarty->assign('cat_info',     $cat_list);
 
-    //ecmoban模板堂 --zhuo start
+            start
     $adminru = get_admin_ru_id();
     $smarty->assign('ru_id',     $adminru['ru_id']);
-    //ecmoban模板堂 --zhuo end
+            end
 
     make_json_result($smarty->fetch('wholesale_cat_list.dwt'));
 }
@@ -110,10 +110,10 @@ if ($_REQUEST['act'] == 'add') {
     $smarty->assign('form_act', 'insert');
     $smarty->assign('cat_info', array('is_show' => 1, 'parent_id' => $parent_id));
 
-    //ecmoban模板堂 --zhuo start
+            start
     $adminru = get_admin_ru_id();
     $smarty->assign('ru_id', $adminru['ru_id']);
-    //ecmoban模板堂 --zhuo end
+            end
 
     /* 显示页面 */
     assign_query_info();
@@ -209,12 +209,12 @@ if ($_REQUEST['act'] == 'edit') {
     $smarty->assign('ur_here', $_LANG['edit_wholesale_cat']);
     $smarty->assign('action_link', array('text' => $_LANG['wholesale_cat_list'], 'href' => 'wholesale_cat.php?act=list'));
 
-    //ecmoban模板堂 --zhuo start
+            start
     $smarty->assign('cat_id', $cat_id);
 
     $adminru = get_admin_ru_id();
     $smarty->assign('ru_id', $adminru['ru_id']);
-    //ecmoban模板堂 --zhuo end
+            end
     $smarty->assign('cat_info', $cat_info);
     $smarty->assign('form_act', 'update');
 

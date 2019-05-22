@@ -10,10 +10,12 @@ if ($this->_foreach['noad']['total'] > 0):
             <h3><?php echo $this->_var['lang']['sett_title']; ?></h3>
             <div class="s-b-line"></div>
         </div>
+		<!---
         <div class="s-b-btn">
             <a href="javascript:void(0);" data-url="<?php echo $this->_var['url_merchants_steps']; ?>" class="im-sett" ectype="url_merchants_steps"><?php echo $this->_var['lang']['settled_down']; ?></a>
             <a href="javascript:void(0);" data-url="<?php echo $this->_var['url_merchants_steps_site']; ?>" class="view-prog" ectype="url_merchants_steps"><?php echo $this->_var['lang']['settled_down_schedule']; ?></a>
         </div>
+		--->
     </div>
 </div>
 <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>

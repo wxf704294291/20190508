@@ -1,5 +1,5 @@
 <?php
- //websc
+        
 function get_goodstype($ru_id)
 {
 	$where = ' WHERE 1 ';

@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 class cod
 {
 	public function get_code($order, $payment)

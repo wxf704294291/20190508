@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function shipping_list()
 {
 	$sql = 'SELECT shipping_id, shipping_name ' . 'FROM ' . $GLOBALS['ecs']->table('shipping') . ' WHERE enabled = 1';

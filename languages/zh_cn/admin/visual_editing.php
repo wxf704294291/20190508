@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 $_LANG['apply_sn'] = '订单号';
 $_LANG['temp_name'] = '模板名称';
 $_LANG['total_amount'] = '总金额';

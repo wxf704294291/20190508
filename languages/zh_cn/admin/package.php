@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 $_LANG['drop_package_thumb'] = '删除图标';
 $_LANG['confirm_drop_thumb'] = '你确认要删除该图标吗？';
 $_LANG['drop_package_thumb_success'] = '删除图标成功';

@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
+    
 header('Content-Type: text/html; charset=utf-8');
 error_reporting(1 | 2);
 define('IN_ECS', true);

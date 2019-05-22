@@ -1,18 +1,4 @@
 <?php
-
-/**
- * ECSHOP 管理中心批发管理
- * ============================================================================
- * * 版权所有 2005-2016 上海商创网络科技有限公司，并保留所有权利。
- * 网站地址: www.flyobd.com；
- * ----------------------------------------------------------------------------
- * 这不是一个自由软件！您只能在不用于商业目的的前提下对程序代码进行修改和
- * 使用；不允许对程序代码以任何形式任何目的的再发布。
- * ============================================================================
- * $Author: liubo $
- * $Id: wholesale.php 17217 2011-01-19 06:29:08Z liubo $
- */
-
 define('IN_ECS', true);
 require(dirname(__FILE__) . '/includes/init.php');
 include_once('../includes/lib_goods.php');
@@ -24,14 +10,14 @@ include_once(ROOT_PATH . '/includes/cls_image.php');
 $image = new cls_image($_CFG['bgcolor']);
 
 $exc_extend = new exchange($ecs->table('wholesale_extend'), $db, 'goods_id', 'extend_id');
-//ecmoban模板堂 --zhuo start
+        start
 $adminru = get_admin_ru_id();
 if($adminru['ru_id'] == 0){
     $smarty->assign('priv_ru',   1);
 }else{
     $smarty->assign('priv_ru',   0);
 } 	
-//ecmoban模板堂 --zhuo end
+        end
 $admin_id = get_admin_id();
 /*------------------------------------------------------ */
 //-- 活动列表页
@@ -732,7 +718,7 @@ elseif ($_REQUEST['act'] == 'insert' || $_REQUEST['act'] == 'update')
         if (isset($_POST['attr_id_list'])) {
             foreach ($_POST['attr_id_list'] AS $key => $attr_id) {
                 $attr_value = $_POST['attr_value_list'][$key];
-                $attr_sort = $_POST['attr_sort_list'][$key]; //ecmoban模板堂 --zhuo
+                $attr_sort = $_POST['attr_sort_list'][$key];        
                 if (!empty($attr_value)) {
                     if (isset($goods_attr_list[$attr_id][$attr_value])) {
                         // 如果原来有，标记为更新
@@ -1358,11 +1344,11 @@ else if($_REQUEST['act'] == 'goods_info')
            {
                $where = " WHERE g.is_on_sale=1 AND g.user_id=0 AND g.is_delete=0 AND g.goods_id".db_create_in($goods_info);
                
-               //ecmoban模板堂 --zhuo start
+                       start
                 if($GLOBALS['_CFG']['review_goods'] == 1){
                         $where .= ' AND g.review_status > 2 ';
                 }
-                //ecmoban模板堂 --zhuo end
+                        end
     
                $sql = "SELECT g.goods_name,g.goods_id,g.goods_thumb,g.original_img,g.shop_price FROM " . $ecs->table('goods') . " AS g " . $where ;
                $goods_list = $db->getAll($sql);
@@ -1436,11 +1422,11 @@ elseif($_REQUEST['act'] == 'changedgoods'){
 		$where .= " AND g.goods_id NOT IN($goods_ids_str) ";	
 	}
 	
-    //ecmoban模板堂 --zhuo start
+            start
     if($GLOBALS['_CFG']['review_goods'] == 1){
             $where .= ' AND g.review_status > 2 ';
     }
-    //ecmoban模板堂 --zhuo end
+            end
     if($cat_id[0] > 0)
     {
         $where .= " AND ".get_children($cat_id[0]);
@@ -1784,7 +1770,7 @@ elseif($_REQUEST['act'] == 'changedgoods'){
 }
 
 /*------------------------------------------------------ */
-//-- 删除商品勾选属性 //ecmoban模板堂 --zhuo
+//-- 删除商品勾选属性        
 /*------------------------------------------------------ */
 elseif ($_REQUEST['act'] == 'del_goods_attr') {
     $json = new JSON;
@@ -1807,7 +1793,7 @@ elseif ($_REQUEST['act'] == 'del_goods_attr') {
 }
 
 /*------------------------------------------------------ */
-//-- 添加属性图片 //ecmoban模板堂 --zhuo
+//-- 添加属性图片        
 /*------------------------------------------------------ */
  elseif ($_REQUEST['act'] == 'add_attr_img') {
     $json = new JSON;
@@ -1845,7 +1831,7 @@ elseif ($_REQUEST['act'] == 'del_goods_attr') {
 }
 
 /*------------------------------------------------------ */
-//-- 添加属性图片插入数据 //ecmoban模板堂 --zhuo
+//-- 添加属性图片插入数据        
 /*------------------------------------------------------ */
 elseif ($_REQUEST['act'] == 'insert_attr_img')
 {
@@ -1894,7 +1880,7 @@ elseif ($_REQUEST['act'] == 'insert_attr_img')
 }
 
 /*------------------------------------------------------ */
-//-- 删除属性图片 //ecmoban模板堂 --zhuo
+//-- 删除属性图片        
 /*------------------------------------------------------ */
 elseif ($_REQUEST['act'] == 'drop_attr_img')
 {

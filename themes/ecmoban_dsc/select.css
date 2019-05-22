@@ -88,7 +88,7 @@
 }
  
 .attr_father a:hover{
-  color:#ec5151;
+  color:#2D3947;
 }
 
 .more_item{
@@ -195,7 +195,7 @@
 
 .u_cloose dd .get_item:hover{
   cursor: pointer;
-  border: 1px solid #ec5151;
+  border: 1px solid #2D3947;
 }
 .u_cloose dd .get_item b{ font-weight: 400;color: #333;}
 .u_cloose dd .get_item em{ color: #e4393c;}
@@ -249,7 +249,7 @@
 	text-align: center;
 }
 .brand_div .brand_img_word:hover{
-	border-color: #ec5051;
+	border-color: #2D3947;
 	position: relative;
 	z-index: 5;
 }
@@ -298,8 +298,8 @@
 	cursor:pointer;
 }
 .brand_select_more .all_a_z ul li.curr{
-	color:#ec5051;
-	border-color:#ec5051;
+	color:#2D3947;
+	border-color:#2D3947;
 }
 
 .all_a_z{
@@ -471,7 +471,7 @@
 	text-align: center;
 	text-decoration: none;
 	cursor: pointer;
-	border: 1px solid #ec5051;
+	border: 1px solid #2D3947;
 	padding: 3px 13px 3px;
 	color: #FFF;
 	background-color: #E74649;
@@ -651,7 +651,7 @@
 
 .multiple .selected b{
     background: url(images/20121207A.gif) right bottom no-repeat;
-    border: 1px solid #ec5051;
+    border: 1px solid #2D3947;
     height: 18px;
     width: 18px;
     position: absolute;
@@ -725,13 +725,13 @@
 	background-position: -278px -292px;
 }
 .click_more:hover{
-	border-color:#ec5051;
+	border-color:#2D3947;
 }
 .click_more:hover span{
 	border-color: #FFF #e4393c #e4393c;
 }
 .click_more:hover strong{
-	color:#ec5051;
+	color:#2D3947;
 }
 .click_more:hover i{
 	background-position: -542px -201px;
@@ -774,7 +774,7 @@
 	font-size: 19px;
 }
 .choose_open:hover{
-	border-color:#ec5051;
+	border-color:#2D3947;
 }
 .choose_open:hover .icon_all{
 	background-position: -542px -201px;

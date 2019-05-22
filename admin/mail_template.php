@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function load_template($temp_id)
 {
 	$sql = 'SELECT template_subject, template_content, is_html ' . 'FROM ' . $GLOBALS['ecs']->table('mail_templates') . (' WHERE template_id=\'' . $temp_id . '\'');

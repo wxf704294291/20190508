@@ -33,7 +33,7 @@ else
     $_REQUEST['act'] = trim($_REQUEST['act']);
 }
 
-//ecmoban模板堂 --zhuo start
+        start
 $adminru = get_admin_ru_id();
 $ruCat = '';
 if($adminru['ru_id'] == 0){
@@ -41,7 +41,7 @@ if($adminru['ru_id'] == 0){
 }else{
         $smarty->assign('priv_ru',   0);
 }
-//ecmoban模板堂 --zhuo end
+        end
 
 include_once(ROOT_PATH . 'languages/' . $_CFG['lang'] . '/wholesale_purchase.php');
 $smarty->assign('lang', $_LANG);
@@ -218,13 +218,13 @@ function purchase_list()
     /* 过滤查询 */
     $filter = array();
 	
-    //ecmoban模板堂 --zhuo start
+            start
     $filter['keyword'] = !empty($_REQUEST['keyword']) ? trim($_REQUEST['keyword']) : '';
     if (isset($_REQUEST['is_ajax']) && $_REQUEST['is_ajax'] == 1)
     {
 		$filter['keyword'] = json_str_iconv($filter['keyword']);
     }
-    //ecmoban模板堂 --zhuo end
+            end
     
     $filter['sort_by']    = empty($_REQUEST['sort_by']) ? 'purchase_id' : trim($_REQUEST['sort_by']);
     $filter['sort_order'] = empty($_REQUEST['sort_order']) ? 'DESC' : trim($_REQUEST['sort_order']);
@@ -257,7 +257,7 @@ function purchase_list()
         $rows['add_time'] = local_date($GLOBALS['_CFG']['time_format'], $rows['add_time']);
         $rows['end_time'] = local_date($GLOBALS['_CFG']['time_format'], $rows['end_time']);
         $rows['user_name'] = get_table_date('users', "user_id = '$rows[user_id]'", array('user_name'), 2);
-        //$rows['user_name'] = get_shop_name($rows['user_id'], 1); //ecmoban模板堂 --zhuo
+        //$rows['user_name'] = get_shop_name($rows['user_id'], 1);        
 		 
         $arr[$idx] = $rows;
 

@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
+    
 $_LANG['seller_domain'] = '店铺二级域名管理';
 $_LANG['seller_domain_edit'] = '店铺二级域名编辑';
 $_LANG['domain_edit'] = '编辑成功';

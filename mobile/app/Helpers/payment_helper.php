@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function return_url($code)
 {
 	return __URL__ . '/respond.php?code=' . $code;

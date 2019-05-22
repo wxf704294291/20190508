@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
+    
 $_LANG['seller_garde_list'] = '商家等级列表';
 $_LANG['add_seller_garde'] = '添加商家等级';
 $_LANG['grade_name'] = '等级名称';

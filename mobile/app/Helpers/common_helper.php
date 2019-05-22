@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function db_create_in($item_list, $field_name = '', $not = '')
 {
 	if (!empty($not)) {

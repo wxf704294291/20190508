@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC商城资源  禁止倒卖 一经发现停止任何服务
+//zend WEBSC商城资源         
 $_LANG['user_account_manage'] = '资金管理';
 $_LANG['view_application'] = '查看申请记录';
 $_LANG['surplus_pro_type'] = '类型';

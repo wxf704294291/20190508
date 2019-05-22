@@ -34,7 +34,7 @@ body .J_ComboDialog .header .tm-combo-mitem .tm-enable.selected {background: url
 body .J_ComboDialog .header .tm-combo-item .tm-enable.selected { background: url(images/checked-icon.png) no-repeat;}
 .J_ComboDialog .header .tm-combo-spliter {float:left;line-height:60px}
 .J_ComboDialog .header .tm-combo-info {float:left;}
-.J_ComboDialog .header .tm-combo-info .tm-combo-price {display:inline-block;*display:inline;*zoom:1;font-size:12px;line-height:18px;color:#ec5051;}
+.J_ComboDialog .header .tm-combo-info .tm-combo-price {display:inline-block;*display:inline;*zoom:1;font-size:12px;line-height:18px;color:#2D3947;}
 .J_ComboDialog .header .tm-combo-info .tm-combo-price i {font-family:arial, verdana, sans-serif!important;font-style:normal;font-size:18px}
 .J_ComboDialog .header .tm-combo-info .tm-combo-price s {text-decoration:none;font-size:18px}
 .J_ComboDialog .header .tm-combo-info .tm-save-price {display:inline-block;*display:inline;*zoom:1;background-color:#333;color:#fff;padding:1px 3px;font-size:14px;line-height:18px;position:relative;margin-left:4px}
@@ -43,7 +43,7 @@ body .J_ComboDialog .header .tm-combo-item .tm-enable.selected { background: url
 .J_ComboDialog .header .tm-combo-info .tm-save-price s {text-decoration:none}
 .J_ComboDialog .header .tm-combo-info .tm-original-price i {font-family:arial, verdana, sans-serif!important;font-style:normal}
 .J_ComboDialog .header .tm-combo-info .tm-count s {text-decoration:none}
-.J_ComboDialog .header .tm-combo-warnning {display:none;color:#ec5051;margin-top:20px;line-height:20px;float:left;margin-left:10px}
+.J_ComboDialog .header .tm-combo-warnning {display:none;color:#2D3947;margin-top:20px;line-height:20px;float:left;margin-left:10px}
 body .J_ComboDialog .header.warnning {background-color:#ffe159}
 body .J_ComboDialog .header.warnning .tm-combo-warnning {display:block}
 body .J_ComboDialog .header.warnning .tm-combo-info {display:none}
@@ -65,7 +65,7 @@ body .J_ComboDialog .header.warnning .tm-combo-info {display:none}
 .J_ComboDialog .body .tm-combo-item .tm-meta .tb-prop dd {width:280px;margin-left:85px;float:none}
 .J_ComboDialog .body .tm-combo-item .tm-meta li {float:left;position:relative;margin:0 4px 4px 0;line-height:20px;vertical-align:middle;padding:1px}
 .J_ComboDialog .body .tm-combo-item .tm-meta li a {float:left;background-color:#fff;white-space:nowrap;width:auto!important;min-width:10px;padding:0 6px;text-align:center;color:#000;text-decoration:none; height:30px;}
-.J_ComboDialog .body .tm-combo-item .tm-meta li a:hover, .J_ComboDialog .body .tm-combo-item .tm-meta li a.tb-txt-a {border:2px solid #ec5051;margin:-1px}
+.J_ComboDialog .body .tm-combo-item .tm-meta li a:hover, .J_ComboDialog .body .tm-combo-item .tm-meta li a.tb-txt-a {border:2px solid #2D3947;margin:-1px}
 .J_ComboDialog .body .tm-combo-item .tm-meta li a:focus {outline:0}
 .J_ComboDialog .body .tm-combo-item .tm-meta li.tb-selected li a {border:1px solid #e2e1e3;margin:0}
 .J_ComboDialog .body .tm-combo-item .tm-meta li span { padding:0px;*zoom:1; display:block; line-height:30px;}
@@ -84,7 +84,7 @@ body .J_ComboDialog .header.warnning .tm-combo-info {display:none}
 .J_ComboDialog .body .tm-combo-item .tb-stock dt {float:left}
 .J_ComboDialog .body .tm-combo-item .tm-notice {display:none}
 body .J_ComboDialog .body .tm-combo-item.hover {border:1px dashed red;position:relative}
-body .J_ComboDialog .body .tm-combo-item.hover .tm-notice {position:absolute;right:0;top:0;z-index:1;background-color:#ec5051;color:#fff;padding:2px 4px;display:block}
+body .J_ComboDialog .body .tm-combo-item.hover .tm-notice {position:absolute;right:0;top:0;z-index:1;background-color:#2D3947;color:#fff;padding:2px 4px;display:block}
 .J_ComboDialog .body .scroll {*zoom:1;width:100%;position:relative;overflow:auto;height:360px}
 .J_ComboDialog .body .scroll:after {display:block;clear:both;height:0;content:' '}
 .J_ComboDialog .footer {*zoom:1;height:70px;width:100%;background-color:#000;color:#999}
@@ -96,18 +96,18 @@ body .J_ComboDialog .body .tm-combo-item.hover .tm-notice {position:absolute;rig
 .J_ComboDialog .footer .tm-delivery .mui_addr_tri .mui_addr_tri_1 {color:#fff;padding-right:12px;cursor:pointer;background:0 0;border:0;position:relative;z-index:2}
 .J_ComboDialog .footer .tm-delivery .mui_addr_tri .mui_addr_tri_2 {color:#fff;padding-right:12px;cursor:pointer;background:0 0;border:0;position:relative;z-index:2}
 .J_ComboDialog .footer .tm-buy {float:right;margin:10px;line-height:40px;position:relative;z-index:1}
-.J_ComboDialog .footer .tm-buy .tm-combo-totalPrice i {font-family:arial, verdana, sans-serif!important;font-style:normal;font-weight:bolder;color:#ec5051}
-.J_ComboDialog .footer .tm-buy .tm-combo-totalPrice s {text-decoration:none;font-weight:bolder;font-size:18px;color:#ec5051; margin-right:5px;position: relative;top: 2px;}
+.J_ComboDialog .footer .tm-buy .tm-combo-totalPrice i {font-family:arial, verdana, sans-serif!important;font-style:normal;font-weight:bolder;color:#2D3947}
+.J_ComboDialog .footer .tm-buy .tm-combo-totalPrice s {text-decoration:none;font-weight:bolder;font-size:18px;color:#2D3947; margin-right:5px;position: relative;top: 2px;}
 .J_ComboDialog .footer .tm-buy .tm-combo-totalPrice s em{ font-size:12px;}
-.J_ComboDialog .footer .tm-buy .tm-combo-notice {width:18px; background-color:#fee;color:#ec5051;border:1px solid #f9b3ac;position:absolute; right:8px; text-align:center; top:-369px; line-height:18px; }
+.J_ComboDialog .footer .tm-buy .tm-combo-notice {width:18px; background-color:#fee;color:#2D3947;border:1px solid #f9b3ac;position:absolute; right:8px; text-align:center; top:-369px; line-height:18px; }
 .J_ComboDialog .footer .tm-buy input {width:35px;line-height:20px;margin:0 5px; height:20px;}
-.J_ComboDialog .footer .tm-buy button {line-height:40px;background-color:#ec5051;overflow:visible;border:0;color:#fff;padding:0 15px;border-radius:1px;cursor:pointer}
+.J_ComboDialog .footer .tm-buy button {line-height:40px;background-color:#2D3947;overflow:visible;border:0;color:#fff;padding:0 15px;border-radius:1px;cursor:pointer}
 .J_ComboDialog .footer .tm-buy button.disabled {background-color:#818181}
 
 #content .c-value-no, #content .c-value-no i, #content .c-value-no em, #detail .i-butie, .tb-prop .tb-selected i, .tm-ser .tm-pay-box .tm-pay .pay-credit s, #mallLogo .mlogo s, #shopExtra .slogo-extraicon .ww-inline, #shop-info .shopdsr-score-up, #shop-info .shopdsr-score-down, #shop-info .shopdsr-score-equal, #shop-info .extra-info .other .enter-shop i, #shop-info .extra-info .other .collection i, #shop-info .shop-rate b, #shop-info .shop-rate b.lower, #shop-info .shop-rate b.fair, #header .shopwt-qr {background-image:url(images/goods_f/TB1.png)}
 .tb-prop li {float:left;position:relative;margin:0 4px 4px 0;line-height:20px;vertical-align:middle;padding:1px}
 .tb-prop li a {float:left;background-color:#fff;white-space:nowrap;width:auto!important;min-width:10px;padding:0 9px;text-align:center;border:1px solid #b8b7bd;color:#000;text-decoration:none}
-.tb-prop li a:hover {border:2px solid #ec5051;margin:-1px}
+.tb-prop li a:hover {border:2px solid #2D3947;margin:-1px}
 .tb-prop li.tb-selected a {border:2px solid #be0106;margin:-1px}
 .tb-prop li.tb-selected a:hover {border:2px solid #be0106;margin:-1px}
 .tb-prop li a:focus {outline:0}

@@ -1,5 +1,4 @@
 <?php
-//WEBSC商城资源
 function get_links_list()
 {
 	$result = get_filter();

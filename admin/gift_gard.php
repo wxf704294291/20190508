@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function get_type_list()
 {
 	$adminru = get_admin_ru_id();

@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function category_get_goods($children, $brand, $min, $max, $ext, $size, $page, $sort, $order, $warehouse_id = 0, $area_id = 0, $area_city = 0, $where_ext = array(), $region)
 {
 	$display = $GLOBALS['display'];

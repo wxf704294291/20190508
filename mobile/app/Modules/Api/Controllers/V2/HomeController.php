@@ -1,5 +1,5 @@
 <?php
-//zend by WEBSC 禁止倒卖 一经发现停止任何服务
+
 namespace App\Modules\Api\Controllers\V2;
 
 class HomeController extends \App\Modules\Api\Controllers\Controller

@@ -1,5 +1,5 @@
 <?php
- //websc
+        
 function get_admin_userlist($ru_id)
 {
 	$list = array();

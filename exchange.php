@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 function exchange_get_goods($children, $min, $max, $ext, $size, $page, $sort, $order)
 {
 	$display = $GLOBALS['display'];

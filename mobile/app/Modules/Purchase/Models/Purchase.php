@@ -550,7 +550,7 @@ class Purchase extends Model {
             $groups = explode("\n", strtr($grp, "\r", ''));
         }
 
-        //ecmoban模板堂 --zhuo satrt
+                satrt
         $model_attr = get_table_date("goods", "goods_id = '$goods_id'", ['model_attr'], 2);
         $leftJoin = '';
         $select = '';
@@ -561,7 +561,7 @@ class Purchase extends Model {
           $select = " waa.attr_price as area_attr_price, ";
           $leftJoin = 'LEFT JOIN ' . $GLOBALS['ecs']->table('warehouse_area_attr') . " AS waa ON g.goods_attr_id = waa.goods_attr_id AND area_id = '$area_id' ";
           } */
-        //ecmoban模板堂 --zhuo end
+                end
 
         $goodsAttr = '';
         if ($attr_type == 1 && !empty($goods_attr_id)) {
@@ -598,7 +598,7 @@ class Purchase extends Model {
                 $arr['pro'][$group][$row['attr_id']]['name'] = $row['attr_name'];
                 $arr['pro'][$group][$row['attr_id']]['value'] = $row['attr_value'];
             } else {
-                //ecmoban模板堂 --zhuo satrt
+                        satrt
                 if ($model_attr == 1) {
                     $attr_price = $row['warehouse_attr_price'];
                 } elseif ($model_attr == 2) {
@@ -606,7 +606,7 @@ class Purchase extends Model {
                 } else {
                     $attr_price = $row['attr_price'];
                 }
-                //ecmoban模板堂 --zhuo end
+                        end
 
                 $img_site = [
                     'attr_img_flie' => $row['attr_img_flie'],
@@ -621,13 +621,13 @@ class Purchase extends Model {
                 $arr['spe'][$row['attr_id']]['name'] = $row['attr_name'];
                 $arr['spe'][$row['attr_id']]['values'][] = [
                     'label' => $row['attr_value'],
-                    //ecmoban模板堂 --zhuo start
+                            start
                     'img_flie' => $row['img_flie'],
                     'img_site' => $row['img_site'],
                     'checked' => $row['attr_checked'],
                     'attr_sort' => $row['attr_sort'],
                     'combo_checked' => get_combo_godos_attr($attr_array, $row['goods_attr_id']),
-                    //ecmoban模板堂 --zhuo end
+                            end
                     'price' => $attr_price,
                     'format_price' => price_format(abs($attr_price), false),
                     'id' => $row['goods_attr_id']
@@ -640,10 +640,10 @@ class Purchase extends Model {
                 $arr['lnk'][$row['attr_id']]['value'] = $row['attr_value'];
             }
 
-            //ecmoban模板堂 --zhuo start
+                    start
             $arr['spe'][$row['attr_id']]['values'] = get_array_sort($arr['spe'][$row['attr_id']]['values'], 'attr_sort');
             $arr['spe'][$row['attr_id']]['is_checked'] = get_attr_values($arr['spe'][$row['attr_id']]['values']);
-            //ecmoban模板堂 --zhuo end
+                    end
         }
 
         return $arr;

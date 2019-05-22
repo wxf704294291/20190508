@@ -1,5 +1,5 @@
 <?php
-//websc 禁止倒卖 一经发现停止任何服务
+               
 define('IN_ECS', true);
 ini_set('display_errors', 1);
 error_reporting(32767 ^ 8);

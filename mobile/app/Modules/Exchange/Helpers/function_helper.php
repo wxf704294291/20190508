@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 function get_attr_value($goods_id, $attr_id)
 {
 	$sql = 'select * from ' . $GLOBALS['ecs']->table('goods_attr') . (' where goods_id=\'' . $goods_id . '\' and goods_attr_id=\'' . $attr_id . '\'');

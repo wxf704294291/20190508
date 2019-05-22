@@ -1,5 +1,5 @@
 <?php
-//websc
+       
 $_LANG['goods_alt'] = '商品';
 $_LANG['order_vcard_return'] = '【订单退款】储值卡退款金额：%s';
 $_LANG['seller_off'] = '店铺关闭中，请及时联系平台客服人员进行查询相关信息！';
@@ -248,7 +248,7 @@ $_LANG['04_touch_ad_position'] = '广告位管理';
 $_LANG['05_touch_dashboard'] = '可视化装修';
 $_LANG['21_cloud'] = '云服务中心';
 $_LANG['01_cloud_services'] = '在线升级';
-$_LANG['02_platform_recommend'] = '平台推荐';
+$_LANG['02_software_download'] = '软件下载';
 $_LANG['03_best_recommend'] = '好货推荐';
 $_LANG['01_goods_list'] = '商品列表';
 $_LANG['02_goods_add'] = '添加新商品';

@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 function get_msg_list($num, $start)
 {
 	$msg = array();

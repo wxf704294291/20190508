@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 $_LANG['merchants_info'] = '店铺信息';
 $_LANG['seller_rank'] = '等级';
 $_LANG['im_service'] = 'IM客服';

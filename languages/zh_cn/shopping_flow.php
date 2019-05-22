@@ -23,9 +23,9 @@ $_LANG['bt_overdue'] = "您有过期未付清的会员白条款额,您已被禁�
 
 $_LANG['order_placed_sms'] = '您有新订单，收货人：%s 电话：%s'; //互亿短信
 
-//ecmoban模板堂 --zhuo start
+        start
 $_LANG['group_stock_insufficiency'] = "非常抱歉，您选择的商品 %s 的套餐数量只有 %d 件，您最多只能购买 %d 件。";
-//ecmoban模板堂 --zhuo end
+        end
 
 $_LANG['flow_login_register']['username_not_null'] = '请您输入用户名。';
 $_LANG['flow_login_register']['username_invalid'] = '您输入了一个无效的用户名。';

@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 function get_activity_count()
 {
 	$sql = 'SELECT COUNT(*) as count FROM {pre}favourable_activity f LEFT JOIN {pre}touch_activity a on a.act_id = f.act_id WHERE f.review_status = 3 ';

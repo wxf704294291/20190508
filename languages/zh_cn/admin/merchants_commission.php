@@ -1,5 +1,5 @@
 <?php
-//websc 禁止倒卖 一经发现停止任何服务
+               
 $_LANG['replacement_order'] = '一键补单';
 $_LANG['commission_replacement'] = '补单';
 $_LANG['commission_detector'] = '账单检测';

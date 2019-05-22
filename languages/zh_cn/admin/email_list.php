@@ -1,5 +1,5 @@
 <?php
-//websc独家更新版 Q群541247070
+    
 $_LANG['email_val'] = '邮件地址';
 $_LANG['stat']['name'] = '状态';
 $_LANG['stat'][0] = '未确认';

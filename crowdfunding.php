@@ -1,5 +1,5 @@
 <?php
-//websc 
+        
 function setNumberFormat($number = 0, $limit = 0, $point = 0, $round = true)
 {
 	$number = intval($number);

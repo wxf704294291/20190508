@@ -24,17 +24,17 @@
                                     
                                     
                                     <div class="pageHome">
-	<div class="topBanner lyrow ui-draggable ui-box-display" data-purebox="banner" data-mode="topBanner" ectype="visualItme" data-diff="0" data-length="1" data-topbanner="1" data-homehtml="topBanner">
-        <div class="top-banner" style="background:#dbe0e4;">
+	<div class="topBanner lyrow ui-draggable ui-box-display" ectype="visualItme" data-length="1" data-purebox="banner" data-mode="topBanner" data-homehtml="topBanner" data-topbanner="1" data-diff="0">
+        <div class="top-banner" style="background: rgb(219, 224, 228);">
             <div class="module w1200" data-type="range">
-                <a href="#"><img src="../data/gallery_album/visualDefault/homeIndex_011.jpg" width="1200" height="80"></a>
+                <a href="#"><img width="1200" height="80" src="../data/gallery_album/visualDefault/homeIndex_011.jpg"></a>
                 <i class="iconfont icon-cha" ectype="close"></i>
             </div>
         </div>
         <div class="setup_box" data-html="not">
             <div class="barbg"></div>
-            <a href="javascript:void(0);" class="move-edit" ectype="model_edit"><i class="iconfont icon-edit1"></i>编辑</a>
-            <a href="javascript:void(0);" class="move-remove" ectype="model_delete"><i class="iconfont icon-remove-alt"></i>删除</a>
+            <a class="move-edit" href="javascript:void(0);" ectype="model_edit"><i class="iconfont icon-edit1"></i>编辑</a>
+            <a class="move-remove" href="javascript:void(0);" ectype="model_delete"><i class="iconfont icon-remove-alt"></i>删除</a>
         </div>
     </div>
     <div class="site-nav">
@@ -43,12 +43,12 @@
                 <div class="city-choice">
                     <div class="dsc-choie dsc-cm">
                         <i class="iconfont icon-map-marker"></i>
-                        <span class="ui-areamini-text" data-id="1" title="上海">上海</span>
+                        <span title="上海" class="ui-areamini-text" data-id="1">上海</span>
                     </div>
                 </div>
                 <div class="txt-info" id="ECS_MEMBERZONE">
-                    <a href="#" class="link-login red">请登录</a>
-                    <a href="#" class="link-regist">免费注册</a>
+                    <a class="link-login red" href="#">请登录</a>
+                    <a class="link-regist" href="#">免费注册</a>
                 </div>
             </div>
             <div class="quick-menu fr">
@@ -74,10 +74,10 @@
             </div>
             <div class="dsc-search">
                 <div class="form">
-                    <input autocomplete="off" name="keywords" id="keyword" value="手机" class="search-text" type="text">
-                    <input name="store_search_cmt" value="0" type="hidden">
-                    <button type="submit" class="button button-goods">搜商品</button>
-                    <button type="submit" class="button button-store">搜店铺</button>
+                    <input name="keywords" class="search-text" id="keyword" type="text" value="手机" autocomplete="off">
+                    <input name="store_search_cmt" type="hidden" value="0">
+                    <button class="button button-goods" type="submit">搜商品</button>
+                    <button class="button button-store" type="submit">搜店铺</button>
                     <ul class="keyword">
                         <li><a href="#">周大福</a></li>
                         <li><a href="#">内衣</a></li>
@@ -98,27 +98,27 @@
         </div>
     </div>
 </div>    
-<div class="nav lyrow ui-draggable ui-box-display" data-mode="nav_mode" data-purebox="nav_mode">
-	<div class="w w1200 nav_bg" ectype="nav" style="background-color:#fff;">
+<div class="nav lyrow ui-draggable ui-box-display" data-purebox="nav_mode" data-mode="nav_mode">
+	<div class="w w1200 nav_bg" style="background-color: rgb(255, 255, 255);" ectype="nav">
     	<div class="categorys"><div class="categorys-type"><a href="categoryall.php" target="_blank">全部商品分类</a></div></div>
         <div class="nav-main" id="nav">
-        	<ul class="navitems" data-type="range">    <li><a href="index.php" class="curr">首页</a></li>
-        <li><a href="#" style="text-align:" target="_blank">云诊断</a></li>
-        <li><a href="#" style="text-align:" target="_blank">商务合作</a></li>
-        <li><a href="#" style="text-align:" target="_blank">服务支持</a></li>
-        <li><a href="#" style="text-align:" target="_blank">软件下载</a></li>
-        <li><a href="#" style="text-align:" target="_blank">关于我们</a></li>
+        	<ul class="navitems" data-type="range">    <li><a class="curr" href="index.php">首页</a></li>
+        <li><a href="#" target="_blank">云诊断</a></li>
+        <li><a href="#" target="_blank">商务合作</a></li>
+        <li><a href="/article_cat.php?id=1" target="_blank">服务支持</a></li>
+        <li><a href="#" target="_blank">软件下载</a></li>
+        <li><a href="#" target="_blank">关于我们</a></li>
     
-<div class="spec" data-spec="[{&quot;name&quot;:&quot;云诊断&quot;,&quot;url&quot;:&quot;#&quot;,&quot;opennew&quot;:1,&quot;navvieworder&quot;:1},{&quot;name&quot;:&quot;商务合作&quot;,&quot;url&quot;:&quot;#&quot;,&quot;opennew&quot;:1,&quot;navvieworder&quot;:2},{&quot;name&quot;:&quot;服务支持&quot;,&quot;url&quot;:&quot;#&quot;,&quot;opennew&quot;:1,&quot;navvieworder&quot;:3},{&quot;name&quot;:&quot;软件下载&quot;,&quot;url&quot;:&quot;#&quot;,&quot;opennew&quot;:1,&quot;navvieworder&quot;:4},{&quot;name&quot;:&quot;关于我们&quot;,&quot;url&quot;:&quot;#&quot;,&quot;opennew&quot;:1,&quot;navvieworder&quot;:5}]"></div></ul>
+<div class="spec" data-spec='[{"name":"云诊断","url":"#","opennew":1,"navvieworder":1},{"name":"商务合作","url":"#","opennew":1,"navvieworder":2},{"name":"服务支持","url":"/article_cat.php?id=1","opennew":1,"navvieworder":3},{"name":"软件下载","url":"#","opennew":1,"navvieworder":4},{"name":"关于我们","url":"#","opennew":1,"navvieworder":5}]'></div></ul>
         </div>
         <div class="setup_box" data-html="not">
             <div class="barbg"></div>
-            <a href="javascript:void(0);" class="move-edit" ectype="model_edit"><i class="iconfont icon-edit1"></i>编辑</a>
+            <a class="move-edit" href="javascript:void(0);" ectype="model_edit"><i class="iconfont icon-edit1"></i>编辑</a>
         </div>
     </div>
 </div>
 <div class="prompt" data-html="not">以上为页头区域</div>
-<div class="demo ui-sortable" style="min-height: 921px;"><div class="visual-item lyrow lunbotu ui-draggable" data-mode="lunbo" data-purebox="adv" data-li="1" data-length="5" ectype="visualItme" data-diff="0" style="display: block;">
+<div class="demo ui-sortable" style="min-height: 925px;"><div class="visual-item lyrow lunbotu ui-draggable" style="display: block;" ectype="visualItme" data-length="5" data-li="1" data-purebox="adv" data-mode="lunbo" data-diff="0">
                                     <div class="drag" data-html="not">
                                         <div class="navLeft">
                                             <span class="pic"><img src="images/visual/navLeft_01.png"></span>
@@ -126,10 +126,10 @@
                                         </div>
                                         <div class="setup_box">
                                             <div class="barbg"></div>
-                                            <a href="javascript:void(0);" class="move-up iconfont icon-up1 disabled"></a>
-                                            <a href="javascript:void(0);" class="move-down iconfont icon-down1"></a>
-                                            <a href="javascript:void(0);" class="move-edit" ectype="model_edit"><i class="iconfont icon-edit1"></i>编辑</a>
-                                            <a href="javascript:void(0);" class="move-remove"><i class="iconfont icon-remove-alt"></i>移除</a>
+                                            <a class="move-up iconfont icon-up1 disabled" href="javascript:void(0);"></a>
+                                            <a class="move-down iconfont icon-down1" href="javascript:void(0);"></a>
+                                            <a class="move-edit" href="javascript:void(0);" ectype="model_edit"><i class="iconfont icon-edit1"></i>编辑</a>
+                                            <a class="move-remove" href="javascript:void(0);"><i class="iconfont icon-remove-alt"></i>移除</a>
                                         </div>
                                     </div>
                                     <div class="view">
@@ -222,7 +222,49 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div><div class="visual-item lyrow ui-draggable" data-mode="custom" data-purebox="cust" ectype="visualItme" data-diff="0" style="display: block;">
+                                </div><div class="visual-item lyrow w1200 ui-draggable" style="display: block;" ectype="visualItme" data-li="1" data-purebox="homeAdv" data-mode="h-promo" data-diff="0">
+                                    <div class="drag" data-html="not">
+                                        <div class="navLeft">
+                                            <span class="pic"><img src="images/visual/5.png"></span>
+                                            <span class="txt">促销活动</span>
+                                        </div>
+                                        <div class="setup_box">
+                                            <div class="barbg"></div>
+                                            <a class="move-up iconfont icon-up1" href="javascript:void(0);"></a>
+                                            <a class="move-down iconfont icon-down1" href="javascript:void(0);"></a>
+                                            <a class="move-edit" href="javascript:void(0);" ectype="model_edit"><i class="iconfont icon-edit1"></i>编辑</a>
+                                            <a class="move-remove" href="javascript:void(0);"><i class="iconfont icon-remove-alt"></i>移除</a>
+                                        </div>
+                                    </div>
+                                    <div class="view">
+                                        <div class="promoWarp clearfix" id="h-promo_0" data-type="range" data-lift="新品推荐">
+<div class="tit" style="background-color: rgb(10, 173, 204);">
+    <h3>新品推荐</h3>
+    <span>热卖产品</span>
+    <i class="titIcon"></i>
+</div>
+<ul>
+            <li class="opacity_img">
+        <div class="p-img"><a href="goods.php?id=792" target="_blank"><img src="http://localhost/images/201703/thumb_img/0_thumb_G_1490174547624.jpg"></a></div>
+        <div class="info">
+            <div class="price"><em>¥</em>124.00</div>
+            <div class="name"><a href="goods.php?id=792" target="_blank">贝妍夏季薄款女士睡衣性感V领女南韩丝家居服运动可外穿中袖套装</a></div>
+            <div class="time" ectype="time" data-time="2020-03-23 00:00:00">
+                <span class="label">剩余时间：</span>
+                <span class="days">00</span>
+                <em>：</em>
+                <span class="hours">00</span>
+                <em>：</em>
+                <span class="minutes">00</span>
+                <em>：</em>
+                <span class="seconds">00</span>
+            </div>
+        </div>
+    </li>
+        </ul>
+<div class="spec" data-title="undefined" data-spec='{"recommend":"792","moded":"h-promo","goods_ids":"792","lift":"新品推荐","title":"新品推荐","subtitle":"热卖产品","navColor":"#0aadcc","diff":0,"PromotionType":""}'></div></div>
+                                    </div>
+                                </div><div class="visual-item lyrow ui-draggable" style="display: block;" ectype="visualItme" data-purebox="cust" data-mode="custom" data-diff="0">
                                     <div class="drag" data-html="not">
                                         <div class="navLeft">
                                             <span class="pic"><img src="images/visual/navLeft_04.png"></span>
@@ -230,14 +272,14 @@
                                         </div>
                                         <div class="setup_box">
                                             <div class="barbg"></div>
-                                            <a href="javascript:void(0);" class="move-up iconfont icon-up1"></a>
-                                            <a href="javascript:void(0);" class="move-down iconfont icon-down1"></a>
-                                            <a href="javascript:void(0);" class="move-edit" ectype="model_edit"><i class="iconfont icon-edit1"></i>编辑</a>
-                                            <a href="javascript:void(0);" class="move-remove"><i class="iconfont icon-remove-alt"></i>移除</a>
+                                            <a class="move-up iconfont icon-up1" href="javascript:void(0);"></a>
+                                            <a class="move-down iconfont icon-down1" href="javascript:void(0);"></a>
+                                            <a class="move-edit" href="javascript:void(0);" ectype="model_edit"><i class="iconfont icon-edit1"></i>编辑</a>
+                                            <a class="move-remove" href="javascript:void(0);"><i class="iconfont icon-remove-alt"></i>移除</a>
                                         </div>
                                     </div>
                                     <div class="view">
-                                        <div class="custom" data-type="range" data-lift="公司简介" id="custom_0"><div style="width: 1200px; height: 504px; margin: 0 auto; background-color: red; padding: 10px;"><iframe style="float: left;" width="580px" height="500px" frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=r0020f0vrav" allowfullscreen="true"></iframe><div style="margin-left:10px;background-color: yellow; width: 600px; height: 500px;float: left;overflow: hidden;"><p>
+                                        <div class="custom" id="custom_0" data-type="range" data-lift="公司简介"><div style="margin: 0px auto; padding: 10px; width: 1200px; height: 504px; background-color: red;"><iframe width="580" height="500" src="https://v.qq.com/txp/iframe/player.html?vid=r0020f0vrav" frameborder="0" allowfullscreen="true" style="float: left;"></iframe><div style="width: 600px; height: 500px; overflow: hidden; margin-left: 10px; float: left; background-color: yellow;"><p>
 				公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简
 				 &nbsp;公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简 公司简介公司简介公司简介公司简介
 				 &nbsp;公司简介公司简介公司简介公司简介公司简介公司 公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公
@@ -252,7 +294,7 @@
 				 &nbsp;司简介公司 公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司介公司简介公司简介公司公
 				 &nbsp;介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司公</p></div></div></div>
                                     </div>
-                                </div><div class="visual-item lyrow ui-draggable" data-mode="custom" data-purebox="cust" ectype="visualItme" data-diff="1" style="display: block;">
+                                </div><div class="visual-item lyrow ui-draggable" style="display: block;" ectype="visualItme" data-purebox="cust" data-mode="custom" data-diff="1">
                                     <div class="drag" data-html="not">
                                         <div class="navLeft">
                                             <span class="pic"><img src="images/visual/navLeft_04.png"></span>
@@ -260,20 +302,20 @@
                                         </div>
                                         <div class="setup_box">
                                             <div class="barbg"></div>
-                                            <a href="javascript:void(0);" class="move-up iconfont icon-up1"></a>
-                                            <a href="javascript:void(0);" class="move-down iconfont icon-down1"></a>
-                                            <a href="javascript:void(0);" class="move-edit" ectype="model_edit"><i class="iconfont icon-edit1"></i>编辑</a>
-                                            <a href="javascript:void(0);" class="move-remove"><i class="iconfont icon-remove-alt"></i>移除</a>
+                                            <a class="move-up iconfont icon-up1" href="javascript:void(0);"></a>
+                                            <a class="move-down iconfont icon-down1" href="javascript:void(0);"></a>
+                                            <a class="move-edit" href="javascript:void(0);" ectype="model_edit"><i class="iconfont icon-edit1"></i>编辑</a>
+                                            <a class="move-remove" href="javascript:void(0);"><i class="iconfont icon-remove-alt"></i>移除</a>
                                         </div>
                                     </div>
                                     <div class="view">
-                                        <div class="custom" data-type="range" data-lift="服务理念" id="custom_1"><div style="width: 1200px; height: 504px; margin: 0 auto; background-color: red; padding: 10px;">
-		   <div style="width: 158px; background-color: green;font-size: 36px; float: left; margin-top: 223px;margin-bottom: 223px; text-align: center;">
+                                        <div class="custom" id="custom_1" data-type="range" data-lift="服务理念"><div style="margin: 0px auto; padding: 10px; width: 1200px; height: 504px; background-color: red;">
+		   <div style="width: 158px; text-align: center; font-size: 36px; margin-top: 223px; margin-bottom: 223px; float: left; background-color: green;">
 			   服务理念
 		   </div>
 		   <div style="width: 1020px; height: 500px; float: left;">
-		   	  <div style="width: 501px; height: 236px;margin-top: 9px;margin-left: 9px; float: left;background-color: yellowgreen;">
-				  <img src="/images/48x48.png" alt="" width="34px" height="34px" style="float: left;margin-top: 5px;margin-left: 4px;margin-right: 4px;">
+		   	  <div style="width: 501px; height: 236px; margin-top: 9px; margin-left: 9px; float: left; background-color: yellowgreen;">
+				  <img width="34" height="34" style="margin-top: 5px; margin-right: 4px; margin-left: 4px; float: left;" alt="" src="/images/48x48.png">
 				   <h1 style="margin: 0px 0px 10px; padding: 0px 4px 0px 0px; text-align: left; font-size: 32px; font-weight: bold; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 2px; border-bottom-style: solid;" label="标题居左">
                      良心产品，匠心打造
                   </h1>
@@ -283,8 +325,8 @@
 					  心产品，匠心打造良心产品，匠心打造良心产品，
 				  </p>
 			  </div>
-			  <div style="width: 501px; height: 236px;margin-top: 9px; margin-left: 9px;float: left;background-color: sienna;">
-				  <img src="/images/48x48.png" alt="" width="34px" height="34px" style="float: left;margin-top: 5px;margin-left: 4px;margin-right: 4px;">
+			  <div style="width: 501px; height: 236px; margin-top: 9px; margin-left: 9px; float: left; background-color: sienna;">
+				  <img width="34" height="34" style="margin-top: 5px; margin-right: 4px; margin-left: 4px; float: left;" alt="" src="/images/48x48.png">
 				  <h1 style="margin: 0px 0px 10px; padding: 0px 4px 0px 0px; text-align: left; font-size: 32px; font-weight: bold; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 2px; border-bottom-style: solid;" label="标题居左">
 				    追求卓越，不断创新
 				  </h1>
@@ -294,8 +336,8 @@
 					追求卓越，不断创新追求卓越，不断创新追求卓越，不断创新追求卓越，不断创新追求卓越，不断创新追求卓越，不断创新追求卓越，不断创新追求卓越
 				  </p>
 			  </div>
-			  <div style="width: 501px; height: 236px;margin-top: 9px; margin-left: 9px;float: left;background-color: gold;">
-				  <img src="/images/48x48.png" alt="" width="34px" height="34px" style="float: left;margin-top: 5px;margin-left: 4px;margin-right: 4px;">
+			  <div style="width: 501px; height: 236px; margin-top: 9px; margin-left: 9px; float: left; background-color: gold;">
+				  <img width="34" height="34" style="margin-top: 5px; margin-right: 4px; margin-left: 4px; float: left;" alt="" src="/images/48x48.png">
 				  <h1 style="margin: 0px 0px 10px; padding: 0px 4px 0px 0px; text-align: left; font-size: 32px; font-weight: bold; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 2px; border-bottom-style: solid;" label="标题居左">
 				    品质保证，用心服务
 				  </h1>
@@ -305,8 +347,8 @@
 					 品质保证，用户服务品质保证，用户服务品质保证，用户服务品质保证，用户服务品质保证，用户服务品质保证
 				  </p>
 			 </div>
-			 <div style="width: 501px; height: 236px;margin-top: 9px;margin-left: 9px; float: left;background-color: green;">
-				 <img src="/images/48x48.png" alt="" width="34px" height="34px" style="float: left;margin-top: 5px;margin-left: 4px;margin-right: 4px;">
+			 <div style="width: 501px; height: 236px; margin-top: 9px; margin-left: 9px; float: left; background-color: green;">
+				 <img width="34" height="34" style="margin-top: 5px; margin-right: 4px; margin-left: 4px; float: left;" alt="" src="/images/48x48.png">
 				  <h1 style="margin: 0px 0px 10px; padding: 0px 4px 0px 0px; text-align: left; font-size: 32px; font-weight: bold; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 2px; border-bottom-style: solid;" label="标题居左">
 				    携手共进，开创未来
 				  </h1>
@@ -319,7 +361,7 @@
 		   </div>
 		</div></div>
                                     </div>
-                                </div><div class="visual-item lyrow ui-draggable" data-mode="custom" data-purebox="cust" ectype="visualItme" data-diff="2" style="display: block;">
+                                </div><div class="visual-item lyrow ui-draggable" style="display: block;" ectype="visualItme" data-purebox="cust" data-mode="custom" data-diff="2">
                                     <div class="drag" data-html="not">
                                         <div class="navLeft">
                                             <span class="pic"><img src="images/visual/navLeft_04.png"></span>
@@ -327,17 +369,17 @@
                                         </div>
                                         <div class="setup_box">
                                             <div class="barbg"></div>
-                                            <a href="javascript:void(0);" class="move-up iconfont icon-up1"></a>
-                                            <a href="javascript:void(0);" class="move-down iconfont icon-down1 disabled"></a>
-                                            <a href="javascript:void(0);" class="move-edit" ectype="model_edit"><i class="iconfont icon-edit1"></i>编辑</a>
-                                            <a href="javascript:void(0);" class="move-remove"><i class="iconfont icon-remove-alt"></i>移除</a>
+                                            <a class="move-up iconfont icon-up1" href="javascript:void(0);"></a>
+                                            <a class="move-down iconfont icon-down1 disabled" href="javascript:void(0);"></a>
+                                            <a class="move-edit" href="javascript:void(0);" ectype="model_edit"><i class="iconfont icon-edit1"></i>编辑</a>
+                                            <a class="move-remove" href="javascript:void(0);"><i class="iconfont icon-remove-alt"></i>移除</a>
                                         </div>
                                     </div>
                                     <div class="view">
-                                        <div class="custom" data-type="range" data-lift="技术服务" id="custom_2"><div style="width: 1200px; height: 1100px; margin: 0 auto; background-color: red; padding: 10px;">
+                                        <div class="custom" id="custom_2" data-type="range" data-lift="技术服务"><div style="margin: 0px auto; padding: 10px; width: 1200px; height: 1100px; background-color: red;">
     
 		
-    <div style="width: 158px; background-color: green;font-size: 36px; float: left; margin-top: 428px;margin-bottom: 223px; text-align: center;">
+    <div style="width: 158px; text-align: center; font-size: 36px; margin-top: 428px; margin-bottom: 223px; float: left; background-color: green;">
         
 			技术服务		 &nbsp;
     </div>
@@ -350,9 +392,9 @@
 			汽修维修专家，为您保驾护航			 &nbsp;
         </h1>
 			
-        <div style="height: 389px; width: 328px; float: left; background-color: gold; padding-bottom: 4px; margin: 0 4px 4px 2px;">
+        <div style="margin: 0px 4px 4px 2px; width: 328px; height: 389px; padding-bottom: 4px; float: left; background-color: gold;">
             
-				<img src="/images/48x48.png" width="118px" height="118px" style="position: relative; padding: 4px; float: left;">
+				<img width="118" height="118" style="padding: 4px; float: left; position: relative;" src="/images/48x48.png">
 				 &nbsp;
             <p>
                 称呼：李师傅
@@ -361,7 +403,7 @@
             <p>
                 精修车型：福特
             </p>
-				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:12345678:41" alt="立即洽谈" title="立即洽谈"></a>
+				<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes" target="_blank"><img title="立即洽谈" alt="立即洽谈" src="http://wpa.qq.com/pa?p=2:12345678:41" border="0"></a>
 				 &nbsp;
             <div style="margin: 4px;">
                 
@@ -385,9 +427,9 @@
 			
         </div>
 			&nbsp;			
-        <div style="height: 389px; width: 328px; float: left; background-color: gold; padding-bottom: 4px; margin: 0 4px 4px 2px;">
+        <div style="margin: 0px 4px 4px 2px; width: 328px; height: 389px; padding-bottom: 4px; float: left; background-color: gold;">
             
-			&nbsp; 				<img src="/images/48x48.png" width="118px" height="118px" style="position: relative; padding: 4px; float: left;">
+			&nbsp; 				<img width="118" height="118" style="padding: 4px; float: left; position: relative;" src="/images/48x48.png">
 			 &nbsp; 				 &nbsp;
             <p>
                 称呼：李师傅
@@ -396,7 +438,7 @@
             <p>
                 精修车型：福特
             </p>
-			&nbsp; 				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:12345678:41" alt="立即洽谈" title="立即洽谈"></a>
+			&nbsp; 				<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes" target="_blank"><img title="立即洽谈" alt="立即洽谈" src="http://wpa.qq.com/pa?p=2:12345678:41" border="0"></a>
 			 &nbsp; 				 &nbsp;
             <div style="margin: 4px;">
                 
@@ -420,9 +462,9 @@
 			
         </div>
 			&nbsp;			
-        <div style="height: 389px; width: 328px; float: left; background-color: gold; padding-bottom: 4px; margin: 0 4px 4px 2px;">
+        <div style="margin: 0px 4px 4px 2px; width: 328px; height: 389px; padding-bottom: 4px; float: left; background-color: gold;">
             
-			&nbsp; 				<img src="/images/48x48.png" width="118px" height="118px" style="position: relative; padding: 4px; float: left;">
+			&nbsp; 				<img width="118" height="118" style="padding: 4px; float: left; position: relative;" src="/images/48x48.png">
 			 &nbsp; 				 &nbsp;
             <p>
                 称呼：李师傅
@@ -431,7 +473,7 @@
             <p>
                 精修车型：福特
             </p>
-			&nbsp; 				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:12345678:41" alt="立即洽谈" title="立即洽谈"></a>
+			&nbsp; 				<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes" target="_blank"><img title="立即洽谈" alt="立即洽谈" src="http://wpa.qq.com/pa?p=2:12345678:41" border="0"></a>
 			 &nbsp; 				 &nbsp;
             <div style="margin: 4px;">
                 
@@ -455,9 +497,9 @@
 			
         </div>
 			&nbsp;			
-        <div style="height: 389px; width: 328px; float: left; background-color: gold; padding-bottom: 4px; margin: 0 4px 4px 2px;">
+        <div style="margin: 0px 4px 4px 2px; width: 328px; height: 389px; padding-bottom: 4px; float: left; background-color: gold;">
             
-			&nbsp; 				<img src="/images/48x48.png" width="118px" height="118px" style="position: relative; padding: 4px; float: left;">
+			&nbsp; 				<img width="118" height="118" style="padding: 4px; float: left; position: relative;" src="/images/48x48.png">
 			 &nbsp; 				 &nbsp;
             <p>
                 称呼：李师傅
@@ -466,7 +508,7 @@
             <p>
                 精修车型：福特
             </p>
-			&nbsp; 				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:12345678:41" alt="立即洽谈" title="立即洽谈"></a>
+			&nbsp; 				<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes" target="_blank"><img title="立即洽谈" alt="立即洽谈" src="http://wpa.qq.com/pa?p=2:12345678:41" border="0"></a>
 			 &nbsp; 				 &nbsp;
             <div style="margin: 4px;">
                 
@@ -490,9 +532,9 @@
 			
         </div>
 			&nbsp;			
-        <div style="height: 389px; width: 328px; float: left; background-color: gold; padding-bottom: 4px; margin: 0 4px 4px 2px;">
+        <div style="margin: 0px 4px 4px 2px; width: 328px; height: 389px; padding-bottom: 4px; float: left; background-color: gold;">
             
-			&nbsp; 				<img src="/images/48x48.png" width="118px" height="118px" style="position: relative; padding: 4px; float: left;">
+			&nbsp; 				<img width="118" height="118" style="padding: 4px; float: left; position: relative;" src="/images/48x48.png">
 			 &nbsp; 				 &nbsp;
             <p>
                 称呼：李师傅
@@ -501,7 +543,7 @@
             <p>
                 精修车型：福特
             </p>
-			&nbsp; 				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:12345678:41" alt="立即洽谈" title="立即洽谈"></a>
+			&nbsp; 				<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes" target="_blank"><img title="立即洽谈" alt="立即洽谈" src="http://wpa.qq.com/pa?p=2:12345678:41" border="0"></a>
 			 &nbsp; 				 &nbsp;
             <div style="margin: 4px;">
                 
@@ -525,9 +567,9 @@
 			
         </div>
 			&nbsp;			
-        <div style="height: 389px; width: 328px; float: left; background-color: gold; padding-bottom: 4px; margin: 0 4px 4px 2px;">
+        <div style="margin: 0px 4px 4px 2px; width: 328px; height: 389px; padding-bottom: 4px; float: left; background-color: gold;">
             
-			&nbsp; 				<img src="/images/48x48.png" width="118px" height="118px" style="position: relative; padding: 4px; float: left;">
+			&nbsp; 				<img width="118" height="118" style="padding: 4px; float: left; position: relative;" src="/images/48x48.png">
 			 &nbsp; 				 &nbsp;
             <p>
                 称呼：李师傅
@@ -536,7 +578,7 @@
             <p>
                 精修车型：福特
             </p>
-			&nbsp; 				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:12345678:41" alt="立即洽谈" title="立即洽谈"></a>
+			&nbsp; 				<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes" target="_blank"><img title="立即洽谈" alt="立即洽谈" src="http://wpa.qq.com/pa?p=2:12345678:41" border="0"></a>
 			 &nbsp; 				 &nbsp;
             <div style="margin: 4px;">
                 
@@ -565,36 +607,36 @@
 			售后团队将为您软硬件问题排忧解难			 &nbsp;
         </h1>
 			
-        <div style="height: 198px; width: 328px; float: left; background-color: gold; padding-bottom: 4px; margin: 0 4px 4px 2px; text-align: center;">
+        <div style="margin: 0px 4px 4px 2px; width: 328px; height: 198px; text-align: center; padding-bottom: 4px; float: left; background-color: gold;">
             
-			&nbsp; 		<img src="/images/48x48.png" width="96px" height="96px" style="position: relative; padding: 4px;">
+			&nbsp; 		<img width="96" height="96" style="padding: 4px; position: relative;" src="/images/48x48.png">
 			 &nbsp;		
             <p>
                 技术支持——吴工
             </p>
-			&nbsp; 		<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:12345678:41" alt="立即洽谈" title="立即洽谈"></a>
+			&nbsp; 		<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes" target="_blank"><img title="立即洽谈" alt="立即洽谈" src="http://wpa.qq.com/pa?p=2:12345678:41" border="0"></a>
 			 &nbsp;
         </div>
 			
-        <div style="height: 198px; width: 328px; float: left; background-color: gold; padding-bottom: 4px; margin: 0 4px 4px 2px; text-align: center;">
+        <div style="margin: 0px 4px 4px 2px; width: 328px; height: 198px; text-align: center; padding-bottom: 4px; float: left; background-color: gold;">
             
-			&nbsp; 		<img src="/images/48x48.png" width="96px" height="96px" style="position: relative; padding: 4px;">
+			&nbsp; 		<img width="96" height="96" style="padding: 4px; position: relative;" src="/images/48x48.png">
 			 &nbsp;		
             <p>
                 技术支持——刘工
             </p>
-			&nbsp; 		<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:12345678:41" alt="立即洽谈" title="立即洽谈"></a>
+			&nbsp; 		<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes" target="_blank"><img title="立即洽谈" alt="立即洽谈" src="http://wpa.qq.com/pa?p=2:12345678:41" border="0"></a>
 			 &nbsp;
         </div>
 			
-        <div style="height: 198px; width: 328px; float: left; background-color: gold; padding-bottom: 4px; margin: 0 4px 4px 2px; text-align: center;">
+        <div style="margin: 0px 4px 4px 2px; width: 328px; height: 198px; text-align: center; padding-bottom: 4px; float: left; background-color: gold;">
             
-			&nbsp; 		<img src="/images/48x48.png" width="96px" height="96px" style="position: relative; padding: 4px;">
+			&nbsp; 		<img width="96" height="96" style="padding: 4px; position: relative;" src="/images/48x48.png">
 			 &nbsp;		
             <p>
                 技术支持——王工
             </p>
-			&nbsp; 		<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:12345678:41" alt="立即洽谈" title="立即洽谈"></a>
+			&nbsp; 		<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes" target="_blank"><img title="立即洽谈" alt="立即洽谈" src="http://wpa.qq.com/pa?p=2:12345678:41" border="0"></a>
 			 &nbsp;
         </div>
 		

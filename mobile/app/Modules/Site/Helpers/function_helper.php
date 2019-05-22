@@ -1,5 +1,5 @@
 <?php
-//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
+//zend WEBSC在线更新         
 function goods_list($type, $page, $size, $warehouse_id = 0, $area_id = 0, $area_city)
 {
 	if (C('shop.area_pricetype') == 1) {

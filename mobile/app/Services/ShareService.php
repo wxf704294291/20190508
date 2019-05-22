@@ -1,5 +1,5 @@
 <?php
-//zend by WEBSC商城  禁止倒卖 一经发现停止任何服务
+//zend by WEBSC商城         
 namespace App\Services;
 
 class ShareService

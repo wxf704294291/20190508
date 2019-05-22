@@ -1,5 +1,5 @@
 <?php
- //websc
+        
 function store_get_goods($children, $brand, $min, $max, $ext, $size, $page, $sort, $order, $merchant_id, $warehouse_id = 0, $area_id = 0, $area_city = 0, $keyword)
 {
 	$cat_where = ' AND g.user_id = \'' . $merchant_id . '\' ';

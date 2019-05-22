@@ -1944,7 +1944,7 @@ a.clear-review{
     width: 8px;
     height: 8px;
     border-radius: 8px;
-    border: 2px solid #ec5051;
+    border: 2px solid #2D3947;
     background: #fff;
 }
 .pro-detail .pro-day{
@@ -2271,9 +2271,9 @@ a.clear-review{
 .details-l .tab-wrap{ margin: 0 20px;background: #fff;height: 60px;border-bottom: 1px solid #e6e6e6;}
 .details-l .tab-wrap .tab-name{ width: 192px;height: 56px;float: left;line-height: 56px;text-align: center;color: #323232;font-size: 18px;cursor: pointer;}
 .details-l .tab-wrap .tab-name .tab-bubble{ display: inline-block;height: 14px;line-height: 14px;background: #323232;-moz-border-radius: 7px;-webkit-border-radius: 7px;border-radius: 7px;color: #fff;font-size: 12px;padding: 0 8px;margin-left: 5px;font-family: Arial;position: relative;top: -2px;}
-.details-l .tab-wrap .current-now{ color: #ec5051;font-weight: 700;}
-.details-l .tab-wrap .current-now .tab-bubble{ display: inline-block;height: 14px;line-height: 14px;background: #ec5051;-moz-border-radius: 7px;-webkit-border-radius: 7px;border-radius: 7px;color: #fff;font-size: 12px;padding: 0 8px;margin-left: 5px;font-family: Arial;position: relative;top: -2px;}
-.details-l .tab-wrap .tab-line{ height: 4px;width: 192px;background: #ec5051;}
+.details-l .tab-wrap .current-now{ color: #2D3947;font-weight: 700;}
+.details-l .tab-wrap .current-now .tab-bubble{ display: inline-block;height: 14px;line-height: 14px;background: #2D3947;-moz-border-radius: 7px;-webkit-border-radius: 7px;border-radius: 7px;color: #fff;font-size: 12px;padding: 0 8px;margin-left: 5px;font-family: Arial;position: relative;top: -2px;}
+.details-l .tab-wrap .tab-line{ height: 4px;width: 192px;background: #2D3947;}
 .details-l .tab-body .tab-img-group{ overflow: hidden;padding: 20px;background: #fff;}
 .details-l .tab-body .tab-current{ display:block;}
 
@@ -2322,7 +2322,7 @@ a.clear-review{
 .details-r .box-grade .font-red{ color: #ff5256;}
 .details-r .box-grade .box-btn{ padding: 15px 0 30px;}
 .common-btn, .common-btn-unuse{ color:#fff;font-size: 18px;height: 40px;overflow-x: visible;overflow-y: visible;font-family: 'Microsoft Yahei', 微软雅黑;padding: 0px 30px;border-radius: 4px; outline:0;}
-.common-btn{ background: #ec5051;cursor: pointer;}
+.common-btn{ background: #2D3947;cursor: pointer;}
 .common-btn-unuse{ background: #a5a5a5;}
 .common-title .t-hands{ cursor: pointer;float: right;line-height: 60px;}
 .color-a5{ color: #a5a5a5;}
@@ -2367,7 +2367,7 @@ a.clear-review{
 
 .zc_address .address-btns{ overflow:hidden; margin-top:10px;}
 .zc_address .address-btns input{ height: 30px;color: #666;cursor: pointer;font-family: 'Microsoft Yahei', 微软雅黑;float: left;margin-left: 10px;font-size: 14px;border: 1px solid #ccc;padding: 0px 19px;background: #fff;border-radius: 2px;}
-.zc_address .address-btns input:hover{ color:#ec5051; border-color:#ec5051;}
+.zc_address .address-btns input:hover{ color:#2D3947; border-color:#2D3947;}
 
 /*搜索页面*/
 .query-result{ width: 1200px; margin:0 auto;}
