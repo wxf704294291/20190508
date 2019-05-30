@@ -1,1 +1,0 @@
-UPDATE dsc_shop_config SET store_range = '1,2' WHERE code = 'ip_type';

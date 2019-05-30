@@ -1,1 +1,0 @@
-ALTER TABLE  `dsc_cart` ADD  `act_id` INT( 10 ) UNSIGNED NOT NULL DEFAULT  '0';
