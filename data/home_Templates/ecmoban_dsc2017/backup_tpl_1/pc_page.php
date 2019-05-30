@@ -24,7 +24,7 @@
                                     
                                     
                                     <div class="pageHome">
-	<div class="topBanner lyrow ui-draggable ui-box-display" ectype="visualItme" data-length="1" data-purebox="banner" data-mode="topBanner" data-homehtml="topBanner" data-topbanner="1" data-diff="0">
+	<div class="topBanner lyrow ui-draggable ui-box-display" ectype="visualItme" data-length="1" data-purebox="banner" data-mode="topBanner" data-diff="0" data-topbanner="1" data-homehtml="topBanner">
         <div class="top-banner" style="background: rgb(219, 224, 228);">
             <div class="module w1200" data-type="range">
                 <a href="#"><img width="1200" height="80" src="../data/gallery_album/visualDefault/homeIndex_011.jpg"></a>
@@ -103,13 +103,13 @@
     	<div class="categorys"><div class="categorys-type"><a href="categoryall.php" target="_blank">全部商品分类</a></div></div>
         <div class="nav-main" id="nav">
         	<ul class="navitems" data-type="range">    <li><a class="curr" href="index.php">首页</a></li>
-        <li><a href="#" target="_blank">云诊断</a></li>
-        <li><a href="#" target="_blank">商务合作</a></li>
+        <li><a href="/cloud_diagnostic.php" target="_blank">保驰云诊断</a></li>
+        <li><a href="/merchants.php" target="_blank">商务合作</a></li>
         <li><a href="/article_cat.php?id=1" target="_blank">服务支持</a></li>
-        <li><a href="#" target="_blank">软件下载</a></li>
-        <li><a href="#" target="_blank">关于我们</a></li>
+        <li><a href="/software_download.php" target="_blank">软件下载</a></li>
+        <li><a href="/about_us.php" target="_blank">关于我们</a></li>
     
-<div class="spec" data-spec='[{"name":"云诊断","url":"#","opennew":1,"navvieworder":1},{"name":"商务合作","url":"#","opennew":1,"navvieworder":2},{"name":"服务支持","url":"/article_cat.php?id=1","opennew":1,"navvieworder":3},{"name":"软件下载","url":"#","opennew":1,"navvieworder":4},{"name":"关于我们","url":"#","opennew":1,"navvieworder":5}]'></div></ul>
+<div class="spec" data-spec='[{"name":"保驰云诊断","url":"/cloud_diagnostic.php","opennew":1,"navvieworder":1},{"name":"商务合作","url":"/merchants.php","opennew":1,"navvieworder":2},{"name":"服务支持","url":"/article_cat.php?id=1","opennew":1,"navvieworder":3},{"name":"软件下载","url":"/software_download.php","opennew":1,"navvieworder":4},{"name":"关于我们","url":"/about_us.php","opennew":1,"navvieworder":5}]'></div></ul>
         </div>
         <div class="setup_box" data-html="not">
             <div class="barbg"></div>
@@ -261,8 +261,25 @@
             </div>
         </div>
     </li>
+        <li class="opacity_img">
+        <div class="p-img"><a href="goods.php?id=903" target="_blank"><img src="http://localhost/images/201703/thumb_img/0_thumb_G_1490915806032.jpg"></a></div>
+        <div class="info">
+            <div class="price"><em>¥</em>11.00</div>
+            <div class="name"><a href="goods.php?id=903" target="_blank">正品直邮Hermes爱马仕2017新款男鞋 时尚真皮休闲鞋H171325ZH02 7495</a></div>
+            <div class="time" ectype="time" data-time="2020-04-08 14:53:29">
+                <span class="label">剩余时间：</span>
+                <span class="days">00</span>
+                <em>：</em>
+                <span class="hours">00</span>
+                <em>：</em>
+                <span class="minutes">00</span>
+                <em>：</em>
+                <span class="seconds">00</span>
+            </div>
+        </div>
+    </li>
         </ul>
-<div class="spec" data-title="undefined" data-spec='{"recommend":"792","moded":"h-promo","goods_ids":"792","lift":"新品推荐","title":"新品推荐","subtitle":"热卖产品","navColor":"#0aadcc","diff":0,"PromotionType":""}'></div></div>
+<div class="spec" data-title="undefined" data-spec='{"recommend":"792","moded":"h-promo","goods_ids":"792,903","lift":"新品推荐","title":"新品推荐","subtitle":"热卖产品","navColor":"#0aadcc","diff":0,"PromotionType":""}'></div></div>
                                     </div>
                                 </div><div class="visual-item lyrow ui-draggable" style="display: block;" ectype="visualItme" data-purebox="cust" data-mode="custom" data-diff="0">
                                     <div class="drag" data-html="not">

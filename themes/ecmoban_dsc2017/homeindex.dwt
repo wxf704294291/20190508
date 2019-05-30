@@ -15,12 +15,7 @@
 </head>
 
 <body class="home_visual_body{if $pc_page.tem eq 'backup_festival_1'} festival_home{/if}"{if $bg_image.img_file}style="background:url({$bg_image.img_file}){if $bg_image.bg_color} {$bg_image.bg_color}{/if} top {$bg_image.align} {$bg_image.bgrepeat};"{/if}>
-	
-	{if $pc_page.tem eq 'backup_festival_1'}
-    <!-- #BeginLibraryItem "/library/page_header_festival.lbi" --><!-- #EndLibraryItem -->
-    {else}
 	<!-- #BeginLibraryItem "/library/page_header_common.lbi" --><!-- #EndLibraryItem -->
-    {/if}
     <div class="homeindex" ectype="homeWrap">
     	{$page}
         <!--------

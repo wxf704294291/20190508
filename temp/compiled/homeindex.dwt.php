@@ -15,12 +15,7 @@
 </head>
 
 <body class="home_visual_body<?php if ($this->_var['pc_page']['tem'] == 'backup_festival_1'): ?> festival_home<?php endif; ?>"<?php if ($this->_var['bg_image']['img_file']): ?>style="background:url(<?php echo $this->_var['bg_image']['img_file']; ?>)<?php if ($this->_var['bg_image']['bg_color']): ?> <?php echo $this->_var['bg_image']['bg_color']; ?><?php endif; ?> top <?php echo $this->_var['bg_image']['align']; ?> <?php echo $this->_var['bg_image']['bgrepeat']; ?>;"<?php endif; ?>>
-	
-	<?php if ($this->_var['pc_page']['tem'] == 'backup_festival_1'): ?>
-    <?php echo $this->fetch('library/page_header_festival.lbi'); ?>
-    <?php else: ?>
 	<?php echo $this->fetch('library/page_header_common.lbi'); ?>
-    <?php endif; ?>
     <div class="homeindex" ectype="homeWrap">
     	<?php echo $this->_var['page']; ?>
         <!--------

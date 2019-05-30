@@ -24,7 +24,7 @@
                                     
                                     
                                         
-<div class="content" style="min-height: 925px;"><div class="visual-item" style="display: block;" ectype="visualItme" data-length="5" data-li="1" data-purebox="adv" data-mode="lunbo" data-diff="0">
+<div class="content" style="min-height: 969px;"><div class="visual-item" style="display: block;" ectype="visualItme" data-length="5" data-li="1" data-purebox="adv" data-mode="lunbo" data-diff="0">
                                     
                                     <div class="view">
                                         <div class="banner home-banner">
@@ -116,52 +116,112 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div><div class="visual-item w1200" style="display: block;" ectype="visualItme" data-li="1" data-purebox="homeAdv" data-mode="h-promo" data-diff="0">
+                                </div><div class="visual-item w1200" data-mode="homeFloorThree" data-purebox="homeFloor" data-li="1" ectype="visualItme" data-diff="0" style="display: block;">
                                     
                                     <div class="view">
-                                        <div class="promoWarp clearfix" id="h-promo_0" data-type="range" data-lift="新品推荐">
-<div class="tit" style="background-color: rgb(10, 173, 204);">
-    <h3>新品推荐</h3>
-    <span>热卖产品</span>
-    <i class="titIcon"></i>
-</div>
-<ul>
-            <li class="opacity_img">
-        <div class="p-img"><a href="goods.php?id=792" target="_blank"><img src="http://localhost/images/201703/thumb_img/0_thumb_G_1490174547624.jpg"></a></div>
-        <div class="info">
-            <div class="price"><em>¥</em>124.00</div>
-            <div class="name"><a href="goods.php?id=792" target="_blank">贝妍夏季薄款女士睡衣性感V领女南韩丝家居服运动可外穿中袖套装</a></div>
-            <div class="time" ectype="time" data-time="2020-03-23 00:00:00">
-                <span class="label">剩余时间：</span>
-                <span class="days">00</span>
-                <em>：</em>
-                <span class="hours">00</span>
-                <em>：</em>
-                <span class="minutes">00</span>
-                <em>：</em>
-                <span class="seconds">00</span>
+                                        <div class="floor-content" data-type="range" id="homeFloorThree_0" data-lift="新品推荐">
+<!-- 楼层三 -->
+<div class="floor-line-con floorThree floor-color-type-1" data-idx="1" id="floor_module_2" ectype="floorItem">
+	<div class="floor-hd" ectype="floorTit">
+		<div class="hd-tit">新品推荐</div>        <div class="hd-tags">
+			<ul>
+				<li class="first current">新品推荐</li>
+							</ul>
+		</div>
+	</div>
+    
+    <div class="floor-bd FT-bd-more-02">
+    	    	<div class="bd-left">
+        	            <div class="floor-left-slide">
+                <div class="bd">
+                    <ul>
+                    	                        <li><a href="" target="_blank"><img src="../data/gallery_album/visualDefault/visual232x590.jpg"></a></li>
+                                            </ul>
+                </div>
+                <div class="hd"><ul></ul></div>
             </div>
-        </div>
-    </li>
-        <li class="opacity_img">
-        <div class="p-img"><a href="goods.php?id=903" target="_blank"><img src="http://localhost/images/201703/thumb_img/0_thumb_G_1490915806032.jpg"></a></div>
-        <div class="info">
-            <div class="price"><em>¥</em>11.00</div>
-            <div class="name"><a href="goods.php?id=903" target="_blank">正品直邮Hermes爱马仕2017新款男鞋 时尚真皮休闲鞋H171325ZH02 7495</a></div>
-            <div class="time" ectype="time" data-time="2020-04-08 14:53:29">
-                <span class="label">剩余时间：</span>
-                <span class="days">00</span>
-                <em>：</em>
-                <span class="hours">00</span>
-                <em>：</em>
-                <span class="minutes">00</span>
-                <em>：</em>
-                <span class="seconds">00</span>
+                    </div>
+        <div class="bd-right">
+        	<div class="floor-tabs-content clearfix">
+        	<div class="f-r-main f-r-m-adv">
+                                            <div class="floor-left-adv"><a href="" target="_blank"><img src="../data/gallery_album/visualDefault/visual474x290.jpg"></a></div>
+                                        
+                        <div class="f-r-m-item">
+                <a href="" target="_blank">
+                    <div class="title">
+                        <h3></h3>
+                        <span></span>
+                    </div>
+                    <img src="../data/gallery_album/visualDefault/visual232x290.jpg">
+                </a>
             </div>
+                        <div class="f-r-m-item">
+                <a href="" target="_blank">
+                    <div class="title">
+                        <h3></h3>
+                        <span></span>
+                    </div>
+                    <img src="../data/gallery_album/visualDefault/visual232x290.jpg">
+                </a>
+            </div>
+                        <div class="f-r-m-item">
+                <a href="" target="_blank">
+                    <div class="title">
+                        <h3></h3>
+                        <span></span>
+                    </div>
+                    <img src="../data/gallery_album/visualDefault/visual232x290.jpg">
+                </a>
+            </div>
+                        <div class="f-r-m-item">
+                <a href="" target="_blank">
+                    <div class="title">
+                        <h3></h3>
+                        <span></span>
+                    </div>
+                    <img src="../data/gallery_album/visualDefault/visual232x290.jpg">
+                </a>
+            </div>
+                        <div class="f-r-m-item">
+                <a href="" target="_blank">
+                    <div class="title">
+                        <h3></h3>
+                        <span></span>
+                    </div>
+                    <img src="../data/gallery_album/visualDefault/visual232x290.jpg">
+                </a>
+            </div>
+                        <div class="f-r-m-item">
+                <a href="" target="_blank">
+                    <div class="title">
+                        <h3></h3>
+                        <span></span>
+                    </div>
+                    <img src="../data/gallery_album/visualDefault/visual232x290.jpg">
+                </a>
+            </div>
+                        </div>
+                        <div class="f-r-main" ectype="floor_cat_<br ></div>
+<b>Warning</b>:  Illegal string offset 'cat_id' in <b>D:\phpStudy\www\temp\compiled\admin\dialog.lbi.php</b> on line <b>1836</b><br />
+">
+            	                                <div class="floor-left-adv"><a href="" target="_blank"><img src="../data/gallery_album/visualDefault/visual474x290.jpg"></a></div>
+                                            </div>
+                        </div>
+        </div>    
+    	    </div>
+                    <div class="floor-fd">
+            <div class="floor-fd-brand clearfix" ectype="defaultBrand">
+                <div class="item">
+                    <a href="#" target="_blank">
+                        <div class="link-l"></div>
+                        <div class="img"><img src="../data/gallery_album/visualDefault/homeIndex_010.jpg" title="esprit"></div>
+                        <div class="link"></div>
+                    </a>
+                </div>
+            <div class="item"><a href="#" target="_blank"><div class="link-l"></div><div class="img"><img src="../data/gallery_album/visualDefault/homeIndex_010.jpg" title="esprit"></div><div class="link"></div></a></div><div class="item"><a href="#" target="_blank"><div class="link-l"></div><div class="img"><img src="../data/gallery_album/visualDefault/homeIndex_010.jpg" title="esprit"></div><div class="link"></div></a></div><div class="item"><a href="#" target="_blank"><div class="link-l"></div><div class="img"><img src="../data/gallery_album/visualDefault/homeIndex_010.jpg" title="esprit"></div><div class="link"></div></a></div><div class="item"><a href="#" target="_blank"><div class="link-l"></div><div class="img"><img src="../data/gallery_album/visualDefault/homeIndex_010.jpg" title="esprit"></div><div class="link"></div></a></div><div class="item"><a href="#" target="_blank"><div class="link-l"></div><div class="img"><img src="../data/gallery_album/visualDefault/homeIndex_010.jpg" title="esprit"></div><div class="link"></div></a></div><div class="item"><a href="#" target="_blank"><div class="link-l"></div><div class="img"><img src="../data/gallery_album/visualDefault/homeIndex_010.jpg" title="esprit"></div><div class="link"></div></a></div><div class="item"><a href="#" target="_blank"><div class="link-l"></div><div class="img"><img src="../data/gallery_album/visualDefault/homeIndex_010.jpg" title="esprit"></div><div class="link"></div></a></div><div class="item"><a href="#" target="_blank"><div class="link-l"></div><div class="img"><img src="../data/gallery_album/visualDefault/homeIndex_010.jpg" title="esprit"></div><div class="link"></div></a></div><div class="item"><a href="#" target="_blank"><div class="link-l"></div><div class="img"><img src="../data/gallery_album/visualDefault/homeIndex_010.jpg" title="esprit"></div><div class="link"></div></a></div></div>
         </div>
-    </li>
-        </ul>
-<div class="spec" data-title="undefined" data-spec=""></div></div>
+            </div>
+<div class="spec" data-spec="" data-title="undefined"></div></div>
                                     </div>
                                 </div><div class="visual-item" style="display: block;" ectype="visualItme" data-purebox="cust" data-mode="custom" data-diff="0">
                                     

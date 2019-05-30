@@ -103,13 +103,13 @@
     	<div class="categorys"><div class="categorys-type"><a href="categoryall.php" target="_blank">全部商品分类</a></div></div>
         <div class="nav-main" id="nav">
         	<ul class="navitems" data-type="range">    <li><a class="curr" href="index.php">首页</a></li>
-        <li><a href="#" target="_blank">云诊断</a></li>
-        <li><a href="#" target="_blank">商务合作</a></li>
+        <li><a href="/cloud_diagnostic.php" target="_blank">保驰云诊断</a></li>
+        <li><a href="/merchants.php" target="_blank">商务合作</a></li>
         <li><a href="/article_cat.php?id=1" target="_blank">服务支持</a></li>
-        <li><a href="#" target="_blank">软件下载</a></li>
-        <li><a href="#" target="_blank">关于我们</a></li>
+        <li><a href="/software_download.php" target="_blank">软件下载</a></li>
+        <li><a href="/about_us.php" target="_blank">关于我们</a></li>
     
-<div class="spec" data-spec='[{"name":"云诊断","url":"#","opennew":1,"navvieworder":1},{"name":"商务合作","url":"#","opennew":1,"navvieworder":2},{"name":"服务支持","url":"/article_cat.php?id=1","opennew":1,"navvieworder":3},{"name":"软件下载","url":"#","opennew":1,"navvieworder":4},{"name":"关于我们","url":"#","opennew":1,"navvieworder":5}]'></div></ul>
+<div class="spec" data-spec="[{&quot;name&quot;:&quot;保驰云诊断&quot;,&quot;url&quot;:&quot;/cloud_diagnostic.php&quot;,&quot;opennew&quot;:1,&quot;navvieworder&quot;:1},{&quot;name&quot;:&quot;商务合作&quot;,&quot;url&quot;:&quot;/merchants.php&quot;,&quot;opennew&quot;:1,&quot;navvieworder&quot;:2},{&quot;name&quot;:&quot;服务支持&quot;,&quot;url&quot;:&quot;/article_cat.php?id=1&quot;,&quot;opennew&quot;:1,&quot;navvieworder&quot;:3},{&quot;name&quot;:&quot;软件下载&quot;,&quot;url&quot;:&quot;/software_download.php&quot;,&quot;opennew&quot;:1,&quot;navvieworder&quot;:4},{&quot;name&quot;:&quot;关于我们&quot;,&quot;url&quot;:&quot;/about_us.php&quot;,&quot;opennew&quot;:1,&quot;navvieworder&quot;:5}]"></div></ul>
         </div>
         <div class="setup_box" data-html="not">
             <div class="barbg"></div>
@@ -118,7 +118,7 @@
     </div>
 </div>
 <div class="prompt" data-html="not">以上为页头区域</div>
-<div class="demo ui-sortable" style="min-height: 925px;"><div class="visual-item lyrow lunbotu ui-draggable" style="display: block;" ectype="visualItme" data-length="5" data-li="1" data-purebox="adv" data-mode="lunbo" data-diff="0">
+<div class="demo ui-sortable" style="min-height: 969px;"><div class="visual-item lyrow lunbotu ui-draggable" style="display: block;" ectype="visualItme" data-length="5" data-li="1" data-purebox="adv" data-mode="lunbo" data-diff="0">
                                     <div class="drag" data-html="not">
                                         <div class="navLeft">
                                             <span class="pic"><img src="images/visual/navLeft_01.png"></span>
@@ -222,64 +222,124 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div><div class="visual-item lyrow w1200 ui-draggable" style="display: block;" ectype="visualItme" data-li="1" data-purebox="homeAdv" data-mode="h-promo" data-diff="0">
+                                </div><div class="visual-item lyrow w1200 ui-draggable" data-mode="homeFloorThree" data-purebox="homeFloor" data-li="1" ectype="visualItme" data-diff="0" style="display: block;">
                                     <div class="drag" data-html="not">
                                         <div class="navLeft">
-                                            <span class="pic"><img src="images/visual/5.png"></span>
-                                            <span class="txt">促销活动</span>
+                                            <span class="pic"><img src="images/visual/navLeft_03.png"></span>
+                                            <span class="txt">楼层三</span>
                                         </div>
                                         <div class="setup_box">
                                             <div class="barbg"></div>
-                                            <a class="move-up iconfont icon-up1" href="javascript:void(0);"></a>
-                                            <a class="move-down iconfont icon-down1" href="javascript:void(0);"></a>
-                                            <a class="move-edit" href="javascript:void(0);" ectype="model_edit"><i class="iconfont icon-edit1"></i>编辑</a>
-                                            <a class="move-remove" href="javascript:void(0);"><i class="iconfont icon-remove-alt"></i>移除</a>
+                                            <a href="javascript:void(0);" class="move-up iconfont icon-up1"></a>
+                                            <a href="javascript:void(0);" class="move-down iconfont icon-down1"></a>
+                                            <a href="javascript:void(0);" class="move-edit" ectype="model_edit"><i class="iconfont icon-edit1"></i>编辑</a>
+                                            <a href="javascript:void(0);" class="move-remove"><i class="iconfont icon-remove-alt"></i>移除</a>
                                         </div>
                                     </div>
                                     <div class="view">
-                                        <div class="promoWarp clearfix" id="h-promo_0" data-type="range" data-lift="新品推荐">
-<div class="tit" style="background-color: rgb(10, 173, 204);">
-    <h3>新品推荐</h3>
-    <span>热卖产品</span>
-    <i class="titIcon"></i>
-</div>
-<ul>
-            <li class="opacity_img">
-        <div class="p-img"><a href="goods.php?id=792" target="_blank"><img src="http://localhost/images/201703/thumb_img/0_thumb_G_1490174547624.jpg"></a></div>
-        <div class="info">
-            <div class="price"><em>¥</em>124.00</div>
-            <div class="name"><a href="goods.php?id=792" target="_blank">贝妍夏季薄款女士睡衣性感V领女南韩丝家居服运动可外穿中袖套装</a></div>
-            <div class="time" ectype="time" data-time="2020-03-23 00:00:00">
-                <span class="label">剩余时间：</span>
-                <span class="days">00</span>
-                <em>：</em>
-                <span class="hours">00</span>
-                <em>：</em>
-                <span class="minutes">00</span>
-                <em>：</em>
-                <span class="seconds">00</span>
+                                        <div class="floor-content" data-type="range" id="homeFloorThree_0" data-lift="新品推荐">
+<!-- 楼层三 -->
+<div class="floor-line-con floorThree floor-color-type-1" data-idx="1" id="floor_module_2" ectype="floorItem">
+	<div class="floor-hd" ectype="floorTit">
+		<div class="hd-tit">新品推荐</div>        <div class="hd-tags">
+			<ul>
+				<li class="first current">新品推荐</li>
+							</ul>
+		</div>
+	</div>
+    
+    <div class="floor-bd FT-bd-more-02">
+    	    	<div class="bd-left">
+        	            <div class="floor-left-slide">
+                <div class="bd">
+                    <ul>
+                    	                        <li><a href="" target="_blank"><img src="../data/gallery_album/visualDefault/visual232x590.jpg"></a></li>
+                                            </ul>
+                </div>
+                <div class="hd"><ul></ul></div>
             </div>
-        </div>
-    </li>
-        <li class="opacity_img">
-        <div class="p-img"><a href="goods.php?id=903" target="_blank"><img src="http://localhost/images/201703/thumb_img/0_thumb_G_1490915806032.jpg"></a></div>
-        <div class="info">
-            <div class="price"><em>¥</em>11.00</div>
-            <div class="name"><a href="goods.php?id=903" target="_blank">正品直邮Hermes爱马仕2017新款男鞋 时尚真皮休闲鞋H171325ZH02 7495</a></div>
-            <div class="time" ectype="time" data-time="2020-04-08 14:53:29">
-                <span class="label">剩余时间：</span>
-                <span class="days">00</span>
-                <em>：</em>
-                <span class="hours">00</span>
-                <em>：</em>
-                <span class="minutes">00</span>
-                <em>：</em>
-                <span class="seconds">00</span>
+                    </div>
+        <div class="bd-right">
+        	<div class="floor-tabs-content clearfix">
+        	<div class="f-r-main f-r-m-adv">
+                                            <div class="floor-left-adv"><a href="" target="_blank"><img src="../data/gallery_album/visualDefault/visual474x290.jpg"></a></div>
+                                        
+                        <div class="f-r-m-item">
+                <a href="" target="_blank">
+                    <div class="title">
+                        <h3></h3>
+                        <span></span>
+                    </div>
+                    <img src="../data/gallery_album/visualDefault/visual232x290.jpg">
+                </a>
             </div>
+                        <div class="f-r-m-item">
+                <a href="" target="_blank">
+                    <div class="title">
+                        <h3></h3>
+                        <span></span>
+                    </div>
+                    <img src="../data/gallery_album/visualDefault/visual232x290.jpg">
+                </a>
+            </div>
+                        <div class="f-r-m-item">
+                <a href="" target="_blank">
+                    <div class="title">
+                        <h3></h3>
+                        <span></span>
+                    </div>
+                    <img src="../data/gallery_album/visualDefault/visual232x290.jpg">
+                </a>
+            </div>
+                        <div class="f-r-m-item">
+                <a href="" target="_blank">
+                    <div class="title">
+                        <h3></h3>
+                        <span></span>
+                    </div>
+                    <img src="../data/gallery_album/visualDefault/visual232x290.jpg">
+                </a>
+            </div>
+                        <div class="f-r-m-item">
+                <a href="" target="_blank">
+                    <div class="title">
+                        <h3></h3>
+                        <span></span>
+                    </div>
+                    <img src="../data/gallery_album/visualDefault/visual232x290.jpg">
+                </a>
+            </div>
+                        <div class="f-r-m-item">
+                <a href="" target="_blank">
+                    <div class="title">
+                        <h3></h3>
+                        <span></span>
+                    </div>
+                    <img src="../data/gallery_album/visualDefault/visual232x290.jpg">
+                </a>
+            </div>
+                        </div>
+                        <div class="f-r-main" ectype="floor_cat_<br ></div>
+<b>Warning</b>:  Illegal string offset 'cat_id' in <b>D:\phpStudy\www\temp\compiled\admin\dialog.lbi.php</b> on line <b>1836</b><br />
+">
+            	                                <div class="floor-left-adv"><a href="" target="_blank"><img src="../data/gallery_album/visualDefault/visual474x290.jpg"></a></div>
+                                            </div>
+                        </div>
+        </div>    
+    	    </div>
+                    <div class="floor-fd">
+            <div class="floor-fd-brand clearfix" ectype="defaultBrand">
+                <div class="item">
+                    <a href="#" target="_blank">
+                        <div class="link-l"></div>
+                        <div class="img"><img src="../data/gallery_album/visualDefault/homeIndex_010.jpg" title="esprit"></div>
+                        <div class="link"></div>
+                    </a>
+                </div>
+            <div class="item"><a href="#" target="_blank"><div class="link-l"></div><div class="img"><img src="../data/gallery_album/visualDefault/homeIndex_010.jpg" title="esprit"></div><div class="link"></div></a></div><div class="item"><a href="#" target="_blank"><div class="link-l"></div><div class="img"><img src="../data/gallery_album/visualDefault/homeIndex_010.jpg" title="esprit"></div><div class="link"></div></a></div><div class="item"><a href="#" target="_blank"><div class="link-l"></div><div class="img"><img src="../data/gallery_album/visualDefault/homeIndex_010.jpg" title="esprit"></div><div class="link"></div></a></div><div class="item"><a href="#" target="_blank"><div class="link-l"></div><div class="img"><img src="../data/gallery_album/visualDefault/homeIndex_010.jpg" title="esprit"></div><div class="link"></div></a></div><div class="item"><a href="#" target="_blank"><div class="link-l"></div><div class="img"><img src="../data/gallery_album/visualDefault/homeIndex_010.jpg" title="esprit"></div><div class="link"></div></a></div><div class="item"><a href="#" target="_blank"><div class="link-l"></div><div class="img"><img src="../data/gallery_album/visualDefault/homeIndex_010.jpg" title="esprit"></div><div class="link"></div></a></div><div class="item"><a href="#" target="_blank"><div class="link-l"></div><div class="img"><img src="../data/gallery_album/visualDefault/homeIndex_010.jpg" title="esprit"></div><div class="link"></div></a></div><div class="item"><a href="#" target="_blank"><div class="link-l"></div><div class="img"><img src="../data/gallery_album/visualDefault/homeIndex_010.jpg" title="esprit"></div><div class="link"></div></a></div><div class="item"><a href="#" target="_blank"><div class="link-l"></div><div class="img"><img src="../data/gallery_album/visualDefault/homeIndex_010.jpg" title="esprit"></div><div class="link"></div></a></div></div>
         </div>
-    </li>
-        </ul>
-<div class="spec" data-title="undefined" data-spec='{"recommend":"792","moded":"h-promo","goods_ids":"792,903","lift":"新品推荐","title":"新品推荐","subtitle":"热卖产品","navColor":"#0aadcc","diff":0,"PromotionType":""}'></div></div>
+            </div>
+<div class="spec" data-spec="{&quot;content&quot;:&quot;&quot;,&quot;floor_title&quot;:&quot;新品推荐&quot;,&quot;sub_title&quot;:&quot;&quot;,&quot;cat_goods&quot;:[&quot;&quot;],&quot;moded&quot;:&quot;homeFloorThree&quot;,&quot;cat_id&quot;:0,&quot;cateValue&quot;:[&quot;&quot;],&quot;typeColor&quot;:&quot;floor-color-type-1&quot;,&quot;fontColor&quot;:&quot;&quot;,&quot;floorMode&quot;:2,&quot;brand_ids&quot;:&quot;&quot;,&quot;leftBanner&quot;:[&quot;&quot;],&quot;leftBannerLink&quot;:[&quot;&quot;],&quot;leftBannerSort&quot;:[&quot;&quot;],&quot;leftBannerTitle&quot;:[&quot;&quot;],&quot;leftBannerSubtitle&quot;:[&quot;&quot;],&quot;leftAdv&quot;:[&quot;&quot;],&quot;leftAdvLink&quot;:[&quot;&quot;],&quot;leftAdvSort&quot;:[&quot;&quot;],&quot;rightAdv&quot;:[&quot;&quot;],&quot;rightAdvLink&quot;:[&quot;&quot;],&quot;rightAdvSort&quot;:[&quot;&quot;],&quot;rightAdvTitle&quot;:[&quot;&quot;],&quot;rightAdvSubtitle&quot;:[&quot;&quot;],&quot;top_goods&quot;:&quot;&quot;,&quot;lift&quot;:&quot;新品推荐&quot;}" data-title="undefined"></div></div>
                                     </div>
                                 </div><div class="visual-item lyrow ui-draggable" style="display: block;" ectype="visualItme" data-purebox="cust" data-mode="custom" data-diff="0">
                                     <div class="drag" data-html="not">

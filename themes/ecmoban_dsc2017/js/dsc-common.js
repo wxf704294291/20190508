@@ -1,8 +1,5 @@
 /*
 **Name:dsc-common.js
-**Author:ecmoban Team sunle
-**Description:Commonly used JS
-**Date:2017-02-06 15:30:30
 */
  
 /* 全局变量 */ 

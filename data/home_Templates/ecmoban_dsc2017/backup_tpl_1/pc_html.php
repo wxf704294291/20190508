@@ -143,6 +143,23 @@
             </div>
         </div>
     </li>
+        <li class="opacity_img">
+        <div class="p-img"><a href="goods.php?id=903" target="_blank"><img src="http://localhost/images/201703/thumb_img/0_thumb_G_1490915806032.jpg"></a></div>
+        <div class="info">
+            <div class="price"><em>¥</em>11.00</div>
+            <div class="name"><a href="goods.php?id=903" target="_blank">正品直邮Hermes爱马仕2017新款男鞋 时尚真皮休闲鞋H171325ZH02 7495</a></div>
+            <div class="time" ectype="time" data-time="2020-04-08 14:53:29">
+                <span class="label">剩余时间：</span>
+                <span class="days">00</span>
+                <em>：</em>
+                <span class="hours">00</span>
+                <em>：</em>
+                <span class="minutes">00</span>
+                <em>：</em>
+                <span class="seconds">00</span>
+            </div>
+        </div>
+    </li>
         </ul>
 <div class="spec" data-title="undefined" data-spec=""></div></div>
                                     </div>
