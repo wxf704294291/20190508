@@ -1,5 +1,4 @@
-<?php
-       
+<?php     
 function get_top_seckill_goods()
 {
 	$date_begin = local_strtotime(local_date('Ymd'));

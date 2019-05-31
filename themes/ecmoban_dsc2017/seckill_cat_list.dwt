@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <!-- #BeginLibraryItem "/library/page_header_seckill.lbi" --><!-- #EndLibraryItem -->
+	<!-- #BeginLibraryItem "/library/page_header_common.lbi" --><!-- #EndLibraryItem -->
     <div class="content">
     	<div class="banner seckill-cat-banner"><div class="w w1200"><span>{$cat_alias_name}</span></div></div>
         <div class="seckill-main">

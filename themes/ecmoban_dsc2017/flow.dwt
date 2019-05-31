@@ -16,7 +16,7 @@
 </head>
 
 <body class="bg-ligtGary">
-    <!-- #BeginLibraryItem "/library/page_header_flow.lbi" --><!-- #EndLibraryItem -->
+	<!-- #BeginLibraryItem "/library/page_header_common.lbi" --><!-- #EndLibraryItem -->
     <!-- {if $step eq "cart"} -->
     <div class="container">
         <div class="w w1200">

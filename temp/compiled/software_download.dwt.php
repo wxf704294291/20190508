@@ -63,7 +63,6 @@
 <script type="text/javascript">
 
 function getDownloadLink(evt){
-
     var url = $(this).data("url");
 	var user_id = "<?php echo $this->_var['user_id']; ?>"
 	if(user_id > 0){
@@ -73,7 +72,6 @@ function getDownloadLink(evt){
 		var back_url = "merchants.php";
 		$.notLogin("get_ajax_content.php?act=get_login_dialog",back_url);
 	}
-
 }
 
 function getResult(result){

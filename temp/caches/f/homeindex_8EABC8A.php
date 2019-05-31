@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:4:{i:0;s:52:"D:/phpStudy/www/themes/ecmoban_dsc2017/homeindex.dwt";i:1;s:67:"D:/phpStudy/www/themes/ecmoban_dsc2017/library/js_languages_new.lbi";i:2;s:69:"D:/phpStudy/www/themes/ecmoban_dsc2017/library/page_header_common.lbi";i:3;s:62:"D:/phpStudy/www/themes/ecmoban_dsc2017/library/page_footer.lbi";}s:7:"expires";i:1559271564;s:8:"maketime";i:1559267964;}<!doctype html>
+<?php exit;?>a:3:{s:8:"template";a:4:{i:0;s:52:"D:/phpStudy/www/themes/ecmoban_dsc2017/homeindex.dwt";i:1;s:67:"D:/phpStudy/www/themes/ecmoban_dsc2017/library/js_languages_new.lbi";i:2;s:69:"D:/phpStudy/www/themes/ecmoban_dsc2017/library/page_header_common.lbi";i:3;s:62:"D:/phpStudy/www/themes/ecmoban_dsc2017/library/page_footer.lbi";}s:7:"expires";i:1559290442;s:8:"maketime";i:1559286842;}<!doctype html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -703,15 +703,6 @@ var load_icon = '<img src="themes/ecmoban_dsc2017/images/load/load.gif" width="2
     	<div class="fnc-warp">
             <div class="help-list">
                                                 <div class="help-item">
-                    <h3>配送与支付 </h3>
-                    <ul>
-                                                            <li><a href="article.php?id=55"  title="上门自提" target="_blank">上门自提</a></li>
-                                                                                <li><a href="article.php?id=17"  title="支付方式说明" target="_blank">支付方式说明</a></li>
-                                                                                <li><a href="article.php?id=16"  title="配送支付智能查询 " target="_blank">配送支付智能查询</a></li>
-                                                                                                    </ul>
-                </dl>
-                </div>
-                                                                <div class="help-item">
                     <h3>新手上路 </h3>
                     <ul>
                                                             <li><a href="article.php?id=36"  title="隐私声明" target="_blank">隐私声明</a></li>
@@ -724,7 +715,6 @@ var load_icon = '<img src="themes/ecmoban_dsc2017/images/load/load.gif" width="2
                     <h3>联系我们 </h3>
                     <ul>
                                                             <li><a href="article.php?id=26"  title="投诉与建议 " target="_blank">投诉与建议</a></li>
-                                                                                <li><a href="article.php?id=25"  title="选机咨询 " target="_blank">选机咨询</a></li>
                                                                                 <li><a href="article.php?id=24"  title="网站故障报告" target="_blank">网站故障报告</a></li>
                                                             </ul>
                 </dl>

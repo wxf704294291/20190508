@@ -1,5 +1,4 @@
 <?php
-//WEBSC商城资源
 function get_regions_log($type = 0, $parent = 0)
 {
 	$sql = 'SELECT region_id, region_name FROM ' . $GLOBALS['ecs']->table('region') . ' WHERE region_type = \'' . $type . '\' AND parent_id = \'' . $parent . '\'';
