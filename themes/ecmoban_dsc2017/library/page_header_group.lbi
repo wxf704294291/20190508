@@ -19,6 +19,7 @@
             <!-- {/foreach} -->
             <!-- {/if} -->
             <!--{if $navigator_list.top}-->
+			<!-------
             <li class="li_dorpdown" data-ectype="dorpdown">
                 <div class="dt dsc-cm">{$lang.Site_navigation}<i class="iconfont icon-down"></i></div>
                 <div class="dd dorpdown-layer">
@@ -44,7 +45,7 @@
                     </dl>
                 </div>
             </li>
-            <!-- {/if} -->
+            <!-- {/if} --> ---->
         </ul>
     </div>
 </div>
@@ -60,7 +61,7 @@
                         <input autocomplete="off" onKeyUp="lookup(this.value);" name="keywords" type="text" id="keyword" value="{if $search_keywords}{$search_keywords}{else}{insert name='rand_keyword'}{/if}" class="search-text"/>
                     <input type="hidden" name="store_search_cmt" value="{$search_type|default:0}">
                     <button type="submit" class="button button-goods" onclick="checkstore_search_cmt(0)">{$lang.serch_goods}</button>
-                    <button type="submit" class="button button-store" onclick="checkstore_search_cmt(1)">{$lang.serch_shop}</button>
+                    <!---<button type="submit" class="button button-store" onclick="checkstore_search_cmt(1)">{$lang.serch_shop}</button>---->
                 </form>
                 {if $searchkeywords}
                 <ul class="keyword">
@@ -78,15 +79,25 @@
                 <!-- @Author guan 搜索栏提示 end -->
             </div>
         </div>
+		<!---
         <div class="shopCart" data-ectype="dorpdown" id="ECS_CARTINFO" data-carteveval="0">
         {* DSC 提醒您：根据用户id来调用cart_info.lbi显示不同的界面  *}{insert name='cart_info'}
         </div>
+		---->
     </div>
 </div>
 <div class="nav dsc-zoom">
     <div class="w w1200">
         <div class="categorys gb-categorys">
-            <div class="categorys-type"><a href="#" target="_blank">{$lang.group_buy_goods}</a></div>
+			<div class="nav-main">
+				<ul class="navitems">
+					<li><a href="../index.php" {if $navigator_list.config.index eq 1}class="curr"{/if}>{$lang.home}</a></li>
+					<!-- {foreach name=nav_middle_list from=$navigator_list.middle item=nav} -->
+					<li><a href="{$nav.url}" {if $nav.active eq 1}class="curr"{/if} {if $nav.opennew}target="_blank"{/if}>{$nav.name}</a></li>
+					<!-- {/foreach} -->
+				</ul>
+			</div>
+            <!---<div class="categorys-type"><a href="#" target="_blank">{$lang.group_buy_goods}</a></div>---->
             <div class="categorys-tab-content">
                     <div class="categorys-items">
                     <!--{foreach from=$category_list item=cat name=name}-->
@@ -108,13 +119,6 @@
                 </div>
             </div>
         </div>
-        <div class="nav-main">
-            <ul class="navitems">
-                <li><a href="../index.php" {if $navigator_list.config.index eq 1}class="curr"{/if}>{$lang.home}</a></li>
-                <!-- {foreach name=nav_middle_list from=$navigator_list.middle item=nav} -->
-                <li><a href="{$nav.url}" {if $nav.active eq 1}class="curr"{/if} {if $nav.opennew}target="_blank"{/if}>{$nav.name}</a></li>
-                <!-- {/foreach} -->
-            </ul>
-        </div>
+       
     </div>
 </div>
