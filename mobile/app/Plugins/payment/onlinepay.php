@@ -35,7 +35,7 @@ if (isset($set_modules) && $set_modules == true) {
 	$modules[$i]['desc'] = 'onlinepay_desc';
 	$modules[$i]['is_cod'] = '0';
 	$modules[$i]['is_online'] = '0';
-	$modules[$i]['author'] = '模板堂';
+	$modules[$i]['author'] = '云诊断';
 	$modules[$i]['website'] = 'www.flyobd.com';
 	$modules[$i]['version'] = '1.0.0';
 	$modules[$i]['config'] = array();

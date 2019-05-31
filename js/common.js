@@ -1,6 +1,5 @@
 /* $Id : common.js 4865 2007-01-31 14:04:10Z paulgao $ */
 
-//@模板堂-bylu
 var bool =0;//此为变量声明，加在第一行，用于判断是加入购物车还是直接购买的一个变量
 
 /* *
@@ -67,13 +66,13 @@ function addToCartShowDiv(goodsId, script_name,goods_recommend,parentId)
 		} 
 	});
 	
-	//@模板堂-bylu 获取分期数  start
+	// 获取分期数  start
 	if(document.getElementById("chooseStages")){
 		if($("#chooseStages").find("li").hasClass("selected")){
 			goods.stages_qishu = $("#chooseStages").find(":input[name='stages_qishu']").val();
 		}
 	}
-	//@模板堂-bylu  end
+	//end
 
   if($(".goods_info_attr").length > 0){
 	  if(attr_list == is_selected){
@@ -453,11 +452,11 @@ function addToCartStages(goodsId)
 		} 
 	});
 
-	//@模板堂-bylu 获取分期数  start
+	//获取分期数  start
 	if($("input[name='stages_qishu']").val()){
 		goods.stages_qishu = $("input[name='stages_qishu']").val();		
 	}
-	//@模板堂-bylu  end
+	// end
 	
 	if($(".goods_info_attr").length > 0){
 		if(attr_list == is_selected){
@@ -512,10 +511,10 @@ function addToCartResponse(result)
     }
     else
     {
-        //@模板堂-bylu 白条分期购买 start
+        //白条分期购买 start
         if(bool == 1) {
             location.href = 'flow.php?step=checkout&act=stages&cart_value=' + result.cart_value;//跳转到订单确认页 bylu;
-            //@模板堂-bylu  end
+            // end
         }else if(bool == 2){
             location.href = 'flow.php?step=checkout&store_id='+result.store_id+'&cart_value=' + result.cart_value;//跳转到订单确认页  by kong 20160721  门店一步购物
         }else{

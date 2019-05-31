@@ -7876,7 +7876,7 @@ CREATE TABLE `fly_zc_initiator` (
 
 /*Data for the table `fly_zc_initiator` */
 
-insert  into `fly_zc_initiator`(`id`,`name`,`company`,`img`,`intro`,`describe`,`rank`) values (2,'无印良品','无印良品','data/initiator_image/1469505347118618837.png','无印良品是一个日本杂货品牌','无印良品是一个日本杂货品牌，在日文中意为无品牌标志的好产品。产品类别以日常用品为主。产品注重纯朴、简洁、环保、以人为本等理念，在包装与产品设计上皆无品牌标志。产品类别从铅笔、笔记本、食品到厨房的基本用具都有。最近也开始进入房屋建筑、花店、咖啡店等产业类别。',1),(3,'模板堂','上海商创网络科技有限公司','data/initiator_image/1469561234331729031.jpg','ecshop模板制作选购第一站，国内专业的ecshop模板开发商，提供完善的ecshop二次开发与模板定制服务以及ecshop插件与ecshop教程。','上海商创网络科技有限公司（ECSHOP模板堂）是ecshop行业首家股交中心挂牌企业。伴随着ECSHOP一起成长，可以为广大ECSHOP模板使用者提供更为全面的服务。ECSHOP模板堂创始于1999年，是一家连续十余年为中国互联网用户提供服务的运营商，是国内领先的网站建设机构。',2);
+insert  into `fly_zc_initiator`(`id`,`name`,`company`,`img`,`intro`,`describe`,`rank`) values (2,'无印良品','无印良品','data/initiator_image/1469505347118618837.png','无印良品是一个日本杂货品牌','',2);
 
 /*Table structure for table `fly_zc_progress` */
 

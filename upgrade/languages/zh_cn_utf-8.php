@@ -6,7 +6,7 @@ $_LANG['select_language_title'] = '大商创升级程序 第1步/共3步 选择�
 $_LANG['readme_title'] = '大商创升级程序 第2步/共3步 说明页';
 $_LANG['checking_title'] = '大商创升级程序 第3步/共3步 环境检测';
 $_LANG['check_system_environment'] = '检测系统环境';
-$_LANG['copyright'] = '&copy; 2005-2016 <a href="http://www.     .com" target="_blank">上海商创网络科技有限公司</a>。保留所有权利。';
+$_LANG['copyright'] = '&copy; 2005-2016 <a href="http://www.     .com" target="_blank">深圳市保驰科技有限公司</a>。保留所有权利。';
 $_LANG['is_last_version'] = '您的大商创已是最新版本，无需升级。';
 $_LANG['readme_page'] = '说明页';
 $_LANG['notice'] = '本程序用于将       升级到 <strong>%s</strong>。请勿必按照以下的升级方法进行升级，否则可能产生无法恢复的后果。如果你已经整合了论坛软件，本次升级将取消整合，以后会员整合请到ucenrer中进行整合。';

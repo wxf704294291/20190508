@@ -45,7 +45,7 @@ if (isset($set_modules) && $set_modules == TRUE)
     $modules[$i]['is_online']  = '0';
 
     /* 作者 */
-    $modules[$i]['author']  = '模板堂';
+    $modules[$i]['author']  = '云诊断';
 
     /* 网址 */
     $modules[$i]['website'] = 'www.flyobd.com';

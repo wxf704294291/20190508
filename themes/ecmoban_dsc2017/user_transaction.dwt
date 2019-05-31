@@ -1879,7 +1879,7 @@
                             {$order.pay_status_desc}{if $order.order_amount gt 0 && $order.pay_online}
                             <div class="or-btn">{$order.pay_online}</div>
                             {else}
-                                <!--@模板堂-bylu 如果选择的是白条支付,并且未支付,显示白条支付按钮 start-->
+                                <!--@   -bylu 如果选择的是白条支付,并且未支付,显示白条支付按钮 start-->
                                 {if $order.pay_code=='chunsejinrong' && $order.pay_status==0}
                                     <div class="or-btn">
                                         <div class="alipay" style="text-align:center">
@@ -1892,7 +1892,7 @@
                                         }
                                     </script>
                                 {/if}
-                                <!--@模板堂-bylu end-->
+                                <!--@   -bylu end-->
                             {/if}
                         </div>
                     </div>

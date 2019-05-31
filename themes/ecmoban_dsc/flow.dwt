@@ -45,7 +45,7 @@
 </head>
 
 <body>
-<!--@模板堂-bylu 网银支付跳转弹窗 start-->
+<!--网银支付跳转弹窗 start-->
 <div id="PayAfter" class="flipInX  animated">
     <h2 >
         <span class="bounce animated">{$lang.payment_is_online}</span>
@@ -61,7 +61,7 @@
     </div>
 </div>
 <div id="payAfter_zezhao"></div>
-<!--@模板堂-bylu 网银支付跳转弹窗 end-->
+<!--@ 网银支付跳转弹窗 end-->
 
 <!-- #BeginLibraryItem "/library/page_header_flow.lbi" --><!-- #EndLibraryItem -->
 <!-- {if $step eq "cart"} -->
@@ -1229,7 +1229,7 @@
         </div>
     </div>
 
-    <!--@模板堂-bylu start-->
+    <!--@    -bylu start-->
     <!--  在线支付开始 bylu -->
     {if $is_onlinepay}
     <div id="pay_main" class="w1200">
@@ -1357,7 +1357,7 @@
         {/if}
 	</div>
     {/if}
-    <!--@模板堂-bylu end-->
+    <!--@    -bylu end-->
 
     {if $goods_buy_list}
     <div id="c-mlym" class="w1200">
@@ -1896,13 +1896,13 @@ $(function(){
 </script>
 
 
-<!--@模板堂-bylu start-->
+<!--@    -bylu start-->
 
 <!-- ajax修改订单表中在线支付的支付方式 -->
 <script type="text/javascript">
 $(function(){
 	/**
-		@模板堂-bylu start
+		    start
 		ajax修改订单表中在线支付的支付方式	
 	*/
 	$('.pay_more li,.pay_more a,#alipay_bank').click(function(){

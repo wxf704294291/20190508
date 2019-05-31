@@ -19,7 +19,7 @@ function instheader()
 
 function instfooter()
 {
-	echo '</div>' . '<div class="footer"><p>&copy; 2005-2016 <a href="www.flyobd.com" target="_blank">上海商创网络科技有限公司</a>。保留所有权利。</p></div>' . '</div>' . '</div></body></html>';
+	echo '</div>' . '<div class="footer"><p>&copy; 2005-2016 <a href="www.flyobd.com" target="_blank">深圳市保驰科技有限公司</a>。保留所有权利。</p></div>' . '</div>' . '</div></body></html>';
 }
 
 function showmessage($message, $url_forward = '', $msgtype = 'message', $extra = '', $delaymsec = 1000)

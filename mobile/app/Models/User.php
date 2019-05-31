@@ -1,5 +1,4 @@
-<?php
-//zend by 商创网络 Q Q:123456           
+<?php           
 namespace App\Models;
 
 class User extends \Illuminate\Database\Eloquent\Model

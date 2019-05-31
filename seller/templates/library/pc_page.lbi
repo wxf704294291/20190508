@@ -37,7 +37,7 @@
                 <div class="city-choice">
                     <div class="dsc-choie dsc-cm">
                         <i class="iconfont icon-map-marker"></i>
-                        <span class="ui-areamini-text" data-id="1" title="上海">上海</span>
+                        <span class="ui-areamini-text" data-id="1" title=""></span>
                     </div>
                 </div>
                 <div class="txt-info" id="ECS_MEMBERZONE">
@@ -72,12 +72,6 @@
                     <input type="hidden" name="store_search_cmt" value="0">
                     <button type="submit" class="button button-goods">{$lang.serch_goods}</button>
                     <button type="submit" class="button button-store" >{$lang.serch_shop}</button>
-                    <ul class="keyword">
-                        <li><a href="#">周大福</a></li>
-                        <li><a href="#">内衣</a></li>
-                        <li><a href="#">Five Plus</a></li>
-                        <li><a href="#">手机</a></li>
-                    </ul>
                 </div>
             </div>
             <div class="shopCart">

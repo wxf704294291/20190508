@@ -246,11 +246,11 @@
                                     <span class="ftx-09">{$lang.detail_pay_status}：</span>
                                     <span class="ftx-08">
                                         <span class="fl">{$order.pay_status_desc}</span>{if $order.order_amount gt 0}{$order.pay_online}{/if}
-                                        <!--@模板堂-bylu 如果选择的是白条支付,并且未支付,显示白条支付按钮 start-->
+                                        <!--@ -bylu 如果选择的是白条支付,并且未支付,显示白条支付按钮 start-->
                                             {if $order.pay_code=='chunsejinrong' && $order.pay_status==0}
                                             <a href="flow.php?step=done&act=chunsejinrong&order_sn={$order.order_sn}" id="chunsejinrong" style=" margin-right: 150px;float: right;height: 25px;border: 1px solid #ff5658;width: 80px;line-height: 25px;text-align: center;transform: translateY(23%);background: #ff5658;background: -webkit-linear-gradient( top, #ff7573, #ff5658);color: #fff;border-radius: 5px;" order_sn="{$order.order_sn}" flag="chunsejinrong" >{$lang.ious_pay}</a>
                                             {/if}
-                                        <!--@模板堂-bylu end-->
+                                        <!--@ -bylu end-->
                                     </span>
                                 </div>
                             </div>
@@ -6211,7 +6211,7 @@ $("#qt").each(function(){
 });
 
 /**
-    @模板堂-bylu start
+        start
     ajax修改订单表中在线支付的支付方式(这里是当点击了余额支付,才修改)
 */
 $('#formFee').submit(function(){
@@ -6221,7 +6221,7 @@ $('#formFee').submit(function(){
     })
 });
 
-/* @模板堂-bylu end */
+/*     end */
 
 /* 虚拟商品卡密start */
 var hoverTimer, outTimer,hoverTimer2;
