@@ -1,5 +1,4 @@
-<?php
-    
+<?php 
 function get_pre_goods($cat_id, $min = 0, $max = 0, $start_time = 0, $end_time = 0, $sort, $status = 0, $order)
 {
 	$children = get_children($cat_id, 5, 0, 'presale_cat');

@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:4:{i:0;s:52:"D:/phpStudy/www/themes/ecmoban_dsc2017/homeindex.dwt";i:1;s:67:"D:/phpStudy/www/themes/ecmoban_dsc2017/library/js_languages_new.lbi";i:2;s:69:"D:/phpStudy/www/themes/ecmoban_dsc2017/library/page_header_common.lbi";i:3;s:62:"D:/phpStudy/www/themes/ecmoban_dsc2017/library/page_footer.lbi";}s:7:"expires";i:1559290442;s:8:"maketime";i:1559286842;}<!doctype html>
+<?php exit;?>a:3:{s:8:"template";a:4:{i:0;s:52:"D:/phpStudy/www/themes/ecmoban_dsc2017/homeindex.dwt";i:1;s:67:"D:/phpStudy/www/themes/ecmoban_dsc2017/library/js_languages_new.lbi";i:2;s:69:"D:/phpStudy/www/themes/ecmoban_dsc2017/library/page_header_common.lbi";i:3;s:62:"D:/phpStudy/www/themes/ecmoban_dsc2017/library/page_footer.lbi";}s:7:"expires";i:1559359575;s:8:"maketime";i:1559355975;}<!doctype html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -24,10 +24,10 @@ var load_icon = '<img src="themes/ecmoban_dsc2017/images/load/load.gif" width="2
         <div class="top-banner" style="background: rgb(255, 40, 125) none repeat scroll 0% 0%;">
             <div class="module w1200" data-type="range">
  
-	    <a href="#" target="_blank"><img src="http://localhost/data/gallery_album/2/original_img/1494985021864887905.jpg" width="1200" height="80"></a>
+	    <a href="#" target="_blank"><img src="http://localhost//ecmoban_dsc2.2.6_20170727/data/gallery_album/2/original_img/1494985021864887905.jpg" width="1200" height="80"></a>
     <i class="iconfont icon-cha" ectype="close"></i>
     
-</div><div class="spec" data-spec="{&quot;picHeight&quot;:&quot;500&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;navColor&quot;:&quot;#ff287d&quot;,&quot;is_li&quot;:0,&quot;bg_color&quot;:[],&quot;pic_src&quot;:[&quot;http://localhost/data/gallery_album/2/original_img/1494985021864887905.jpg&quot;],&quot;link&quot;:&quot;&quot;,&quot;sort&quot;:[&quot;1&quot;]}"></div>
+</div><div class="spec" data-spec="{&quot;picHeight&quot;:&quot;500&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;navColor&quot;:&quot;#ff287d&quot;,&quot;is_li&quot;:0,&quot;bg_color&quot;:[],&quot;pic_src&quot;:[&quot;http://localhost//ecmoban_dsc2.2.6_20170727/data/gallery_album/2/original_img/1494985021864887905.jpg&quot;],&quot;link&quot;:&quot;&quot;,&quot;sort&quot;:[&quot;1&quot;]}"></div>
         </div>
         
     <div class="site-nav" id="site-nav">
@@ -245,7 +245,7 @@ var load_icon = '<img src="themes/ecmoban_dsc2017/images/load/load.gif" width="2
 </div>
 <ul>
             <li class="opacity_img">
-        <div class="p-img"><a href="goods.php?id=792" target="_blank"><img src="http://localhost/images/201703/thumb_img/0_thumb_G_1490174547624.jpg"></a></div>
+        <div class="p-img"><a href="goods.php?id=792" target="_blank"><img src="http://localhost//images/201703/thumb_img/0_thumb_G_1490174547624.jpg"></a></div>
         <div class="info">
             <div class="price"><em>¥</em>124.00</div>
             <div class="name"><a href="goods.php?id=792" target="_blank">贝妍夏季薄款女士睡衣性感V领女南韩丝家居服运动可外穿中袖套装</a></div>
@@ -262,7 +262,7 @@ var load_icon = '<img src="themes/ecmoban_dsc2017/images/load/load.gif" width="2
         </div>
     </li>
         <li class="opacity_img">
-        <div class="p-img"><a href="goods.php?id=903" target="_blank"><img src="http://localhost/images/201703/thumb_img/0_thumb_G_1490915806032.jpg"></a></div>
+        <div class="p-img"><a href="goods.php?id=903" target="_blank"><img src="http://localhost//images/201703/thumb_img/0_thumb_G_1490915806032.jpg"></a></div>
         <div class="info">
             <div class="price"><em>¥</em>11.00</div>
             <div class="name"><a href="goods.php?id=903" target="_blank">正品直邮Hermes爱马仕2017新款男鞋 时尚真皮休闲鞋H171325ZH02 7495</a></div>
