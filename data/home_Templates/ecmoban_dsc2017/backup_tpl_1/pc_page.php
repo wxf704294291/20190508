@@ -102,14 +102,15 @@
 	<div class="w w1200 nav_bg" style="background-color: rgb(255, 255, 255);" ectype="nav">
     	<div class="categorys"><div class="categorys-type"><a href="categoryall.php" target="_blank">全部商品分类</a></div></div>
         <div class="nav-main" id="nav">
-        	<ul class="navitems" data-type="range">    <li><a class="curr" href="index.php">首页</a></li>
-        <li><a href="/cloud_diagnostic.php" target="_blank">保驰云诊断</a></li>
-        <li><a href="/merchants.php" target="_blank">商务合作</a></li>
-        <li><a href="/article_cat.php?id=1" target="_blank">服务支持</a></li>
-        <li><a href="/software_download.php" target="_blank">软件下载</a></li>
-        <li><a href="/about_us.php" target="_blank">关于我们</a></li>
+        	<ul class="navitems" data-type="range">    <li><a href="index.php" class="curr">首页</a></li>
+        <li><a href="/cloud_diagnostic.php" style="text-align:" target="_blank">保驰云诊断</a></li>
+        <li><a href="/merchants.php" style="text-align:" target="_blank">商务合作</a></li>
+        <li><a href="/article_cat.php?id=1" style="text-align:" target="_blank">服务支持</a></li>
+        <li><a href="/software_download.php" style="text-align:" target="_blank">软件下载</a></li>
+        <li><a href="/about_us.php" style="text-align:" target="_blank">关于我们</a></li>
+        <li><a href="/category.php?id=858" style="text-align:" target="_blank">产品中心</a></li>
     
-<div class="spec" data-spec='[{"name":"保驰云诊断","url":"/cloud_diagnostic.php","opennew":1,"navvieworder":1},{"name":"商务合作","url":"/merchants.php","opennew":1,"navvieworder":2},{"name":"服务支持","url":"/article_cat.php?id=1","opennew":1,"navvieworder":3},{"name":"软件下载","url":"/software_download.php","opennew":1,"navvieworder":4},{"name":"关于我们","url":"/about_us.php","opennew":1,"navvieworder":5}]'></div></ul>
+<div class="spec" data-spec="[{&quot;name&quot;:&quot;保驰云诊断&quot;,&quot;url&quot;:&quot;/cloud_diagnostic.php&quot;,&quot;opennew&quot;:1,&quot;navvieworder&quot;:1},{&quot;name&quot;:&quot;商务合作&quot;,&quot;url&quot;:&quot;/merchants.php&quot;,&quot;opennew&quot;:1,&quot;navvieworder&quot;:2},{&quot;name&quot;:&quot;服务支持&quot;,&quot;url&quot;:&quot;/article_cat.php?id=1&quot;,&quot;opennew&quot;:1,&quot;navvieworder&quot;:3},{&quot;name&quot;:&quot;软件下载&quot;,&quot;url&quot;:&quot;/software_download.php&quot;,&quot;opennew&quot;:1,&quot;navvieworder&quot;:4},{&quot;name&quot;:&quot;关于我们&quot;,&quot;url&quot;:&quot;/about_us.php&quot;,&quot;opennew&quot;:1,&quot;navvieworder&quot;:5},{&quot;name&quot;:&quot;产品中心&quot;,&quot;url&quot;:&quot;/category.php?id=858&quot;,&quot;opennew&quot;:1,&quot;navvieworder&quot;:6}]"></div></ul>
         </div>
         <div class="setup_box" data-html="not">
             <div class="barbg"></div>
@@ -118,7 +119,7 @@
     </div>
 </div>
 <div class="prompt" data-html="not">以上为页头区域</div>
-<div class="demo ui-sortable" style="min-height: 925px;"><div class="visual-item lyrow lunbotu ui-draggable" style="display: block;" ectype="visualItme" data-length="5" data-li="1" data-purebox="adv" data-mode="lunbo" data-diff="0">
+<div class="demo ui-sortable" style="min-height: 969px;"><div class="visual-item lyrow lunbotu ui-draggable" style="display: block;" ectype="visualItme" data-length="5" data-li="1" data-purebox="adv" data-mode="lunbo" data-diff="0">
                                     <div class="drag" data-html="not">
                                         <div class="navLeft">
                                             <span class="pic"><img src="images/visual/navLeft_01.png"></span>
@@ -221,65 +222,6 @@
                                                 </div> ---->
                                             </div>
                                         </div>
-                                    </div>
-                                </div><div class="visual-item lyrow w1200 ui-draggable" style="display: block;" ectype="visualItme" data-li="1" data-purebox="homeAdv" data-mode="h-promo" data-diff="0">
-                                    <div class="drag" data-html="not">
-                                        <div class="navLeft">
-                                            <span class="pic"><img src="images/visual/5.png"></span>
-                                            <span class="txt">促销活动</span>
-                                        </div>
-                                        <div class="setup_box">
-                                            <div class="barbg"></div>
-                                            <a class="move-up iconfont icon-up1" href="javascript:void(0);"></a>
-                                            <a class="move-down iconfont icon-down1" href="javascript:void(0);"></a>
-                                            <a class="move-edit" href="javascript:void(0);" ectype="model_edit"><i class="iconfont icon-edit1"></i>编辑</a>
-                                            <a class="move-remove" href="javascript:void(0);"><i class="iconfont icon-remove-alt"></i>移除</a>
-                                        </div>
-                                    </div>
-                                    <div class="view">
-                                        <div class="promoWarp clearfix" id="h-promo_0" data-type="range" data-lift="新品推荐">
-<div class="tit" style="background-color: rgb(10, 173, 204);">
-    <h3>新品推荐</h3>
-    <span>热卖产品</span>
-    <i class="titIcon"></i>
-</div>
-<ul>
-            <li class="opacity_img">
-        <div class="p-img"><a href="goods.php?id=792" target="_blank"><img src="http://localhost/images/201703/thumb_img/0_thumb_G_1490174547624.jpg"></a></div>
-        <div class="info">
-            <div class="price"><em>¥</em>124.00</div>
-            <div class="name"><a href="goods.php?id=792" target="_blank">贝妍夏季薄款女士睡衣性感V领女南韩丝家居服运动可外穿中袖套装</a></div>
-            <div class="time" ectype="time" data-time="2020-03-23 00:00:00">
-                <span class="label">剩余时间：</span>
-                <span class="days">00</span>
-                <em>：</em>
-                <span class="hours">00</span>
-                <em>：</em>
-                <span class="minutes">00</span>
-                <em>：</em>
-                <span class="seconds">00</span>
-            </div>
-        </div>
-    </li>
-        <li class="opacity_img">
-        <div class="p-img"><a href="goods.php?id=903" target="_blank"><img src="http://localhost/images/201703/thumb_img/0_thumb_G_1490915806032.jpg"></a></div>
-        <div class="info">
-            <div class="price"><em>¥</em>11.00</div>
-            <div class="name"><a href="goods.php?id=903" target="_blank">正品直邮Hermes爱马仕2017新款男鞋 时尚真皮休闲鞋H171325ZH02 7495</a></div>
-            <div class="time" ectype="time" data-time="2020-04-08 14:53:29">
-                <span class="label">剩余时间：</span>
-                <span class="days">00</span>
-                <em>：</em>
-                <span class="hours">00</span>
-                <em>：</em>
-                <span class="minutes">00</span>
-                <em>：</em>
-                <span class="seconds">00</span>
-            </div>
-        </div>
-    </li>
-        </ul>
-<div class="spec" data-title="undefined" data-spec='{"recommend":"792","moded":"h-promo","goods_ids":"792,903","lift":"新品推荐","title":"新品推荐","subtitle":"热卖产品","navColor":"#0aadcc","diff":0,"PromotionType":""}'></div></div>
                                     </div>
                                 </div><div class="visual-item lyrow ui-draggable" style="display: block;" ectype="visualItme" data-purebox="cust" data-mode="custom" data-diff="0">
                                     <div class="drag" data-html="not">

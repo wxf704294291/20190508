@@ -1,5 +1,4 @@
 <?php
-//WEBSC商城资源
 namespace App\Custom\Site\Controllers;
 
 class Index extends \App\Http\Site\Controllers\Index

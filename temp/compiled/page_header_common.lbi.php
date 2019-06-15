@@ -84,12 +84,6 @@ if ($this->_foreach['nav_top_list']['total'] > 0):
     <div class="w w1200">
         <div class="logo">
             <div class="logoImg"><a href="<?php echo $this->_var['url_index']; ?>"><img src="<?php if ($this->_var['shop_logo']): ?><?php echo $this->_var['shop_logo']; ?><?php else: ?><?php echo $this->_var['site_domain']; ?>themes/<?php echo $GLOBALS['_CFG']['template']; ?>/images/logo.gif<?php endif; ?>" /></a></div>
-			<?php if ($this->_var['activity_title']): ?>
-			<!--<div class="tit"><?php echo $this->_var['activity_title']; ?></div>-->
-            <div class="logoAdv"><a href="<?php echo $this->_var['url_merchants']; ?>"><img src="<?php echo $this->_var['site_domain']; ?>themes/<?php echo $GLOBALS['_CFG']['template']; ?>/images/ecsc-join.gif" /></a></div>
-			<?php else: ?>
-			<div class="logoAdv"><a href="<?php echo $this->_var['url_merchants']; ?>"><img src="<?php echo $this->_var['site_domain']; ?>themes/<?php echo $GLOBALS['_CFG']['template']; ?>/images/ecsc-join.gif" /></a></div>
-			<?php endif; ?>
         </div>
         <div class="dsc-search">
             <div class="form">
@@ -151,6 +145,7 @@ if ($this->_foreach['nav_middle_list']['total'] > 0):
             </ul>
         </div>
         <?php endif; ?>
+		  <!-----
 		  <div class="categorys <?php if ($this->_var['filename'] != 'index'): ?>site-mast<?php endif; ?>">
             <div class="categorys-type"><a href="<?php echo $this->_var['url_categoryall']; ?>" target="_blank"><?php echo $this->_var['lang']['all_goods_cat']; ?></a></div>
             <div class="categorys-tab-content">
@@ -163,7 +158,7 @@ $k = array (
 echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
 ?>
             </div>
-        </div>
+          </div>----->
     </div>
 </div>
 <?php endif; ?>

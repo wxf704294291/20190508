@@ -24,7 +24,7 @@
                                     
                                     
                                         
-<div class="content" style="min-height: 925px;"><div class="visual-item" style="display: block;" ectype="visualItme" data-length="5" data-li="1" data-purebox="adv" data-mode="lunbo" data-diff="0">
+<div class="content" style="min-height: 969px;"><div class="visual-item" style="display: block;" ectype="visualItme" data-length="5" data-li="1" data-purebox="adv" data-mode="lunbo" data-diff="0">
                                     
                                     <div class="view">
                                         <div class="banner home-banner">
@@ -115,53 +115,6 @@
                                                 </div> ---->
                                             </div>
                                         </div>
-                                    </div>
-                                </div><div class="visual-item w1200" style="display: block;" ectype="visualItme" data-li="1" data-purebox="homeAdv" data-mode="h-promo" data-diff="0">
-                                    
-                                    <div class="view">
-                                        <div class="promoWarp clearfix" id="h-promo_0" data-type="range" data-lift="新品推荐">
-<div class="tit" style="background-color: rgb(10, 173, 204);">
-    <h3>新品推荐</h3>
-    <span>热卖产品</span>
-    <i class="titIcon"></i>
-</div>
-<ul>
-            <li class="opacity_img">
-        <div class="p-img"><a href="goods.php?id=792" target="_blank"><img src="http://localhost/images/201703/thumb_img/0_thumb_G_1490174547624.jpg"></a></div>
-        <div class="info">
-            <div class="price"><em>¥</em>124.00</div>
-            <div class="name"><a href="goods.php?id=792" target="_blank">贝妍夏季薄款女士睡衣性感V领女南韩丝家居服运动可外穿中袖套装</a></div>
-            <div class="time" ectype="time" data-time="2020-03-23 00:00:00">
-                <span class="label">剩余时间：</span>
-                <span class="days">00</span>
-                <em>：</em>
-                <span class="hours">00</span>
-                <em>：</em>
-                <span class="minutes">00</span>
-                <em>：</em>
-                <span class="seconds">00</span>
-            </div>
-        </div>
-    </li>
-        <li class="opacity_img">
-        <div class="p-img"><a href="goods.php?id=903" target="_blank"><img src="http://localhost/images/201703/thumb_img/0_thumb_G_1490915806032.jpg"></a></div>
-        <div class="info">
-            <div class="price"><em>¥</em>11.00</div>
-            <div class="name"><a href="goods.php?id=903" target="_blank">正品直邮Hermes爱马仕2017新款男鞋 时尚真皮休闲鞋H171325ZH02 7495</a></div>
-            <div class="time" ectype="time" data-time="2020-04-08 14:53:29">
-                <span class="label">剩余时间：</span>
-                <span class="days">00</span>
-                <em>：</em>
-                <span class="hours">00</span>
-                <em>：</em>
-                <span class="minutes">00</span>
-                <em>：</em>
-                <span class="seconds">00</span>
-            </div>
-        </div>
-    </li>
-        </ul>
-<div class="spec" data-title="undefined" data-spec=""></div></div>
                                     </div>
                                 </div><div class="visual-item" style="display: block;" ectype="visualItme" data-purebox="cust" data-mode="custom" data-diff="0">
                                     

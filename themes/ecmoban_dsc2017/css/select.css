@@ -65,7 +65,7 @@
 .s-l-value .color_list_color .color_divdd dd{ height:20px; width:20px; text-align:center; line-height:20px; margin-right:0; position:relative;}
 .s-l-value .color_list_color .color_divdd dd span{ height:18px; width:18px; display:block; border:1px solid #dcdcdc;}
 
-.multiple .selected b{ background: url(../images/common/selected-icon.png) 6px 6px no-repeat;border: 1px solid #0AADCC;height: 18px;width: 18px;position: absolute;top: 0px;left: 0px;z-index: 100;}
+.multiple .selected b{ background: url(../images/common/selected-icon.png) 6px 6px no-repeat;border: 1px solid #1E4497 ;height: 18px;width: 18px;position: absolute;top: 0px;left: 0px;z-index: 100;}
 
 /*操作*/
 .s-line .s-l-opt{ position:absolute; top:15px; right:10px; width:75px; height:auto; line-height:22px; overflow:hidden; zoom:1;}

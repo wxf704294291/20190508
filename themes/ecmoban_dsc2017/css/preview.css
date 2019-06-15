@@ -542,7 +542,7 @@
 /* two */
 [data-color = defaultTemp-color-type-2] .floor .mt h2,
 [data-color = defaultTemp-color-type-2] .floor .mc li .info .price{ color:#0AADCC;}
-[data-color = defaultTemp-color-type-2] .floor .mc .row3 li:hover{ background-color:#0AADCC; border:1px solid #0AADCC;}
+[data-color = defaultTemp-color-type-2] .floor .mc .row3 li:hover{ background-color:#0AADCC; border:1px solid #1E4497 ;}
 [data-color = defaultTemp-color-type-2] .floor .mt h2{ color:#0AADCC; border-bottom-color:#0AADCC;}
 [data-color = defaultTemp-color-type-2] .floor .mc .row3 li .info .btn_hover,
 [data-color = defaultTemp-color-type-2] .floor .mc .row4 li .info .btn_hover,

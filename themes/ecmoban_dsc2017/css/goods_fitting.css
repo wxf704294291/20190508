@@ -83,7 +83,7 @@
 .goods_fittings_main .body .tm-combo-item .tm-meta dd ul{ margin-top:-10px;}
 .goods_fittings_main .body .tm-combo-item .tm-meta dd li{ float:left; border:1px solid #d2d2d2; padding:2px; margin:10px 10px 0 0; position:relative;}
 .goods_fittings_main .body .tm-combo-item .tm-meta dd li:last-child{ margin-right:0;}
-.goods_fittings_main .body .tm-combo-item .tm-meta dd li.selected,.goods_fittings_main .body .tm-combo-item .tm-meta dd li:hover{border-color: #0AADCC;}
+.goods_fittings_main .body .tm-combo-item .tm-meta dd li.selected,.goods_fittings_main .body .tm-combo-item .tm-meta dd li:hover{border-color: #1E4497 ;}
 .goods_fittings_main .body .tm-combo-item .tm-meta dd li b{ position: absolute;bottom: 0;right: 0;display: none;width: 15px;height: 15px;background: url(../images/dsc-icon.png) 0 0 no-repeat;}
 .goods_fittings_main .body .tm-combo-item .tm-meta dd li.selected b{ display:block;}
 .goods_fittings_main .body .tm-combo-item .tm-meta dd li a{ display:block; overflow:hidden;}

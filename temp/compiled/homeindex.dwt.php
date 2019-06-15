@@ -83,12 +83,7 @@ echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
     	<div ectype="bonusadv_box"></div>
     </div>
     
-    <?php 
-$k = array (
-  'name' => 'user_menu_position',
-);
-echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
-?>
+    
     <?php echo $this->fetch('library/page_footer.lbi'); ?>
 
     <?php echo $this->smarty_insert_scripts(array('files'=>'jquery.SuperSlide.2.1.1.js,jquery.yomi.js,cart_common.js,cart_quick_links.js')); ?>

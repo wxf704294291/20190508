@@ -314,7 +314,7 @@
 .invoice-thickbox .form .item .label{ float:left; color:#333; margin-right:5px;height:30px; line-height:30px; padding:0;}
 .invoice-thickbox .invoice-list{ float:left;}
 .invoice-thickbox .invoice-list .invoice-item{ height: 30px;line-height: 30px;position: relative;margin-bottom: 10px; padding-left:5px; width: 330px;text-align: left;  border: 1px solid #ebebeb; cursor:pointer;}
-.invoice-thickbox .invoice-list .invoice-item.selected{ border:2px solid #0AADCC;}
+.invoice-thickbox .invoice-list .invoice-item.selected{ border:2px solid #1E4497 ;}
 .invoice-thickbox .invoice-list .invoice-item.selected b{ display: block;position: absolute;right: 0;bottom: 0;width: 12px;height: 12px;overflow: hidden;background: url(../images/common/selected-icon.png) no-repeat;}
 .invoice-thickbox .invoice-list .invoice-item input.inv_payee{ height:20px;cursor:pointer; width: 250px; border-color:transparent; margin-top:3px; background-color:#fff;}
 .invoice-thickbox .invoice-list .invoice-item .btns { position: absolute;right: 10px;top: 0px;display: none; float:none; width:auto; padding:0; z-index:9999;}
@@ -325,7 +325,7 @@
 .inv_type{ position:absolute; top:0px; right:0px;}
 
 .radio-list li{ float:left; height:28px; line-height:28px; *line-height:30px; margin-right:20px; border:1px solid #dcdcdc; padding:1px 21px; cursor:pointer;}
-.radio-list li.item-selected {border:2px solid #0AADCC; padding:0px 20px; background:#FFF}
+.radio-list li.item-selected {border:2px solid #1E4497 ; padding:0px 20px; background:#FFF}
 
 .invoice-thickbox .add-invoice{ height:30px; line-height:30px; margin-left:20px; float:left;}
 .invoice-thickbox .item{ float:left; margin-bottom:10px;}

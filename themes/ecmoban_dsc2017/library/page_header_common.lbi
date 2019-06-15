@@ -57,12 +57,6 @@
     <div class="w w1200">
         <div class="logo">
             <div class="logoImg"><a href="{$url_index}"><img src="{if $shop_logo}{$shop_logo}{else}{$site_domain}themes/<?php echo $GLOBALS['_CFG']['template']; ?>/images/logo.gif{/if}" /></a></div>
-			<!--{if $activity_title}-->
-			<!--<div class="tit">{$activity_title}</div>-->
-            <div class="logoAdv"><a href="{$url_merchants}"><img src="{$site_domain}themes/<?php echo $GLOBALS['_CFG']['template']; ?>/images/ecsc-join.gif" /></a></div>
-			<!--{else}-->
-			<div class="logoAdv"><a href="{$url_merchants}"><img src="{$site_domain}themes/<?php echo $GLOBALS['_CFG']['template']; ?>/images/ecsc-join.gif" /></a></div>
-			<!--{/if}-->
         </div>
         <div class="dsc-search">
             <div class="form">
@@ -113,12 +107,13 @@
             </ul>
         </div>
         {/if}
+		  <!-----
 		  <div class="categorys {if $filename neq 'index'}site-mast{/if}">
             <div class="categorys-type"><a href="{$url_categoryall}" target="_blank">{$lang.all_goods_cat}</a></div>
             <div class="categorys-tab-content">
             	{insert name='category_tree_nav' cat_model=$nav_cat_model cat_num=$nav_cat_num}
             </div>
-        </div>
+          </div>----->
     </div>
 </div>
 {/if}

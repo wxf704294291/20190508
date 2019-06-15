@@ -1,9 +1,6 @@
 <?php
 
 /**
- * ECTouch E-Commerce Project
- *
- * @package  ECTouch
  * @author   carson <wanganlin@flyobd.com>
  */
 

@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:4:{i:0;s:52:"D:/phpStudy/www/themes/ecmoban_dsc2017/homeindex.dwt";i:1;s:67:"D:/phpStudy/www/themes/ecmoban_dsc2017/library/js_languages_new.lbi";i:2;s:69:"D:/phpStudy/www/themes/ecmoban_dsc2017/library/page_header_common.lbi";i:3;s:62:"D:/phpStudy/www/themes/ecmoban_dsc2017/library/page_footer.lbi";}s:7:"expires";i:1559359575;s:8:"maketime";i:1559355975;}<!doctype html>
+<?php exit;?>a:3:{s:8:"template";a:4:{i:0;s:52:"D:/phpStudy/www/themes/ecmoban_dsc2017/homeindex.dwt";i:1;s:67:"D:/phpStudy/www/themes/ecmoban_dsc2017/library/js_languages_new.lbi";i:2;s:69:"D:/phpStudy/www/themes/ecmoban_dsc2017/library/page_header_common.lbi";i:3;s:62:"D:/phpStudy/www/themes/ecmoban_dsc2017/library/page_footer.lbi";}s:7:"expires";i:1560569489;s:8:"maketime";i:1560565889;}<!doctype html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -52,10 +52,7 @@ var load_icon = '<img src="themes/ecmoban_dsc2017/images/load/load.gif" width="2
                     <dl class="fore1">
                         <dt>特色主题</dt>
                         <dd>
-                                                                                                <div class="item"><a href="category.php?id=1" target="_blank">svci</a></div>
-                                                                                                                                <div class="item"><a href="category.php?id=2" target="_blank">fvdi</a></div>
-                                                                                                                                <div class="item"><a href="category.php?id=3" target="_blank">baochi</a></div>
-                                                                                                                                                </dd>
+                                                    </dd>
                     </dl>
                     <dl class="fore2">
                         <dt>促销活动</dt>
@@ -71,8 +68,7 @@ var load_icon = '<img src="themes/ecmoban_dsc2017/images/load/load.gif" width="2
     <div class="w w1200">
         <div class="logo">
             <div class="logoImg"><a href="index.php"><img src="../themes/ecmoban_dsc2017/images/logo.gif" /></a></div>
-						<div class="logoAdv"><a href="merchants.php"><img src="themes/ecmoban_dsc2017/images/ecsc-join.gif" /></a></div>
-			        </div>
+        </div>
         <div class="dsc-search">
             <div class="form">
                 <form id="searchForm" name="searchForm" method="get" action="search.php" onSubmit="return checkSearchForm(this)" class="search-form">
@@ -98,21 +94,23 @@ var load_icon = '<img src="themes/ecmoban_dsc2017/images/load/load.gif" width="2
                 
     	
         <div class="nav-main" id="nav">
-        	<ul class="navitems" data-type="range">    <li><a class="curr" href="index.php">首页</a></li>
-        <li><a href="/cloud_diagnostic.php" target="_blank">保驰云诊断</a></li>
-        <li><a href="/merchants.php" target="_blank">商务合作</a></li>
-        <li><a href="/article_cat.php?id=1" target="_blank">服务支持</a></li>
-        <li><a href="/software_download.php" target="_blank">软件下载</a></li>
-        <li><a href="/about_us.php" target="_blank">关于我们</a></li>
+        	<ul class="navitems" data-type="range">    <li><a href="index.php" class="curr">首页</a></li>
+        <li><a href="/cloud_diagnostic.php" style="text-align:" target="_blank">保驰云诊断</a></li>
+        <li><a href="/merchants.php" style="text-align:" target="_blank">商务合作</a></li>
+        <li><a href="/article_cat.php?id=1" style="text-align:" target="_blank">服务支持</a></li>
+        <li><a href="/software_download.php" style="text-align:" target="_blank">软件下载</a></li>
+        <li><a href="/about_us.php" style="text-align:" target="_blank">关于我们</a></li>
+        <li><a href="/category.php?id=858" style="text-align:" target="_blank">产品中心</a></li>
     
 <div class="spec" data-spec=""></div></ul>
         </div>
         
-            		  <div class="categorys ">
+            		  <!-----
+		  <div class="categorys ">
             <div class="categorys-type"><a href="categoryall.php" target="_blank">产品中心</a></div>
             <div class="categorys-tab-content">
             	554fcae493e564ee0dc75bdf2ebf94cacategory_tree_nav|a:3:{s:4:"name";s:17:"category_tree_nav";s:9:"cat_model";s:1:"0";s:7:"cat_num";i:7;}554fcae493e564ee0dc75bdf2ebf94ca            </div>
-        </div>
+          </div>----->
     </div>
 </div>
     <div class="homeindex" ectype="homeWrap">
@@ -142,7 +140,7 @@ var load_icon = '<img src="themes/ecmoban_dsc2017/images/load/load.gif" width="2
                                     
                                     
                                         
-<div class="content" style="min-height: 925px;"><div class="visual-item" style="display: block;" ectype="visualItme" data-length="5" data-li="1" data-purebox="adv" data-mode="lunbo" data-diff="0">
+<div class="content" style="min-height: 969px;"><div class="visual-item" style="display: block;" ectype="visualItme" data-length="5" data-li="1" data-purebox="adv" data-mode="lunbo" data-diff="0">
                                     
                                     <div class="view">
                                         <div class="banner home-banner">
@@ -233,53 +231,6 @@ var load_icon = '<img src="themes/ecmoban_dsc2017/images/load/load.gif" width="2
                                                 </div> ---->
                                             </div>
                                         </div>
-                                    </div>
-                                </div><div class="visual-item w1200" style="display: block;" ectype="visualItme" data-li="1" data-purebox="homeAdv" data-mode="h-promo" data-diff="0">
-                                    
-                                    <div class="view">
-                                        <div class="promoWarp clearfix" id="h-promo_0" data-type="range" data-lift="新品推荐">
-<div class="tit" style="background-color: rgb(10, 173, 204);">
-    <h3>新品推荐</h3>
-    <span>热卖产品</span>
-    <i class="titIcon"></i>
-</div>
-<ul>
-            <li class="opacity_img">
-        <div class="p-img"><a href="goods.php?id=792" target="_blank"><img src="http://localhost//images/201703/thumb_img/0_thumb_G_1490174547624.jpg"></a></div>
-        <div class="info">
-            <div class="price"><em>¥</em>124.00</div>
-            <div class="name"><a href="goods.php?id=792" target="_blank">贝妍夏季薄款女士睡衣性感V领女南韩丝家居服运动可外穿中袖套装</a></div>
-            <div class="time" ectype="time" data-time="2020-03-23 00:00:00">
-                <span class="label">剩余时间：</span>
-                <span class="days">00</span>
-                <em>：</em>
-                <span class="hours">00</span>
-                <em>：</em>
-                <span class="minutes">00</span>
-                <em>：</em>
-                <span class="seconds">00</span>
-            </div>
-        </div>
-    </li>
-        <li class="opacity_img">
-        <div class="p-img"><a href="goods.php?id=903" target="_blank"><img src="http://localhost//images/201703/thumb_img/0_thumb_G_1490915806032.jpg"></a></div>
-        <div class="info">
-            <div class="price"><em>¥</em>11.00</div>
-            <div class="name"><a href="goods.php?id=903" target="_blank">正品直邮Hermes爱马仕2017新款男鞋 时尚真皮休闲鞋H171325ZH02 7495</a></div>
-            <div class="time" ectype="time" data-time="2020-04-08 14:53:29">
-                <span class="label">剩余时间：</span>
-                <span class="days">00</span>
-                <em>：</em>
-                <span class="hours">00</span>
-                <em>：</em>
-                <span class="minutes">00</span>
-                <em>：</em>
-                <span class="seconds">00</span>
-            </div>
-        </div>
-    </li>
-        </ul>
-<div class="spec" data-title="undefined" data-spec=""></div></div>
                                     </div>
                                 </div><div class="visual-item" style="display: block;" ectype="visualItme" data-purebox="cust" data-mode="custom" data-diff="0">
                                     
@@ -665,7 +616,8 @@ var load_icon = '<img src="themes/ecmoban_dsc2017/images/load/load.gif" width="2
     	<div ectype="bonusadv_box"></div>
     </div>
     
-    554fcae493e564ee0dc75bdf2ebf94causer_menu_position|a:1:{s:4:"name";s:18:"user_menu_position";}554fcae493e564ee0dc75bdf2ebf94ca    <div class="footer-new">
+    
+    <div class="footer-new">
     <!----
     <div class="footer-new-top">
     	<div class="w w1200">
@@ -703,6 +655,15 @@ var load_icon = '<img src="themes/ecmoban_dsc2017/images/load/load.gif" width="2
     	<div class="fnc-warp">
             <div class="help-list">
                                                 <div class="help-item">
+                    <h3>配送与支付 </h3>
+                    <ul>
+                                                            <li><a href="article.php?id=55"  title="上门自提" target="_blank">上门自提</a></li>
+                                                                                <li><a href="article.php?id=17"  title="支付方式说明" target="_blank">支付方式说明</a></li>
+                                                                                <li><a href="article.php?id=16"  title="配送支付智能查询 " target="_blank">配送支付智能查询</a></li>
+                                                                                                    </ul>
+                </dl>
+                </div>
+                                                                <div class="help-item">
                     <h3>新手上路 </h3>
                     <ul>
                                                             <li><a href="article.php?id=36"  title="隐私声明" target="_blank">隐私声明</a></li>
@@ -715,6 +676,7 @@ var load_icon = '<img src="themes/ecmoban_dsc2017/images/load/load.gif" width="2
                     <h3>联系我们 </h3>
                     <ul>
                                                             <li><a href="article.php?id=26"  title="投诉与建议 " target="_blank">投诉与建议</a></li>
+                                                                                <li><a href="article.php?id=25"  title="选机咨询 " target="_blank">选机咨询</a></li>
                                                                                 <li><a href="article.php?id=24"  title="网站故障报告" target="_blank">网站故障报告</a></li>
                                                             </ul>
                 </dl>

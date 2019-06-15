@@ -10,7 +10,7 @@ body {
 }
 
 .sc-btn:hover {
-    border-color: #0AADCC;
+    border-color: #1E4497 ;
 }
 
 .sc-blue-btn:hover {
@@ -137,11 +137,11 @@ body {
 }
 
 .more:hover {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 .more em {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 /*标题模块-切换*/
@@ -158,7 +158,7 @@ body {
 }
 
 .user-title .tabs li.active {
-    border-bottom-color: #0AADCC;
+    border-bottom-color: #1E4497 ;
     padding-bottom: 4px;
 }
 
@@ -169,7 +169,7 @@ body {
 
 .user-title .tabs li:hover a,
 .user-title .tabs li.active a {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 /*标题模块-提示语*/
@@ -189,7 +189,7 @@ body {
 }
 
 .user-crumbs a:hover {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 /*用户信息列表*/
@@ -212,7 +212,7 @@ body {
 
 .user-info-list .edit {
     font-size: 12px;
-    color: #0AADCC;
+    color: #1E4497 ;
     display: inline-block;
     vertical-align: top;
     margin-left: 15px;
@@ -414,7 +414,7 @@ body {
 }
 
 .user-frame-items .item .b-price {
-    color: #0AADCC;
+    color: #1E4497 ;
     font-weight: 700;
     margin-top: 3px;
 }
@@ -479,7 +479,7 @@ body {
 }
 
 .user-items .item .label em {
-    color: #0AADCC;
+    color: #1E4497 ;
     margin-right: 2px;
 }
 
@@ -497,7 +497,7 @@ body {
 }
 
 .user-items .item .value .text.error {
-    border-color: #0AADCC;
+    border-color: #1E4497 ;
     color: #555;
     margin-left: 0;
 }
@@ -557,7 +557,7 @@ body {
 }
 
 .user-items .item .item-item.selected {
-    border-color: #0AADCC;
+    border-color: #1E4497 ;
 }
 
 .user-items .item .item-item.selected b {
@@ -833,7 +833,7 @@ body {
 }
 
 .user-side .side-menu dd .current a {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 .user-side .side-menu dd a {
@@ -843,7 +843,7 @@ body {
 
 .user-side .side-menu dd a:hover,
 .user-side .side-menu dd a.current {
-    color: #0AADCC;
+    color: #1E4497 ;
     text-decoration: none;
 }
 
@@ -1004,7 +1004,7 @@ body {
 }
 
 .user-index-wallet li .info-line .line:hover {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 .user-index-wallet li .info p a {
@@ -1428,7 +1428,7 @@ body {
 }
 
 .user-order-list .item-c .c-info .info-name:hover {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 .user-order-list .item-c .c-info .info-price {
@@ -1448,11 +1448,11 @@ body {
 }
 
 .user-order-list .item-c .c-info .trade_snapshot:hover {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 .user-order-list .item-c .c-info .info-price b {
-    color: #0AADCC;
+    color: #1E4497 ;
     margin-right: 5px;
     font-weight: 100;
 }
@@ -1498,7 +1498,7 @@ body {
 }
 
 .user-order-list .item-c .c-left .order-prolist-more:hover {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 .user-order-list .item-t-qb {
@@ -1701,7 +1701,7 @@ body {
 }
 
 .user-shop-link:hover {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 .user-shop-kefu {
@@ -1710,7 +1710,7 @@ body {
 }
 
 .user-shop-kefu:hover {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 /*商品列表*/
@@ -1782,7 +1782,7 @@ body {
 }
 
 .virtual_title {
-    color: #0AADCC;
+    color: #1E4497 ;
     cursor: pointer;
 }
 
@@ -2104,7 +2104,7 @@ body {
 }
 
 .user-safe-list .item-icon-red {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 .user-safe-list .item-icon i {
@@ -2144,8 +2144,8 @@ body {
 }
 
 .user-safe-list .item-handle .handle-btn:hover, .user-safe-list .item-handle .handle-btn-red {
-    border-color: #0AADCC;
-    color: #0AADCC;
+    border-color: #1E4497 ;
+    color: #1E4497 ;
 }
 
 .security-warp {
@@ -2237,7 +2237,7 @@ body {
 }
 
 .stepflex dl.doing .s-num {
-    background-color: #0AADCC;
+    background-color: #1E4497 ;
 }
 
 .stepflex dl.doing .s-text {
@@ -2389,7 +2389,7 @@ body {
 }
 
 .u-b-top span em {
-    color: #0AADCC;
+    color: #1E4497 ;
     font-size: 30px;
     font-weight: bold;
     margin-right: 2px;
@@ -2432,7 +2432,7 @@ body {
 .account-price .a-price {
     font-size: 48px;
     font-weight: bold;
-    color: #0AADCC;
+    color: #1E4497 ;
     vertical-align: middle;
     height: 48px;
     line-height: 48px;
@@ -2729,7 +2729,7 @@ body {
 }
 
 .value_warp .value_shop a:hover {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 /* ------------------ 我的储值卡 end ------------------ */
@@ -2764,7 +2764,7 @@ body {
 
 .user-bonus-info .items .item .b-price {
     font-size: 36px;
-    color: #0AADCC;
+    color: #1E4497 ;
     line-height: 36px;
     text-align: center;
     margin-top: 5px;
@@ -3037,7 +3037,7 @@ body {
 }
 
 .upload-img-box .img-utips em, .upload-img-box .img-utips span {
-    color: #0AADCC;
+    color: #1E4497 ;
     margin: 0 3px;
 }
 
@@ -3073,7 +3073,7 @@ body {
 }
 
 .upload-img-box .img-lists li .icon-cha:hover {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 .upload-img-box .img-lists li:hover .icon-cha {
@@ -3156,7 +3156,7 @@ body {
 }
 
 .votelist-content .shopper-name .item:first-child span {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 .votelist-content .shopper-name .item span:last-child {
@@ -3186,7 +3186,7 @@ body {
 }
 
 .votelist-content .ev-list dt em {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 .votelist-content .ev-list dd {
@@ -3219,7 +3219,7 @@ body {
     line-height: 30px;
     margin-top: 4px;
     font-size: 14px;
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 .votelist-content .service-rcol h3 {
@@ -3609,7 +3609,7 @@ body {
 }
 
 .collection-list-warp .shop-btn a:hover {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 .collection-list-warp .shop-btn a:first-child {
@@ -3723,7 +3723,7 @@ body {
 }
 
 .collection-list-warp .b-btn a:hover {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 .collection-list-warp .c-brand-right {
@@ -3767,8 +3767,8 @@ body {
 }
 
 .cdf-tab a.curr {
-    border-bottom: 1px solid #0AADCC;
-    color: #0AADCC;
+    border-bottom: 1px solid #1E4497 ;
+    color: #1E4497 ;
 }
 
 .user-table-cdf {
@@ -3959,8 +3959,8 @@ select.select {
     height: 30px;
     line-height: 28px;
     font-size: 14px;
-    background: #0AADCC;
-    border: 1px solid #0AADCC;
+    background: #1E4497 ;
+    border: 1px solid #1E4497 ;
     color: #fff;
     padding: 0 10px;
     border-radius: 3px;
@@ -3982,7 +3982,7 @@ select.select {
 }
 
 .express_list .ex_tit {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 .express_list .ex_con {
@@ -4000,8 +4000,8 @@ select.select {
 .user-baitiao-hk .pay_btn input {
     float: left;
     margin-right: 10px;
-    background: #0AADCC;
-    border-color: #0AADCC;
+    background: #1E4497 ;
+    border-color: #1E4497 ;
     color: #fff;
     height: 30px;
     border: 0;
@@ -4033,7 +4033,7 @@ select.select {
 }
 
 .uaer-return-app .tl-item .info-price b {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 .uaer-return-app .tl-item .info-attr {
@@ -4432,7 +4432,7 @@ select.select {
 }
 
 .user-grade-warp .user-items .item .value .notic {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 .user-grade-warp .btn {
@@ -5127,7 +5127,7 @@ select.select {
 }
 
 .user-purchase .item-c .pur-remove:hover {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 .user-purchase .item-c .itemc-left .itemc-goods {
@@ -5258,7 +5258,7 @@ select.select {
 }
 
 .user-wantbut-list .p-name a:hover {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 .user-wantbut-list .p-num {
@@ -5564,7 +5564,7 @@ select.select {
 }
 
 .increment_invoice_info .user-items .item .ui-checkbox:checked + label a {
-    color: #0AADCC
+    color: #1E4497 
 }
 
 .increment_invoice_info .user-items .item .checkbox-item a:hover {
@@ -5869,7 +5869,7 @@ select.select {
 }
 
 .user-items .item .value .p-product .name a:hover {
-    color: #0AADCC;
+    color: #1E4497 ;
 }
 
 .user-items .item .value .img {
@@ -5904,9 +5904,9 @@ select.select {
 .item .weizf {
     float: left;
     margin-right: 10px;
-    background: #0AADCC;
+    background: #1E4497 ;
     background-color: rgb(244, 36, 36);
-    border-color: #0AADCC;
+    border-color: #1E4497 ;
     color: #fff;
     height: 30px;
     line-height: 30px;
