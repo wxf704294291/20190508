@@ -48,6 +48,7 @@ $_LANG['floor_7'] = '楼层七';
 $_LANG['floor_8'] = '楼层八';
 $_LANG['floor_9'] = '楼层九';
 $_LANG['floor_10'] = '楼层十';
+$_LANG['floor_11'] = '楼层十一';
 $_LANG['goods_floor_txt'] = '商品楼层';
 $_LANG['goods_floor_name'] = '商品楼层名称';
 $_LANG['goods_floor_desc'] = '商品楼层简单介绍文字';

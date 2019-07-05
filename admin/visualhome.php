@@ -1,5 +1,4 @@
-<?php
-//zend WEBSC在线更新         
+<?php      
 define('IN_ECS', true);
 require dirname(__FILE__) . '/includes/init.php';
 require ROOT_PATH . '/includes/lib_visual.php';

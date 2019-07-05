@@ -954,7 +954,7 @@
                                             <a href="javascript:void(0);" class="move-remove"><i class="iconfont icon-remove-alt"></i>{$lang.remove}</a>
                                         </div>
                                     </div>
-                                    <div class="view">
+                                    <div class="view" style="width: 1200px; margin: 28px auto;">
                                         <div class="custom" data-type="range" data-lift=""><div class="default ui-draggable ui-box-display">{$lang.custom_default_content}</div></div>
                                     </div>
                                 </div>
@@ -3593,9 +3593,9 @@
                                             </div>
                                         </div>
                                 	</div>            
-                                </div> 
+                                </div> 					
 							</div>
-                        </div>
+                        </div>						
                         {/if}
                     </div>
                 </li>

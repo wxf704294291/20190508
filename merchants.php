@@ -55,7 +55,12 @@ if (!$smarty->is_cached('merchants.dwt')) {
 		$smarty->assign('user_id', $user_id);
 		$smarty->assign('footer', 2);
 	}
-
+	//获取产品优势内容
+	$content_sql="select content from fly_article where article_id=80;";
+	$content=$GLOBALS['db']->getOne($content_sql);
+	$smarty->assign("content",$content);
+    
+	
 	$smarty->assign('helps', get_shop_help());
 	assign_dynamic('merchants');
 }

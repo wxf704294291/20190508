@@ -14,16 +14,16 @@ $_LANG['sett_step_two'] = '国内OBD经销商';
 $_LANG['sett_step_two_tit'] = 'Chinese OBD Dealers ';
 $_LANG['sett_step_two_desc'] = '';
 
-$_LANG['sett_step_three'] = '4S店/汽车维修厂';
-$_LANG['sett_step_three_tit'] = '4S Store/Vehicle repair workshop';
+$_LANG['sett_step_three'] = '汽修大师';
+$_LANG['sett_step_three_tit'] = 'Expert of vehicle maintenance';
 $_LANG['sett_step_three_desc'] = '';
 
-$_LANG['sett_step_four'] = 'OBD设备从业者';
+$_LANG['sett_step_four'] = 'OBD设备爱好者';
 $_LANG['sett_step_four_tit'] = 'OBD equipment practitioners';
 $_LANG['sett_step_four_desc'] = '';
 
-$_LANG['hot_recruit'] = '产品优势';
-$_LANG['success_case'] = '合作伙伴';
-$_LANG['common_problem'] = '常见问题';
+$_LANG['advantage'] = '我们的优势';
+$_LANG['covers_vehicle'] = '覆盖车型';
+$_LANG['cooperation_ways'] = '合作方式';
 
 ?>

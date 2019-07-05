@@ -1,5 +1,5 @@
 <div class="footer">
-    <p>{$lang.copyright} Powered by <span class="vol">{$site_url}</span></p>
+    <p>2019-2020 深圳市硕泰昌科技有限公司</p>
 </div>
 <script type="text/javascript">
 document.onmousemove=function(e)

@@ -36,12 +36,24 @@ i{color:#148cef; list-style:none;}
 
 
 /**********start 软件下载页面**************/
+#software_title{
+  font:20px/1.5 Microsoft YaHei,tahoma,arial,Hevetica,\\5b8b\4f53,sans-serif;
+  width:100%;
+  font-weight:bold
+}
+
+#software_title , #software_title li{
+	list-style:none;
+	float:left;
+	display:block;
+	padding:8px;
+	height:inherit;
+}
+#software_title li{
+	width:180px;
+}
 .software_list{margin:0 auto; text-align:center; margin-top:18px; width:100%; }
 .software_list > table{width:100%; border-collapse:separate; border-spacing:0px 30px;}
-
-#software_list_head{
-	font:16px/1.5 Microsoft YaHei,tahoma,arial,Hevetica,\\5b8b\4f53,sans-serif;
-}
 
 
 

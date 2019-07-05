@@ -1,37 +1,15 @@
 
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
                                         
-<div class="content" style="min-height: 969px;"><div class="visual-item" style="display: block;" ectype="visualItme" data-length="5" data-li="1" data-purebox="adv" data-mode="lunbo" data-diff="0">
+<div class="content" style="min-height: 925px; background-color: transparent;"><div class="visual-item" style="display: block;" ectype="visualItme" data-length="5" data-li="1" data-purebox="adv" data-mode="lunbo" data-diff="0">
                                     
                                     <div class="view">
                                         <div class="banner home-banner">
                                         	<div class="bd">
-                                            	<ul data-type="range">
-                                                    <li><a href="#"><img src="../data/gallery_album/visualDefault/shop_banner_pic.jpg"></a></li>
-                                                </ul>
+                                            	<ul data-type="range" data-slide="roll">	    <li style='background-position: center; background-image: url("http://localhost/data/gallery_album/2/original_img/1560704816689378470.jpg"); background-repeat: no-repeat;'><div class="banner-width"><a style="height: 582px;" href="" target="_self"></a></div></li>
+    	    <li style='background-position: center; background-image: url("http://localhost/data/gallery_album/2/original_img/1560704839181201143.jpg"); background-repeat: no-repeat;'><div class="banner-width"><a style="height: 582px;" href="" target="_self"></a></div></li>
+    	    <li style='background-position: center; background-image: url("http://localhost/data/gallery_album/2/original_img/1560704847139374103.jpg"); background-repeat: no-repeat;'><div class="banner-width"><a style="height: 582px;" href="" target="_self"></a></div></li>
+    
+</ul><div class="spec" data-spec=""></div>
                                             </div>
                                             <div class="hd"><ul></ul></div>
                                             <div class="vip-outcon">
@@ -116,348 +94,85 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div><div class="visual-item" style="display: block;" ectype="visualItme" data-purebox="cust" data-mode="custom" data-diff="0">
+                                </div><div class="visual-item w1200" style="display: block;" ectype="visualItme" data-li="1" data-purebox="homeFloor" data-mode="homeFloorSix" data-diff="0">
                                     
                                     <div class="view">
-                                        <div class="custom" id="custom_0" data-type="range" data-lift="公司简介"><div style="margin: 0px auto; padding: 10px; width: 1200px; height: 504px; background-color: red;"><iframe width="580" height="500" src="https://v.qq.com/txp/iframe/player.html?vid=r0020f0vrav" frameborder="0" allowfullscreen="true" style="float: left;"></iframe><div style="width: 600px; height: 500px; overflow: hidden; margin-left: 10px; float: left; background-color: yellow;"><p>
-				公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简
-				 &nbsp;公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简 公司简介公司简介公司简介公司简介
-				 &nbsp;公司简介公司简介公司简介公司简介公司简介公司 公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公
-				 &nbsp;司简介公司 公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司介公司简介公司简介公司公
-				 &nbsp;介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司公
-				 &nbsp;介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简
-				 &nbsp;介公司简介公司简介公司简介公司简介公司介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介
-				 &nbsp;公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介司简介公司简介公司简介此处省略x字
-				 &nbsp;公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简
-				 &nbsp;公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简 公司简介公司简介公司简介公司简介
-				 &nbsp;公司简介公司简介公司简介公司简介公司简介公司 公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公
-				 &nbsp;司简介公司 公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司介公司简介公司简介公司公
-				 &nbsp;介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司公</p></div></div></div>
-                                    </div>
-                                </div><div class="visual-item" style="display: block;" ectype="visualItme" data-purebox="cust" data-mode="custom" data-diff="1">
-                                    
-                                    <div class="view">
-                                        <div class="custom" id="custom_1" data-type="range" data-lift="服务理念"><div style="margin: 0px auto; padding: 10px; width: 1200px; height: 504px; background-color: red;">
-		   <div style="width: 158px; text-align: center; font-size: 36px; margin-top: 223px; margin-bottom: 223px; float: left; background-color: green;">
-			   服务理念
-		   </div>
-		   <div style="width: 1020px; height: 500px; float: left;">
-		   	  <div style="width: 501px; height: 236px; margin-top: 9px; margin-left: 9px; float: left; background-color: yellowgreen;">
-				  <img width="34" height="34" style="margin-top: 5px; margin-right: 4px; margin-left: 4px; float: left;" alt="" src="/images/48x48.png">
-				   <h1 style="margin: 0px 0px 10px; padding: 0px 4px 0px 0px; text-align: left; font-size: 32px; font-weight: bold; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 2px; border-bottom-style: solid;" label="标题居左">
-                     良心产品，匠心打造
-                  </h1>
-				  <p>
-					  &nbsp; &nbsp; &nbsp; &nbsp;良心产品，匠心打造良心产品，匠心打造良心产品，匠心打造良心产品，匠心打造良心产品，匠心打造良心产品，匠心打造良心产品，
-					  匠心打造良心产品，匠心打造良心产品，匠心打造匠心打造良心产品，匠心打造良心产品，匠心打造良心产品，匠心打造良心产品，匠心打造良心产品，匠心打造良
-					  心产品，匠心打造良心产品，匠心打造良心产品，
-				  </p>
-			  </div>
-			  <div style="width: 501px; height: 236px; margin-top: 9px; margin-left: 9px; float: left; background-color: sienna;">
-				  <img width="34" height="34" style="margin-top: 5px; margin-right: 4px; margin-left: 4px; float: left;" alt="" src="/images/48x48.png">
-				  <h1 style="margin: 0px 0px 10px; padding: 0px 4px 0px 0px; text-align: left; font-size: 32px; font-weight: bold; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 2px; border-bottom-style: solid;" label="标题居左">
-				    追求卓越，不断创新
-				  </h1>
-				  <p>
-					&nbsp; &nbsp; &nbsp; &nbsp;追求卓越，不断创新追求卓越，不断创新追求卓越，不断创新追求卓越，不断创新追求卓越，不断创新追求卓越，不断创新追求卓越，不断创新
-					追求卓越，不断创新追求卓越，不断创新追求卓越，不断创新追求卓越，不断创新追求卓越，不断创新追求卓越，不断创新追求卓越，不断创新追求卓越，不断创新追求卓越，不断创新
-					追求卓越，不断创新追求卓越，不断创新追求卓越，不断创新追求卓越，不断创新追求卓越，不断创新追求卓越，不断创新追求卓越，不断创新追求卓越
-				  </p>
-			  </div>
-			  <div style="width: 501px; height: 236px; margin-top: 9px; margin-left: 9px; float: left; background-color: gold;">
-				  <img width="34" height="34" style="margin-top: 5px; margin-right: 4px; margin-left: 4px; float: left;" alt="" src="/images/48x48.png">
-				  <h1 style="margin: 0px 0px 10px; padding: 0px 4px 0px 0px; text-align: left; font-size: 32px; font-weight: bold; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 2px; border-bottom-style: solid;" label="标题居左">
-				    品质保证，用心服务
-				  </h1>
-				  <p>
-					 &nbsp; &nbsp; &nbsp; &nbsp; 品质保证，用户服务品质保证，用户服务品质保证，用户服务品质保证，用户服务品质保证，用户服务品质保证，用户服务品质保证，用户服务
-					 品质保证，用户服务品质保证，用户服务品质保证，用户服务品质保证，用户服务品质保证，用户服务品质保证，用户服务品质保证，用户服务品质保证，用户服务品质保证，用户服务
-					 品质保证，用户服务品质保证，用户服务品质保证，用户服务品质保证，用户服务品质保证，用户服务品质保证
-				  </p>
-			 </div>
-			 <div style="width: 501px; height: 236px; margin-top: 9px; margin-left: 9px; float: left; background-color: green;">
-				 <img width="34" height="34" style="margin-top: 5px; margin-right: 4px; margin-left: 4px; float: left;" alt="" src="/images/48x48.png">
-				  <h1 style="margin: 0px 0px 10px; padding: 0px 4px 0px 0px; text-align: left; font-size: 32px; font-weight: bold; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 2px; border-bottom-style: solid;" label="标题居左">
-				    携手共进，开创未来
-				  </h1>
-				  <p>
-				  	&nbsp; &nbsp; &nbsp; &nbsp;携手共进，开创未来携手共进，开创未来携手共进，开创未来携手共进，开创未来携手共进，开创未来携手共进，开创未来携手共进，开创未来携手共
-					 携手共进，开创未来携手共进，开创未来携手共进，开创未来携手共进，开创未来携手共进，开创未来携手共进，开创未来携手共进，开创未来携手共进，开创未来携手共进，开创未来
-					 携手共进，开创未来携手共进，开创未来携手共进，开创未来携手共进，开创未来
-				  </p>
-			 </div>
-		   </div>
-		</div></div>
-                                    </div>
-                                </div><div class="visual-item" style="display: block;" ectype="visualItme" data-purebox="cust" data-mode="custom" data-diff="2">
-                                    
-                                    <div class="view">
-                                        <div class="custom" id="custom_2" data-type="range" data-lift="技术服务"><div style="margin: 0px auto; padding: 10px; width: 1200px; height: 1100px; background-color: red;">
-    
-		
-    <div style="width: 158px; text-align: center; font-size: 36px; margin-top: 428px; margin-bottom: 223px; float: left; background-color: green;">
-        
-			技术服务		 &nbsp;
+                                        <div class="floor-content" id="homeFloorSix_0" data-type="range" data-lift="新品上市">
+<!-- 楼层六 -->    
+<div class="floor-line-con floorSix floor-color-type-11" id="floor_module_1" ectype="floorItem" data-idx="1">
+    <div class="floor-hd" ectype="floorTit">
+        <div class="hd-tit"><i class="icon"></i>新品上市</div>        <div class="hd-tags">
+            <ul>
+                <li class="first current" data-id="0" data-catgoods="" data-flooreveval="0" data-visualhome="1" data-floornum="0" data-floorcat="2">新品推荐</li>
+                            </ul>
+        </div>
     </div>
-		
-    <div style="width: 1020px; height: 500px; float: left;">
-        
-			
-        <h1 style="margin: 0px 0px 10px; padding: 0px 4px 0px 0px; text-align: center; font-size: 32px; font-weight: bold; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 2px; border-bottom-style: solid;" label="标题居左">
-            
-			汽修维修专家，为您保驾护航			 &nbsp;
-        </h1>
-			
-        <div style="margin: 0px 4px 4px 2px; width: 328px; height: 389px; padding-bottom: 4px; float: left; background-color: gold;">
-            
-				<img width="118" height="118" style="padding: 4px; float: left; position: relative;" src="/images/48x48.png">
-				 &nbsp;
-            <p>
-                称呼：李师傅
-            </p>
-				
-            <p>
-                精修车型：福特
-            </p>
-				<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes" target="_blank"><img title="立即洽谈" alt="立即洽谈" src="http://wpa.qq.com/pa?p=2:12345678:41" border="0"></a>
-				 &nbsp;
-            <div style="margin: 4px;">
-                
-					
-                <dl>
-                    
-						
-                    <dt>
-                        简介
-                    </dt>
-						
-                    <dd>
-                        
-							简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介
-							 &nbsp; 简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介						 &nbsp;
-                    </dd>
-					
-                </dl>
-				
+    <div class="floor-bd FS-bd-more-01">
+        <div class="bd-left">
+            <div class="floor-left-slide">
+                <div class="bd">
+                    <ul>
+                                                <li><a href="" target="_blank"><img src="../data/gallery_album/visualDefault/visual400x480.jpg"></a></li>
+                                           </ul>
+                </div>
+                <div class="hd">
+                    <ul></ul>
+                </div>
             </div>
-			
-        </div>
-			&nbsp;			
-        <div style="margin: 0px 4px 4px 2px; width: 328px; height: 389px; padding-bottom: 4px; float: left; background-color: gold;">
-            
-			&nbsp; 				<img width="118" height="118" style="padding: 4px; float: left; position: relative;" src="/images/48x48.png">
-			 &nbsp; 				 &nbsp;
-            <p>
-                称呼：李师傅
-            </p>
-			&nbsp;				
-            <p>
-                精修车型：福特
-            </p>
-			&nbsp; 				<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes" target="_blank"><img title="立即洽谈" alt="立即洽谈" src="http://wpa.qq.com/pa?p=2:12345678:41" border="0"></a>
-			 &nbsp; 				 &nbsp;
-            <div style="margin: 4px;">
-                
-			&nbsp;					
-                <dl>
-                    
-			&nbsp;						
-                    <dt>
-                        简介
-                    </dt>
-			&nbsp;						
-                    <dd>
+                    </div>
+        <div class="bd-right">
+        	            <div class="floor-tabs-content clearfix">
+            	<div class="f-r-main f-r-m-adv">
+                    <div class="floor-left-adv">
+                        <ul>
+                            <li class="f-bd-item child-double">
+                                                                <a href="" target="_blank"><img src="../data/gallery_album/visualDefault/visual400x240.jpg"></a>
+                                                                <a href="" target="_blank"><img src="../data/gallery_album/visualDefault/visual400x240.jpg"></a>
+                                                                <a href="" target="_blank"><img src="../data/gallery_album/visualDefault/visual400x240.jpg"></a>
+                                                                <a href="" target="_blank"><img src="../data/gallery_album/visualDefault/visual400x240.jpg"></a>
+                                                            </li>
+                            
+                                                                                                                                                                                                    <li class="f-bd-item"><a href="" target="_blank"><img src="../data/gallery_album/visualDefault/visual200x480.jpg"></a></li>
+                                                                                                                <li class="f-bd-item"><a href="" target="_blank"><img src="../data/gallery_album/visualDefault/visual200x480.jpg"></a></li>
+                                                                                </ul>
+                    </div>
+                </div>
+                                <div class="f-r-main" ectype="floor_cat_<br ></div>&#10;<b>Warning</b>:  Illegal string offset 'cat_id' in <b>D:\phpStudy\www\temp\compiled\admin\dialog.lbi.php</b> on line <b>2699</b><br />&#10;">
+                    <ul class="p-list"></ul>
+                </div>
+                            </div>
                         
-			&nbsp; 							简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介
-			 &nbsp; 							 &nbsp; 简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介			 &nbsp; 						 &nbsp;
-                    </dd>
-			&nbsp;					
-                </dl>
-			&nbsp;				
-            </div>
-			
-        </div>
-			&nbsp;			
-        <div style="margin: 0px 4px 4px 2px; width: 328px; height: 389px; padding-bottom: 4px; float: left; background-color: gold;">
-            
-			&nbsp; 				<img width="118" height="118" style="padding: 4px; float: left; position: relative;" src="/images/48x48.png">
-			 &nbsp; 				 &nbsp;
-            <p>
-                称呼：李师傅
-            </p>
-			&nbsp;				
-            <p>
-                精修车型：福特
-            </p>
-			&nbsp; 				<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes" target="_blank"><img title="立即洽谈" alt="立即洽谈" src="http://wpa.qq.com/pa?p=2:12345678:41" border="0"></a>
-			 &nbsp; 				 &nbsp;
-            <div style="margin: 4px;">
-                
-			&nbsp;					
-                <dl>
-                    
-			&nbsp;						
-                    <dt>
-                        简介
-                    </dt>
-			&nbsp;						
-                    <dd>
-                        
-			&nbsp; 							简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介
-			 &nbsp; 							 &nbsp; 简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介			 &nbsp; 						 &nbsp;
-                    </dd>
-			&nbsp;					
-                </dl>
-			&nbsp;				
-            </div>
-			
-        </div>
-			&nbsp;			
-        <div style="margin: 0px 4px 4px 2px; width: 328px; height: 389px; padding-bottom: 4px; float: left; background-color: gold;">
-            
-			&nbsp; 				<img width="118" height="118" style="padding: 4px; float: left; position: relative;" src="/images/48x48.png">
-			 &nbsp; 				 &nbsp;
-            <p>
-                称呼：李师傅
-            </p>
-			&nbsp;				
-            <p>
-                精修车型：福特
-            </p>
-			&nbsp; 				<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes" target="_blank"><img title="立即洽谈" alt="立即洽谈" src="http://wpa.qq.com/pa?p=2:12345678:41" border="0"></a>
-			 &nbsp; 				 &nbsp;
-            <div style="margin: 4px;">
-                
-			&nbsp;					
-                <dl>
-                    
-			&nbsp;						
-                    <dt>
-                        简介
-                    </dt>
-			&nbsp;						
-                    <dd>
-                        
-			&nbsp; 							简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介
-			 &nbsp; 							 &nbsp; 简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介			 &nbsp; 						 &nbsp;
-                    </dd>
-			&nbsp;					
-                </dl>
-			&nbsp;				
-            </div>
-			
-        </div>
-			&nbsp;			
-        <div style="margin: 0px 4px 4px 2px; width: 328px; height: 389px; padding-bottom: 4px; float: left; background-color: gold;">
-            
-			&nbsp; 				<img width="118" height="118" style="padding: 4px; float: left; position: relative;" src="/images/48x48.png">
-			 &nbsp; 				 &nbsp;
-            <p>
-                称呼：李师傅
-            </p>
-			&nbsp;				
-            <p>
-                精修车型：福特
-            </p>
-			&nbsp; 				<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes" target="_blank"><img title="立即洽谈" alt="立即洽谈" src="http://wpa.qq.com/pa?p=2:12345678:41" border="0"></a>
-			 &nbsp; 				 &nbsp;
-            <div style="margin: 4px;">
-                
-			&nbsp;					
-                <dl>
-                    
-			&nbsp;						
-                    <dt>
-                        简介
-                    </dt>
-			&nbsp;						
-                    <dd>
-                        
-			&nbsp; 							简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介
-			 &nbsp; 							 &nbsp; 简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介			 &nbsp; 						 &nbsp;
-                    </dd>
-			&nbsp;					
-                </dl>
-			&nbsp;				
-            </div>
-			
-        </div>
-			&nbsp;			
-        <div style="margin: 0px 4px 4px 2px; width: 328px; height: 389px; padding-bottom: 4px; float: left; background-color: gold;">
-            
-			&nbsp; 				<img width="118" height="118" style="padding: 4px; float: left; position: relative;" src="/images/48x48.png">
-			 &nbsp; 				 &nbsp;
-            <p>
-                称呼：李师傅
-            </p>
-			&nbsp;				
-            <p>
-                精修车型：福特
-            </p>
-			&nbsp; 				<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes" target="_blank"><img title="立即洽谈" alt="立即洽谈" src="http://wpa.qq.com/pa?p=2:12345678:41" border="0"></a>
-			 &nbsp; 				 &nbsp;
-            <div style="margin: 4px;">
-                
-			&nbsp;					
-                <dl>
-                    
-			&nbsp;						
-                    <dt>
-                        简介
-                    </dt>
-			&nbsp;						
-                    <dd>
-                        
-			&nbsp; 							简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介
-			 &nbsp; 							 &nbsp; 简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介			 &nbsp; 						 &nbsp;
-                    </dd>
-			&nbsp;					
-                </dl>
-			&nbsp;				
-            </div>
-			
-        </div>
-			&nbsp;			
-        <h1 style="margin: 0px 0px 10px; padding: 0px 4px 0px 0px; text-align: center; font-size: 32px; font-weight: bold; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 2px; border-bottom-style: solid;" label="标题居左">
-            
-			售后团队将为您软硬件问题排忧解难			 &nbsp;
-        </h1>
-			
-        <div style="margin: 0px 4px 4px 2px; width: 328px; height: 198px; text-align: center; padding-bottom: 4px; float: left; background-color: gold;">
-            
-			&nbsp; 		<img width="96" height="96" style="padding: 4px; position: relative;" src="/images/48x48.png">
-			 &nbsp;		
-            <p>
-                技术支持——吴工
-            </p>
-			&nbsp; 		<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes" target="_blank"><img title="立即洽谈" alt="立即洽谈" src="http://wpa.qq.com/pa?p=2:12345678:41" border="0"></a>
-			 &nbsp;
-        </div>
-			
-        <div style="margin: 0px 4px 4px 2px; width: 328px; height: 198px; text-align: center; padding-bottom: 4px; float: left; background-color: gold;">
-            
-			&nbsp; 		<img width="96" height="96" style="padding: 4px; position: relative;" src="/images/48x48.png">
-			 &nbsp;		
-            <p>
-                技术支持——刘工
-            </p>
-			&nbsp; 		<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes" target="_blank"><img title="立即洽谈" alt="立即洽谈" src="http://wpa.qq.com/pa?p=2:12345678:41" border="0"></a>
-			 &nbsp;
-        </div>
-			
-        <div style="margin: 0px 4px 4px 2px; width: 328px; height: 198px; text-align: center; padding-bottom: 4px; float: left; background-color: gold;">
-            
-			&nbsp; 		<img width="96" height="96" style="padding: 4px; position: relative;" src="/images/48x48.png">
-			 &nbsp;		
-            <p>
-                技术支持——王工
-            </p>
-			&nbsp; 		<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=704294291&amp;site=qq&amp;menu=yes" target="_blank"><img title="立即洽谈" alt="立即洽谈" src="http://wpa.qq.com/pa?p=2:12345678:41" border="0"></a>
-			 &nbsp;
-        </div>
-		
+                                </div>
     </div>
-		
-</div></div>
+</div>
+<div class="spec" data-title="undefined" data-spec=""></div></div>
+                                    </div>
+                                </div><div class="visual-item" style="display: block; position: relative; opacity: 1;" ectype="visualItme" data-purebox="cust" data-mode="custom" data-diff="0">
+                                    
+                                    <div class="view" style="margin: 0px auto; width: 1200px;">
+                                        <div class="custom" id="custom_0" data-type="range" data-lift="公司简介"><div style="margin-right: 28px; float: left;">
+    <iframe width="600" height="400" src="https://v.qq.com/txp/iframe/player.html?vid=y0711v77egh" frameborder="10px" allowfullscreen="true" style="width: 579px; height: 470px;"></iframe>
+</div>
+<div style="width: 556px; height: 250px; float: left;">
+    <h1 style="margin: 0px 0px 20px; padding: 0px 4px 0px 0px; text-align: center; font-size: 32px; font-weight: bold;">
+        公司简介
+    </h1>
+    <p style="margin: 15px; color: rgb(102, 102, 102); font-size: 16px;">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-family: 微软雅黑,Microsoft YaHei;">深圳市硕泰昌科技有限公司(简称“硕泰昌科技”)成立于2012年，是一家汽车诊断仪、汽车编程器、汽车防盗器等OBD设备制造商、云诊断平台以及汽车车载系统解决方案提供商。硕泰昌科技创办至今，凭借雄厚的研发实力打造出的产品深受汽修维修师傅喜爱并获得良好口碑。在未来我司将继续深耕OBD行业，为汽修维修师傅提供物美价廉好用又好使的良心产品。
+ &nbsp; &nbsp;</span>
+ &nbsp; &nbsp;
+    </p>
+    <p style="margin: 15px; color: rgb(102, 102, 102); font-size: 16px;">
+        <span style="font-family: 微软雅黑,Microsoft YaHei;">&nbsp;&nbsp;&nbsp;&nbsp;与此同时，我司将与时俱进潜心研发云诊断平台，利用互联网思维整合资源，利用物联网、大数据以及人工智能技术让云诊断变得“更智能，更懂你”。</span>
+ &nbsp; &nbsp;
+    </p>
+    <p style="margin: 15px; color: rgb(102, 102, 102); font-size: 16px;">
+        <span style="font-family: 微软雅黑,Microsoft YaHei;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;硕泰昌科技始终坚持“良心产品，匠心打造”产品研发思路，以客户为中心为服务宗旨，以开放、包容、公平、共赢为合作基础。</span>
+ &nbsp; &nbsp;
+    </p>
+</div>
+<p>
+    &nbsp;
+</p></div>
                                     </div>
                                 </div></div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

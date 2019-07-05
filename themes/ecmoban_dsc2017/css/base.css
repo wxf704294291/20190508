@@ -838,7 +838,7 @@ input.btn25{ height: 25px;line-height: 23px;}
 .top-banner .module .icon-cha{ z-index:99; cursor: pointer; position: absolute;right: 5px;top: 5px;font-size: 14px;color: #FFF;background: rgb(45,45,45);opacity: .3;filter: alpha(opacity=30);width: 20px; height:20px; text-align: center;}
 
 /* nav start*/
-.nav{ height:40px; position:relative; z-index:9; background-color:#1E4497;}
+.nav{ height:42px; position:relative; z-index:9; background-color:#1E4497;}
 .nav .categorys,.attached-search-container .categorys{ float:left; width:128px; height:40px; position:relative;}
 .attached-search-container .categorys{ margin-top:12px; height:34px;}
 .nav .categorys .categorys-type,.attached-search-container .categorys .categorys-type{ text-align:center; font-size:0; line-height:40px;}
@@ -895,11 +895,11 @@ input.btn25{ height: 25px;line-height: 23px;}
 
 .categorys-tab-content .categorys-item:hover .categorys-items-layer{ display:block;}
 
-.nav .nav-main{ float:right; width:910px; overflow:hidden; height:40px; line-height:40px;}
+.nav .nav-main{ float:right; width:910px; overflow:hidden; height:40px; line-height:40px;color: #FFF;}
 /*.nav .nav-main li{ float:left; margin-left:38px;}*/
 .nav .nav-main li{float: left;margin-left: 2px;font-size: 16px;font-weight: 700;color: #fff;display: block;text-align: center;font-size: 0;line-height: 40px;width: 128px;}
-.nav .nav-main li a{ font-size:16px; color:#555; display:block;}
-.nav .nav-main li a:hover,.nav .nav-main li a.curr{ color:#0AADCC;}
+.nav .nav-main li a{ font-size:16px; color:#fff; display:block;}
+.nav .nav-main li a:hover,.nav .nav-main li a.curr{ color:#FFF; font-size:18px;}
 
 .categorys-tab-content .nav_cat_model{ height:6.25%;}
 .categorys-tab-content .nav_cat_model .item-content{ padding:4px 16px 3px;}

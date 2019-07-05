@@ -2030,7 +2030,7 @@ else if ($action == 'act_login') {
 			$info = $db->getRow($sql);
 
 			if (empty($info['nick_name'])) {
-				$nick_name = rand(1, 99999999) . '-' . rand(1, 999999);
+				$nick_name = 'STIC'. '-' . rand(1, 999999);
 				$update_data['nick_name'] = $nick_name;
 				$GLOBALS['db']->autoExecute($GLOBALS['ecs']->table('users'), $update_data, 'UPDATE', 'user_id = ' . $_SESSION['user_id']);
 			}
@@ -2060,6 +2060,11 @@ else if ($action == 'act_login') {
 		echo $_REQUEST['jsoncallback'] . '(' . $json->encode($result) . ')';
 	}
 	else {
+		/*
+		if($back_act!=null){
+		  $back_dis=explode('.',$back_act)[0];
+		  $GLOBALS['smarty']->display($back_dis.'.dwt');
+		}*/
 		exit($json->encode($result));
 	}
 }

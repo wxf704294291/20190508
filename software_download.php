@@ -38,7 +38,7 @@
 	if ($_REQUEST['act'] == 'getDownloadLink'){
 		$software_id=json_str_iconv(trim($_GET['software_id']));   
 		$json = new JSON();
-		$sql='SELECT software_article_link FROM fly_software_download WHERE software_id='.$software_id.';';
+		$sql='SELECT software_url FROM fly_software_download WHERE software_id='.$software_id.';';
 		$download_link=$GLOBALS['db']->getOne($sql);
 		$result = array('error' => 0, 'message' => '', 'download_link' => $download_link);
 		die($json->encode($result));  

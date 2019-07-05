@@ -18,41 +18,37 @@
 <body class="merchants bg-ligtGary">
 <!-- #BeginLibraryItem "/library/page_header_common.lbi" --><!-- #EndLibraryItem -->
 <div class="container settled-container">
+    <div style="width:100%;height:238px;background:url(data/afficheimg/software_download.jpg)"></div>
 	<div class="w w1200">
         <div class="software_list">
-        	<table cellpadding="10px" cellspacing="0" border="0">
-				<thead  id="software_list_head">
-					<tr class="software_list_item">
-						<th>软件名称</th>
-						<th>软件版本号</th>
-						<th>软件大小</th>
-						<th>创建时间</th>
-						<th>详情</th>
-						<th>下载</th>
-					</tr>
-				</thead>
-				<tbody>
-				   {foreach from=$software_list item=software}
-                    <tr class="software_list_item">
-					   <td width="16%">{$software.software_name}</td>
-					   <td width="16%">{$software.software_version}</td>
-					   <td width="16%">{$software.software_size}</td>
-					   <td width="16%">{$software.create_time}</td>
-					   <td width="17%">
-						   <div>
-						      <a href="javascript:void(0)" onclick="getHrefValue()">查看详情</a>
-							  <input type="hidden" name="software_article_link" value="{$software.software_article_link}">
-						   </div>
-					   </td>
-					   <td width="17%">
-						   <div>
-						      <a href="javascript:void(0)" onclick="getDownloadLink(event)">下载</a>  
-							  <input type="hidden" name="software_download_link" value="{$software.software_id}">
-						   </div>
-					   </td>
-					</tr>
-					{/foreach}
-				</tbody>
+		    <ul id="software_title">
+			   <li>软件名称</li>
+			   <li>软件版本号</li>
+			   <li>软件大小</li>
+			   <li>创建时间</li>
+			   <li>详情</li>
+			   <li>下载</li>
+			</ul>
+        	<table cellpadding="10px" cellspacing="0" frame="above">
+			   {foreach from=$software_list item=software}
+				<tr>
+				   <td width="16%" style="border-bottom:#808080 solid 1px;">{$software.software_name}</td>
+				   <td width="16%" style="border-bottom:#808080 solid 1px;">{$software.software_version}</td>
+				   <td width="16%" style="border-bottom:#808080 solid 1px;">{$software.software_size}</td>
+				   <td width="16%" style="border-bottom:#808080 solid 1px;">{$software.create_time}</td>
+				   <td width="17%" style="border-bottom:#808080 solid 1px;">
+					   <div>
+						  <a href="{$software.software_article_link}" onclick="getHrefValue()">查看详情</a>
+					   </div>
+				   </td>
+				   <td width="17%" style="border-bottom:#808080 solid 1px;">
+					   <div>
+						  <a href="javascript:void(0)" onclick="getDownloadLink(event)">下载</a>  
+						  <input type="hidden" name="software_download_link" value="{$software.software_id}">
+					   </div>
+				   </td>
+				</tr>
+				{/foreach}
 			</table>
         </div>
     </div>
@@ -61,14 +57,16 @@
 <script type="text/javascript">
 
 function getDownloadLink(evt){
-    var url = $(this).data("url");
+   
 	var user_id = "{$user_id}"
 	if(user_id > 0){
 		 var software_id=$(evt.target).next().val();
 	     Ajax.call('software_download.php?act=getDownloadLink', 'software_id=' + software_id,getResult,'GET','JSON');
 	}else{
-		var back_url = "merchants.php";
-		$.notLogin("get_ajax_content.php?act=get_login_dialog",back_url);
+		var back_act = "software_download.php";
+		alert("开始进入登录弹框,,,,,,");
+		$.notLogin("get_ajax_content.php?act=get_login_dialog",back_act);
+		alert("注册登录弹框---end,,,,,,");
 	}
 }
 
@@ -76,9 +74,12 @@ function getResult(result){
 	window.open(result.download_link);
 }
 
+
+
+
 </script>
 
-{* DSC 提醒您：动态载入user_menu_position.lbi，显示首页分类小广告 *}{insert name='user_menu_position'}
+
  <!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
 <script type="text/javascript" src="themes/<?php echo $GLOBALS['_CFG']['template']; ?>/js/dsc-common.js"></script>
 <script type="text/javascript" src="themes/<?php echo $GLOBALS['_CFG']['template']; ?>/js/jquery.purebox.js"></script>

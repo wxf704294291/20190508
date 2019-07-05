@@ -17,7 +17,6 @@
 <!-- #BeginLibraryItem "/library/page_header_common.lbi" --><!-- #EndLibraryItem -->
 <div class="container settled-container">
     {* DSC 提醒您：merchants_index_top_ad.lbi，商务合作首页头部小广告 *}{insert name='get_adv_child' ad_arr=$merchants_index_top}
-    
 	<div class="sett-section s-section-step">
         <div class="w w1200">
             <div class="sett-title">
@@ -29,28 +28,28 @@
             </div>
             <div class="sett-warp">
                 <div class="item item-one">
-                    <div class="item-i"><i></i></div>
+                    <div class="item-one-bg"></div>
                     <div class="tit">{$lang.sett_step_one}</div>
                     <span>{$lang.sett_step_one_tit}</span>
                     <span>{$lang.sett_step_one_desc}</span>
                 </div>
                 <!---<em class="item-jt"></em>---->
                 <div class="item item-two">
-                    <div class="item-i"><i></i></div>
+                    <div class="item-two-bg"></div>
                     <div class="tit">{$lang.sett_step_two}</div>
                     <span>{$lang.sett_step_two_tit}</span>
                     <span>{$lang.sett_step_two_desc}</span>
                 </div>
                 <!---<em class="item-jt"></em>---->
                 <div class="item item-three">
-                    <div class="item-i"><i></i></div>
+                    <div class="item-three-bg"></div>
                     <div class="tit">{$lang.sett_step_three}</div>
                     <span>{$lang.sett_step_three_tit}</span>
                     <span>{$lang.sett_step_three_desc}</span>
                 </div>
                 <!---<em class="item-jt"></em>---->
                 <div class="item item-four">
-                    <div class="item-i"><i></i></div>
+                    <div class="item-four-bg"></div>
                     <div class="tit">{$lang.sett_step_four}</div>
                     <span>{$lang.sett_step_four_tit}</span>
                     <span>{$lang.sett_step_four_desc}</span>
@@ -62,18 +61,16 @@
         <div class="w w1200">
             <div class="sett-title">
                 <div class="zw-tit">
-                    <h3>{$lang.hot_recruit}</h3>
+                    <h3>{$lang.advantage}</h3>
                     <span class="line"></span>
                 </div>
-                <span class="yw-tit">Product advantage</span>
+                <span class="yw-tit">OUR ADVANTAGES</span>
             </div>
         </div>
     </div>
 	<div class="sett-banner" style="background:url(data/afficheimg/1489978643396742470.jpg) center center no-repeat;">
-       <div class="banner-auto">
-           **********************************************
-		   **********************************************
-		   **********************************************
+       <div class="banner-auto" style="color:#FFFFFF">
+          {$content}
        </div>
     </div>
 	
@@ -81,29 +78,25 @@
         <div class="w w1200">
             <div class="sett-title">
                 <div class="zw-tit">
-                    <h3>{$lang.success_case}</h3>
+                    <h3>{$lang.covers_vehicle}</h3>
                     <span class="line"></span>
                 </div>
-                <span class="yw-tit">COOPERATIVE PARTNER</span>
+                <span class="yw-tit">COVERS VEHICLE</span>
             </div>
         </div>
     </div>
 	<div class="sett-banner" style="background:url(data/afficheimg/1489978643396742470.jpg) center center no-repeat;">
-       <div class="banner-auto">
-           **********************************************
-		   **********************************************
-		   **********************************************
-       </div>
+       <div class="banner-auto">  </div>
     </div>
 	
     <div class="sett-section s-section-help">
         <div class="w w1200">
             <div class="sett-title">
                 <div class="zw-tit">
-                    <h3>{$lang.common_problem}</h3>
+                    <h3>{$lang.cooperation_ways}</h3>
                     <span class="line"></span>
                 </div>
-                <span class="yw-tit">COMMON PROBLEM</span>
+                <span class="yw-tit">COOPERATION WAYS</span>
             </div>
             <div class="sett-warp">
                 {foreach from=$articles_imp item=art name=name}
@@ -122,7 +115,7 @@
     </div>
 </div>
 
-{* DSC 提醒您：动态载入user_menu_position.lbi，显示首页分类小广告 *}{insert name='user_menu_position'}
+
  <!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
 	
 <script type="text/javascript" src="themes/<?php echo $GLOBALS['_CFG']['template']; ?>/js/dsc-common.js"></script>

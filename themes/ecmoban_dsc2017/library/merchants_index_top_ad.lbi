@@ -6,6 +6,7 @@
         <div class="s-b-tit">
             <h3>{$lang.sett_title}</h3>
             <div class="s-b-line"></div>
+			<h3>{$lang.sett_description}</h3>
         </div>
 		<!---
         <div class="s-b-btn">
