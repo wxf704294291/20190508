@@ -1,7 +1,7 @@
 <?php 
 /***************************/
 /* Wechat 登录              /
-/* by                 2017.05.30      /
+/* by //websc 禁止倒卖 一经发现停止任何服务 2017.05.30      /
 /***************************/  
 
 if (defined('WEBSITE') || defined('GETINFO'))
@@ -23,7 +23,7 @@ if (defined('WEBSITE') || defined('GETINFO'))
     $web[$i]['className'] = 'wechat';
     
     // 作者信息
-    $web[$i]['author'] = '               ';
+    $web[$i]['author'] = '//websc 禁止倒卖 一经发现停止任何服务';
     
 	// 作者QQ
 	$web[$i]['qq'] = '1172527557';

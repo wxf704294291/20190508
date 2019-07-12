@@ -1,5 +1,4 @@
 <?php
-//WEBSC商城资源
 class captcha
 {
 	/**

@@ -56,7 +56,7 @@ if (!$smarty->is_cached('merchants.dwt')) {
 		$smarty->assign('footer', 2);
 	}
 	//获取产品优势内容
-	$content_sql="select content from fly_article where article_id=80;";
+	$content_sql="select content from fly_article where article_id=67;";
 	$content=$GLOBALS['db']->getOne($content_sql);
 	$smarty->assign("content",$content);
     

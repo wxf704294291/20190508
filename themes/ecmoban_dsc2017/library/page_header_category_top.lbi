@@ -2,7 +2,6 @@
 <div class="site-nav" id="site-nav">
     <div class="w w1200">
         <div class="fl">	
-            {* DSC 提醒您：根据用户id来调用header_region_style.lbi显示不同的界面  *}{insert name='header_region'}
             <div class="txt-info" id="ECS_MEMBERZONE">
                 {* DSC 提醒您：根据用户id来调用member_info.lbi显示不同的界面  *}{insert name='member_info'}	
             </div>
@@ -18,33 +17,6 @@
             <!--{/if}-->
             <!-- {/foreach} -->
             <!-- {/if} -->
-            <!--{if $navigator_list.top}-->
-            <li class="li_dorpdown" data-ectype="dorpdown">
-                <div class="dt dsc-cm">{$lang.Site_navigation}<i class="iconfont icon-down"></i></div>
-                <div class="dd dorpdown-layer">
-                    <dl class="fore1">
-                        <dt>{$lang.characteristic_theme}</dt>
-                        <dd>
-                            <!-- {foreach name=nav_top_list from=$top_cat_list item=topc_cats key=key} -->
-                                <!--{if $smarty.foreach.nav_top_list.index < 3}-->
-                                    <div class="item"><a href="{$topc_cats.url}" target="_blank">{$topc_cats.cat_alias_name}</a></div>
-                                <!--{/if}-->
-                            <!-- {/foreach} -->
-                        </dd>
-                    </dl>
-                    <dl class="fore2">
-                        <dt>{$lang.modules_txt_promo}</dt>
-                        <dd>
-                            <!-- {foreach name=nav_top_list from=$navigator_list.top item=nav key=key} -->
-                                <!--{if $smarty.foreach.nav_top_list.index >= 4}-->
-                                    <div class="item"><a href="{$nav.url}"{if $nav.opennew} target="_blank"{/if}>{$nav.name}</a></div>
-                                <!--{/if}-->
-                            <!-- {/foreach} -->
-                        </dd>
-                    </dl>
-                </div>
-            </li>
-            <!-- {/if} -->
         </ul>
     </div>
 </div>
@@ -52,7 +24,6 @@
     <div class="w w1200">
         <div class="logo">
             <div class="logoImg"><a href="{$url_index}"><img src="images/logo.gif" /></a></div>
-            <div class="logoAdv"><a href="{$url_merchants}"><img src="images/ecsc-join.gif" /></a></div>
         </div>
         <div class="dsc-search">
             <div class="form">
@@ -60,7 +31,6 @@
                     <input autocomplete="off" onKeyUp="lookup(this.value);" name="keywords" type="text" id="keyword" value="{if $search_keywords}{$search_keywords}{else}{insert name='rand_keyword'}{/if}" class="search-text"/>
                     <input type="hidden" name="store_search_cmt" value="{$search_type|default:0}">
                     <button type="submit" class="button button-goods" onclick="checkstore_search_cmt(0)">{$lang.serch_goods}</button>
-                    <button type="submit" class="button button-store" onclick="checkstore_search_cmt(1)">{$lang.serch_shop}</button>
                 </form>
                 {if $searchkeywords}
                 <ul class="keyword">
@@ -77,9 +47,6 @@
                 </div>
                 <!-- @Author guan 搜索栏提示 end -->
             </div>
-        </div>
-        <div class="shopCart" data-ectype="dorpdown" id="ECS_CARTINFO" data-carteveval="0">
-            {* DSC 提醒您：根据用户id来调用cart_info.lbi显示不同的界面  *}{insert name='cart_info'}
         </div>
     </div>
 </div>

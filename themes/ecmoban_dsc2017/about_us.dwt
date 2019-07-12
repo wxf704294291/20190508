@@ -16,13 +16,16 @@
 <body class="merchants bg-ligtGary">
 <!-- #BeginLibraryItem "/library/page_header_common.lbi" --><!-- #EndLibraryItem -->
 <div class="container settled-container">
+    <div style="width:100%;height:238px;background:url({$article.file_url});text-align:center;"></div>
 	<div class="w w1200">
         <div class="settled-article-warp">
+		   <!----
         	<div class="step-nav">
             	<div class="title">
-                    <h3>{$article.title}</h3>
+                    <h1>{$article.title}</h1>
                 </div>
             </div>
+			---->
             <div class="sett-a-item">
                 <div class="sett-cont">
                     {$article.content}
@@ -32,7 +35,6 @@
     </div>
 </div>	
 
-{* DSC 提醒您：动态载入user_menu_position.lbi，显示首页分类小广告 *}{insert name='user_menu_position'}
  <!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
 <script type="text/javascript" src="themes/<?php echo $GLOBALS['_CFG']['template']; ?>/js/dsc-common.js"></script>
 <script type="text/javascript" src="themes/<?php echo $GLOBALS['_CFG']['template']; ?>/js/jquery.purebox.js"></script>

@@ -1,5 +1,5 @@
 <?php
-    
+//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
 class presswork
 {
 	/**
@@ -67,7 +67,7 @@ if (isset($set_modules) && $set_modules == true) {
 	$modules[$i]['insure'] = '1%';
 	$modules[$i]['cod'] = false;
 	$modules[$i]['author'] = 'ECMOBAN TEAM';
-	$modules[$i]['website'] = 'www.flyobd.com';
+	$modules[$i]['website'] = 'http://www.ecmoban.com';
 	$modules[$i]['configure'] = array();
 	$modules[$i]['print_model'] = 2;
 	$modules[$i]['print_bg'] = '';

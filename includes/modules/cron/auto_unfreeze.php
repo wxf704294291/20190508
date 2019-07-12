@@ -1,5 +1,5 @@
 <?php
-        
+ //websc
 function auto_unfreeze_logResult($word = '', $type = 'auto_unfreeze')
 {
 	$word = is_array($word) ? var_export($word, true) : $word;
@@ -27,7 +27,7 @@ if (isset($set_modules) && $set_modules == true) {
 	$modules[$i]['code'] = basename(__FILE__, '.php');
 	$modules[$i]['desc'] = 'auto_unfreeze_desc';
 	$modules[$i]['author'] = 'ECMOBAN TEAM';
-	$modules[$i]['website'] = 'www.flyobd.com';
+	$modules[$i]['website'] = 'http://www.ecmoban.com';
 	$modules[$i]['version'] = '1.0.0';
 	$modules[$i]['config'] = array(
 	array('name' => 'auto_unfreeze_count', 'type' => 'select', 'value' => '5')

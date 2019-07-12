@@ -78,15 +78,14 @@
 	<div class="w w1200 nav_bg" style="background-color: rgb(255, 255, 255);" ectype="nav">
     	<div class="categorys"><div class="categorys-type"><a href="categoryall.php" target="_blank">全部商品分类</a></div></div>
         <div class="nav-main" id="nav">
-        	<ul class="navitems" data-type="range">    <li><a class="curr" href="index.php">首页</a></li>
-        <li><a href="/cloud_diagnostic.php" target="_blank">保驰云诊断</a></li>
-        <li><a href="/merchants.php" target="_blank">商务合作</a></li>
-        <li><a href="/article_cat.php?id=1" target="_blank">服务支持</a></li>
-        <li><a href="/software_download.php" target="_blank">软件下载</a></li>
-        <li><a href="/about_us.php" target="_blank">关于我们</a></li>
-        <li><a href="/category.php?id=858" target="_blank">产品中心</a></li>
+        	<ul class="navitems" data-type="range">    <li><a href="index.php" class="curr">首页</a></li>
+        <li><a href="/merchants.php" style="text-align:" target="_blank">商务合作</a></li>
+        <li><a href="/article_cat.php?id=1" style="text-align:" target="_blank">服务支持</a></li>
+        <li><a href="/software_download.php" style="text-align:" target="_blank">软件下载</a></li>
+        <li><a href="/about_us.php" style="text-align:" target="_blank">关于我们</a></li>
+        <li><a href="/category.php?id=858" style="text-align:" target="_blank">产品中心</a></li>
     
-<div class="spec" data-spec='[{"name":"保驰云诊断","url":"/cloud_diagnostic.php","opennew":1,"navvieworder":1},{"name":"商务合作","url":"/merchants.php","opennew":1,"navvieworder":2},{"name":"服务支持","url":"/article_cat.php?id=1","opennew":1,"navvieworder":3},{"name":"软件下载","url":"/software_download.php","opennew":1,"navvieworder":4},{"name":"关于我们","url":"/about_us.php","opennew":1,"navvieworder":5},{"name":"产品中心","url":"/category.php?id=858","opennew":1,"navvieworder":6}]'></div></ul>
+<div class="spec" data-spec="[{&quot;name&quot;:&quot;商务合作&quot;,&quot;url&quot;:&quot;/merchants.php&quot;,&quot;opennew&quot;:1,&quot;navvieworder&quot;:1},{&quot;name&quot;:&quot;服务支持&quot;,&quot;url&quot;:&quot;/article_cat.php?id=1&quot;,&quot;opennew&quot;:1,&quot;navvieworder&quot;:2},{&quot;name&quot;:&quot;软件下载&quot;,&quot;url&quot;:&quot;/software_download.php&quot;,&quot;opennew&quot;:1,&quot;navvieworder&quot;:3},{&quot;name&quot;:&quot;关于我们&quot;,&quot;url&quot;:&quot;/about_us.php&quot;,&quot;opennew&quot;:1,&quot;navvieworder&quot;:4},{&quot;name&quot;:&quot;产品中心&quot;,&quot;url&quot;:&quot;/category.php?id=858&quot;,&quot;opennew&quot;:1,&quot;navvieworder&quot;:5}]"></div></ul>
         </div>
         <div class="setup_box" data-html="not">
             <div class="barbg"></div>
@@ -95,7 +94,7 @@
     </div>
 </div>
 <div class="prompt" data-html="not">以上为页头区域</div>
-<div class="demo ui-sortable" style="min-height: 925px; background-color: transparent;"><div class="visual-item lyrow lunbotu ui-draggable" style="display: block;" ectype="visualItme" data-length="5" data-li="1" data-purebox="adv" data-mode="lunbo" data-diff="0">
+<div class="demo ui-sortable" style="min-height: 969px; background-color: transparent;"><div class="visual-item lyrow lunbotu ui-draggable" style="display: block;" ectype="visualItme" data-length="5" data-li="1" data-purebox="adv" data-mode="lunbo" data-diff="0">
                                     <div class="drag" data-html="not">
                                         <div class="navLeft">
                                             <span class="pic"><img src="images/visual/navLeft_01.png"></span>
@@ -112,11 +111,11 @@
                                     <div class="view">
                                         <div class="banner home-banner">
                                         	<div class="bd">
-                                            	<ul data-type="range" data-slide="roll">	    <li style='background-position: center; background-image: url("http://localhost/data/gallery_album/2/original_img/1560704816689378470.jpg"); background-repeat: no-repeat;'><div class="banner-width"><a style="height: 582px;" href="" target="_self"></a></div></li>
-    	    <li style='background-position: center; background-image: url("http://localhost/data/gallery_album/2/original_img/1560704839181201143.jpg"); background-repeat: no-repeat;'><div class="banner-width"><a style="height: 582px;" href="" target="_self"></a></div></li>
-    	    <li style='background-position: center; background-image: url("http://localhost/data/gallery_album/2/original_img/1560704847139374103.jpg"); background-repeat: no-repeat;'><div class="banner-width"><a style="height: 582px;" href="" target="_self"></a></div></li>
+                                            	<ul data-type="range" data-slide="roll">	    <li style="background-position: center; background-image: url(&quot;http://localhost/data/gallery_album/2/original_img/1560704816689378470.jpg&quot;); background-repeat: no-repeat;"><div class="banner-width"><a style="height: 582px;" href="" target="_self"></a></div></li>
+    	    <li style="background-position: center; background-image: url(&quot;http://localhost/data/gallery_album/2/original_img/1560704839181201143.jpg&quot;); background-repeat: no-repeat;"><div class="banner-width"><a style="height: 582px;" href="" target="_self"></a></div></li>
+    	    <li style="background-position: center; background-image: url(&quot;http://localhost/data/gallery_album/2/original_img/1560704847139374103.jpg&quot;); background-repeat: no-repeat;"><div class="banner-width"><a style="height: 582px;" href="" target="_self"></a></div></li>
     
-</ul><div class="spec" data-spec='{"picHeight":"582","slide_type":"roll","target":"_self","navColor":"#dbe0e4","is_li":1,"bg_color":["","",""],"pic_src":["http://localhost/data/gallery_album/2/original_img/1560704816689378470.jpg","http://localhost/data/gallery_album/2/original_img/1560704839181201143.jpg","http://localhost/data/gallery_album/2/original_img/1560704847139374103.jpg"],"link":",,","sort":["1","1","1"],"title":[],"subtitle":[]}'></div>
+</ul><div class="spec" data-spec="{&quot;picHeight&quot;:&quot;582&quot;,&quot;slide_type&quot;:&quot;roll&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;navColor&quot;:&quot;#dbe0e4&quot;,&quot;is_li&quot;:1,&quot;bg_color&quot;:[&quot;&quot;,&quot;&quot;,&quot;&quot;],&quot;pic_src&quot;:[&quot;http://localhost/data/gallery_album/2/original_img/1560704816689378470.jpg&quot;,&quot;http://localhost/data/gallery_album/2/original_img/1560704839181201143.jpg&quot;,&quot;http://localhost/data/gallery_album/2/original_img/1560704847139374103.jpg&quot;],&quot;link&quot;:&quot;,,&quot;,&quot;sort&quot;:[&quot;1&quot;,&quot;1&quot;,&quot;1&quot;],&quot;title&quot;:[],&quot;subtitle&quot;:[]}"></div>
                                             </div>
                                             <div class="hd"><ul></ul></div>
                                             <div class="vip-outcon">
@@ -256,7 +255,9 @@
                                                                                 </ul>
                     </div>
                 </div>
-                                <div class="f-r-main" ectype="floor_cat_<br ></div>&#10;<b>Warning</b>:  Illegal string offset 'cat_id' in <b>D:\phpStudy\www\temp\compiled\admin\dialog.lbi.php</b> on line <b>2699</b><br />&#10;">
+                                <div class="f-r-main" ectype="floor_cat_<br ></div>
+<b>Warning</b>:  Illegal string offset 'cat_id' in <b>D:\phpStudy\www\temp\compiled\admin\dialog.lbi.php</b> on line <b>2699</b><br />
+">
                     <ul class="p-list"></ul>
                 </div>
                             </div>
@@ -264,7 +265,7 @@
                                 </div>
     </div>
 </div>
-<div class="spec" data-title="undefined" data-spec='{"content":"","floor_title":"新品上市","sub_title":"","cat_goods":[""],"moded":"homeFloorSix","cat_id":0,"cateValue":[""],"typeColor":"floor-color-type-11","fontColor":"","floorMode":1,"brand_ids":"","leftBanner":"","leftBannerLink":"","leftBannerSort":"","leftBannerTitle":"","leftBannerSubtitle":"","leftAdv":"","leftAdvLink":"","leftAdvSort":"","rightAdv":"","rightAdvLink":"","rightAdvSort":"","rightAdvTitle":"","rightAdvSubtitle":"","top_goods":"","lift":"新品上市"}'></div></div>
+<div class="spec" data-title="undefined" data-spec="{&quot;content&quot;:&quot;&quot;,&quot;floor_title&quot;:&quot;新品上市&quot;,&quot;sub_title&quot;:&quot;&quot;,&quot;cat_goods&quot;:[&quot;&quot;],&quot;moded&quot;:&quot;homeFloorSix&quot;,&quot;cat_id&quot;:0,&quot;cateValue&quot;:[&quot;&quot;],&quot;typeColor&quot;:&quot;floor-color-type-11&quot;,&quot;fontColor&quot;:&quot;&quot;,&quot;floorMode&quot;:1,&quot;brand_ids&quot;:&quot;&quot;,&quot;leftBanner&quot;:&quot;&quot;,&quot;leftBannerLink&quot;:&quot;&quot;,&quot;leftBannerSort&quot;:&quot;&quot;,&quot;leftBannerTitle&quot;:&quot;&quot;,&quot;leftBannerSubtitle&quot;:&quot;&quot;,&quot;leftAdv&quot;:&quot;&quot;,&quot;leftAdvLink&quot;:&quot;&quot;,&quot;leftAdvSort&quot;:&quot;&quot;,&quot;rightAdv&quot;:&quot;&quot;,&quot;rightAdvLink&quot;:&quot;&quot;,&quot;rightAdvSort&quot;:&quot;&quot;,&quot;rightAdvTitle&quot;:&quot;&quot;,&quot;rightAdvSubtitle&quot;:&quot;&quot;,&quot;top_goods&quot;:&quot;&quot;,&quot;lift&quot;:&quot;新品上市&quot;}"></div></div>
                                     </div>
                                 </div><div class="visual-item lyrow ui-draggable" style="display: block; position: relative; opacity: 1;" ectype="visualItme" data-purebox="cust" data-mode="custom" data-diff="0">
                                     <div class="drag" data-html="not">

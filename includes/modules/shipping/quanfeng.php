@@ -1,5 +1,5 @@
 <?php
-    
+//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
 class quanfeng
 {
 	/**
@@ -61,7 +61,7 @@ if (isset($set_modules) && $set_modules == true) {
 	$modules[$i]['insure'] = false;
 	$modules[$i]['cod'] = false;
 	$modules[$i]['author'] = 'DSC TEAM';
-	$modules[$i]['website'] = 'www.flyobd.com';
+	$modules[$i]['website'] = 'http://www.ecmoban.com';
 	$modules[$i]['configure'] = array(
 	array('name' => 'item_fee', 'value' => 10),
 	array('name' => 'base_fee', 'value' => 5),

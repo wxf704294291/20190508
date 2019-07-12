@@ -1,5 +1,5 @@
 <?php
-        
+//websc 
 class cls_ecmac
 {
 	public $return_array = array();

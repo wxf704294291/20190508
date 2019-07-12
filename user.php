@@ -1,5 +1,5 @@
 <?php
-               
+//websc 禁止倒卖 一经发现停止任何服务
 function get_validate_info($user_id)
 {
 	$sql = 'SELECT u.mobile_phone, u.is_validated, u.email, up.pay_password, ur.bank_mobile, ur.real_name, ur.bank_card, ur.bank_name, ur.review_status FROM ' . $GLOBALS['ecs']->table('users') . ' AS u ' . ' LEFT JOIN ' . $GLOBALS['ecs']->table('users_paypwd') . ' AS up ON u.user_id = up.user_id ' . ' LEFT JOIN ' . $GLOBALS['ecs']->table('users_real') . ' AS ur ON u.user_id = ur.user_id ' . (' WHERE u.user_id=\'' . $user_id . '\'');
@@ -1339,7 +1339,7 @@ else if ($action == 'oath_register') {
 			}
 		}
 
-		$info_user_id = $type . '_' . $oath_info['user_id'];
+		$info_user_id = $type . '_' . $oath_info['unionid'];
 		$img = $info['headimgurl'];
 	}
 
@@ -2030,7 +2030,7 @@ else if ($action == 'act_login') {
 			$info = $db->getRow($sql);
 
 			if (empty($info['nick_name'])) {
-				$nick_name = 'STIC'. '-' . rand(1, 999999);
+				$nick_name = rand(1, 99999999) . '-' . rand(1, 999999);
 				$update_data['nick_name'] = $nick_name;
 				$GLOBALS['db']->autoExecute($GLOBALS['ecs']->table('users'), $update_data, 'UPDATE', 'user_id = ' . $_SESSION['user_id']);
 			}
@@ -2060,11 +2060,6 @@ else if ($action == 'act_login') {
 		echo $_REQUEST['jsoncallback'] . '(' . $json->encode($result) . ')';
 	}
 	else {
-		/*
-		if($back_act!=null){
-		  $back_dis=explode('.',$back_act)[0];
-		  $GLOBALS['smarty']->display($back_dis.'.dwt');
-		}*/
 		exit($json->encode($result));
 	}
 }

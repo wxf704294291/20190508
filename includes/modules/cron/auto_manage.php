@@ -1,5 +1,5 @@
 <?php
-        
+//websc 
 if (!defined('IN_ECS')) {
 	exit('Hacking attempt');
 }
@@ -16,7 +16,7 @@ if (isset($set_modules) && $set_modules == true) {
 	$modules[$i]['code'] = basename(__FILE__, '.php');
 	$modules[$i]['desc'] = 'auto_manage_desc';
 	$modules[$i]['author'] = 'ECMOBAN TEAM';
-	$modules[$i]['website'] = 'www.flyobd.com';
+	$modules[$i]['website'] = 'http://www.ecmoban.com';
 	$modules[$i]['version'] = '1.0.0';
 	$modules[$i]['config'] = array(
 	array('name' => 'auto_manage_count', 'type' => 'select', 'value' => '5')

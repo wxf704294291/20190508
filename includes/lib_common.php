@@ -1,5 +1,5 @@
 <?php
-               
+//websc 禁止倒卖 一经发现停止任何服务
 function db_create_in($item_list, $field_name = '', $not = '')
 {
 	if (!empty($not)) {

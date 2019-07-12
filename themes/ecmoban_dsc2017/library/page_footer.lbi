@@ -20,21 +20,31 @@
 						<li><a href="#">终结者群: 631609714</a></li>
                     </ul>
                 </div>
-				<!-- {foreach from=$helps item=help_cat name=no} -->
-                {if $smarty.foreach.no.iteration < 4}
-                <div class="help-item">
-                    <h3>{$help_cat.cat_name}</h3>
+				<div class="help-item">
+                    <h3>帮助中心</h3>
                     <ul>
-                    <!-- {foreach from=$help_cat.article item=item name=help_cat} -->
-                    {if $smarty.foreach.help_cat.iteration < 4}
-                    <li><a href="{$item.url}"  title="{$item.title|escape:html}" target="_blank">{$item.short_title}</a></li>
-                    {/if}
-                    <!-- {/foreach} -->
+						<li><a href="#">话题专区</a></li>
+						<li><a href="#">内容专区</a></li>
+						<li><a href="#">视频专区</a></li>
                     </ul>
-                </dl>
                 </div>
-                {/if}
-                <!-- {/foreach} -->  
+				<div class="help-item">
+                    <h3>会员中心</h3>
+                    <ul>
+						<li><a href="#">我的订单</a></li>
+						<li><a href="#">我的收藏</a></li>
+						<li><a href="#">我的话题</a></li>
+                    </ul>
+                </div>
+				<div class="help-item">
+                    <h3>推广分红</h3>
+                    <ul>
+						<li><a href="#">项目介绍</a></li>
+						<li><a href="#">产品中心</a></li>
+						<li><a href="#">我的推广</a></li>
+                    </ul>
+                </div>
+				
             </div>
             <div class="qr-code">
                 <div class="qr-item qr-item-first">
@@ -43,7 +53,7 @@
                 </div>
                 <div class="qr-item">
                     <div class="code_img"><img src="{$site_domain}{$ectouch_qrcode}"></div>
-                    <div class="code_txt">微信小程序</div>
+                    <div class="code_txt">手机商城</div>
                 </div>
             </div>
     	</div>

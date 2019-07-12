@@ -1,5 +1,5 @@
 <?php
-       
+//websc
 function update_user_info()
 {
 	if (!$_SESSION['user_id']) {

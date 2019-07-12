@@ -15,7 +15,7 @@
 </head>
 
 <body class="show">
-<!-- #BeginLibraryItem "/library/page_header_common.lbi" --><!-- #EndLibraryItem -->
+<!-- #BeginLibraryItem "/library/page_header_presale.lbi" --><!-- #EndLibraryItem -->
 {* DSC 提醒您：动态载入presale_banner.lbi，显示首页分类小广告 *}{insert name='get_adv_child' ad_arr=$presale_banner}
 <div id="content">
     <div class="ecsc-sign w1200 w">

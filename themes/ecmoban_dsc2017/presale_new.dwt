@@ -17,7 +17,7 @@
 <body class="show">
 <!-- #BeginLibraryItem "/library/page_header_presale.lbi" --><!-- #EndLibraryItem -->
 {* DSC 提醒您：动态载入presale_banner_new.lbi，显示首页分类小广告 *}{insert name='get_adv_child' ad_arr=$presale_banner_new}
-
+ {* DSC 提醒您：动态载入user_menu_position.lbi，显示首页分类小广告 *}{insert name='user_menu_position'}
 <div class="preSale-filter">
     <div id="filter">
         <div class="filter-section-wrapper mb-component mt-component w1200 mt20 w">

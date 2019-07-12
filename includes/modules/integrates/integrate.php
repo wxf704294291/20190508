@@ -1,5 +1,4 @@
 <?php
-       
 class integrate
 {
 	public $db_host = '';

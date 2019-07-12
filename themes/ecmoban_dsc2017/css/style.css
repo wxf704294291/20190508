@@ -3241,7 +3241,7 @@ a.browse:hover,a.comment:hover{ color:#0AADCC;}
 .s-section-help .item-left{ margin:0 90px 30px 10px;}
 .s-section-help .item .info:hover .name{ margin-left:8px;}
 
-.settled-article-warp{ background-color:#fff; margin-top:10px; min-height:976px; position:relative; margin-bottom:80px;}
+.settled-article-warp{ background-color:#fff; margin-top:10px; min-height:976px; position:relative; margin-bottom:10px;}
 .settled-article-warp .sett-a-item:after{ content: ' '; display: block; clear: both; height: 0; visibility: hidden;}
 
 .sett-a-item .sett-cont{ padding:40px 36px 40px 36px; font-size:14px; color:#8c8c8c; line-height:30px;}

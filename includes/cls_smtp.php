@@ -209,14 +209,12 @@ class smtp
 	{
 		$return = '';
 		$line = '';
-
+		
 		if (is_resource($this->connection)) {
 			while (strpos($return, CRLF) === false || $line[3] !== ' ') {
 				$line = fgets($this->connection, 512);
 				$return .= $line;
 			}
-
-			return trim($return);
 		}
 		else {
 			return '';

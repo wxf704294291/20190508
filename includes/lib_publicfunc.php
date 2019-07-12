@@ -1,5 +1,5 @@
 <?php
-       
+//websc
 function get_warehouse_area_attr_price_insert($warehouse_area, $goods_id, $goods_attr_id, $table)
 {
 	$arr = array();

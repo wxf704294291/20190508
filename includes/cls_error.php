@@ -1,5 +1,5 @@
 <?php
-        
+//websc 
 class ecs_error
 {
 	public $_message = array();

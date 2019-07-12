@@ -1,5 +1,5 @@
 <?php
-    
+//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
 if (defined('WEBSITE')) {
 	global $_LANG;
 	$_LANG['help']['APP_KEY'] = '在 open.weibo.com 里申请的 App Key';
@@ -14,7 +14,7 @@ if (defined('WEBSITE')) {
 	$web[$i]['author'] = '`Dream`';
 	$web[$i]['className'] = 'weibo';
 	$web[$i]['qq'] = '0000210';
-	$web[$i]['email'] = '0000210@flyobd.com';
+	$web[$i]['email'] = '0000210@ecmoban.com';
 	$web[$i]['website'] = 'http://open.weibo.com';
 	$web[$i]['version'] = '2.7v';
 	$web[$i]['date'] = '2013-11-5';

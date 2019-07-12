@@ -1,5 +1,5 @@
 <?php
-        
+ //websc
 function get_collection_goods($user_id, $record_count, $page, $pageFunc, $size = 10)
 {
 	require_once 'includes/cls_pager.php';

@@ -26,7 +26,7 @@
 	$smarty->assign('helps', get_shop_help());
 	
 	/**页面内容**/
-	$aticle_sql = "SELECT title,keywords,description,content FROM fly_article WHERE article_id=70;";
+	$aticle_sql = "SELECT title,keywords,description,content,file_url FROM fly_article WHERE article_id=68;";
 	$article_res = $db->getRow($aticle_sql );
 	$smarty->assign('article',$article_res);
 	

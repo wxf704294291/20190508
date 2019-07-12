@@ -2,7 +2,6 @@
     	
         <div class="nav-main" id="nav">
         	<ul class="navitems" data-type="range">    <li><a href="index.php" class="curr">首页</a></li>
-        <li><a href="/cloud_diagnostic.php" style="text-align:" target="_blank">保驰云诊断</a></li>
         <li><a href="/merchants.php" style="text-align:" target="_blank">商务合作</a></li>
         <li><a href="/article_cat.php?id=1" style="text-align:" target="_blank">服务支持</a></li>
         <li><a href="/software_download.php" style="text-align:" target="_blank">软件下载</a></li>

@@ -1,5 +1,5 @@
 <?php
-    
+//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
 class sf_express
 {
 	/**
@@ -60,7 +60,7 @@ if (isset($set_modules) && $set_modules == true) {
 	$modules[$i]['desc'] = 'sf_express_desc';
 	$modules[$i]['cod'] = false;
 	$modules[$i]['author'] = 'ECMOBAN TEAM';
-	$modules[$i]['website'] = 'www.flyobd.com';
+	$modules[$i]['website'] = 'http://www.ecmoban.com';
 	$modules[$i]['configure'] = array(
 	array('name' => 'item_fee', 'value' => 20),
 	array('name' => 'base_fee', 'value' => 15),

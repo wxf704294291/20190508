@@ -1,5 +1,5 @@
 <?php
-        
+//websc 
 class cls_template
 {
 	public $template_dir = '';

@@ -1,5 +1,5 @@
 <?php
-    
+//zend WEBSC在线更新版  禁止倒卖 一经发现停止任何服务
 if (defined('WEBSITE') || defined('GETINFO')) {
 	global $_LANG;
 	$_LANG['help']['APP_KEY'] = '在 淘宝 http://open.taobao.com/ 此处申请的 APP ID';
@@ -12,7 +12,7 @@ if (defined('WEBSITE') || defined('GETINFO')) {
 	$web[$i]['className'] = 'taobao';
 	$web[$i]['author'] = '`Dream`';
 	$web[$i]['qq'] = '0000210';
-	$web[$i]['email'] = '0000210@flyobd.com';
+	$web[$i]['email'] = '0000210@ecmoban.com';
 	$web[$i]['website'] = 'http://open.taobao.com';
 	$web[$i]['version'] = '2.7v';
 	$web[$i]['date'] = '2013-11-5';

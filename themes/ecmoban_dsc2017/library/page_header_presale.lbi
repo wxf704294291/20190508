@@ -55,7 +55,7 @@
     <div class="w w1200">
         <div class="logo">
             <div class="logoImg"><a href="{$url_index}"><img src="images/logo.gif" /></a></div>
-            <div class="logoAdv"><a href="{$url_merchants}"><img src="images/ecsc-join.gif" /></a></div>
+            <!-----<div class="logoAdv"><a href="{$url_merchants}"><img src="images/ecsc-join.gif" /></a></div>----->
         </div>
         <div class="dsc-search">
             <div class="form">
@@ -63,7 +63,7 @@
                     <input autocomplete="off" onKeyUp="lookup(this.value);" name="keywords" type="text" id="keyword" value="{if $search_keywords}{$search_keywords}{else}{insert name='rand_keyword'}{/if}" class="search-text"/>
                     <input type="hidden" name="store_search_cmt" value="{$search_type|default:0}">
                     <button type="submit" class="button button-goods" onclick="checkstore_search_cmt(0)">{$lang.serch_goods}</button>
-                    <button type="submit" class="button button-store" onclick="checkstore_search_cmt(1)">{$lang.serch_shop}</button>
+                    <!----<button type="submit" class="button button-store" onclick="checkstore_search_cmt(1)">{$lang.serch_shop}</button>---->
                 </form>
                 {if $searchkeywords}
                 <ul class="keyword">
@@ -81,7 +81,7 @@
                 <!-- @Author guan 搜索栏提示 end -->
             </div>
         </div>
-        <div class="shopCart" data-ectype="dorpdown" id="ECS_CARTINFO" data-carteveval="0">
+        <!----<div class="shopCart" data-ectype="dorpdown" id="ECS_CARTINFO" data-carteveval="0">----->
         {* DSC 提醒您：根据用户id来调用cart_info.lbi显示不同的界面  *}{insert name='cart_info'}
         </div>
     </div>

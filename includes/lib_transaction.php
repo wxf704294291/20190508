@@ -1,5 +1,5 @@
 <?php
-       
+//websc
 function edit_profile($profile)
 {
 	global $_CFG;

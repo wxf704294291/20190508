@@ -25,7 +25,7 @@
 			   <li>软件名称</li>
 			   <li>软件版本号</li>
 			   <li>软件大小</li>
-			   <li>创建时间</li>
+			   <li>更新时间</li>
 			   <li>详情</li>
 			   <li>下载</li>
 			</ul>
@@ -38,12 +38,12 @@
 				   <td width="16%" style="border-bottom:#808080 solid 1px;">{$software.create_time}</td>
 				   <td width="17%" style="border-bottom:#808080 solid 1px;">
 					   <div>
-						  <a href="{$software.software_article_link}" onclick="getHrefValue()">查看详情</a>
+						  <a style="color:#2d3947;" href="{$software.software_article_link}" onclick="getHrefValue()">查看详情</a>
 					   </div>
 				   </td>
 				   <td width="17%" style="border-bottom:#808080 solid 1px;">
 					   <div>
-						  <a href="javascript:void(0)" onclick="getDownloadLink(event)">下载</a>  
+						  <a style="color:#2d3947;" href="javascript:void(0)" onclick="getDownloadLink(event)">下载</a>  
 						  <input type="hidden" name="software_download_link" value="{$software.software_id}">
 					   </div>
 				   </td>
@@ -57,16 +57,13 @@
 <script type="text/javascript">
 
 function getDownloadLink(evt){
-   
 	var user_id = "{$user_id}"
 	if(user_id > 0){
 		 var software_id=$(evt.target).next().val();
 	     Ajax.call('software_download.php?act=getDownloadLink', 'software_id=' + software_id,getResult,'GET','JSON');
 	}else{
 		var back_act = "software_download.php";
-		alert("开始进入登录弹框,,,,,,");
 		$.notLogin("get_ajax_content.php?act=get_login_dialog",back_act);
-		alert("注册登录弹框---end,,,,,,");
 	}
 }
 

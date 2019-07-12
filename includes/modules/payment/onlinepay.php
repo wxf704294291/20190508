@@ -45,10 +45,10 @@ if (isset($set_modules) && $set_modules == TRUE)
     $modules[$i]['is_online']  = '0';
 
     /* 作者 */
-    $modules[$i]['author']  = '云诊断';
+    $modules[$i]['author']  = '模板堂';
 
     /* 网址 */
-    $modules[$i]['website'] = 'www.flyobd.com';
+    $modules[$i]['website'] = 'http://www.ecmoban.com';
 
     /* 版本号 */
     $modules[$i]['version'] = '1.0.0';

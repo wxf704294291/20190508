@@ -1,4 +1,5 @@
 <?php
+//zend WEBSC在线更新  禁止倒卖 一经发现停止任何服务
 function insert_query_info()
 {
 	if ($GLOBALS['db']->queryTime == '') {
@@ -391,7 +392,7 @@ function insert_show_div_info($goods_number, $script_name, $goods_id, $goods_rec
 }
 
 function insert_ads($arr)
-{ $arr['num'] = intval($arr['num']); $arr['id'] = intval($arr['id']); //3.8防注入 20190408
+{
 	static $static_res;
 	$arr['id'] = isset($arr['id']) && !empty($arr['id']) ? intval($arr['id']) : 0;
 	$arr['num'] = isset($arr['num']) && !empty($arr['num']) ? intval($arr['num']) : 0;
@@ -506,7 +507,7 @@ function insert_member_info()
 }
 
 function insert_comments($arr)
-{ $arr['id'] = intval($arr['id']); $arr['type'] = addslashes($arr['type']);//3.8防注入 20190408
+{
 	$arr['id'] = isset($arr['id']) && !empty($arr['id']) ? intval($arr['id']) : 0;
 	$arr['type'] = isset($arr['type']) ? addslashes($arr['type']) : '';
 	$need_cache = $GLOBALS['smarty']->caching;
@@ -560,7 +561,7 @@ function insert_comments_single($arr)
 }
 
 function insert_bought_notes($arr)
-{ $arr['id'] = intval($arr['id']);//3.8防注入 20190408
+{
 	$arr['id'] = isset($arr['id']) && !empty($arr['id']) ? intval($arr['id']) : 0;
 	$need_cache = $GLOBALS['smarty']->caching;
 	$need_compile = $GLOBALS['smarty']->force_compile;

@@ -1,5 +1,4 @@
 <?php
-    
 if (!defined('IN_ECS')) {
 	exit('Hacking attempt');
 }
@@ -10,7 +9,7 @@ if (isset($set_modules) && $set_modules == true) {
 	$modules[$i]['name'] = 'DSCSHOP';
 	$modules[$i]['version'] = '2.0';
 	$modules[$i]['author'] = 'ECMOBAN R&D TEAM';
-	$modules[$i]['website'] = 'www.flyobd.com';
+	$modules[$i]['website'] = 'http://www.flyobd.com';
 	return NULL;
 }
 
