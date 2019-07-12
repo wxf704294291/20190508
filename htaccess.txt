@@ -1,9 +1,10 @@
-#########################################
+﻿#########################################
 #                                  		#
 #          Apache服务器 伪静态文件    	#
 #                                 		#
 #########################################
 
+ErrorDocument 404 /404.html
 
 <FilesMatch "\.(bak|inc|lib|sh|tpl|lbi|dwt)$">
     order deny,allow
@@ -21,6 +22,8 @@ RewriteRule ^category$      index\.php [L]
 RewriteRule ^brand\.html$                 brand\.php [L]
 RewriteRule ^brandn\.html$                 brandn\.php [L]
 RewriteRule ^group_buy\.html$             group_buy\.php [L]
+RewriteRule ^software_download\.html$     software_download\.php [L] 
+RewriteRule ^about_us\.html$              about_us\.php [L] 
 RewriteRule ^seckill\.html$               seckill\.php [L]
 RewriteRule ^auction\.html$               auction\.php [L]
 RewriteRule ^package\.html$               package\.php [L]
