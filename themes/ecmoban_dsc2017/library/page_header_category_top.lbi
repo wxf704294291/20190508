@@ -28,7 +28,7 @@
         <div class="dsc-search">
             <div class="form">
                 <form id="searchForm" name="searchForm" method="get" action="search.php" onSubmit="return checkSearchForm(this)" class="search-form">
-                    <input autocomplete="off" onKeyUp="lookup(this.value);" name="keywords" type="text" id="keyword" value="{if $search_keywords}{$search_keywords}{else}{insert name='rand_keyword'}{/if}" class="search-text"/>
+                    <input autocomplete="off" onKeyUp="lookup(this.value);" name="keywords" type="text" id="keyword" value="{if $search_keywords}{$search_keywords}{else}{insert name='rand_keyword'}{/if}" class="search-text" placeholder="请输入您要查找的产品名称...,如：SVCI"/>
                     <input type="hidden" name="store_search_cmt" value="{$search_type|default:0}">
                     <button type="submit" class="button button-goods" onclick="checkstore_search_cmt(0)">{$lang.serch_goods}</button>
                 </form>
@@ -93,14 +93,18 @@
 		</div>
 		<div class="nav-main">
 			<ul class="navitems">
-                <li><a href="../index.php" {if $navigator_list.config.index eq 1}class="curr"{/if}>{$lang.home}</a></li>
-                <!-- {foreach name=nav_middle_list from=$navigator_list.middle item=nav} -->
-                <li><a href="{$nav.url}" {if $nav.active eq 1}class="curr"{/if} {if $nav.opennew}target="_blank"{/if}>{$nav.name}</a></li>
-                <!-- {/foreach} -->
-			</ul>
+                <li><a href="../index.php"{if $navigator_list.config.index eq 1} class="curr"{/if}>{$lang.home}</a></li>
+				<li><a class href="presale.php?&act=new" class="curr" target="_blank" >新品预售</a></li>
+				<li><a class href="seckill.php" class="curr" target="_blank" >限时秒杀</a></li>
+				<li><a class href="group_buy.php?act=list" class="curr" target="_blank" >团购活动</a></li>
+				<li><a class href="gift_gard.php" class="curr" >礼品卡</a></li>
+				<li><a class href="message.php" class="curr" >意见反馈</a></li>
+				<li><a class href="category.php?id=858" class="curr">产品中心</a></li>
+            </ul>
 		</div>
 	</div>
 </div>
+<!---产品中心导航栏--->
 <!--{elseif $cate_info.top_style_tpl eq 2}-->
 <div class="nav dsc-zoom">
     <div class="w w1200">
@@ -143,9 +147,11 @@
         <div class="nav-main" id="nav">
             <ul class="navitems">
                 <li><a href="../index.php"{if $navigator_list.config.index eq 1} class="curr"{/if}>{$lang.home}</a></li>
-                <!-- {foreach name=nav_middle_list from=$navigator_list.middle item=nav} -->
-                <li><a href="{$nav.url}"{if $nav.active eq 1} class="curr"{/if} {if $nav.opennew}target="_blank"{/if}>{$nav.name}</a></li>
-                <!-- {/foreach} -->
+				<li><a class href="presale.php?&act=new" class="curr" target="_blank" >新品预售</a></li>
+				<li><a class href="seckill.php" class="curr" target="_blank" >限时秒杀</a></li>
+				<li><a class href="group_buy.php?act=list" class="curr" target="_blank" >团购活动</a></li>
+				<li><a class href="gift_gard.php" class="curr" >礼品卡</a></li>
+				<li><a class href="message.php" class="curr" >意见反馈</a></li>
             </ul>
         </div>
     </div>
@@ -206,42 +212,19 @@
 <!--{else}-->
 <div class="nav dsc-zoom">
 	<div class="w w1200">
-		<div class="categorys">
-			<div class="categorys-type"><a href="javascript:;" target="_blank"><i class="iconfont icon-liebiao"></i>{$cate_info.cat_name}</a></div>
-			<div class="categorys-tab-content">
-				<div class="categorys-items" ectype="items">
-					<!--{foreach from=$categories_child item=cat name=child}-->
-					<div class="categorys-item" ectype="item" data-defa="1" data-catid="{$cat.id}" data-eveval="0">
-						<div class="item-content">
-							<div class="categorys-title">
-								<strong><a href="{$cat.url}" target="_blank">{$cat.name|escape:html}</a></strong>
-							</div>
-						</div>
-						<div class="categorys-items-layer" ectype="cateLayer">
-							<div class="catetop-layer-con clearfix">
-                            	<div class="tit">{$cat.name|escape:html}</div>
-								<ul class="cate-list">
-                                    <!--{foreach from=$cat.cat_id item=child name=no}-->
-                                    <li><a href="{$child.url}" target="_blank">{$child.name|escape:html}</a></li>
-                                    <!--{/foreach}-->
-								</ul>
-                                <div class="brand-list" ectype="subitems_{$cat.id}">
-                                </div>
-							</div>
-						</div>
-					</div>
-					<!--{/foreach}-->
-				</div>
-			</div>
-		</div>
+		<div class="categorys"></div>
 		<div class="nav-main">
 			<ul class="navitems">
                 <li><a href="../index.php"{if $navigator_list.config.index eq 1} class="curr"{/if}>{$lang.home}</a></li>
-                <!-- {foreach name=nav_middle_list from=$navigator_list.middle item=nav} -->
-                <li><a href="{$nav.url}"{if $nav.active eq 1} class="curr"{/if}{if $nav.opennew} target="_blank"{/if}>{$nav.name}</a></li>
-                <!-- {/foreach} -->
-			</ul>
+				<li><a class href="presale.php?&act=new" class="curr" target="_blank" >新品预售</a></li>
+				<li><a class href="seckill.php" class="curr" target="_blank" >限时秒杀</a></li>
+				<li><a class href="group_buy.php?act=list" class="curr" target="_blank" >团购活动</a></li>
+				<li><a class href="gift_gard.php" class="curr" >礼品卡</a></li>
+				<li><a class href="message.php" class="curr" >意见反馈</a></li>
+				<li><a class href="category.php?id=858" class="curr">产品中心</a></li>
+            </ul>
 		</div>
 	</div>
 </div>
 <!--{/if}-->
+
