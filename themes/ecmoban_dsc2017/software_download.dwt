@@ -62,8 +62,7 @@ function getDownloadLink(evt){
 		 var software_id=$(evt.target).next().val();
 	     Ajax.call('software_download.php?act=getDownloadLink', 'software_id=' + software_id,getResult,'GET','JSON');
 	}else{
-		var back_act = "software_download.php";
-		$.notLogin("get_ajax_content.php?act=get_login_dialog",back_act);
+	   window.location.href='user.php?act=login';
 	}
 }
 
@@ -71,12 +70,7 @@ function getResult(result){
 	window.open(result.download_link);
 }
 
-
-
-
 </script>
-
-
  <!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
 <script type="text/javascript" src="themes/<?php echo $GLOBALS['_CFG']['template']; ?>/js/dsc-common.js"></script>
 <script type="text/javascript" src="themes/<?php echo $GLOBALS['_CFG']['template']; ?>/js/jquery.purebox.js"></script>
