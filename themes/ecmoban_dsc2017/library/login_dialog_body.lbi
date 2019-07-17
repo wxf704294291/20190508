@@ -20,7 +20,7 @@
             <div class="tit"><h3>{$lang.account_login}</h3><span></span></div>
             <div class="msg-wrap"></div>
             <div class="form">
-            	<form name="formLogin"  method="post">
+            	<form name="formLogin" action="{$site_domain}user.php" method="post" onSubmit="userLogin();return false;">
                 	<div class="item">
                         <div class="item-info">
                             <i class="iconfont icon-name"></i>
@@ -51,7 +51,7 @@
                     	<input type="hidden" name="dsc_token" value="{$dsc_token|default:0}" />
                         <input type="hidden" name="act" value="act_login" />
                         <input type="hidden" name="back_act" value="{$back_act}" />
-                        <input type="button" name="submit" value="{$lang.signin_now}" class="btn sc-redBg-btn" onClick="userLogin()"/>
+                        <input type="submit" name="submit" value="{$lang.signin_now}" class="btn sc-redBg-btn" />
                     </div>
                     <div class="lie">
                     	<a href="user.php?act=get_password" class="notpwd gary fl" target="_blank">{$lang.passportforgot_password}</a>
@@ -65,19 +65,19 @@
 	{foreach from=$user_lang.passport_js item=lang key=k}
 	var {$k}="{$lang}";
     {/foreach}
-		 // 会员登录
+		/* *
+		 * 会员登录
+		*/ 
 		function userLogin()
 		{
-		    alert("开始执行.....");
 			var frm = $("form[name='formLogin']");
 			var username = frm.find("input[name='username']");
-			alert("开始中.....");
 			var password = frm.find("input[name='password']");
 			var captcha = frm.find("input[name='captcha']");
 			var dsc_token = frm.find("input[name='dsc_token']");
 			var error = frm.find(".msg-error");
 			var msg = '';
-			alert("解析表单数据.....");
+			
 			if(username.val()==""){
 				error.show();
 				username.parents(".item").addClass("item-error");
@@ -102,9 +102,9 @@
 				return false;
 			}
 			var back_act=frm.find("input[name='back_act']").val();
-			alert("开始执行Ajax....");
+			
 			{if $is_jsonp && $site_domain}
-				alert("执行原生态Ajax.....");
+				
 				var post_url = "act=act_login&is_jsonp=" + {$is_jsonp} + '&username=' + username.val()+'&password='+password.val()+'&dsc_token='+dsc_token.val()+'&captcha='+captcha.val()+'&back_act='+back_act;
 
 				$.ajax({
@@ -119,7 +119,6 @@
 				   }
 				});
 			{else}
-			    alert("执行ESShop Ajax.....");
 				Ajax.call( 'user.php?act=act_login', 'username=' + username.val()+'&password='+password.val()+'&dsc_token='+dsc_token.val()+'&captcha='+captcha.val()+'&back_act='+back_act, return_login , 'POST', 'JSON');
 			{/if}
 		}
