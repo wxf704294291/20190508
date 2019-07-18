@@ -13,7 +13,7 @@ fieldset,iframe,img{ border:0;}
 button,input,select,textarea{ font-size:100%;}
 table{ border-collapse:collapse;border-spacing:0;}
 img{ vertical-align:middle; display:inline-block;}
-a{ text-decoration:none; color: #f8f8f8;}
+a{ text-decoration:none; color: #3A3C40;}
 a:hover{ color: #1E4497 ;}
 a:focus{ outline:none;}
 
@@ -411,7 +411,7 @@ input[disabled],input[disabled="disabled"],input[readonly],input[readonly="reado
 .red{ color:#f42828;}
 .red2{ color:#f74245;}
 .red3{ color:#e94973;}
-.link-red{ color:#b31919;}
+.link-red{ color:#0AADCC;}
 
 .yellow{ color:#eeb520;}
 .yellow2{ color:#cf7216;}
