@@ -163,7 +163,7 @@
     <div class="catetop-lift lift-hide" ectype="lift">
     	<div class="lift-list" ectype="liftList">
         	<div class="catetop-lift-item lift-item-current" ectype="liftItem" data-target="#hotrecommend"><span>{$lang.Popular_recommendation}</span></div>
-            <div class="catetop-lift-item" ectype="liftItem" data-target="#catBrand"><span>{$lang.brand_flagship}</span></div>
+            <!---<div class="catetop-lift-item" ectype="liftItem" data-target="#catBrand"><span>{$lang.brand_flagship}</span></div>---->
         	<!--{foreach from=$categories_child item=cat name=child}-->
             <div class="catetop-lift-item lift-floor-item" ectype="liftItem"><span>{$cat.name}</span></div>
             <!--{/foreach}-->
