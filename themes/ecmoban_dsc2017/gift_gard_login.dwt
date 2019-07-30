@@ -14,7 +14,7 @@
 <link rel="stylesheet" type="text/css" href="themes/<?php echo $GLOBALS['_CFG']['template']; ?>/css/other/gift.css" />
 </head>
 <body>
-<!-- #BeginLibraryItem "/library/page_header_common.lbi" --><!-- #EndLibraryItem -->
+<!-- #BeginLibraryItem "/library/page_header_category_top.lbi" --><!-- #EndLibraryItem -->
 <div class="ecsc-breadcrumb w1200 w">
     <!-- #BeginLibraryItem "/library/ur_here.lbi" --><!-- #EndLibraryItem -->
 </div>

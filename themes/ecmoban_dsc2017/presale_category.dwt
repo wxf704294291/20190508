@@ -15,7 +15,7 @@
 </head>
 
 <body class="show">
-<!-- #BeginLibraryItem "/library/page_header_presale.lbi" --><!-- #EndLibraryItem -->
+<!-- #BeginLibraryItem "/library/page_header_category_top.lbi" --><!-- #EndLibraryItem -->
 {* ECSHOP presale_banner_category.lbi，显示首页分类小广告 *}{insert name='get_adv_child' ad_arr=$presale_banner_category}
 
 <div class="preSale-filter">

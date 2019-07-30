@@ -14,7 +14,7 @@
 </head>
 
 <body>
-	<!-- #BeginLibraryItem "/library/page_header_common.lbi" --><!-- #EndLibraryItem -->
+	<!-- #BeginLibraryItem "/library/page_header_category_top.lbi" --><!-- #EndLibraryItem -->
     <div class="content">
         <div class="w w1200">
             <div class="crumbs-nav">

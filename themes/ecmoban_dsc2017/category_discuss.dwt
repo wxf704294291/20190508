@@ -14,11 +14,11 @@
 </head>
 
 <body>
-	<!-- #BeginLibraryItem "/library/page_header_common.lbi" --><!-- #EndLibraryItem -->
+	<!-- #BeginLibraryItem "/library/page_header_category_top.lbi" --><!-- #EndLibraryItem -->
 	<div class="full-main-n">
         <div class="w w1200 relative">
 			<!-- #BeginLibraryItem "/library/ur_here.lbi" --><!-- #EndLibraryItem -->
-			<!-- #BeginLibraryItem "/library/goods_merchants_top.lbi" --><!-- #EndLibraryItem -->
+			
         </div>
     </div>
     <div class="container">

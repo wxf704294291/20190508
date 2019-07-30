@@ -36,7 +36,7 @@
     <script type="text/javascript">
 	$(function(){
 		//顶级分类页模板id
-		//tpl==0 默认模板、tpl==1 女装模板、tpl==2 家电模板、tpl==3 食品模板
+		//tpl==0 默认模板、tpl==1 服装装模板、tpl==2 产品模板、tpl==3 食品模板
 		var tpl = $("input[name='tpl']").val();
 		var length = $(".catetop-banner .bd").find("li").length;
 		//轮播图

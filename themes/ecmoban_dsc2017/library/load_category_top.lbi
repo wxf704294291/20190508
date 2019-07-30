@@ -127,13 +127,14 @@
             <!--{/foreach}-->   
         </div>
         <div class="clear"></div>
+		<!---去掉产品中心页，产品下方品牌列表--
         <ul class="brands">
             <!--{foreach from=$one_cate_child.brands item=brand key=kid name=brand}-->
             <!--{if $smarty.foreach.brand.index<8}-->
                 <li><a href="{$brand.url}" target="_blank" title="{$brand.brand_name}"><img src="{$brand.brand_logo}" alt=""></a></li>
             <!--{/if}-->
             <!--{/foreach}-->
-        </ul>
+        </ul>----->
         <div class="f-banner">{$top_style_elec_row}</div>
     </div>
 </div>

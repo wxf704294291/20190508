@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <!-- #BeginLibraryItem "/library/page_header_common.lbi" --><!-- #EndLibraryItem -->
+    <!-- #BeginLibraryItem "/library/page_header_category_top.lbi" --><!-- #EndLibraryItem -->
     <div class="content">
         <div class="act-banner">{* DSC 提醒您：动态载入activity_top_ad.lbi，显示首页分类小广告 *}{insert name='get_adv_child' ad_arr=$activity_top_banner}</div>
         <div class="gb-crazy">

@@ -14,10 +14,11 @@
 </head>
 
 <body>
-    <!-- #BeginLibraryItem "/library/page_header_common.lbi" --><!-- #EndLibraryItem -->
+    <!-- #BeginLibraryItem "/library/page_header_category_top.lbi" --><!-- #EndLibraryItem -->
     <div class="content">
         <div class="w w1200">
 			<!-- #BeginLibraryItem "/library/ur_here.lbi" --><!-- #EndLibraryItem -->
+			<!------团购产列表-----
             <div class="selector gb-selector">
                 <div class="s-line">
                     <div class="s-l-wrap">
@@ -34,7 +35,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>------>
             <div class="mod-list-sort">
                 <form method="GET" class="sort" name="listform">
                     <div class="sort-l fl">
