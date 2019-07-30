@@ -849,7 +849,7 @@ input.btn25{ height: 25px;line-height: 23px;}
 .dsc-zoom{ border-bottom: 2px solid #1E4497 ;}
 .dsc-zoom .categorys .categorys-type{ padding-bottom:2px;}
 
-.categorys-tab-content{ height:500px; z-index:30; background-color:#000; background-color:rgba(0,0,0,0.6);display:none}
+.categorys-tab-content{ height:500px; z-index:30; background-color:#000; background-color:rgba(0,0,0,0.6);}
 .categorys-tab-content .categorys-items{ position:relative; height:100%;}
 .categorys-tab-content .categorys-item{ cursor:pointer; height:14.29%;}
 .categorys-tab-content .item-content{ padding:14.5px 16px; float:left; width:97px;}
