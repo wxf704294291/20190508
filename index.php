@@ -27,6 +27,7 @@ $area_id = $warehouse_area_info['area_id'];
 $area_city = $warehouse_area_info['city_id'];
 $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
 $uachar = '/(nokia|sony|ericsson|mot|samsung|sgh|lg|philips|panasonic|alcatel|lenovo|cldc|midp|mobile)/i';
+/****
 if (($ua == '' || preg_match($uachar, $ua)) && !strpos(strtolower($_SERVER['REQUEST_URI']), 'wap')) {
 	$Loaction = 'mobile/';
 
@@ -35,7 +36,7 @@ if (($ua == '' || preg_match($uachar, $ua)) && !strpos(strtolower($_SERVER['REQU
 		exit();
 	}
 }
-
+***/
 if (!empty($_GET['gOo'])) {
 	if (!empty($_GET['gcat'])) {
 		$Loaction = 'category.php?id=' . $_GET['gcat'];

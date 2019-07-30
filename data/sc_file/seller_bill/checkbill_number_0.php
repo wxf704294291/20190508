@@ -29,5 +29,12 @@ $data = array (
       'checkbill_number' => 7,
     ),
   ),
+  '2019-07-22' => 
+  array (
+    0 => 
+    array (
+      'checkbill_number' => 10,
+    ),
+  ),
 );
 ?>
