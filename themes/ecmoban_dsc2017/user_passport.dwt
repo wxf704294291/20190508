@@ -204,7 +204,7 @@ var {$key} = "{$item}";
                                 <div class="item-label">{$lang.bindMobile_code}</div>
                                 <div class="item-info">
                                     <input type="text" id="sms" name="mobile_code" class="text text-2" value="" autocomplete="off" />
-                                    <a href="javascript:sendSms();" id="zphone" class="sms-btn">{$lang.getMobile_code}</a>
+                                    <a href="javascript:sendSms();" id="zphone" class="sms-btn" style="color:#F1F2F4">{$lang.getMobile_code}</a>
                                 </div>
                                 <div class="input-tip"><label id="phone_notice"></label></div>
                             </div>

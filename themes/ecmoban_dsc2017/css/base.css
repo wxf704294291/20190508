@@ -193,7 +193,7 @@ input[disabled],input[disabled="disabled"],input[readonly],input[readonly="reado
 .sm-input input.captcha_input{ width:72px;}
 .sm-input .captcha_img{ float:left; margin:2.5px 3px; cursor:pointer;}
 
-.sms-btn{ display:block; float:right; width:80px; height:32px; text-align:center; line-height:32px; background-color:#f0f0f0; margin:3px 3px 3px 0; font-size:12px;}
+.sms-btn{ display:block; float:right; width:80px; height:32px; text-align:center; line-height:32px; background-color:#0AADCC; margin:3px 3px 3px 0; font-size:12px;}
 
 .account-bind .error{ color:#0AADCC; margin-left:18px; line-height:40px; display:block; float:left;}
 

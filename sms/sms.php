@@ -1,5 +1,4 @@
 <?php
-///WEBSC在线更新版         
 function random($length = 6, $numeric = 0)
 {
 	PHP_VERSION < '4.2.0' && mt_srand((double) microtime() * 1000000);
@@ -173,7 +172,7 @@ if ($_GET['act'] == 'send') {
 	$sms = new sms();
 	$sms_error = '';
 	$send_result = $sms->send($mobile, $message, '', 1, '', '', $sms_error, $mobile_code);
-	write_file($mobile, date('Y-m-d H:i:s'));
+	write_file($mobile, date('Y-m-d H:i:s') ."---".$sms_error);
 	if (isset($send_result) && $send_result) {
 		$_SESSION['sms_mobile'] = $mobile;
 		$_SESSION['sms_mobile_code'] = $mobile_code;
