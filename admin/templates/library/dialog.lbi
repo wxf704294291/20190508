@@ -2396,12 +2396,13 @@ $(function(){
                                 <a href="{$list.leftAdvLink}" target="_blank"><img src="{if $list.leftAdv}{$list.leftAdv}{else}../data/gallery_album/visualDefault/visual400x240.jpg{/if}"></a>
                                 {/foreach}
                             </li>
-                            
+                            <li class="f-bd-item child-double">
                             {foreach from=$spec_attr.leftAdv item=list name=adv}
                             {if $smarty.foreach.adv.iteration gt 2}
-                            <li class="f-bd-item"><a href="{$list.leftAdvLink}" target="_blank"><img src="{if $list.leftAdv}{$list.leftAdv}{else}../data/gallery_album/visualDefault/visual200x480.jpg{/if}"></a></li>
+                            <a href="{$list.leftAdvLink}" target="_blank"><img src="{if $list.leftAdv}{$list.leftAdv}{else}../data/gallery_album/visualDefault/visual400x240.jpg{/if}"></a>
                             {/if}
                             {/foreach}
+							</li>
                         </ul>
                     </div>
                 </div>
@@ -2525,9 +2526,11 @@ $(function(){
             {if $spec_attr.floorMode eq 3}
             <div class="floor-left-adv">
                 <ul>
+				    <li class="f-bd-item child-double">
                     {foreach from=$spec_attr.leftAdv item=list name=adv}
-                    <li class="f-bd-item"><a href="{$list.leftAdvLink}" target="_blank"><img src="{if $list.leftAdv}{$list.leftAdv}{else}../data/gallery_album/visualDefault/visual200x480.jpg{/if}"></a></li>
+                    <a href="{$list.leftAdvLink}" target="_blank"><img src="{if $list.leftAdv}{$list.leftAdv}{else}../data/gallery_album/visualDefault/visual400x240.jpg{/if}"></a>
                     {/foreach}
+					</li>
                 </ul>
             </div>
             {/if}
