@@ -40,9 +40,9 @@ if (($ua == '' || preg_match($uachar, $ua)) && !strpos(strtolower($_SERVER['REQU
 
 
 /*********非中文环境跳转到英文界面********/
-$lan=$_SERVER['HTTP_ACCEPT_LANGUAGE']; //获取浏览器语言版本
-if(!preg_match("/[zh]{2}\-[cn]{2}/", $lan)){
-	$url='en/index.php';
+$lan_wxf=$_SERVER['HTTP_ACCEPT_LANGUAGE']; //获取浏览器语言版本
+if(!preg_match("/zh-cn/i",$lan_wxf)){
+	$url='en/';
 	ecs_header('Location: ' . $url . '');
 }
 
