@@ -55,10 +55,16 @@ if (!$smarty->is_cached('merchants.dwt')) {
 		$smarty->assign('user_id', $user_id);
 		$smarty->assign('footer', 2);
 	}
-	//获取产品优势内容
+	//获取我们的优势内容
 	$content_sql="select content from fly_article where article_id=67;";
 	$content=$GLOBALS['db']->getOne($content_sql);
 	$smarty->assign("content",$content);
+	
+	//获取产品优势内容
+	$products_adv_sql="select content,file_url from fly_article where article_id=69";
+    $products_adv_con=$GLOBALS['db']->getRow($products_adv_sql);
+	$smarty->assign("products_adv",$products_adv_con);
+	
     
 	
 	$smarty->assign('helps', get_shop_help());

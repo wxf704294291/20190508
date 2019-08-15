@@ -2476,10 +2476,10 @@ a.browse:hover,a.comment:hover{ color:#0AADCC;}
 .meswitch{ float:right; line-height:26px; position:relative; z-index:99; color: #438cde;}
 .gp-tab{ float:left; width:342px;}
 .gp-tab ul{}
-.gp-tab li{ position:relative; float:left; width:168px; height:38px; line-height:38px; border:1px solid #fff;border-bottom-color:#0AADCC; text-align:center; color:#d2d2d2; font-size:16px; cursor:pointer;}
+.gp-tab li{ position:relative; float:left; width:168px; height:38px; line-height:38px; border:1px solid #fff;border-bottom-color:#0AADCC; text-align:center; color:#555454; font-size:16px; cursor:pointer;}
 .gp-tab li .iconfont{ left:28px;}
 .gp-tab li .icon-mobile-phone{ left:32px; top:11px;}
-.gp-tab li.curr{ border-color:#0AADCC; border-bottom-color:#0AADCC; color:#0AADCC;}
+.gp-tab li.curr{ background-color:#0AADCC; border-bottom-color:#0AADCC; color:#FFFFFF;}
 .gp-tab li.curr .iconfont{ color:#0AADCC;}
 .gp-warp{ display:none;}
 

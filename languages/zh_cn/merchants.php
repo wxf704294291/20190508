@@ -23,7 +23,7 @@ $_LANG['sett_step_four_tit'] = 'OBD equipment practitioners';
 $_LANG['sett_step_four_desc'] = '';
 
 $_LANG['advantage'] = '我们的优势';
-$_LANG['covers_vehicle'] = '覆盖车型';
+$_LANG['Product_advantage'] = '产品优势';
 $_LANG['cooperation_ways'] = '合作方式';
 
 ?>

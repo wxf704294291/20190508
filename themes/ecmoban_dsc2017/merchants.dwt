@@ -68,7 +68,7 @@
             </div>
         </div>
     </div>
-	<div class="sett-banner" style="background:url(data/afficheimg/1489978643396742470.jpg) center center no-repeat;">
+	<div class="sett-banner" style="background:url(data/afficheimg/1489978643396742471.jpg) center center no-repeat;">
        <div class="banner-auto" style="color:#FFFFFF">
           {$content}
        </div>
@@ -78,15 +78,17 @@
         <div class="w w1200">
             <div class="sett-title">
                 <div class="zw-tit">
-                    <h3>{$lang.covers_vehicle}</h3>
+                    <h3>{$lang.Product_advantage}</h3>
                     <span class="line"></span>
                 </div>
-                <span class="yw-tit">COVERS VEHICLE</span>
+                <span class="yw-tit">PRODUCT ADVANTAGE</span>
             </div>
         </div>
     </div>
-	<div class="sett-banner" style="background:url(data/afficheimg/1489978643396742470.jpg) center center no-repeat;">
-       <div class="banner-auto">  </div>
+	<div class="sett-banner" style="background:url({$products_adv.file_url}) center center no-repeat;">
+       <div class="banner-auto" style="color:#FFFFFF">
+	       {$products_adv.content}
+	   </div>
     </div>
 	
     <div class="sett-section s-section-help">

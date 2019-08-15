@@ -3140,8 +3140,14 @@
 																	<a href="#" target="_blank"><img src="../data/gallery_album/visualDefault/visual400x240.jpg"></a>
 																	<a href="#" target="_blank"><img src="../data/gallery_album/visualDefault/visual400x240.jpg"></a>
 																</li>
+																<!---
 																<li class="f-bd-item"><a href="#" target="_blank"><img src="../data/gallery_album/visualDefault/visual200x480.jpg"></a></li>
 																<li class="f-bd-item"><a href="#" target="_blank"><img src="../data/gallery_album/visualDefault/visual200x480.jpg"></a></li>
+															    --->
+																<li class="f-bd-item child-double">
+																	<a href="#" target="_blank"><img src="../data/gallery_album/visualDefault/visual400x240.jpg"></a>
+																	<a href="#" target="_blank"><img src="../data/gallery_album/visualDefault/visual400x240.jpg"></a>
+																</li>
 															</ul>
 														</div>
 													</div>
